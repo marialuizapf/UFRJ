@@ -5,7 +5,7 @@ Descrição: < calcular a raiz quadrada pelo método de Newton>
 Entrada: < um racional do tipo double >
 Saída: < (i) o número lido, (ii) a raiz quadrada calculada com a função sqrt da biblioteca matemática <math.h>
 e (iii) a raiz quadrada calculada com o método que você escreveu >
-Defesa: < o cálculo deve ser interrompido quando |xi − xi−1| < 10^−6>
+Defesa: < o número deve ser positivo e o cálculo deve ser interrompido quando |xi − xi−1| < 10^−6>
 */
 
 #include <stdio.h>
@@ -17,20 +17,25 @@ double resultado;
 double n;
 double xi;
 
-printf ("Digite um número inteiro:\n");
-scanf ("%lf", &n);
+  printf ("Digite um número racional positivo:\n");
+  scanf ("%lf", &n);
 
-resultado = sqrt (n);
-
-printf ("A raiz quadrada de %lf calculada com a função sqrt é %lf\n", n, resultado);
-
-double x = n/2;
+  if(n < 0){
+    printf("O número digitado não é positivo!");
+    return 0;
+  }
   
-do { xi = x;
-  x = xi - ((pow(xi,2) - n)/(2*xi)); 
-} while (fabs(x - xi) > 0.000001);
+  resultado = sqrt (n);
 
-printf ("A raiz quadrada de %lf calculada com o método de Newton é %lf\n", n, x);
+  printf ("A raiz quadrada de %lf calculada com a função sqrt é %lf\n", n,    resultado);
+
+  double x = n/2;
   
-return 0; 
+  do { xi = x;
+    x = xi - ((pow(xi,2) - n)/(2*xi)); 
+  } while (fabs(x - xi) > 0.000001);
+
+  printf ("A raiz quadrada de %lf calculada com o método de Newton é %lf\n", n, x);
+  
+  return 0; 
 }
