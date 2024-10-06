@@ -17,6 +17,8 @@ int main(void){
   char str[100];
   printf("Escreva um frase: ");
   fgets(str, sizeof(str), stdin);
+
+  str[strlen(str)-1] = '0';
   
   printf("A quantidade de vogais é: %d", vogais(str));
   return 0;
