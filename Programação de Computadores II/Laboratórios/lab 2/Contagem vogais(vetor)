@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <string.h>
+
+int vogais(char str[100]){
+
+  int contador = 0;
+  for(int i = 0; i< strlen(str) ; i++){
+    if(str[i] == 'a' || str[i] == 'e' || str[i] == 'i' ||str[i] == 'o' || str[i] == 'u' || str[i] == 'A' || str[i] == 'E' || str[i] == 'I' ||str[i] == 'O' || str[i] == 'U'){
+      contador++;
+    }
+  }
+  return contador;
+}
+
+int main(void){
+
+  char str[100];
+  printf("Escreva um frase: ");
+  fgets(str, sizeof(str), stdin);
+  
+  printf("A quantidade de vogais é: %d", vogais(str));
+  return 0;
+}
