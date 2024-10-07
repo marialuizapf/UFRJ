@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 void max_index(int *v, int *n){
-int aux = 0;
-    for(int i = 1; i < *n; i++){
+int aux = 1;
+    for(int i = 0; i < *n; i++){
       if(*(v + i) > *(v + aux)){
         aux = i;
       }
     }
 
-  printf("O número de maior índice é :%d", aux+1);  
+  printf("O número de maior índice é :%d", aux);  
 }
 
 int main(void){
