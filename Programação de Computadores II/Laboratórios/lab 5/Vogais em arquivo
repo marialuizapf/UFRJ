@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include <ctype.h> 
+
+int main(void){
+
+  FILE *pa = fopen("arquivo.txt" , "r");
+  if(pa == NULL) return -1;
+
+  int ca=0,ce=0,ci=0,co=0,cu = 0;
+  char c;
+  
+  while((c = fgetc(pa)) != EOF){
+    c = tolower(c);
+    switch (c) {
+        case 'a':
+            ca++;
+            break;
+        case 'e':
+            ce++;
+            break;
+        case 'i':
+            ci++;
+            break;
+        case 'o':
+            co++;
+            break;
+        case 'u':
+            cu++;
+            break;
+    }
+  }
+  
+  fclose(pa);
+  printf("a %d\n", ca);
+  printf("e %d\n", ce);
+  printf("i %d\n", ci);
+  printf("o %d\n", co);
+  printf("u %d\n", cu);
+}
+
