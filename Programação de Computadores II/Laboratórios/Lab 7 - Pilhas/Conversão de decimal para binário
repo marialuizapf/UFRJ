@@ -1,1 +1,72 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef int TIPOCHAVE;
+
+typedef struct Lista{
+    TIPOCHAVE chave;
+    struct Lista *prox;
+}Lista;
+
+Lista* cria_lista();
+Lista* insere_lista(Lista* topo, TIPOCHAVE chave, int pos);
+void imprime_lista(Lista *topo);
+
+int main(void){
+    
+    Lista* li = cria_lista();
+    int dec, elem;
+    
+    printf("Digite um número inteiro:");
+    scanf("%d", &dec);
+    
+    while (dec > 0) {
+        elem = dec % 2;
+        li = insere_lista(li, elem, 0); 
+        dec = dec / 2;
+    }
+    
+    imprime_lista(li);
+    return 0;
+}
+
+Lista* cria_lista(){
+    return NULL;
+}
+
+Lista* insere_lista(Lista* topo, TIPOCHAVE chave, int pos){
+    Lista *no = (Lista *) malloc(sizeof(Lista));
+    if(no == NULL)
+        exit(1);
+        
+    no->chave = chave;
+    no->prox = NULL;
+        
+    if(topo == NULL)
+        return no;
+        
+    Lista* atual = topo;
+    int i = 0;
+    
+    while(atual != NULL && i < pos-1){
+        atual = atual->prox;
+        ++i;
+    }
+    if(atual == NULL){
+        exit(2);
+    }
+    no->prox = atual->prox;
+    atual->prox = no;
+}
+
+void imprime_lista(Lista *topo){
+    Lista *atual = topo;
+    printf("Binário:");
+    
+    while(atual != NULL){
+        printf("%d", atual->chave);
+        atual = atual->prox;
+    }
+}
+
 
