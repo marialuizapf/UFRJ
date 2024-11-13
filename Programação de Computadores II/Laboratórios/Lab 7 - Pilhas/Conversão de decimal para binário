@@ -44,7 +44,12 @@ Lista* insere_lista(Lista* topo, TIPOCHAVE chave, int pos){
         
     if(topo == NULL)
         return no;
-        
+
+    if (pos == 0) { 
+        no->prox = topo;
+        return no;
+    }
+
     Lista* atual = topo;
     int i = 0;
     
