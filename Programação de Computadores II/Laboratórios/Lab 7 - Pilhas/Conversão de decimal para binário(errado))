@@ -3,26 +3,25 @@
 
 typedef int TIPOCHAVE;
 
-typedef struct Lista{
+typedef struct Lista {
     TIPOCHAVE chave;
     struct Lista *prox;
-}Lista;
+} Lista;
 
 Lista* cria_lista();
-Lista* insere_lista(Lista* topo, TIPOCHAVE chave, int pos);
+Lista* push(Lista* topo, TIPOCHAVE chave);
 void imprime_lista(Lista *topo);
 
-int main(void){
-    
+int main(void) {
     Lista* li = cria_lista();
     int dec, elem;
     
-    printf("Digite um número inteiro:");
+    printf("Digite um número inteiro: ");
     scanf("%d", &dec);
     
     while (dec > 0) {
         elem = dec % 2;
-        li = insere_lista(li, elem, 0); 
+        li = push(li, elem);  
         dec = dec / 2;
     }
     
@@ -30,48 +29,29 @@ int main(void){
     return 0;
 }
 
-Lista* cria_lista(){
+Lista* cria_lista() {
     return NULL;
 }
 
-Lista* insere_lista(Lista* topo, TIPOCHAVE chave, int pos){
+Lista* push(Lista* topo, TIPOCHAVE chave) {
     Lista *no = (Lista *) malloc(sizeof(Lista));
-    if(no == NULL)
+    if (no == NULL)
         exit(1);
         
     no->chave = chave;
-    no->prox = NULL;
-        
-    if(topo == NULL)
-        return no;
-
-    if (pos == 0) { 
-        no->prox = topo;
-        return no;
-    }
-
-    Lista* atual = topo;
-    int i = 0;
-    
-    while(atual != NULL && i < pos-1){
-        atual = atual->prox;
-        ++i;
-    }
-    if(atual == NULL){
-        exit(2);
-    }
-    no->prox = atual->prox;
-    atual->prox = no;
+    no->prox = topo;  
+    return no;        
 }
 
-void imprime_lista(Lista *topo){
+void imprime_lista(Lista *topo) {
     Lista *atual = topo;
-    printf("Binário:");
+    printf("Binário: ");
     
-    while(atual != NULL){
+    while (atual != NULL) {
         printf("%d", atual->chave);
         atual = atual->prox;
     }
+    printf("\n");
 }
 
 
