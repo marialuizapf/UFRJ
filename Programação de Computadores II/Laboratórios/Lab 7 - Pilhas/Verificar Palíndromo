@@ -1,0 +1,53 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef char TIPOCHAVE;
+
+typedef struct Lista{
+  TIPOCHAVE chave;
+  struct Lista *prox;
+}Lista;
+
+Lista* criar_Lista();
+int palindromo(Lista* topo);
+
+int main(void){
+
+  Lista *li = criar_Lista();
+  char word[100];
+
+  pritnf("Digite uma palavra:");
+  scanf("%s", word);
+
+  char c;
+  int tam = strlen(word);
+
+  for(int i = 0; i < tam){
+    char c = word[0];
+    li = inserir_lista(li, c, tam-1)
+  }
+
+  if(palindromo(li) == 0){
+    printf("A palavra é um palíndromo");
+  }else{
+    printf("A palavra não é um palíndromo");
+  }
+  return 0;
+  }
+
+Lista* criar_Lista(){
+  return NULL;
+}
+
+Lista* inserir_Lista(Lista* topo, TIPOCHAVE chave, int pos){
+Lista *no = (Lista*)malloc(sizeof(Lista));
+if(no == NULL){
+  return exit(1);
+}
+
+no->chave = chave;
+}
+
+int palindromo(Lista* topo){
+
+}
