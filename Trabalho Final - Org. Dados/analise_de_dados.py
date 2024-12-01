@@ -2,102 +2,97 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-### VISUALIZAÇÃO
 # Carregar o dataset
 df = pd.read_csv('netflix_titles.csv')
 
+### VISUALIZAÇÃO INICIAL
 # Visualizar as primeiras linhas do dataset
+print("Primeiras linhas do dataset:")
 print(df.head())
 
 # Informações gerais sobre o dataset
+print("Informações gerais sobre o dataset:")
 print(df.info())
 
 # Estatísticas descritivas
+print("Estatísticas descritivas:")
 print(df.describe())
 
-
 ### CORREÇÃO DO DATASET
-# Verificar valores nulos
+# Preencher valores nulos com 'Desconhecido'
+df.fillna('Desconhecido', inplace=True)
+
+# Verificar valores nulos 
 print("Valores nulos por coluna:")
 print(df.isnull().sum())
 
-# Percentual de valores ausentes
-print((df.isnull().sum() / len(df)) * 100)
+### ESTATÍSTICAS
+# Distribuição de categorias 
+print("Distribuição de tipos de conteúdo:")
+print(df['type'].value_counts())
 
-
-### ESTATÍSTICA 
 # Estatísticas de colunas numéricas
 print("Estatísticas gerais:")
 print(df.describe())
 
-# Distribuição de categorias, por exemplo, o tipo (filmes ou séries)
-print("Distribuição de tipos de conteúdo:")
-print(df['type'].value_counts())
-
-
-### FIGURE 1
-# Gráfico de barras para tipos de conteúdo
-sns.countplot(data=df, x='type')
+### FIGURA 1: Distribuição de Tipos de Conteúdo
+sns.countplot(data=df, x='type', palette='viridis')
 plt.title("Distribuição de Tipos de Conteúdo")
-plt.show()
-
-### FIGURE 2
-# Gráfico de linha do tempo (exemplo: quantidade de lançamentos por ano)
-df['release_year'] = pd.to_datetime(df['release_year'], format='%Y', errors='coerce')
-conteudo_por_ano = df.groupby('release_year').size()
-
-plt.plot(conteudo_por_ano.index, conteudo_por_ano.values)
-plt.title("Quantidade de Conteúdo por Ano")
-plt.xlabel("Ano")
+plt.xlabel("Tipo")
 plt.ylabel("Quantidade")
 plt.show()
 
+### FIGURA 2: Tendência de Lançamentos por Ano
+# Converter release_year para numérico
+df['release_year'] = pd.to_datetime(df['release_year'], format='%Y', errors='coerce').dt.year
 
-### CORREÇÃO
-# Substituir valores nulos com 'Desconhecido' ou apagar linhas
-df['director'].fillna('Desconhecido', inplace=True)
+# Agrupar lançamentos por ano
+conteudo_por_ano = df['release_year'].value_counts().sort_index()
 
-# Apagar linhas com muitos valores ausentes (opcional)
-df.dropna(subset=['cast', 'country'], inplace=True)
+plt.plot(conteudo_por_ano.index, conteudo_por_ano.values, marker='o', color='purple')
+plt.title("Quantidade de Conteúdo por Ano")
+plt.xlabel("Ano")
+plt.ylabel("Quantidade")
+plt.grid()
+plt.show()
 
-# Conferir se os valores ausentes foram tratados
-print(df.isnull().sum())
+### FIGURA 3: Gêneros Mais Populares
+# Separar e contar os gêneros
+generos_filtrados = df['listed_in'].str.split(',').explode().str.strip()
+generos_mais_frequentes = generos_filtrados.value_counts()
 
+sns.barplot(x=generos_mais_frequentes.head(10).values, y=generos_mais_frequentes.head(10).index, palette='viridis')
+plt.title("Top 10 Gêneros Mais Populares")
+plt.xlabel("Frequência")
+plt.ylabel("Gênero")
+plt.show()
 
-### FIGURE 3
-# Verificar as primeiras linhas da coluna 'duration'
-print(df['duration'].head())
+### FIGURA 4: Países com Mais Lançamentos
+# Contar os países
+pais_lancamentos = df['country'].value_counts().head(10)
 
-# Identificar valores únicos na coluna 'duration'
-print("Valores únicos na coluna 'duration':")
-print(df['duration'].unique())
+sns.barplot(x=pais_lancamentos.values, y=pais_lancamentos.index, palette='viridis')
+plt.title("Top 10 Países com Mais Lançamentos")
+plt.xlabel("Quantidade de Lançamentos")
+plt.ylabel("País")
+plt.show()
 
-# Separar valores numéricos da duração
-# Criar duas novas colunas: uma para o número e outra para o tipo de duração (minutos ou temporadas)
-df['duration_num'] = df['duration'].str.extract('(\d+)').astype(float)  # Extrai números
-df['duration_type'] = df['duration'].str.extract('([a-zA-Z]+)').fillna('Desconhecido')  # Extrai o texto
+### FIGURA 5: Distribuição da Duração (Filmes)
+# Separar valores numéricos da coluna 'duration'
+df['duration_num'] = df['duration'].str.extract('(\d+)').astype(float)
+df['duration_type'] = df['duration'].str.extract('([a-zA-Z]+)').fillna('Desconhecido')
 
-# Visualizar como ficou a transformação
-print(df[['duration', 'duration_num', 'duration_type']].head())
+# Filtrar apenas filmes
+duração_filmes = df[df['duration_type'].str.contains('min', case=False, na=False)]
 
-# Verificar estatísticas apenas para filmes (minutos)
-print("Estatísticas para duração em minutos:")
-print(df[df['duration_type'] == 'min']['duration_num'].describe())
-
-# Gráfico de distribuição de duração (filmes)
-sns.histplot(df[df['duration_type'] == 'min']['duration_num'].dropna(), kde=True, bins=30)
+sns.histplot(duração_filmes['duration_num'].dropna(), kde=True, bins=30, color='blue')
 plt.title("Distribuição da Duração (Filmes - Minutos)")
 plt.xlabel("Duração (min)")
 plt.ylabel("Frequência")
 plt.show()
 
-
-### FIGURE 4
-# Verificar a frequência de temporadas (séries) 
-print("Frequência de Temporadas:")
-print(df[df['duration_type'] == 'Season']['duration_num'].value_counts())
-
-sns.histplot(df['release_year'], bins=20, kde=False)
+### FIGURE 6: Distribuição de Anos de Lançamento
+sns.histplot(df['release_year'].dropna(), bins=20, kde=False, color='green')
 plt.title("Distribuição de Anos de Lançamento")
 plt.xlabel("Ano")
 plt.ylabel("Frequência")
