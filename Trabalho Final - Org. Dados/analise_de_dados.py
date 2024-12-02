@@ -137,7 +137,7 @@ plt.xlabel("Quantidade de Lançamentos")
 plt.ylabel("Diretor")
 plt.show()
 
-# Sazonalidade de Adições ao Catálogo
+# FIGURA 9:Sazonalidade de Adições ao Catálogo
 df['date_added'] = pd.to_datetime(df['date_added'], errors='coerce')
 df['month_added'] = df['date_added'].dt.month
 meses_adicoes = df['month_added'].value_counts().sort_index()
