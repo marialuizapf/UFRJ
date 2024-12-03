@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-import numpy as np
+#import numpy as np
 
 # Carregar o dataset
 df = pd.read_csv('netflix_titles.csv')
