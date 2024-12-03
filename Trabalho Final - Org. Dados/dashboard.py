@@ -7,7 +7,7 @@ import plotly.express as px
 # Configurar a página do Streamlit
 st.set_page_config(
     page_title="Dashboard Netflix", 
-    page_icon="icon.png",
+    page_icon="https://raw.githubusercontent.com/marialuizapf/UFRJ/main/Trabalho%20Final%20-%20Org.%20Dados/Imagens/icon.png", 
     layout="wide"
 )
 
@@ -80,7 +80,7 @@ with col10:
 #-----------------------------------------------------------------------------------
 
 # Recursos Interativos Adicionais
-st.sidebar.image("icon_big.png")
+st.sidebar.image("https://raw.githubusercontent.com/marialuizapf/UFRJ/main/Trabalho%20Final%20-%20Org.%20Dados/Imagens/icon_big.png")
 st.text("") 
 st.text("") 
 st.sidebar.header("Filtre os dados")
