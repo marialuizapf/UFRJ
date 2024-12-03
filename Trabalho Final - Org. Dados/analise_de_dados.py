@@ -35,15 +35,12 @@ print(f"Média: {df['duration_num'].mean():.2f}")
 print(f"Mediana: {df['duration_num'].median():.2f}")
 print(f"Moda: {df['duration_num'].mode().iloc[0]:.2f}")
 
-# Medidas estatísticas adicionais para o ano de lançamento
-print("\nMédia, Mediana e Moda do ano de lançamento:")
-print(f"Média: {df['release_year'].mean():.2f}")
-print(f"Mediana: {df['release_year'].median():.2f}")
-print(f"Moda: {df['release_year'].mode().iloc[0]:.0f}")
-
-# Distribuição de tipos de conteúdo
-print("\nDistribuição de tipos de conteúdo:")
-print(df['type'].value_counts())
+### INSIGHTS
+print("\nInsights e Padrões Identificados:")
+print("- Filmes têm maior variabilidade de duração comparado a séries.")
+print("- Certos países, como os EUA e Índia, dominam os lançamentos.")
+print("- Gêneros mais populares incluem Drama, Comédia e Ação.")
+print("- A maioria dos lançamentos ocorreu nos últimos 20 anos, refletindo a expansão do streaming.")
 
 ### FIGURA 1: Distribuição de Tipos de Conteúdo
 sns.countplot(data=df, x='type', palette='viridis')
@@ -55,7 +52,6 @@ plt.show()
 ### FIGURA 2: Tendência de Lançamentos por Ano
 df['release_year'] = pd.to_datetime(df['release_year'], format='%Y', errors='coerce').dt.year
 conteudo_por_ano = df['release_year'].value_counts().sort_index()
-
 plt.plot(conteudo_por_ano.index, conteudo_por_ano.values, marker='o', color='purple')
 plt.title("Tendência de Lançamentos por Ano")
 plt.xlabel("Ano")
@@ -64,14 +60,9 @@ plt.grid()
 plt.show()
 
 ### FIGURA 3: Gêneros Mais Populares (Sem International Movies/TV Shows)
-# Filtrar os gêneros e remover "International Movies" e "International TV Shows"
 generos_filtrados = df['listed_in'].str.split(',').explode().str.strip()
 generos_filtrados = generos_filtrados[~generos_filtrados.isin(['International Movies', 'International TV Shows'])]
-
-# Contar os gêneros mais frequentes
 generos_mais_frequentes = generos_filtrados.value_counts()
-
-# Criar o gráfico
 sns.barplot(x=generos_mais_frequentes.head(10).values, y=generos_mais_frequentes.head(10).index, palette='viridis')
 plt.title("Top 10 Gêneros Mais Populares")
 plt.xlabel("Frequência")
@@ -149,9 +140,13 @@ plt.xlabel("Mês")
 plt.ylabel("Quantidade de Adições")
 plt.show()
 
-### INSIGHTS
-print("\nInsights e Padrões Identificados:")
-print("- Filmes têm maior variabilidade de duração comparado a séries.")
-print("- Certos países, como os EUA e Índia, dominam os lançamentos.")
-print("- Gêneros mais populares incluem Drama, Comédia e Ação.")
-print("- A maioria dos lançamentos ocorreu nos últimos 20 anos, refletindo a expansão do streaming.")
+# FIGURA 10:Medidas estatísticas adicionais para o ano de lançamento
+print("\nMédia, Mediana e Moda do ano de lançamento:")
+print(f"Média: {df['release_year'].mean():.2f}")
+print(f"Mediana: {df['release_year'].median():.2f}")
+print(f"Moda: {df['release_year'].mode().iloc[0]:.0f}")
+
+# FIGURA 11:Distribuição de tipos de conteúdo
+print("\nDistribuição de tipos de conteúdo:")
+print(df['type'].value_counts())
+
