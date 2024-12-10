@@ -1,40 +1,54 @@
 #include <stdio.h>
-#include <ctype.h> 
+#include <ctype.h>
+#include <string.h>
 
-int main(void){
+void count_vowel(FILE *fp, int *vowel);
 
-  FILE *pa = fopen("arquivo.txt" , "r");
-  if(pa == NULL) return -1;
+int main(){
+  char nome_arquivo[100];
 
-  int ca=0,ce=0,ci=0,co=0,cu = 0;
-  char c;
+  printf("Digite o nome do arquivo: ");
+  scanf("%s", nome_arquivo);
   
-  while((c = fgetc(pa)) != EOF){
-    c = tolower(c);
-    switch (c) {
-        case 'a':
-            ca++;
-            break;
-        case 'e':
-            ce++;
-            break;
-        case 'i':
-            ci++;
-            break;
-        case 'o':
-            co++;
-            break;
-        case 'u':
-            cu++;
-            break;
-    }
+  FILE *fp = fopen(nome_arquivo, "r");
+  if(fp == NULL){
+    printf("Arquivo não pôde ser aberto\n");
+    return -1;
+  }
+
+  int vowel[5] = {0, 0, 0, 0, 0};
+  count_vowel(fp, vowel);
+  char letters[] = {'a', 'e', 'i', 'o', 'u'};
+  
+  for(int i = 0; i < 5; i++){
+    printf("A vogal '%c' aparece %d vezes\n", letters[i], vowel[i]);
   }
   
-  fclose(pa);
-  printf("a %d\n", ca);
-  printf("e %d\n", ce);
-  printf("i %d\n", ci);
-  printf("o %d\n", co);
-  printf("u %d\n", cu);
+  fclose(fp);
+  return 0;
 }
 
+void count_vowel(FILE *fp, int *vowel){
+  char c;
+
+  while((c = getc(fp)) != EOF){
+    c = tolower(c);
+    switch(c){
+      case 'a':
+        vowel[0]++;
+        break;
+      case 'e':
+        vowel[1]++;
+        break;
+      case 'i':
+        vowel[2]++;
+        break;
+      case 'o':
+        vowel[3]++;
+        break;
+      case 'u':
+        vowel[4]++;
+        break;
+    }
+  }
+}
