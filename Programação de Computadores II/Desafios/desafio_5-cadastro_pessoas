@@ -1,0 +1,120 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+typedef struct { 
+    char nome[30];
+    int idade;
+} Tpessoa;
+
+int grava(FILE *pFile, int N);
+int modifica(FILE *pFile, int M, int idade);
+void exibe(FILE *pFile);
+
+int main()
+{ 
+    FILE *pFile;
+    int N, M, mod, idade;
+    char nome_arquivo[101];
+    fgets(nome_arquivo,100,stdin); //nome do arquivo a ser criado
+    nome_arquivo[strlen(nome_arquivo)-1]='\0';
+    scanf("%d",&N); //numero de pessoas desejado
+    pFile = fopen (nome_arquivo , "wb+");
+    
+    if (!pFile){ 
+        printf("Erro na criacao do arquivo...");
+        return -1;
+    }
+    
+    if (grava(pFile,N)!=N){
+        printf("Erro na gravacao do arquivo...");
+        return -1;
+    }
+    
+    scanf("%d",&M); //numero correspondente a ordem de entrada da pessoa que se deseja alterar a idade
+    scanf("%d",&idade); //valor da idade a ser atualizado para a M-ésima pessoa
+    mod=modifica(pFile,M,idade);
+    
+    if(mod==-1){
+        printf("Valor de M fora do intervalo permitido...");
+        return -1;
+    }
+    
+    if(mod==0){ 
+        printf("Erro de leitura e/ou gravacao no arquivo...");
+        return -1;
+    }
+    
+    exibe(pFile);
+    fclose (pFile);
+    return 0;
+}
+
+int grava(FILE *pFile, int N){
+    // Grava no arquivo binário direto do teclado sem passar por um vetor como intermediário
+    Tpessoa pessoa;
+    int i;
+    for(i=0;i<N;i++){
+        scanf("%s %d", pessoa.nome, &pessoa.idade);
+        if (fwrite(&pessoa, sizeof(Tpessoa), 1, pFile) != 1){
+            break;
+        }
+    }
+    return i;
+
+    // Grava no arquivo binário de um vetor com N elementos
+    /*
+    int grava(FILE *pFile, Tpessoa *pessoa, int N){
+        int lidos= fwrite(pessoa, sizeof(Tpessoa), N, pFile);
+        if ( lidos != N){
+            return 0;
+        }
+        return lidos;
+    }
+    OBS: isso se o vetor já estiver alocado e preenchido, se não deverá alocar e preencher o vetor antes de gravar
+    */
+}
+
+int modifica(FILE *pFile, int M, int idade){
+    // Altera a idade da M-ésima pessoa
+
+    //descobe o tamanho do arquivo
+    int tamanho;
+    Tpessoa pessoa;
+
+    fseek(pFile, 0, SEEK_END);
+    tamanho = ftell(pFile) / sizeof(Tpessoa);
+
+    // verifica se M é válido
+    if(M < 1 || M > tamanho){
+        return -1; 
+    }
+
+    // 1- coloco o ponteiro no M-ésimo elemento
+    fseek(pFile, (M-1) * sizeof(Tpessoa), SEEK_SET);
+
+    // 2- leio o M-ésimo elemento
+    if (fread(&pessoa, sizeof(Tpessoa), 1, pFile) != 1){
+        return 0;
+    }
+
+    // 3- altero a idade
+    pessoa.idade = idade;
+
+    // 4- coloco o ponteiro no M-ésimo elemento novamente
+    fseek(pFile, (M-1) * sizeof(Tpessoa), SEEK_SET);
+    int escrito = fwrite(&pessoa, sizeof(Tpessoa), 1, pFile);
+    if (escrito != 1){
+        return 0;
+    }
+
+    return escrito;
+    }
+
+void exibe(FILE *pFile){
+    Tpessoa pessoa;
+    rewind(pFile); 
+    while(fread(&pessoa, sizeof(Tpessoa), 1, pFile)== 1){
+        printf("%s %d\n", pessoa.nome, pessoa.idade);
+    }
+}
+

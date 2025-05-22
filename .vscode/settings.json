@@ -1,8 +1,8 @@
 {
     "files.associations": {
+        "*.dbclient-js": "javascript",
         "*.sqlbook": "sql",
         "*.ndjson": "jsonl",
-        "*.dbclient-js": "javascript",
         "desafio 1 - o índice do maior número": "c",
         "desafio 2 -  tempo percorrido": "c",
         "desafio 3 - margaridas": "c",
@@ -39,6 +39,8 @@
         "inverter string": "c",
         "palíndromo": "c",
         "procura palavra": "c",
-        "série harmônica": "c"
-    }
+        "série harmônica": "c",
+        "desafio_5-cadastro_pessoas": "c"
+    },
+    "editor.suggest.selectionMode": "whenTriggerCharacter"
 }

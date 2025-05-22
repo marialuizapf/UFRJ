@@ -75,7 +75,11 @@ int main() {
 }
 
 int grava(FILE *pFile, int N) {
-    int buffer[N];
+    int *buffer;
+
+    buffer = (int*)malloc(N*sizeof(int));
+    if(buffer ==  NULL) return -1;
+
     for (int i = 0; i < N; i++) {
         buffer[i] = N - i;
     }

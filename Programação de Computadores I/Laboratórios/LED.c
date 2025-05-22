@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 int totalLEDS(int n);
 int ledsAlgarismo(int alg);
 

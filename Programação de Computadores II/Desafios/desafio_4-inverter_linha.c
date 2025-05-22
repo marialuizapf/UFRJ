@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
 int main(int argc, char *argv[])
 {
     if (argc != 3) return 1;
@@ -11,11 +15,11 @@ int main(int argc, char *argv[])
     
     while(fgets(linhas, 201, entrada) != NULL){
         
-        size_t len = strlen(linha);
-        linha[strcspn(linha,"\n")] = '\0';
+        size_t len = strlen(linhas);
+        linhas[strcspn(linhas,"\n")] = '\0';
         
         for(int i = len - 1; i <= 0; i--){
-            fputc(linha[i], saida);
+            fputc(linhas[i], saida);
         }
     }
     
