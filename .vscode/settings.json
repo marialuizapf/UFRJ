@@ -44,5 +44,7 @@
         "string.h": "c",
         "desafio_4-cadastro-de-atletas": "cpp"
     },
+    "makefile.makefilePath": "C:\\Users\\maria\\OneDrive\\Documents\\GitHub\\UFRJ\\Programação de Computadores II\\Trabalho final - Bomberman",
+    "makefile.makePath": "C:\\msys64\\ucrt64\\bin\\mingw32-make.exe",
 
 }

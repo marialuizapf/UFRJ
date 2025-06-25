@@ -2,17 +2,18 @@
     "configurations": [
         {
             "name": "Win32",
-            "includePath": [
-                "C:/Program Files/Webots/msys64/mingw64/include"
-            ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
             ],
-      "intelliSenseMode": "windows-gcc-x64",
-      "cStandard": "c11",
-      "cppStandard": "c++17"
+            "intelliSenseMode": "windows-gcc-x64",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "compilerPath": "C:/msys64/ucrt64/bin/gcc.exe",
+            "includePath": [
+                "${workspaceFolder}/include"
+            ]
         }
     ],
     "version": 4

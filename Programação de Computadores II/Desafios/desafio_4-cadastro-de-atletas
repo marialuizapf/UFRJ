@@ -1,0 +1,59 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#define MAX_NOME 101
+#define MAX_ATLETAS 100
+
+typedef struct {
+    char nome[MAX_NOME];
+    int tempo_total;
+} Atleta;
+
+int converter_para_segundos(int h, int m, int s) {
+    return h * 3600 + m * 60 + s;
+}
+
+int main() {
+    char nome_arquivo[100];
+    FILE *arquivo;
+    int num_atletas, num_corridas;
+    Atleta atletas[MAX_ATLETAS];
+
+    printf("Digite o nome do arquivo de entrada: ");
+    scanf("%s", nome_arquivo);
+
+    arquivo = fopen(nome_arquivo, "r");
+    if (arquivo == NULL) {
+        printf("Erro ao abrir o arquivo.\n");
+        return 1;
+    }
+
+    fscanf(arquivo, "%d %d", &num_atletas, &num_corridas);
+
+    if((num_atletas || num_corridas) <= 0) return 1;
+
+    for (int i = 0; i < num_atletas; i++) {
+        atletas[i].tempo_total = 0;
+        fscanf(arquivo, "%s", atletas[i].nome);
+
+        for (int j = 0; j < num_corridas; j++) {
+            int h, m, s;
+            fscanf(arquivo, "%d %d %d", &h, &m, &s);
+            atletas[i].tempo_total += converter_para_segundos(h, m, s);
+        }
+    }
+
+    fclose(arquivo);
+
+    int indice_melhor = 0;
+    for (int i = 1; i < num_atletas; i++) {
+        if (atletas[i].tempo_total < atletas[indice_melhor].tempo_total) {
+            indice_melhor = i;
+        }
+    }
+
+    printf("%s = %d segundos\n", atletas[indice_melhor].nome, atletas[indice_melhor].tempo_total);
+
+    return 0;
+}
