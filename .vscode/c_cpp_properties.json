@@ -3,14 +3,16 @@
         {
             "name": "Win32",
             "includePath": [
-                "C:/Program Files/Webots/msys64/mingw64/include",
-                "${workspaceFolder}/**"
+                "C:/Program Files/Webots/msys64/mingw64/include"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
-            ]
+            ],
+      "intelliSenseMode": "windows-gcc-x64",
+      "cStandard": "c11",
+      "cppStandard": "c++17"
         }
     ],
     "version": 4

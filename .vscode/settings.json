@@ -40,7 +40,9 @@
         "palíndromo": "c",
         "procura palavra": "c",
         "série harmônica": "c",
-        "desafio_5-cadastro_pessoas": "c"
+        "desafio_5-cadastro_pessoas": "c",
+        "string.h": "c",
+        "desafio_4-cadastro-de-atletas": "cpp"
     },
-    "editor.suggest.selectionMode": "whenTriggerCharacter"
+
 }
