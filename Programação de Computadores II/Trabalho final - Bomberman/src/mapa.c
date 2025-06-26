@@ -31,7 +31,7 @@ void desenharMapa(Mapa* mapa) {
             switch (tile) {
                 case 'W': DrawRectangle(x, y, 20, 20, GRAY); break; // Parede indestrutível
                 case 'D': DrawRectangle(x, y, 20, 20, BROWN); break; // Bloco destrutível
-                case 'B': DrawRectangle(x, y, 20, 20, BLACK); break; // Bomba
+                case 'B': DrawRectangle(x, y, 20, 20, YELLOW); break; // Bomba
                 case 'K': DrawRectangle(x, y, 20, 20, YELLOW); break; // Chave
                 default:  DrawRectangle(x, y, 20, 20, BLUE); break; // Espaço vazio
             }

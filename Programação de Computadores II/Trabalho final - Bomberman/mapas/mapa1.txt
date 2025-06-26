@@ -8,7 +8,7 @@ WB      D      K        B      D      B     D      B      W
 W    WWW    WWW     WWW     WWW     WWW    WWW    WWW    W
 W   D    B       E      D       B       K      D      B  W
 W      WWWWWW        WWWWWW        WWWWWW        WWWWWW  W
-W  B       D      K      B      D      B      D      B   W
+W  B       D      K      B  J   D      B      D      B   W
 W    WWWWWWWWWWWW   WWWWWWWWWWWWW   WWWWWWWWWWWW    WWWWW W
 W  K    B    D    B     E     K    D    B    D    B     K  W
 W    WWWWWW    WWWW      WWWW      WWWW     WWWW    WWW  W

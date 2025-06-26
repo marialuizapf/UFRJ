@@ -35,12 +35,17 @@ int main(void) {
 
         // Renderização
         BeginDrawing();
-            ClearBackground(RAYWHITE);
+            ClearBackground(BLUE);
             desenharMapa(mapa);
             desenharBombas(fila);
             desenharInimigos(inimigos);
             desenharJogador(player);
             desenharMenu(estado);
+
+            DrawRectangle(0, 500, 1200, 100, SKYBLUE);  
+            DrawText(TextFormat("Bombas: %d", player->bombas),       20, 520, 20, BLACK);
+            DrawText(TextFormat("Vidas: %d", player->vidas),        300, 520, 20, BLACK);
+            DrawText(TextFormat("Pontuacao: %d", player->pontuacao), 600, 520, 20, BLACK);
         EndDrawing();
     }
 

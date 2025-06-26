@@ -11,8 +11,9 @@
 
 typedef struct Inimigo {
     int linha, coluna;
-    int direcao;        // 0=Cima,1=Baixo,2=Esq,3=Dir
-    float tempoTroca;   // tempo para sortear nova direcao
+    int direcao;
+    float tempoTroca;        // tempo até mudar direção
+    float tempoMovimento;    // tempo até andar de novo
     struct Inimigo* next;
 } Inimigo;
 
