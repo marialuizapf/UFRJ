@@ -30,5 +30,7 @@ void atualizarInimigos(ListaInimigos* lista, Mapa* mapa, float dt);
 void desenharInimigos(ListaInimigos* lista);
 // Libera memoria da lista de inimigos
 void liberarInimigos(ListaInimigos* lista);
+#define RAIO_EXPLOSAO 5
+void eliminarInimigosExplodidos(ListaInimigos* lista, int linha, int coluna);
 
 #endif // INIMIGO_H

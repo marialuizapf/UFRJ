@@ -27,8 +27,11 @@ int main(void) {
         // Lógica de jogo / menu
         if (estado == MENU_JOGO) {
             atualizarJogador(player, mapa, fila);
-            if (IsKeyPressed(KEY_B)) plantarBomba(fila, player);
-            atualizarBombas(fila, player, mapa, dt);
+            if (IsKeyPressed(KEY_B)) {
+                plantarBomba(fila, player, mapa);
+            }
+                        
+            atualizarBombas(fila, player, mapa, inimigos, dt);
             atualizarInimigos(inimigos, mapa, dt);
         }
         estado = atualizarMenu(&estado);
