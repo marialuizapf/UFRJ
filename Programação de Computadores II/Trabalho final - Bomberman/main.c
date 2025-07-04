@@ -36,12 +36,15 @@ int main(void) {
             atualizarInimigos(inimigos, mapa, dt);
         }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
         if(estado == NOVO_JOGO){
 
         }
 
 =======
+=======
+>>>>>>> Stashed changes
         /*
         Para reinicializar o jogo 
         */
@@ -49,6 +52,9 @@ int main(void) {
             reiniciarJogo(&mapa, &player, &fila, &inimigos);
             estado = MENU_JOGO;
         }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         estado = atualizarMenu(&estado);
 
