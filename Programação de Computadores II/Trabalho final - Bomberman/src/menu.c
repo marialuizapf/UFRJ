@@ -11,7 +11,7 @@ MenuState atualizarMenu(MenuState* estado) {
     if (IsKeyPressed(KEY_TAB)) *estado = MENU_PRINCIPAL;
     switch (*estado) {
         case MENU_PRINCIPAL:
-            if (IsKeyPressed(KEY_N)) *estado = MENU_JOGO;
+            if (IsKeyPressed(KEY_N)) *estado = NOVO_JOGO;
             else if (IsKeyPressed(KEY_C)) *estado = MENU_JOGO;
             else if (IsKeyPressed(KEY_S)) *estado = MENU_JOGO;
             else if (IsKeyPressed(KEY_Q)) { CloseWindow(); exit(0); }
