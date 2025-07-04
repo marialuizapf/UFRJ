@@ -28,18 +28,28 @@ int main(void) {
     while (!WindowShouldClose()) {
         float dt = GetFrameTime();
 
-        // Lógica de jogo / menu
+        // Lógica de jogo
         if (estado == MENU_JOGO) {
             atualizarJogador(player, mapa, fila);
             if (IsKeyPressed(KEY_B)) plantarBomba(fila, player);
             atualizarBombas(fila, player, mapa, dt);
             atualizarInimigos(inimigos, mapa, dt);
         }
+<<<<<<< Updated upstream
 
         if(estado == NOVO_JOGO){
 
         }
 
+=======
+        /*
+        Para reinicializar o jogo 
+        */
+        if(estado == NOVO_JOGO){
+            reiniciarJogo(&mapa, &player, &fila, &inimigos);
+            estado = MENU_JOGO;
+        }
+>>>>>>> Stashed changes
         estado = atualizarMenu(&estado);
 
         // Renderização

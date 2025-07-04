@@ -7,6 +7,12 @@ void iniciarMenu(void) {
     // nada para inicializar no momento
 }
 
+/*
+Função que atualiza o estado do menu do jogo passando de MENU_PRINCIPAL para MENU_JOGO
+e vice-versa, dependendo das teclas pressionadas. O MENU_JOGO é o estado onde o jogo
+está rodando, enquanto o MENU_PRINCIPAL é o estado onde o usuário pode escolher
+opções como novo jogo, carregar jogo, salvar jogo ou sair do jogo. 
+*/
 MenuState atualizarMenu(MenuState* estado) {
     if (IsKeyPressed(KEY_TAB)) *estado = MENU_PRINCIPAL;
     switch (*estado) {
@@ -32,6 +38,7 @@ MenuState atualizarMenu(MenuState* estado) {
     return *estado;
 }
 
+// Função que desenha o menu na tela de acordo com o estado atual do menu.
 void desenharMenu(MenuState estado) {
     switch (estado) {
         case MENU_PRINCIPAL:
