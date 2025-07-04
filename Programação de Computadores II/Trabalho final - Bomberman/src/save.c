@@ -7,12 +7,14 @@
 void salvarJogo(const char* filename, Jogo* jogo) {
     FILE* fp = fopen(filename, "wb");
     if (!fp) return;
+
     fwrite(&jogo->faseAtual, sizeof(int), 1, fp);
     fwrite(&jogo->player->linha, sizeof(int), 1, fp);
     fwrite(&jogo->player->coluna, sizeof(int), 1, fp);
     fwrite(&jogo->player->vidas, sizeof(int), 1, fp);
     fwrite(&jogo->player->pontuacao, sizeof(int), 1, fp);
     fwrite(&jogo->player->bombas, sizeof(int), 1, fp);
+    
     for (int i = 0; i < LINHAS; i++)
         fwrite(jogo->mapa->tiles[i], sizeof(char), COLUNAS, fp);
     int countB = 0; for (Bomba* b = jogo->bombas->head; b; b = b->next) countB++;

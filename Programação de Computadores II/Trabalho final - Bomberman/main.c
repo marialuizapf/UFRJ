@@ -9,10 +9,11 @@
 #include "utils.h"
 
 int main(void) {
-    const int largura = 1200;
-    const int altura  = 600;
-    InitWindow(largura, altura, "Bomberman - Versão Final");
-    SetTargetFPS(60);
+    // Configurações da janela
+    const int largura = 1200; // Largura da janela
+    const int altura  = 600; // Altura da janela
+    InitWindow(largura, altura, "Bomberman - Versão Final"); // Título da janela
+    SetTargetFPS(60); // Taxa de quadros por segundo
 
     // Inicialização do jogo
     Mapa*           mapa     = carregarMapa("mapas/mapa1.txt");
@@ -21,6 +22,9 @@ int main(void) {
     ListaInimigos*  inimigos = criarListaInimigos(mapa);
     MenuState       estado   = MENU_JOGO;
 
+    /*
+    
+    */
     while (!WindowShouldClose()) {
         float dt = GetFrameTime();
 
@@ -50,7 +54,6 @@ int main(void) {
     }
 
     // Libera todo o estado do jogo
-    // Construímos aqui um Jogo temporário para chamar liberarJogo()
     Jogo jogo = {
         .player   = player,
         .mapa     = mapa,

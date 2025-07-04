@@ -10,9 +10,15 @@
             "intelliSenseMode": "windows-gcc-x64",
             "cStandard": "c11",
             "cppStandard": "c++17",
-            "compilerPath": "C:/msys64/ucrt64/bin/gcc.exe",
-            "includePath": [
-                "${workspaceFolder}/include"
+
+            "compilerPath": "C:/MinGW/bin/gcc.exe",
+            "includePath": [ 
+                "${workspaceFolder}/**",
+                "C:/MinGW/lib/gcc/mingw32/6.3.0/include",
+                "C:/MinGW/include",
+                "C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++",
+                "C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/mingw32",
+                "C:/Users/maria/OneDrive/Documents/GitHub/UFRJ/Programação de Computadores II/Trabalho final - Bomberman/include"
             ]
         }
     ],

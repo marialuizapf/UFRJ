@@ -9,6 +9,7 @@ Mapa* carregarMapa(const char* nomeArquivo) {
         perror("Erro ao abrir mapa");
         exit(EXIT_FAILURE);
     }
+
     Mapa* mapa = malloc(sizeof(Mapa));
     mapa->tiles = malloc(sizeof(char*) * LINHAS);
     for (int i = 0; i < LINHAS; i++) {
@@ -31,8 +32,8 @@ void desenharMapa(Mapa* mapa) {
             switch (tile) {
                 case 'W': DrawRectangle(x, y, 20, 20, GRAY); break; // Parede indestrutível
                 case 'D': DrawRectangle(x, y, 20, 20, BROWN); break; // Bloco destrutível
-                case 'B': DrawRectangle(x, y, 20, 20, YELLOW); break; // Bomba
-                case 'K': DrawRectangle(x, y, 20, 20, YELLOW); break; // Chave
+                case 'B': DrawRectangle(x, y, 20, 20, YELLOW); break; // Caixa sem chave
+                case 'K': DrawRectangle(x, y, 20, 20, YELLOW); break; // Caixa com chave
                 default:  DrawRectangle(x, y, 20, 20, BLUE); break; // Espaço vazio
             }
         }

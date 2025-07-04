@@ -42,9 +42,10 @@
         "série harmônica": "c",
         "desafio_5-cadastro_pessoas": "c",
         "string.h": "c",
-        "desafio_4-cadastro-de-atletas": "cpp"
+        "desafio_4-cadastro-de-atletas": "cpp",
+        "resumo lista": "c"
     },
     "makefile.makefilePath": "C:\\Users\\maria\\OneDrive\\Documents\\GitHub\\UFRJ\\Programação de Computadores II\\Trabalho final - Bomberman",
-    "makefile.makePath": "C:\\msys64\\ucrt64\\bin\\mingw32-make.exe",
+    "makefile.makePath": "C:\\msys64\\ucrt64\\bin\\mingw32-make.exe"
 
 }

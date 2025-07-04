@@ -1,0 +1,96 @@
+//-------------------- Modelagem --------------------
+//----- Modicavel
+typedef int TIPOCHAVE;
+
+typedef struct{
+    TIPOCHAVE chave;
+}REGISTRO;
+//----- Lista
+typedef struct aux{
+    REGISTRO reg;
+    struct aux* prox;
+} ELEMENTO;
+
+typedef ELEMENTO* PONT;
+
+typedef struct{
+    PONT inicio;
+} LISTA;
+
+//-------------------- Inicialização --------------------
+void inicializarLista(LISTA* l){
+    l->inicio = NULL;
+}
+
+//-------------------- Tamanho --------------------
+int tamanho(LISTA* l) {
+    PONT end = l->inicio;
+    int tam = 0;
+
+    while (end != NULL) {
+        tam++;
+        end = end->prox;
+    }
+    return tam; 
+}
+
+//-------------------- Exibir --------------------
+void exibirLista(LISTA* l) {
+    PONT end = l->inicio;
+    printf("Lista: \" ");
+
+    while (end != NULL) {
+        printf("%i ", end->reg.chave);
+        end = end->prox; 
+    }
+    printf("\"\n"); 
+}
+
+//-------------------- Inserção --------------------
+int insere(LISTA* l, REGISTRO reg, int pos) {
+    if (pos<0 || pos>tamanho(l)) return 0;
+    ELEMENTO* novo = (ELEMENTO*) malloc(sizeof(ELEMENTO));
+    novo->reg = reg;
+    int i;
+    ELEMENTO* p;
+    if (pos == 0){
+        novo->prox = l->inicio;
+        l->inicio = novo;
+    }else{
+        p = l->inicio;
+        for (i=0;i<pos-1;i++) 
+            p = p->prox;
+            novo->prox = p->prox;
+            p->prox = novo;
+    }
+    return 1; 
+}
+//-------------------- Remoção --------------------
+int exclui(LISTA* l, int pos) {
+if (pos<0 || pos>tamanho(l)-1) return 0;
+int i;
+ELEMENTO* p;
+ELEMENTO* apagar;
+if (pos == 0) {
+    apagar = l->inicio;
+    l->inicio = apagar->prox;
+}else {
+    p = l->inicio;
+    for (i=0;i<pos-1;i++) p = p->prox;
+        apagar = p->prox;
+        p->prox = apagar->prox; 
+}
+free(apagar);
+return 1; 
+}
+
+//-------------------- Reinicialização --------------------
+void reinicializarLista(LISTA* l) {
+    PONT end = l->inicio;
+    while (end != NULL) {
+        PONT apagar = end;
+        end = end->prox;
+        free(apagar); 
+    }
+    l->inicio = NULL;
+}
