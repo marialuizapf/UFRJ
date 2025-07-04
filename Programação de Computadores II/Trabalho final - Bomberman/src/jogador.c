@@ -6,7 +6,7 @@
 void desenharJogador(Jogador* jogador) {
     int x = jogador->coluna * 20;
     int y = jogador->linha * 20;
-    DrawRectangle(x, y, 20, 20, WHITE);  // ou outra cor que preferir
+    DrawRectangle(x, y, 20, 20, WHITE);  
 }
 
 static bool podeMover(Mapa* mapa, FilaBombas* fila, int l, int c) {

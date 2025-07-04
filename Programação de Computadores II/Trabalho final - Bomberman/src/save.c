@@ -88,5 +88,5 @@ void liberarJogo(Jogo* jogo) {
     free(jogo->mapa);
     liberarFilaBombas(jogo->bombas);
     liberarInimigos(jogo->inimigos);
-    free(jogo);
+    //free(jogo);
 }

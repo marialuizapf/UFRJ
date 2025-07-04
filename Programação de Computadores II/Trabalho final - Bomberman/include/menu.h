@@ -6,8 +6,11 @@
 // Estados possiveis do menu
 typedef enum {
     MENU_PRINCIPAL,
-    MENU_CONFIGURACOES,
-    MENU_AUDIO,
+    NOVO_JOGO,
+    CARREGAR_JOGO,
+    SALVAR_JOGO,
+    //MENU_CONFIGURACOES,
+    //MENU_AUDIO,
     MENU_JOGO
 } MenuState;
 

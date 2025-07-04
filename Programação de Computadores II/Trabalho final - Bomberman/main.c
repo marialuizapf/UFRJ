@@ -35,6 +35,11 @@ int main(void) {
             atualizarBombas(fila, player, mapa, dt);
             atualizarInimigos(inimigos, mapa, dt);
         }
+
+        if(estado == NOVO_JOGO){
+
+        }
+
         estado = atualizarMenu(&estado);
 
         // Renderização
