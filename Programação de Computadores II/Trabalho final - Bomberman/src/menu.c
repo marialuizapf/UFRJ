@@ -8,20 +8,20 @@ void iniciarMenu(void) {
 }
 
 /*
-Função que atualiza o estado do menu do jogo passando de MENU_PRINCIPAL para MENU_JOGO
-e vice-versa, dependendo das teclas pressionadas. O MENU_JOGO é o estado onde o jogo
-está rodando, enquanto o MENU_PRINCIPAL é o estado onde o usuário pode escolher
-opções como novo jogo, carregar jogo, salvar jogo ou sair do jogo. 
+    *Função que atualiza o estado do menu do jogo passando de MENU_PRINCIPAL para MENU_JOGO
+    *e vice-versa, dependendo das teclas pressionadas. O MENU_JOGO é o estado onde o jogo
+    *está rodando, enquanto o MENU_PRINCIPAL é o estado onde o usuário pode escolher
+    *opções como novo jogo, carregar jogo, salvar jogo ou sair do jogo. 
 */
 MenuState atualizarMenu(MenuState* estado) {
     if (IsKeyPressed(KEY_TAB)) *estado = MENU_PRINCIPAL;
     switch (*estado) {
         case MENU_PRINCIPAL:
-            if (IsKeyPressed(KEY_N)) *estado = NOVO_JOGO;
-            else if (IsKeyPressed(KEY_C)) *estado = MENU_JOGO;
-            else if (IsKeyPressed(KEY_S)) *estado = MENU_JOGO;
-            else if (IsKeyPressed(KEY_Q)) { CloseWindow(); exit(0); }
-            else if (IsKeyPressed(KEY_V)) *estado = MENU_JOGO;
+            if (IsKeyPressed(KEY_N)) *estado = NOVO_JOGO; // Inicia novo jogo
+            else if (IsKeyPressed(KEY_C)) *estado = CARREGAR_JOGO; // Carrega jogo salvo
+            else if (IsKeyPressed(KEY_S)) *estado = SALVAR_JOGO; // Salva jogo atual
+            else if (IsKeyPressed(KEY_Q)) { CloseWindow(); exit(0); } // Sai do jogo
+            else if (IsKeyPressed(KEY_V)) *estado = MENU_JOGO; // Volta para o jogo
             //else if (IsKeyPressed(KEY_DOWN)) *estado = MENU_CONFIGURACOES;
             break;
         /*

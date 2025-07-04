@@ -32,6 +32,9 @@ Mapa* carregarMapa(const char* nomeArquivo) {
         fclose(fp);
         exit(EXIT_FAILURE);  
     }
+    strncpy(mapa->nomeArquivo, nomeArquivo, sizeof(mapa->nomeArquivo));
+    mapa->nomeArquivo[sizeof(mapa->nomeArquivo) - 1] = '\0'; // Garante que a string esteja terminada
+
     mapa->tiles = malloc(sizeof(char*) * LINHAS);  // Aloca um vetor de ponteiros, um para cada linha do mapa
     if (!mapa->tiles) {
         perror("Erro ao alocar memória para as linhas do mapa");

@@ -7,14 +7,8 @@
 typedef enum {
     MENU_PRINCIPAL,
     NOVO_JOGO,
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
     CARREGAR_JOGO,
     SALVAR_JOGO,
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
     //MENU_CONFIGURACOES,
     //MENU_AUDIO,
     MENU_JOGO

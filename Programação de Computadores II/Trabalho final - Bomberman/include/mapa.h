@@ -5,7 +5,8 @@
 #define COLUNAS 60
 
 typedef struct {
-    char **tiles;       // Matriz dinamicamente alocada 
+    char** tiles;
+    char nomeArquivo[64];
 } Mapa;
 
 // Aloca e carrega o mapa a partir de um arquivo texto

@@ -5,16 +5,21 @@
 #include "inimigo.h"
 
 void salvarJogo(const char* filename, Jogo* jogo) {
+    // Abre o arquivo para escrita binária
     FILE* fp = fopen(filename, "wb");
     if (!fp) return;
 
-    fwrite(&jogo->faseAtual, sizeof(int), 1, fp);
+    // Salva o nome do arquivo do mapa
+    fwrite(jogo->mapa->nomeArquivo, sizeof(char), 64, fp);
+
+    // Escreve os dados do jogador sua posição e a fase atual
     fwrite(&jogo->player->linha, sizeof(int), 1, fp);
     fwrite(&jogo->player->coluna, sizeof(int), 1, fp);
     fwrite(&jogo->player->vidas, sizeof(int), 1, fp);
     fwrite(&jogo->player->pontuacao, sizeof(int), 1, fp);
     fwrite(&jogo->player->bombas, sizeof(int), 1, fp);
-    
+
+    // Escreve o mapa com suas alterações
     for (int i = 0; i < LINHAS; i++)
         fwrite(jogo->mapa->tiles[i], sizeof(char), COLUNAS, fp);
     int countB = 0; for (Bomba* b = jogo->bombas->head; b; b = b->next) countB++;
@@ -24,6 +29,8 @@ void salvarJogo(const char* filename, Jogo* jogo) {
         fwrite(&b->coluna, sizeof(int), 1, fp);
         fwrite(&b->timer, sizeof(float), 1, fp);
     }
+
+    // Escreve os inimigos
     int countI = 0; for (Inimigo* in = jogo->inimigos->head; in; in = in->next) countI++;
     fwrite(&countI, sizeof(int), 1, fp);
     for (Inimigo* in = jogo->inimigos->head; in; in = in->next) {
@@ -36,19 +43,31 @@ void salvarJogo(const char* filename, Jogo* jogo) {
 }
 
 Jogo* carregarJogo(const char* filename) {
-    FILE* fp = fopen(filename, "rb"); if (!fp) return NULL;
+    // Abre o arquivo para leitura binária
+    FILE* fp = fopen(filename, "rb"); 
+    if (!fp) return NULL;
+
+    // Cria a estrutura Jogo e aloca memória para o jogador
     Jogo* jogo = malloc(sizeof(Jogo));
     jogo->player = malloc(sizeof(Jogador));
-    jogo->mapa = malloc(sizeof(Mapa));
-    jogo->mapa->tiles = malloc(sizeof(char*) * LINHAS);
+
+    // Lê o nome do arquivo do mapa
+    char nomeMapa[64];
+    fread(nomeMapa, sizeof(char), 64, fp);
+    Mapa* mapa = carregarMapa(nomeMapa);
+
+    // Cria a fila de bombas e a lista de inimigos
     jogo->bombas = criarFilaBombas();
     jogo->inimigos = malloc(sizeof(ListaInimigos)); jogo->inimigos->head = NULL;
-    fread(&jogo->faseAtual, sizeof(int), 1, fp);
+
+    // Carrega jogador
     fread(&jogo->player->linha, sizeof(int), 1, fp);
     fread(&jogo->player->coluna, sizeof(int), 1, fp);
     fread(&jogo->player->vidas, sizeof(int), 1, fp);
     fread(&jogo->player->pontuacao, sizeof(int), 1, fp);
     fread(&jogo->player->bombas, sizeof(int), 1, fp);
+
+    // Carrega o mapa e suas alterações
     for (int i = 0; i < LINHAS; i++) {
         jogo->mapa->tiles[i] = malloc(sizeof(char) * COLUNAS);
         fread(jogo->mapa->tiles[i], sizeof(char), COLUNAS, fp);
@@ -64,6 +83,8 @@ Jogo* carregarJogo(const char* filename) {
         else jogo->bombas->tail->next = b;
         jogo->bombas->tail = b;
     }
+
+    // Carrega os inimigos
     int countI; fread(&countI, sizeof(int), 1, fp);
     Inimigo* lastI = NULL;
     for (int k=0; k<countI; k++) {
@@ -77,6 +98,7 @@ Jogo* carregarJogo(const char* filename) {
         else lastI->next = in;
         lastI = in;
     }
+    
     fclose(fp);
     return jogo;
 }

@@ -12,7 +12,6 @@ typedef struct {
     Mapa* mapa;
     FilaBombas* bombas;
     ListaInimigos* inimigos;
-    int faseAtual;
 } Jogo;
 
 // Salva estado em arquivo binario

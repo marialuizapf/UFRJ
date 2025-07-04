@@ -22,9 +22,6 @@ int main(void) {
     ListaInimigos*  inimigos = criarListaInimigos(mapa);
     MenuState       estado   = MENU_JOGO;
 
-    /*
-    
-    */
     while (!WindowShouldClose()) {
         float dt = GetFrameTime();
 
@@ -35,27 +32,56 @@ int main(void) {
             atualizarBombas(fila, player, mapa, dt);
             atualizarInimigos(inimigos, mapa, dt);
         }
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 
         if(estado == NOVO_JOGO){
+            liberarJogo(&(Jogo){
+                .player   = player,
+                .mapa     = mapa,
+                .bombas   = fila,
+                .inimigos = inimigos
+            });
 
-        }
+            mapa     = carregarMapa("mapas/mapa1.txt");
+            player   = criarJogador(mapa);
+            fila     = criarFilaBombas();
+            inimigos = criarListaInimigos(mapa);
 
-=======
-=======
->>>>>>> Stashed changes
-        /*
-        Para reinicializar o jogo 
-        */
-        if(estado == NOVO_JOGO){
-            reiniciarJogo(&mapa, &player, &fila, &inimigos);
             estado = MENU_JOGO;
         }
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+
+        if (estado == SALVAR_JOGO) {
+            salvarJogo("save.dat", &(Jogo){
+                .player   = player,
+                .mapa     = mapa,
+                .bombas   = fila,
+                .inimigos = inimigos
+            });
+
+            DrawText("Jogo salvo com sucesso!", 400, 550, 20, GREEN);
+            estado = MENU_JOGO;
+        }
+
+        if (estado == CARREGAR_JOGO) {
+            liberarJogo(&(Jogo){
+                .player   = player,
+                .mapa     = mapa,
+                .bombas   = fila,
+                .inimigos = inimigos
+            });
+
+            Jogo* jogo = carregarJogo("save.dat");
+            if (jogo) {
+                player   = jogo->player;
+                mapa     = jogo->mapa;
+                fila     = jogo->bombas;
+                inimigos = jogo->inimigos;
+                free(jogo); 
+            }
+
+            DrawText("Jogo carregado com sucesso!", 400, 550, 20, GREEN);
+            estado = MENU_JOGO;
+        }
+
         estado = atualizarMenu(&estado);
 
         // Renderização
@@ -79,9 +105,9 @@ int main(void) {
         .player   = player,
         .mapa     = mapa,
         .bombas   = fila,
-        .inimigos = inimigos,
-        .faseAtual = 1
+        .inimigos = inimigos
     };
+    
     liberarJogo(&jogo);
 
     CloseWindow();
