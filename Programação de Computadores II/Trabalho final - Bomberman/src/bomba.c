@@ -5,7 +5,6 @@
 #include "pontuacao.h"
 #include "inimigo.h"
 
-
 FilaBombas* criarFilaBombas(void) {
     FilaBombas* f = malloc(sizeof(FilaBombas));
     f->head = f->tail = NULL;
@@ -64,11 +63,9 @@ void plantarBomba(FilaBombas* f, Jogador* j, Mapa* mapa) {
         f->tail->next = nova;
         f->tail = nova;
     }
-
+    
     j->bombas--;
 }
-
-
 
 void atualizarBombas(FilaBombas* f, Jogador* j, Mapa* m, ListaInimigos* inimigos, float dt) {
     Bomba *ant = NULL, *cur = f->head;
@@ -100,11 +97,16 @@ void atualizarBombas(FilaBombas* f, Jogador* j, Mapa* m, ListaInimigos* inimigos
         if (!cur->explodindo && cur->timer <= 0) {
             int li = cur->linha, co = cur->coluna;
 
-            // Centro da explosão
+            //  Centro da explosão
             char* centro = &m->tiles[li][co];
-            if (*centro == 'D' || *centro == 'B' || *centro == 'K') {
-                *centro = (*centro == 'K') ? 'C' : ' ';
-                pontuarCaixa(j);
+            char original = *centro;
+            if (original == 'D' || original == 'B' || original == 'K') {
+                if (original == 'K') {
+                    *centro = 'C';  // 1) Caixa com chave vira 'C'
+                } else {
+                    *centro = ' ';
+                    pontuarCaixa(j);
+                }
             }
 
             // ↑ Cima
@@ -112,10 +114,15 @@ void atualizarBombas(FilaBombas* f, Jogador* j, Mapa* m, ListaInimigos* inimigos
                 int y = li - d;
                 if (y < 0) break;
                 char* cel = &m->tiles[y][co];
-                if (*cel == 'W') break;
-                if (*cel == 'D' || *cel == 'B' || *cel == 'K') {
-                    *cel = (*cel == 'K') ? 'C' : ' ';
-                    pontuarCaixa(j);
+                original = *cel;
+                if (original == 'W') break;
+                if (original == 'D' || original == 'B' || original == 'K') {
+                    if (original == 'K') {
+                        *cel = 'C';
+                    } else {
+                        *cel = ' ';
+                        pontuarCaixa(j);
+                    }
                     break;
                 }
             }
@@ -125,10 +132,15 @@ void atualizarBombas(FilaBombas* f, Jogador* j, Mapa* m, ListaInimigos* inimigos
                 int y = li + d;
                 if (y >= LINHAS) break;
                 char* cel = &m->tiles[y][co];
-                if (*cel == 'W') break;
-                if (*cel == 'D' || *cel == 'B' || *cel == 'K') {
-                    *cel = (*cel == 'K') ? 'C' : ' ';
-                    pontuarCaixa(j);
+                original = *cel;
+                if (original == 'W') break;
+                if (original == 'D' || original == 'B' || original == 'K') {
+                    if (original == 'K') {
+                        *cel = 'C';
+                    } else {
+                        *cel = ' ';
+                        pontuarCaixa(j);
+                    }
                     break;
                 }
             }
@@ -138,10 +150,15 @@ void atualizarBombas(FilaBombas* f, Jogador* j, Mapa* m, ListaInimigos* inimigos
                 int x = co - d;
                 if (x < 0) break;
                 char* cel = &m->tiles[li][x];
-                if (*cel == 'W') break;
-                if (*cel == 'D' || *cel == 'B' || *cel == 'K') {
-                    *cel = (*cel == 'K') ? 'C' : ' ';
-                    pontuarCaixa(j);
+                original = *cel;
+                if (original == 'W') break;
+                if (original == 'D' || original == 'B' || original == 'K') {
+                    if (original == 'K') {
+                        *cel = 'C';
+                    } else {
+                        *cel = ' ';
+                        pontuarCaixa(j);
+                    }
                     break;
                 }
             }
@@ -151,15 +168,20 @@ void atualizarBombas(FilaBombas* f, Jogador* j, Mapa* m, ListaInimigos* inimigos
                 int x = co + d;
                 if (x >= COLUNAS) break;
                 char* cel = &m->tiles[li][x];
-                if (*cel == 'W') break;
-                if (*cel == 'D' || *cel == 'B' || *cel == 'K') {
-                    *cel = (*cel == 'K') ? 'C' : ' ';
-                    pontuarCaixa(j);
+                original = *cel;
+                if (original == 'W') break;
+                if (original == 'D' || original == 'B' || original == 'K') {
+                    if (original == 'K') {
+                        *cel = 'C';
+                    } else {
+                        *cel = ' ';
+                        pontuarCaixa(j);
+                    }
                     break;
                 }
             }
 
-
+            // Penalizar jogador e eliminar inimigos atingidos
             for (int d = -RAIO_EXPLOSAO; d <= RAIO_EXPLOSAO; d++) {
                 if ((j->linha == li + d && j->coluna == co) ||
                     (j->linha == li && j->coluna == co + d)) {
@@ -175,7 +197,6 @@ void atualizarBombas(FilaBombas* f, Jogador* j, Mapa* m, ListaInimigos* inimigos
             cur->explodindo = true;
             cur->tempo_explosao = 0.3f;
         }
-
 
         // Se terminou de exibir a explosão, remove
         if (cur->explodindo && cur->tempo_explosao <= 0) {
@@ -195,7 +216,6 @@ void atualizarBombas(FilaBombas* f, Jogador* j, Mapa* m, ListaInimigos* inimigos
     }
 }
 
-
 void desenharBombas(FilaBombas* f) {
     for (Bomba* b = f->head; b; b = b->next) {
         int x = b->coluna * 20;
@@ -210,7 +230,7 @@ void desenharBombas(FilaBombas* f) {
                 if (b->coluna + i < COLUNAS) DrawRectangle((b->coluna + i) * 20, y, 20, 20, RED);
             }
         } else {
-            DrawCircle(x + 10, y + 10, 10, RED);
+            DrawCircle(x + 10, y + 10, 10, BLACK);
             DrawText("B", x + 5, y + 2, 14, WHITE);
         }
     }

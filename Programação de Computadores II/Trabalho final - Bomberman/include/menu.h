@@ -9,8 +9,6 @@ typedef enum {
     NOVO_JOGO,
     CARREGAR_JOGO,
     SALVAR_JOGO,
-    //MENU_CONFIGURACOES,
-    //MENU_AUDIO,
     MENU_JOGO
 } MenuState;
 

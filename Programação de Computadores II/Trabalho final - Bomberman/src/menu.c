@@ -2,6 +2,7 @@
 #include "raylib.h"
 #include "menu.h"
 #include "save.h"
+#include "jogador.h"
 
 void iniciarMenu(void) {
     // nada para inicializar no momento
@@ -22,17 +23,7 @@ MenuState atualizarMenu(MenuState* estado) {
             else if (IsKeyPressed(KEY_S)) *estado = SALVAR_JOGO; // Salva jogo atual
             else if (IsKeyPressed(KEY_Q)) { CloseWindow(); exit(0); } // Sai do jogo
             else if (IsKeyPressed(KEY_V)) *estado = MENU_JOGO; // Volta para o jogo
-            //else if (IsKeyPressed(KEY_DOWN)) *estado = MENU_CONFIGURACOES;
             break;
-        /*
-        case MENU_CONFIGURACOES:
-            if (IsKeyPressed(KEY_DOWN)) *estado = MENU_AUDIO;
-            else if (IsKeyPressed(KEY_V)) *estado = MENU_PRINCIPAL;
-            break;
-        case MENU_AUDIO:
-            if (IsKeyPressed(KEY_V)) *estado = MENU_CONFIGURACOES;
-            break;
-        */
         default: break;
     }
     return *estado;
@@ -45,14 +36,6 @@ void desenharMenu(MenuState estado) {
             DrawRectangle(0, 0, 1200, 100, GRAY);
             DrawText("N: Novo   C: Carregar   S: Salvar   Q: Sair   V: Voltar", 50, 40, 20, BLACK);
             break;
-        /*
-        case MENU_CONFIGURACOES:
-            DrawText("Configuracoes: Audio (Down)  V: Voltar", 50, 40, 20, BLACK);
-            break;
-        case MENU_AUDIO:
-            DrawText("Audio: V: Voltar", 50, 40, 20, BLACK);
-            break;
-        */
         default:
             break;
     }

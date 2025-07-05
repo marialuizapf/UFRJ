@@ -1,25 +1,25 @@
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
-W    D    B         D               K                D     W
-W E   WWW   K  D       WWW    B       E       WWW          W
-W   WW   B      WW   D     W    K     W     D     W        W
+W    D    B         D                                D     W
+W E   WWW      D       WWW    B       E       WWW          W
+W   WW   B      WW   D     W          W     D     W        W
 W    D       WWW      B     WWW      B        WW   D       W
-W        WWWW       D      WWWW      E           WWW       W
+W        WWWW       D      WWWW                 WWW        W
 WB      D      K        B      D      B     D      B       W
 W    WWW    WWW     WWW     WWW     WWW    WWW    WWW      W
-W   D    B       E      D       B       K      D      B    W
+W   D    B             D       B       K      D      B     W
 W      WWWWWW        WWWWWW        WWWWWW        WWWWWW    W
 W  B       D      K      B  J   D      B      D      B     W
 W    WWWWWWWWWWWW   WWWWWWWWWWWWW   WWWWWWWWWWWW    WWWWW  W
-W  K    B    D    B     E     K    D    B    D    B     K  W
+W       B    D    B               D    B    D    B         W
 W    WWWWWW    WWWW      WWWW      WWWW     WWWW    WWW    W
 W  D      B    D    B       D      B     D     B     D     W
-W       WWW   K    WWW   E   WWW    K   WWW      WWW       W
+W       WWW   K    WWW   E   WWW        WWW      WWW       W
 W B      D     B      D      B      D      B      D        W
 W   WWWWWW    WWWWWW   WWWWWW   WWWWWW   WWWWWW    WWWWW   W
 W D      B  D      B    D      B     D      B     D      D W
 W    WWW    WWW     WWW     WWW     WWW    WWW    WWW    W W
-W E       D      K      B       D      B       D       B   W
+W E       D             B       D      B       D       B   W
 W   WWWW    WWWW      WWWW      WWWW     WWWW    WWWW      W
 W      B      D      B      E      D      B      D      B  W
-W  K       D      B        K      D       B       D      B W
+W          D      B        K      D       B       D      B W
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW

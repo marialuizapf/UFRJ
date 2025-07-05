@@ -1,6 +1,8 @@
 #ifndef MAPA_H
 #define MAPA_H
 
+#include "raylib.h"
+
 #define LINHAS 25
 #define COLUNAS 60
 
@@ -12,7 +14,7 @@ typedef struct {
 // Aloca e carrega o mapa a partir de um arquivo texto
 Mapa* carregarMapa(const char* nomeArquivo);
 // Desenha o mapa usando Raylib (cada tile 20x20 px), incluindo HUD no rodapé
-void desenharMapa(Mapa* mapa);
+void desenharMapa(Mapa* mapa, Texture2D chave);
 // Libera a memoria do mapa
 void liberarMapa(Mapa* mapa);
 

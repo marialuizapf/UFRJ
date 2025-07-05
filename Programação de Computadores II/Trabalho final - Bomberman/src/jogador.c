@@ -27,11 +27,13 @@ static bool podeMover(Jogador* jogador, Mapa* mapa, FilaBombas* fila, int l, int
 
 
 Jogador* criarJogador(Mapa* mapa) {
-    Jogador* player = malloc(sizeof(Jogador));
+    Jogador* player = malloc(sizeof(Jogador)); if (!player) return NULL;
     player->vidas = 3;
     player->pontuacao = 0;
     player->bombas = 3;
-    player->direcao = DIR_BAIXO; // ou qualquer padrão
+    player->chaves = 0;
+    player->direcao = DIR_BAIXO;
+    player->tempoMovimento = 0.0f; 
 
     for (int i=0;i<LINHAS;i++)
         for (int j=0;j<COLUNAS;j++)
@@ -41,10 +43,15 @@ Jogador* criarJogador(Mapa* mapa) {
                 return player;
             }
     player->linha = 0; player->coluna = 0;
+
     return player;
 }
 
-void atualizarJogador(Jogador* jogador, Mapa* mapa, FilaBombas* fila) {
+void atualizarJogador(Jogador* jogador, Mapa* mapa, FilaBombas* fila, float dt) {
+
+    jogador->tempoMovimento -= dt;
+    if (jogador->tempoMovimento > 0) return;
+
     int nx = jogador->coluna;
     int ny = jogador->linha;
 
@@ -64,11 +71,17 @@ void atualizarJogador(Jogador* jogador, Mapa* mapa, FilaBombas* fila) {
         ny++;
         jogador->direcao = DIR_BAIXO;
     }
-
-    if ((nx != jogador->coluna || ny != jogador->linha) &&
-    podeMover(jogador, mapa, fila, ny, nx)) {
+    
+    if ((nx != jogador->coluna || ny != jogador->linha)
+        && podeMover(jogador, mapa, fila, ny, nx)) {
         jogador->coluna = nx;
-        jogador->linha = ny;
+        jogador->linha  = ny;
+        jogador->tempoMovimento = TEMPO_PASSO;
+
+        if (mapa->tiles[ny][nx] == 'C') {
+            jogador->chaves++;
+            mapa->tiles[ny][nx] = ' ';
+        }
     }
 }
 

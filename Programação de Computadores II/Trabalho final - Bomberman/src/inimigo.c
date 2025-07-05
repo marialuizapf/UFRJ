@@ -3,8 +3,6 @@
 #include "inimigo.h"
 #include "utils.h"
 
-#define TEMPO_PASSO 0.1f  // Intervalo entre movimentos 
-
 // Cria a lista de inimigos com base no mapa
 ListaInimigos* criarListaInimigos(Mapa* mapa) {
     ListaInimigos* lista = malloc(sizeof(ListaInimigos));

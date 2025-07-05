@@ -67,7 +67,7 @@ Mapa* carregarMapa(const char* nomeArquivo) {
     return mapa;
 }
 
-void desenharMapa(Mapa* mapa) {
+void desenharMapa(Mapa* mapa, Texture2D chave) {
     for (int i = 0; i < LINHAS; i++) {
         for (int j = 0; j < COLUNAS; j++) {
             char tile = mapa->tiles[i][j];
@@ -76,9 +76,12 @@ void desenharMapa(Mapa* mapa) {
             switch (tile) {
                 case 'W': DrawRectangle(x, y, 20, 20, GRAY); break; // Parede indestrutível
                 case 'D': DrawRectangle(x, y, 20, 20, BROWN); break; // Bloco destrutível
-                case 'B': DrawRectangle(x, y, 20, 20, YELLOW); break; // Caixa sem chave
-                case 'K': DrawRectangle(x, y, 20, 20, YELLOW); break; // Caixa com chave
-                default:  DrawRectangle(x, y, 20, 20, BLUE); break; // Espaço vazio
+                case 'B':  
+                case 'K':  
+                    DrawRectangle(x, y, 20, 20, BEIGE);
+                    break;
+                case 'C': DrawTexture(chave, x, y, WHITE); break; // Caixa com chave
+                default:  DrawRectangle(x, y, 20, 20, SKYBLUE); break; // Espaço vazio
             }
         }
     }
