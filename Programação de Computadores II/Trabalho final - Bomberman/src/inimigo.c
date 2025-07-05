@@ -2,6 +2,7 @@
 #include "raylib.h"
 #include "inimigo.h"
 #include "utils.h"
+#include "pontuacao.h"
 
 // Cria a lista de inimigos com base no mapa
 ListaInimigos* criarListaInimigos(Mapa* mapa) {
@@ -41,25 +42,20 @@ ListaInimigos* criarListaInimigos(Mapa* mapa) {
 }
 
 // Atualiza posição e direção dos inimigos
-void atualizarInimigos(ListaInimigos* lista, Mapa* mapa, float dt) {
+void atualizarInimigos(ListaInimigos* lista, Mapa* mapa, FilaBombas* bombas, Jogador* jogador, float dt) {
     for (Inimigo* cur = lista->head; cur; cur = cur->next) {
-        // Reduz o tempo até a próxima troca de direção
         cur->tempoTroca -= dt;
-        // Reduz o tempo até o próximo movimento
         cur->tempoMovimento -= dt;
 
-        // Troca direção aleatoriamente após tempo expirar
         if (cur->tempoTroca <= 0) {
             cur->direcao = GetRandomValue(0, 3);
             cur->tempoTroca = 5.0f;
         }
 
-        // Move o inimigo se o tempo de passo expirou
         if (cur->tempoMovimento <= 0) {
             int nx = cur->coluna;
             int ny = cur->linha;
 
-            // Calcula a próxima posição com base na direção atual
             switch (cur->direcao) {
                 case DIR_CIMA:     ny--; break;
                 case DIR_BAIXO:    ny++; break;
@@ -67,20 +63,56 @@ void atualizarInimigos(ListaInimigos* lista, Mapa* mapa, float dt) {
                 case DIR_DIREITA:  nx++; break;
             }
 
-            // Verifica se o próximo passo é válido (dentro do mapa e espaço livre)
-            if (entre(nx, 0, COLUNAS - 1) && entre(ny, 0, LINHAS - 1) && mapa->tiles[ny][nx] == ' ') {
-                cur->coluna = nx;
-                cur->linha = ny;
-            } else {
-                // Se não pode andar, escolhe nova direção
-                cur->direcao = GetRandomValue(0, 3);
+            bool bloqueado = false;
+
+            // Parede ou obstáculo no mapa
+            if (!entre(nx, 0, COLUNAS - 1) || !entre(ny, 0, LINHAS - 1))
+                bloqueado = true;
+            else {
+                char t = mapa->tiles[ny][nx];
+                if (t == 'W' || t == 'D' || t == 'B' || t == 'K')
+                    bloqueado = true;
             }
 
-            // Reinicia o tempo até o próximo passo
+            // Tem bomba?
+            for (Bomba* b = bombas->head; b; b = b->next)
+                if (b->linha == ny && b->coluna == nx)
+                    bloqueado = true;
+
+            // Tem outro inimigo?
+            if (temInimigoNaPosicao(lista, ny, nx, cur))
+                bloqueado = true;
+
+            // Tem jogador?
+            if (jogador->linha == ny && jogador->coluna == nx) {
+                if (jogador->invulneravel <= 0) {
+                    penalizarVida(jogador);
+                    jogador->invulneravel = 3.0f;
+                }
+                // NÃO bloqueia o inimigo aqui!
+            }
+            
+
+            if (bloqueado)
+                cur->direcao = GetRandomValue(0, 3);
+            else {
+                cur->coluna = nx;
+                cur->linha = ny;
+            }
+
             cur->tempoMovimento = TEMPO_PASSO;
+        }
+
+        // Verifica colisão mesmo sem movimento
+        if (cur->linha == jogador->linha && cur->coluna == jogador->coluna) {
+            if (jogador->invulneravel <= 0) {
+                penalizarVida(jogador);
+                jogador->invulneravel = 1.0f;
+            }
         }
     }
 }
+
 
 
 // Desenha todos os inimigos na tela
@@ -89,7 +121,7 @@ void desenharInimigos(ListaInimigos* lista) {
         DrawRectangle(cur->coluna * 20, cur->linha * 20, 20, 20, RED); // Cada inimigo é um quadrado vermelho
     }
 }
-void eliminarInimigosExplodidos(ListaInimigos* lista, int linha, int coluna) {
+void eliminarInimigosExplodidos(ListaInimigos* lista, int linha, int coluna, Jogador* jogador){
     Inimigo* atual = lista->head;
     Inimigo* anterior = NULL;
 
@@ -114,11 +146,21 @@ void eliminarInimigosExplodidos(ListaInimigos* lista, int linha, int coluna) {
             else anterior->next = atual->next;
             atual = atual->next;
             free(morto);
+            jogador->pontuacao += 20;
+            TraceLog(LOG_INFO, "+20 pontos por inimigo explodido");
+
         } else {
             anterior = atual;
             atual = atual->next;
         }
     }
+}
+bool temInimigoNaPosicao(ListaInimigos* lista, int linha, int coluna, Inimigo* ignorar) {
+    for (Inimigo* atual = lista->head; atual; atual = atual->next) {
+        if (atual == ignorar) continue;
+        if (atual->linha == linha && atual->coluna == coluna) return true;
+    }
+    return false;
 }
 
 // Libera a memória da lista de inimigos

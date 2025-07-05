@@ -7,6 +7,9 @@ void desenharJogador(Jogador* jogador) {
     int x = jogador->coluna * 20;
     int y = jogador->linha * 20;
     DrawRectangle(x, y, 20, 20, WHITE);  
+    if (jogador->invulneravel <= 0 || ((int)(GetTime() * 10) % 2 == 0)) {
+        DrawRectangle(jogador->coluna * 20, jogador->linha * 20, 20, 20, YELLOW);
+    }    
 }
 
 static bool podeMover(Jogador* jogador, Mapa* mapa, FilaBombas* fila, int l, int c) {

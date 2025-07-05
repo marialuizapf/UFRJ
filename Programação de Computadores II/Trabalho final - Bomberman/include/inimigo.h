@@ -20,12 +20,14 @@ typedef struct {
 // Cria lista de inimigos baseado em 'E' no mapa
 ListaInimigos* criarListaInimigos(Mapa* mapa);
 // Atualiza movimento aleatorio de cada inimigo
-void atualizarInimigos(ListaInimigos* lista, Mapa* mapa, float dt);
+void atualizarInimigos(ListaInimigos* lista, Mapa* mapa, FilaBombas* bombas, Jogador* jogador, float dt);
 // Desenha inimigos na tela (20x20px cada)
 void desenharInimigos(ListaInimigos* lista);
 // Libera memoria da lista de inimigos
 void liberarInimigos(ListaInimigos* lista);
 #define RAIO_EXPLOSAO 5
-void eliminarInimigosExplodidos(ListaInimigos* lista, int linha, int coluna);
+void eliminarInimigosExplodidos(ListaInimigos* lista, int linha, int coluna, Jogador* jogador);
+bool temInimigoNaPosicao(ListaInimigos* lista, int linha, int coluna, Inimigo* ignorar);
+
 
 #endif // INIMIGO_H

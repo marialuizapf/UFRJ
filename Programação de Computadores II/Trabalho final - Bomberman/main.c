@@ -10,43 +10,39 @@
 #include "utils.h"
 
 int main(void) {
-    // Configurações da janela
-    const int largura = 1200;                                 // Largura da janela
-    const int altura  = 600;                                  // Altura da janela
-    InitWindow(largura, altura, "Bomberman - Versão Final");  // Título da janela
-    SetTargetFPS(60);                                         // Taxa de quadros por segundo
+    const int largura = 1200;
+    const int altura  = 600;
+    InitWindow(largura, altura, "Bomberman - Versão Final");
+    SetTargetFPS(60);
 
-    // Carrega os recursos necessários
     Texture2D chave = LoadTexture("assets/key.png");
 
-    // Inicialização do jogo
-    Mapa*           mapa     = carregarMapa("mapas/mapa1.txt");
-    Jogador*        player   = criarJogador(mapa);
-    FilaBombas*     fila     = criarFilaBombas();
-    ListaInimigos*  inimigos = criarListaInimigos(mapa);
-    MenuState       estado   = MENU_JOGO;
+    Mapa* mapa = carregarMapa("mapas/mapa1.txt");
+    Jogador* player = criarJogador(mapa);
+    FilaBombas* fila = criarFilaBombas();
+    ListaInimigos* inimigos = criarListaInimigos(mapa);
+    MenuState estado = MENU_JOGO;
 
     bool faseConcluida = false;
     while (!WindowShouldClose()) {
         float dt = GetFrameTime();
-        
-        // Lógica de jogo
+
+        if (player->invulneravel > 0) player->invulneravel -= dt;
+
         if (estado == MENU_JOGO && !faseConcluida) {
-            // Atualiza jogador e entidades somente se a fase não tiver sido concluída
             atualizarJogador(player, mapa, fila, dt);
             if (IsKeyPressed(KEY_B)) {
                 plantarBomba(fila, player, mapa);
             }
             atualizarBombas(fila, player, mapa, inimigos, dt);
-            atualizarInimigos(inimigos, mapa, dt);
+            atualizarInimigos(inimigos, mapa, fila, player, dt);
 
-            // Se coletou 5 chaves, marca fim de fase
             if (player->chaves >= 5) {
                 faseConcluida = true;
             }
         }
 
-        if(estado == NOVO_JOGO){
+        if (estado == NOVO_JOGO) {
             liberarJogo(&(Jogo){
                 .player   = player,
                 .mapa     = mapa,
@@ -54,9 +50,9 @@ int main(void) {
                 .inimigos = inimigos
             });
 
-            mapa     = carregarMapa("mapas/mapa1.txt");
-            player   = criarJogador(mapa);
-            fila     = criarFilaBombas();
+            mapa = carregarMapa("mapas/mapa1.txt");
+            player = criarJogador(mapa);
+            fila = criarFilaBombas();
             inimigos = criarListaInimigos(mapa);
 
             estado = MENU_JOGO;
@@ -102,7 +98,6 @@ int main(void) {
 
         estado = atualizarMenu(&estado);
 
-        // Renderização
         BeginDrawing();
             if (faseConcluida) {
                 ClearBackground(BLACK);
@@ -115,7 +110,7 @@ int main(void) {
                 DrawText(msg1,  largura/2 - fw1/2, altura/2 - 40, 40, WHITE);
                 DrawText(msg2,  largura/2 - fw2/2, altura/2 +  0, 20, WHITE);
                 DrawText(msg3, largura/2 - fw3/2, altura/2 + 40, 20, WHITE);
-            }else {
+            } else {
                 ClearBackground(SKYBLUE);
                 desenharMapa(mapa, chave);
                 desenharBombas(fila);
@@ -131,16 +126,14 @@ int main(void) {
         EndDrawing();
     }
 
-    // Libera todo o estado do jogo
     Jogo jogo = {
         .player   = player,
         .mapa     = mapa,
         .bombas   = fila,
         .inimigos = inimigos
     };
-    
-    liberarJogo(&jogo);
 
+    liberarJogo(&jogo);
     CloseWindow();
     return 0; 
 }

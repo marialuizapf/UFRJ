@@ -21,6 +21,7 @@ typedef struct Jogador {
     int chaves; 
     float tempoMovimento;
     Direcao direcao;
+    float invulneravel;
 } Jogador;
 
 // Cria jogador e posiciona na posicao do caractere 'J' no mapa

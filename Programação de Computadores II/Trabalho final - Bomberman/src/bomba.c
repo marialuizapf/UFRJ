@@ -181,16 +181,22 @@ void atualizarBombas(FilaBombas* f, Jogador* j, Mapa* m, ListaInimigos* inimigos
                 }
             }
 
-            // Penalizar jogador e eliminar inimigos atingidos
+            // Penalizar jogador se ele estiver na explosão
             for (int d = -RAIO_EXPLOSAO; d <= RAIO_EXPLOSAO; d++) {
                 if ((j->linha == li + d && j->coluna == co) ||
                     (j->linha == li && j->coluna == co + d)) {
-                    penalizarVida(j);
+            
+                    if (j->invulneravel <= 0) {
+                        penalizarVida(j);
+                        j->invulneravel = 3.0f;  // fica invencível por 3 segundos
+                    }
                 }
             }
+            
+
 
             // ☠️ Elimina inimigos atingidos
-            eliminarInimigosExplodidos(inimigos, li, co);
+            eliminarInimigosExplodidos(inimigos, li, co, j);
 
 
             // Marca explosão ativa (por 0.3s)
