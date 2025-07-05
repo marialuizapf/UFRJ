@@ -12,6 +12,9 @@ void salvarJogo(const char* filename, Jogo* jogo) {
     // 1) Salva o nome do arquivo do mapa
     fwrite(jogo->mapa->nomeArquivo, sizeof(char), 64, fp);
 
+    // 1.1) Fase atual
+    fwrite(&jogo->faseAtual, sizeof(int), 1, fp);
+
     // 2) Escreve os dados do jogador sua posição e a fase atual
     fwrite(&jogo->player->linha, sizeof(int), 1, fp);
     fwrite(&jogo->player->coluna, sizeof(int), 1, fp);
@@ -64,6 +67,8 @@ Jogo* carregarJogo(const char* filename) {
         nomeMapa[64] = '\0';
     }
 
+    // 1.1) Lê a fase atual 
+    fread(&jogo->faseAtual, sizeof(int), 1, fp);
 
     // 2) Carrega dados do jogador
     fread(&jogo->player->linha,     sizeof(int),   1, fp);
@@ -71,6 +76,7 @@ Jogo* carregarJogo(const char* filename) {
     fread(&jogo->player->vidas,     sizeof(int),   1, fp);
     fread(&jogo->player->pontuacao, sizeof(int),   1, fp);
     fread(&jogo->player->bombas,    sizeof(int),   1, fp);
+    
 
     // Carrega o mapa
     jogo->mapa = carregarMapa(nomeMapa); // já aloca e preenche tiles

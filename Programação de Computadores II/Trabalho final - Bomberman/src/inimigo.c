@@ -3,8 +3,6 @@
 #include "inimigo.h"
 #include "utils.h"
 
-#define TEMPO_PASSO 0.1f  // Intervalo entre movimentos 
-
 // Cria a lista de inimigos com base no mapa
 ListaInimigos* criarListaInimigos(Mapa* mapa) {
     ListaInimigos* lista = malloc(sizeof(ListaInimigos));
@@ -89,6 +87,37 @@ void atualizarInimigos(ListaInimigos* lista, Mapa* mapa, float dt) {
 void desenharInimigos(ListaInimigos* lista) {
     for (Inimigo* cur = lista->head; cur; cur = cur->next) {
         DrawRectangle(cur->coluna * 20, cur->linha * 20, 20, 20, RED); // Cada inimigo é um quadrado vermelho
+    }
+}
+void eliminarInimigosExplodidos(ListaInimigos* lista, int linha, int coluna) {
+    Inimigo* atual = lista->head;
+    Inimigo* anterior = NULL;
+
+    while (atual) {
+        bool atingido = false;
+
+        // Mesmo linha e coluna (cruz da explosão)
+        if (atual->linha == linha || atual->coluna == coluna) {
+            int dl = atual->linha - linha;
+            int dc = atual->coluna - coluna;
+
+            // Dentro do alcance da explosão?
+            if ((dl == 0 && abs(dc) <= RAIO_EXPLOSAO) ||
+                (dc == 0 && abs(dl) <= RAIO_EXPLOSAO)) {
+                atingido = true;
+            }
+        }
+
+        if (atingido) {
+            Inimigo* morto = atual;
+            if (!anterior) lista->head = atual->next;
+            else anterior->next = atual->next;
+            atual = atual->next;
+            free(morto);
+        } else {
+            anterior = atual;
+            atual = atual->next;
+        }
     }
 }
 
