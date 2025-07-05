@@ -1,3 +1,4 @@
+#include <stdlib.h> 
 #include "raylib.h"
 #include "mapa.h"
 #include "jogador.h"
