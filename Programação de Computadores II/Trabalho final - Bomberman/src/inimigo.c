@@ -91,6 +91,37 @@ void desenharInimigos(ListaInimigos* lista) {
         DrawRectangle(cur->coluna * 20, cur->linha * 20, 20, 20, RED); // Cada inimigo é um quadrado vermelho
     }
 }
+void eliminarInimigosExplodidos(ListaInimigos* lista, int linha, int coluna) {
+    Inimigo* atual = lista->head;
+    Inimigo* anterior = NULL;
+
+    while (atual) {
+        bool atingido = false;
+
+        // Mesmo linha e coluna (cruz da explosão)
+        if (atual->linha == linha || atual->coluna == coluna) {
+            int dl = atual->linha - linha;
+            int dc = atual->coluna - coluna;
+
+            // Dentro do alcance da explosão?
+            if ((dl == 0 && abs(dc) <= RAIO_EXPLOSAO) ||
+                (dc == 0 && abs(dl) <= RAIO_EXPLOSAO)) {
+                atingido = true;
+            }
+        }
+
+        if (atingido) {
+            Inimigo* morto = atual;
+            if (!anterior) lista->head = atual->next;
+            else anterior->next = atual->next;
+            atual = atual->next;
+            free(morto);
+        } else {
+            anterior = atual;
+            atual = atual->next;
+        }
+    }
+}
 
 // Libera a memória da lista de inimigos
 void liberarInimigos(ListaInimigos* lista) {

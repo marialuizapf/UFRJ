@@ -6,12 +6,19 @@
 #define VELOCIDADE 1  // tiles por frame
 
 typedef struct FilaBombas FilaBombas;
+typedef enum {
+    DIR_CIMA,
+    DIR_BAIXO,
+    DIR_ESQUERDA,
+    DIR_DIREITA
+} Direcao;
 
 typedef struct Jogador {
     int linha, coluna;  // Posicao em tiles
     int vidas;
     int pontuacao;
     int bombas;
+    Direcao direcao;
 } Jogador;
 
 // Cria jogador e posiciona na posicao do caractere 'J' no mapa
