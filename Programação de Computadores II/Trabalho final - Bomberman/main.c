@@ -1,4 +1,5 @@
 #include <stdlib.h> 
+#include <stdio.h>
 #include "raylib.h"
 #include "mapa.h"
 #include "jogador.h"
@@ -16,29 +17,46 @@ int main(void) {
     SetTargetFPS(60);
 
     Texture2D chave = LoadTexture("assets/key.png");
+  
+    // Inicialização do jogo
+    int faseAtual = 1;
+    char caminho[64];
+    snprintf(caminho, sizeof(caminho), "mapas/mapa%d.txt", faseAtual);
 
-    Mapa* mapa = carregarMapa("mapas/mapa1.txt");
-    Jogador* player = criarJogador(mapa);
-    FilaBombas* fila = criarFilaBombas();
-    ListaInimigos* inimigos = criarListaInimigos(mapa);
-    MenuState estado = MENU_JOGO;
+    Mapa* mapa = carregarMapa(caminho);
+    Jogador*        player   = criarJogador(mapa);
+    FilaBombas*     fila     = criarFilaBombas();
+    ListaInimigos*  inimigos = criarListaInimigos(mapa);
+    MenuState       estado   = MENU_JOGO;
 
-    bool faseConcluida = false;
+    bool gameVenceu      = false;
+    bool faseConcluida   = false;
+    bool checouProximo   = false;
+
     while (!WindowShouldClose()) {
         float dt = GetFrameTime();
 
         if (player->invulneravel > 0) player->invulneravel -= dt;
-
-        if (estado == MENU_JOGO && !faseConcluida) {
+        // Lógica de jogo
+        if (estado == MENU_JOGO && !faseConcluida && !gameVenceu) {
+          
+            // Atualiza jogador e entidades somente se a fase não tiver sido concluída
             atualizarJogador(player, mapa, fila, dt);
-            if (IsKeyPressed(KEY_B)) {
-                plantarBomba(fila, player, mapa);
-            }
+            if (IsKeyPressed(KEY_B)) plantarBomba(fila, player, mapa);
             atualizarBombas(fila, player, mapa, inimigos, dt);
             atualizarInimigos(inimigos, mapa, fila, player, dt);
 
-            if (player->chaves >= 5) {
-                faseConcluida = true;
+            if (player->chaves >= 1 && !checouProximo) {
+                char proximo[64];
+                snprintf(proximo, sizeof(proximo), "mapas/mapa%d.txt", faseAtual + 1);
+                FILE* fp = fopen(proximo, "r");
+                bool temProximo = (fp != NULL);
+                if (fp) fclose(fp);
+
+                if (temProximo) faseConcluida = true;
+                else            gameVenceu    = true;
+
+                checouProximo = true; 
             }
         }
 
@@ -47,14 +65,20 @@ int main(void) {
                 .player   = player,
                 .mapa     = mapa,
                 .bombas   = fila,
-                .inimigos = inimigos
+                .inimigos = inimigos,
+                .faseAtual = faseAtual
             });
 
-            mapa = carregarMapa("mapas/mapa1.txt");
-            player = criarJogador(mapa);
-            fila = criarFilaBombas();
+            faseAtual = 1;
+            snprintf(caminho, sizeof(caminho), "mapas/mapa%d.txt", faseAtual);
+            mapa     = carregarMapa(caminho);
+            player   = criarJogador(mapa);
+            fila     = criarFilaBombas();
             inimigos = criarListaInimigos(mapa);
-
+            player->chaves = 0;
+            faseConcluida = false;
+            checouProximo  = false; 
+            gameVenceu     = false;
             estado = MENU_JOGO;
         }
 
@@ -63,7 +87,8 @@ int main(void) {
                 .player   = player,
                 .mapa     = mapa,
                 .bombas   = fila,
-                .inimigos = inimigos
+                .inimigos = inimigos,
+                .faseAtual = faseAtual
             });
 
             DrawText("Jogo salvo com sucesso!", 400, 550, 20, GREEN);
@@ -75,7 +100,8 @@ int main(void) {
                 .player   = player,
                 .mapa     = mapa,
                 .bombas   = fila,
-                .inimigos = inimigos
+                .inimigos = inimigos,
+                .faseAtual = faseAtual
             });
 
             Jogo* jogo = carregarJogo("save.dat");
@@ -84,6 +110,7 @@ int main(void) {
                 mapa     = jogo->mapa;
                 fila     = jogo->bombas;
                 inimigos = jogo->inimigos;
+                faseAtual = jogo->faseAtual;
                 free(jogo); 
             }
 
@@ -92,14 +119,68 @@ int main(void) {
         }
 
         if (faseConcluida && IsKeyPressed(KEY_ENTER)) {
+            int vidas_salvas      = player->vidas;
+            int pontuacao_salva   = player->pontuacao;
+
+            liberarJogo(&(Jogo){
+                .player   = player,
+                .mapa     = mapa,
+                .bombas   = fila,
+                .inimigos = inimigos,
+                .faseAtual= faseAtual
+            });
+
+            faseAtual++;
+
+            snprintf(caminho, sizeof(caminho), "mapas/mapa%d.txt", faseAtual);
+            mapa     = carregarMapa(caminho);
+            player   = criarJogador(mapa);
+            fila     = criarFilaBombas();
+            inimigos = criarListaInimigos(mapa);
+
+            player->vidas = vidas_salvas;      // Mantém vidas da fase anterior
+            player->pontuacao = pontuacao_salva; // Mantém pontuação da
+
             faseConcluida = false;
+            checouProximo = false;
+        }
+
+        if(player->vidas <= 0){
+            if(IsKeyPressed(KEY_ENTER)) {
+                estado = NOVO_JOGO;
+            } else if(IsKeyPressed(KEY_Q)) {
+                CloseWindow();
+                return 0; 
+            }
+        }
+
+        if(gameVenceu && IsKeyPressed(KEY_ENTER)) {
             estado = NOVO_JOGO;
+            gameVenceu = false;
+            checouProximo = false;
+        } else if(gameVenceu && IsKeyPressed(KEY_Q)) {
+            CloseWindow();
+            return 0; 
         }
 
         estado = atualizarMenu(&estado);
 
         BeginDrawing();
-            if (faseConcluida) {
+            if(player->vidas <= 0) {
+
+                ClearBackground(RED);
+                const char* msg1 = "Game Over!";
+                const char* msg2 = "Pressione ENTER para reiniciar";
+                const char* msg3 = "Pressione Q para sair";
+                int fw1 = MeasureText(msg1, 40);
+                int fw2 = MeasureText(msg2, 20);
+                int fw3 = MeasureText(msg3, 20);
+                DrawText(msg1, largura/2 - fw1/2, altura/2 - 40, 40, WHITE);
+                DrawText(msg2, largura/2 - fw2/2, altura/2 + 20, 20, WHITE);
+                DrawText(msg3, largura/2 - fw3/2, altura/2 + 40, 20, WHITE);
+
+            }else if (faseConcluida) {
+
                 ClearBackground(BLACK);
                 const char* msg1 = "Parabéns!";
                 const char* msg2 = "Você coletou 5 chaves e passou de fase!";
@@ -108,9 +189,24 @@ int main(void) {
                 int fw2 = MeasureText(msg2, 20);
                 int fw3 = MeasureText(msg3, 20);
                 DrawText(msg1,  largura/2 - fw1/2, altura/2 - 40, 40, WHITE);
-                DrawText(msg2,  largura/2 - fw2/2, altura/2 +  0, 20, WHITE);
+                DrawText(msg2,  largura/2 - fw2/2, altura/2 + 20, 20, WHITE);
+                DrawText(msg3, largura/2 - fw3/2, altura/2 +  40, 20, WHITE);
+
+            }else if (gameVenceu) {
+
+                ClearBackground(GREEN);
+                const char* msg1 = "Você venceu!";
+                const char* msg2 = "Pressione ENTER para reiniciar";
+                const char* msg3 = "Pressione Q para sair";
+                int fw1 = MeasureText(msg1, 40);
+                int fw2 = MeasureText(msg2, 20);
+                int fw3 = MeasureText(msg3, 20);
+                DrawText(msg1, largura/2 - fw1/2, altura/2 - 40, 40, WHITE);
+                DrawText(msg2, largura/2 - fw2/2, altura/2 + 20, 20, WHITE);
                 DrawText(msg3, largura/2 - fw3/2, altura/2 + 40, 20, WHITE);
-            } else {
+              
+            }else {
+               
                 ClearBackground(SKYBLUE);
                 desenharMapa(mapa, chave);
                 desenharBombas(fila);
@@ -123,14 +219,16 @@ int main(void) {
                 DrawText(TextFormat("Vidas: %d", player->vidas),         300, 520, 20, BLACK);
                 DrawText(TextFormat("Pontuacao: %d", player->pontuacao), 600, 520, 20, BLACK);
             }
-        EndDrawing();
+        
+            EndDrawing();
     }
 
     Jogo jogo = {
         .player   = player,
         .mapa     = mapa,
         .bombas   = fila,
-        .inimigos = inimigos
+        .inimigos = inimigos,
+        .faseAtual = faseAtual
     };
 
     liberarJogo(&jogo);
