@@ -5,20 +5,17 @@
 #include "inimigo.h"
 
 void salvarJogo(const char* filename, Jogo* jogo) {
-    // Abre o arquivo para escrita binária
     FILE* fp = fopen(filename, "wb");
     if (!fp) return;
 
-    // 1) Salva o nome do arquivo do mapa
-    fwrite(jogo->mapa->nomeArquivo, sizeof(char), 64, fp);
-
-    // 1.1) Fase atual
+    // 1.) Fase atual
     fwrite(&jogo->faseAtual, sizeof(int), 1, fp);
 
     // 2) Escreve os dados do jogador sua posição e a fase atual
     fwrite(&jogo->player->linha, sizeof(int), 1, fp);
     fwrite(&jogo->player->coluna, sizeof(int), 1, fp);
     fwrite(&jogo->player->vidas, sizeof(int), 1, fp);
+    fwrite(&jogo->player->chaves, sizeof(int), 1, fp);
     fwrite(&jogo->player->pontuacao, sizeof(int), 1, fp);
     fwrite(&jogo->player->bombas, sizeof(int), 1, fp);
 
@@ -58,28 +55,24 @@ Jogo* carregarJogo(const char* filename) {
     jogo->player = malloc(sizeof(Jogador)); 
     if (!jogo->player) { free(jogo); fclose(fp); return NULL;}
 
-    // 1) Lê o nome do mapa e carrega o mapa base
-    char nomeMapa[65];
-    size_t lidos = fread(nomeMapa, 1, 64, fp);
-    if (lidos < 64) {
-        nomeMapa[lidos] = '\0';
-    } else {
-        nomeMapa[64] = '\0';
-    }
-
-    // 1.1) Lê a fase atual 
+    // 1) Lê a fase atual
     fread(&jogo->faseAtual, sizeof(int), 1, fp);
+
+    // 1.1) Monta o caminho completo do arquivo de mapa
+    char caminho[64];
+    snprintf(caminho, sizeof(caminho), "mapas/mapa%d.txt", jogo->faseAtual);
 
     // 2) Carrega dados do jogador
     fread(&jogo->player->linha,     sizeof(int),   1, fp);
     fread(&jogo->player->coluna,    sizeof(int),   1, fp);
     fread(&jogo->player->vidas,     sizeof(int),   1, fp);
+    fread(&jogo->player->chaves,    sizeof(int),   1, fp);
     fread(&jogo->player->pontuacao, sizeof(int),   1, fp);
     fread(&jogo->player->bombas,    sizeof(int),   1, fp);
     
 
     // Carrega o mapa
-    jogo->mapa = carregarMapa(nomeMapa); // já aloca e preenche tiles
+    jogo->mapa = carregarMapa(caminho); // já aloca e preenche tiles
 
     // 3) Sobrescreve os tiles com as alterações salvas
     for (int i = 0; i < LINHAS; i++) {

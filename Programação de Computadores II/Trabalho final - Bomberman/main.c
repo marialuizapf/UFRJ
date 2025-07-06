@@ -1,4 +1,5 @@
 #include <stdlib.h> 
+#include <stdio.h>
 #include "raylib.h"
 #include "mapa.h"
 #include "jogador.h"
@@ -20,11 +21,16 @@ int main(void) {
     Texture2D chave = LoadTexture("assets/key.png");
 
     // Inicialização do jogo
-    Mapa*           mapa     = carregarMapa("mapas/mapa1.txt");
+    int faseAtual = 1;
+    char caminho[64];
+    snprintf(caminho, sizeof(caminho), "mapas/mapa%d.txt", faseAtual);
+
+    Mapa* mapa = carregarMapa(caminho);
     Jogador*        player   = criarJogador(mapa);
     FilaBombas*     fila     = criarFilaBombas();
     ListaInimigos*  inimigos = criarListaInimigos(mapa);
     MenuState       estado   = MENU_JOGO;
+
 
     bool faseConcluida = false;
     while (!WindowShouldClose()) {
@@ -41,7 +47,7 @@ int main(void) {
             atualizarInimigos(inimigos, mapa, dt);
 
             // Se coletou 5 chaves, marca fim de fase
-            if (player->chaves >= 5) {
+            if (player->chaves >= 1) {
                 faseConcluida = true;
             }
         }
@@ -51,10 +57,13 @@ int main(void) {
                 .player   = player,
                 .mapa     = mapa,
                 .bombas   = fila,
-                .inimigos = inimigos
+                .inimigos = inimigos,
+                .faseAtual = faseAtual
             });
 
-            mapa     = carregarMapa("mapas/mapa1.txt");
+            faseAtual = 1;
+            snprintf(caminho, sizeof(caminho), "mapas/mapa%d.txt", faseAtual);
+            mapa     = carregarMapa(caminho);
             player   = criarJogador(mapa);
             fila     = criarFilaBombas();
             inimigos = criarListaInimigos(mapa);
@@ -67,7 +76,8 @@ int main(void) {
                 .player   = player,
                 .mapa     = mapa,
                 .bombas   = fila,
-                .inimigos = inimigos
+                .inimigos = inimigos,
+                .faseAtual = faseAtual
             });
 
             DrawText("Jogo salvo com sucesso!", 400, 550, 20, GREEN);
@@ -79,7 +89,8 @@ int main(void) {
                 .player   = player,
                 .mapa     = mapa,
                 .bombas   = fila,
-                .inimigos = inimigos
+                .inimigos = inimigos,
+                .faseAtual = faseAtual
             });
 
             Jogo* jogo = carregarJogo("save.dat");
@@ -88,6 +99,7 @@ int main(void) {
                 mapa     = jogo->mapa;
                 fila     = jogo->bombas;
                 inimigos = jogo->inimigos;
+                faseAtual = jogo->faseAtual;
                 free(jogo); 
             }
 
@@ -96,8 +108,29 @@ int main(void) {
         }
 
         if (faseConcluida && IsKeyPressed(KEY_ENTER)) {
+            int vidas_salvas      = player->vidas;
+            int pontuacao_salva   = player->pontuacao;
+
+            liberarJogo(&(Jogo){
+                .player   = player,
+                .mapa     = mapa,
+                .bombas   = fila,
+                .inimigos = inimigos,
+                .faseAtual= faseAtual
+            });
+
+            faseAtual++;
+
+            snprintf(caminho, sizeof(caminho), "mapas/mapa%d.txt", faseAtual);
+            mapa     = carregarMapa(caminho);
+            player   = criarJogador(mapa);
+            fila     = criarFilaBombas();
+            inimigos = criarListaInimigos(mapa);
+
+            player->vidas = vidas_salvas;      // Mantém vidas da fase anterior
+            player->pontuacao = pontuacao_salva; // Mantém pontuação da
+
             faseConcluida = false;
-            estado = NOVO_JOGO;
         }
 
         estado = atualizarMenu(&estado);
@@ -136,7 +169,8 @@ int main(void) {
         .player   = player,
         .mapa     = mapa,
         .bombas   = fila,
-        .inimigos = inimigos
+        .inimigos = inimigos,
+        .faseAtual = faseAtual
     };
     
     liberarJogo(&jogo);

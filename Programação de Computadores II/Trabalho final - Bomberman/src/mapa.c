@@ -20,8 +20,8 @@
     Essa função retorna um ponteiro para a estrutura Mapa alocada dinamicamente.
 */
 
-Mapa* carregarMapa(const char* nomeArquivo) {
-    FILE* fp = fopen(nomeArquivo, "r");
+Mapa* carregarMapa(const char* caminho) {
+    FILE* fp = fopen(caminho, "r");
     if (!fp) {
         perror("Erro ao abrir mapa");
         exit(EXIT_FAILURE);  
@@ -33,7 +33,7 @@ Mapa* carregarMapa(const char* nomeArquivo) {
         fclose(fp);
         exit(EXIT_FAILURE);  
     }
-    strncpy(mapa->nomeArquivo, nomeArquivo, sizeof(mapa->nomeArquivo));
+    strncpy(mapa->nomeArquivo, caminho, sizeof(mapa->nomeArquivo));
     mapa->nomeArquivo[sizeof(mapa->nomeArquivo) - 1] = '\0'; // Garante que a string esteja terminada
 
     mapa->tiles = malloc(sizeof(char*) * LINHAS);  // Aloca um vetor de ponteiros, um para cada linha do mapa
