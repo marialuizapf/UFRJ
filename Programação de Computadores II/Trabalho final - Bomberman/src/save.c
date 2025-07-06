@@ -70,6 +70,8 @@ Jogo* carregarJogo(const char* filename) {
     fread(&jogo->player->pontuacao, sizeof(int),   1, fp);
     fread(&jogo->player->bombas,    sizeof(int),   1, fp);
 
+    jogo->player->tempoMovimento = 0.0f; // Inicializa o tempo de movimento
+
     // Carrega o mapa
     jogo->mapa = carregarMapa(caminho); // já aloca e preenche tiles
 
