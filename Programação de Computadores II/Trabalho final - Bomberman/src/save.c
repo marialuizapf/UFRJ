@@ -69,7 +69,6 @@ Jogo* carregarJogo(const char* filename) {
     fread(&jogo->player->chaves,    sizeof(int),   1, fp);
     fread(&jogo->player->pontuacao, sizeof(int),   1, fp);
     fread(&jogo->player->bombas,    sizeof(int),   1, fp);
-    
 
     // Carrega o mapa
     jogo->mapa = carregarMapa(caminho); // já aloca e preenche tiles
@@ -107,6 +106,7 @@ Jogo* carregarJogo(const char* filename) {
         fread(&in->coluna, sizeof(int), 1, fp);
         fread(&in->direcao, sizeof(int), 1, fp);
         fread(&in->tempoTroca, sizeof(float), 1, fp);
+        in->tempoMovimento = 0.0f; 
         in->next = NULL;
 
         if (!jogo->inimigos->head) jogo->inimigos->head = in;
