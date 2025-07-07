@@ -76,7 +76,6 @@ void atualizarBombas(FilaBombas* f, Jogador* j, Mapa* m, ListaInimigos* inimigos
         } else {
             cur->tempo_explosao -= dt;
         }
-
         // Recolhimento
         if (!cur->explodindo &&
             cur == f->head &&
