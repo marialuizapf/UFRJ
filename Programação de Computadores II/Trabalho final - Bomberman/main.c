@@ -43,6 +43,7 @@ int main(void) {
             // Atualiza jogador e entidades somente se a fase não tiver sido concluída
             atualizarJogador(player, mapa, fila, dt);
             if (IsKeyPressed(KEY_B)) plantarBomba(fila, player, mapa);
+            if (IsKeyPressed(KEY_R)) retirarBomba(fila, player, mapa);
             atualizarBombas(fila, player, mapa, inimigos, dt);
             atualizarInimigos(inimigos, mapa, fila, player, dt);
 
@@ -73,6 +74,7 @@ int main(void) {
             snprintf(caminho, sizeof(caminho), "mapas/mapa%d.txt", faseAtual);
             mapa     = carregarMapa(caminho);
             player   = criarJogador(mapa);
+            player->invulneravel = 0.0f;
             fila     = criarFilaBombas();
             inimigos = criarListaInimigos(mapa);
             player->chaves = 0;
@@ -112,6 +114,7 @@ int main(void) {
                 inimigos = jogo->inimigos;
                 faseAtual = jogo->faseAtual;
                 free(jogo); 
+                player->invulneravel = 0.0f;
             }
 
             DrawText("Jogo carregado com sucesso!", 400, 550, 20, GREEN);
@@ -140,6 +143,7 @@ int main(void) {
 
             player->vidas = vidas_salvas;      // Mantém vidas da fase anterior
             player->pontuacao = pontuacao_salva; // Mantém pontuação da
+            player->invulneravel = 0.0f;
 
             faseConcluida = false;
             checouProximo = false;

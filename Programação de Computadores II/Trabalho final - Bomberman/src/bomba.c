@@ -67,6 +67,35 @@ void plantarBomba(FilaBombas* f, Jogador* j, Mapa* mapa) {
     j->bombas--;
 }
 
+void retirarBomba(FilaBombas* f, Jogador* j, Mapa* m) {
+    if (!f->head) return;              // fila vazia
+
+    // 1) calcula posição à frente do jogador
+    int li = j->linha;
+    int co = j->coluna;
+    switch (j->direcao) {
+        case DIR_CIMA:     li--; break;
+        case DIR_BAIXO:    li++; break;
+        case DIR_ESQUERDA: co--; break;
+        case DIR_DIREITA:  co++; break;
+        default: break;
+    }
+    // 2) limites
+    if (li < 0 || li >= LINHAS || co < 0 || co >= COLUNAS) return;
+
+    // 3) verifica se a cabeça da fila está nessa posição e ainda não explodiu
+    Bomba* b = f->head;
+    if (b->linha != li || b->coluna != co || b->explodindo) return;
+
+    // 4) remove a cabeça (dequeue)
+    f->head = b->next;
+    if (!f->head) f->tail = NULL;
+
+    // 5) devolve bomba ao jogador
+    j->bombas++;
+    free(b);
+}
+
 void atualizarBombas(FilaBombas* f, Jogador* j, Mapa* m, ListaInimigos* inimigos, float dt) {
     Bomba *ant = NULL, *cur = f->head;
 
@@ -75,21 +104,6 @@ void atualizarBombas(FilaBombas* f, Jogador* j, Mapa* m, ListaInimigos* inimigos
             cur->timer -= dt;
         } else {
             cur->tempo_explosao -= dt;
-        }
-        // Recolhimento
-        if (!cur->explodindo &&
-            cur == f->head &&
-            j->linha == cur->linha &&
-            j->coluna == cur->coluna &&
-            cur->timer > 0 &&
-            IsKeyPressed(KEY_R)) {
-            f->head = cur->next;
-            if (!f->head) f->tail = NULL;
-            j->bombas++;
-            free(cur);
-            cur = f->head;
-            ant = NULL;
-            continue;
         }
 
         // Explodir

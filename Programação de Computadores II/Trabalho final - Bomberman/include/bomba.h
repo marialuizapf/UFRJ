@@ -29,6 +29,7 @@ FilaBombas* criarFilaBombas(void);
 void liberarFilaBombas(FilaBombas* fila);
 // Planta uma bomba (decrementa estoque do jogador)
 void plantarBomba(FilaBombas* fila, Jogador* jogador, Mapa* mapa);
+void retirarBomba(FilaBombas* f, Jogador* j, Mapa* m);
 // Atualiza timers, trata explosoes e recolhimento via fila FIFO
 void atualizarBombas(FilaBombas* f, Jogador* j, Mapa* m, ListaInimigos* inimigos, float dt);
 // Desenha todas as bombas na tela
