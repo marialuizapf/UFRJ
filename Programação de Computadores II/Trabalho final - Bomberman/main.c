@@ -57,7 +57,7 @@ int main(void) {
             atualizarJogador(player, mapa, fila, dt);
 
             if (IsKeyPressed(KEY_B))
-                plantarBomba(fila, player, mapa);
+                plantarBomba(fila, player, mapa, texBomba, texExplosao);
             if (IsKeyPressed(KEY_R))
                 retirarBomba(fila, player, mapa);
 

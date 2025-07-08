@@ -23,6 +23,7 @@ void salvarJogo(const char* filename, Jogo* jogo) {
     fwrite(&jogo->player->pontuacao, sizeof(int), 1, fp);
     fwrite(&jogo->player->bombas,    sizeof(int), 1, fp);
     fwrite(&jogo->player->direcao, sizeof(int), 1, fp);
+    fwrite(&jogo->player->invulneravel, sizeof(float), 1, fp);
 
     // 3. Salva os tiles do mapa (com possíveis alterações em tempo de jogo)
     for (int i = 0; i < LINHAS; i++)
@@ -94,6 +95,8 @@ Jogo* carregarJogo(const char* filename, Texture2D texJogador, Texture2D texInim
     fread(&jogo->player->pontuacao, sizeof(int), 1, fp);
     fread(&jogo->player->bombas,    sizeof(int), 1, fp);
     fread(&jogo->player->direcao, sizeof(int), 1, fp);
+    fread(&jogo->player->invulneravel, sizeof(float), 1, fp);
+
     jogo->player->tempoMovimento = 0.0f;
 
     // 3. Carrega o mapa da fase e sobrescreve com os tiles salvos

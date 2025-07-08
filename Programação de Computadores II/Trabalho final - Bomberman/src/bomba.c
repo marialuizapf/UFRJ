@@ -45,7 +45,7 @@ void liberarFilaBombas(FilaBombas* f) {
         Planta uma bomba à frente do jogador, se possível.
     ============================================
 */
-void plantarBomba(FilaBombas* f, Jogador* j, Mapa* mapa) {
+void plantarBomba(FilaBombas* f, Jogador* j, Mapa* mapa, Texture2D sprite_bomba, Texture2D sprite_explosao) {
     if (j->bombas <= 0) return;
 
     int li = j->linha;

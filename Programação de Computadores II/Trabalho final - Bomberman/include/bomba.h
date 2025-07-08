@@ -45,7 +45,7 @@ FilaBombas* criarFilaBombas(void);
 void liberarFilaBombas(FilaBombas* fila);
 
 // Planta uma bomba na frente do jogador, se possível
-void plantarBomba(FilaBombas* fila, Jogador* jogador, Mapa* mapa);
+void plantarBomba(FilaBombas* fila, Jogador* jogador, Mapa* mapa, Texture2D sprite_bomba, Texture2D sprite_explosao);
 
 // Retira uma bomba (caso esteja ativa e próxima ao jogador)
 void retirarBomba(FilaBombas* fila, Jogador* jogador, Mapa* mapa);
