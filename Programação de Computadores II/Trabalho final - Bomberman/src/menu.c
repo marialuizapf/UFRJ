@@ -4,39 +4,62 @@
 #include "save.h"
 #include "jogador.h"
 
+// ==========================================
+// FUNÇÃO: iniciarMenu
+// Descrição: Inicializa o menu (placeholder atual)
+// ==========================================
 void iniciarMenu(void) {
-    // nada para inicializar no momento
+    // Por enquanto, nada a ser inicializado
 }
 
-/*
-    *Função que atualiza o estado do menu do jogo passando de MENU_PRINCIPAL para MENU_JOGO
-    *e vice-versa, dependendo das teclas pressionadas. O MENU_JOGO é o estado onde o jogo
-    *está rodando, enquanto o MENU_PRINCIPAL é o estado onde o usuário pode escolher
-    *opções como novo jogo, carregar jogo, salvar jogo ou sair do jogo. 
-*/
+// ==========================================
+// FUNÇÃO: atualizarMenu
+// Descrição: Atualiza o estado atual do menu com base nas teclas pressionadas.
+//            O menu pode alternar entre o jogo, o menu principal e ações como salvar/carregar.
+// Parâmetros: ponteiro para o estado atual do menu
+// Retorna: novo estado do menu
+// ==========================================
 MenuState atualizarMenu(MenuState* estado) {
-    if (IsKeyPressed(KEY_TAB)) *estado = MENU_PRINCIPAL;
+    // Pressionar TAB alterna entre jogo e menu principal
+    if (IsKeyPressed(KEY_TAB))
+        *estado = MENU_PRINCIPAL;
+
     switch (*estado) {
         case MENU_PRINCIPAL:
-            if (IsKeyPressed(KEY_N)) *estado = NOVO_JOGO; // Inicia novo jogo
-            else if (IsKeyPressed(KEY_C)) *estado = CARREGAR_JOGO; // Carrega jogo salvo
-            else if (IsKeyPressed(KEY_S)) *estado = SALVAR_JOGO; // Salva jogo atual
-            else if (IsKeyPressed(KEY_Q)) { CloseWindow(); exit(0); } // Sai do jogo
-            else if (IsKeyPressed(KEY_V)) *estado = MENU_JOGO; // Volta para o jogo
+            if (IsKeyPressed(KEY_N)) {
+                *estado = NOVO_JOGO; // Novo jogo
+            }
+            else if (IsKeyPressed(KEY_C)) {
+                *estado = CARREGAR_JOGO; // Carregar jogo salvo
+            }
+            else if (IsKeyPressed(KEY_S)) {
+                *estado = SALVAR_JOGO; // Salvar progresso atual
+            }
+            else if (IsKeyPressed(KEY_Q)) {
+                CloseWindow(); // Encerra o jogo
+                exit(0);
+            }
+            else if (IsKeyPressed(KEY_V)) {
+                *estado = MENU_JOGO; // Volta ao jogo
+            }
             break;
-        default: break;
+
+        default:
+            break;
     }
+
     return *estado;
 }
 
-// Função que desenha o menu na tela de acordo com o estado atual do menu.
+// ==========================================
+// FUNÇÃO: desenharMenu
+// Descrição: Desenha o menu principal na tela se estiver ativo
+// Parâmetros: estado atual do menu
+// ==========================================
 void desenharMenu(MenuState estado) {
-    switch (estado) {
-        case MENU_PRINCIPAL:
-            DrawRectangle(0, 0, 1200, 100, GRAY);
-            DrawText("N: Novo   C: Carregar   S: Salvar   Q: Sair   V: Voltar", 50, 40, 20, BLACK);
-            break;
-        default:
-            break;
+    if (estado == MENU_PRINCIPAL) {
+        DrawRectangle(0, 0, 1200, 100, GRAY); // Fundo do menu
+        DrawText("N: Novo   C: Carregar   S: Salvar   Q: Sair   V: Voltar", 
+                 50, 40, 20, BLACK);
     }
 }

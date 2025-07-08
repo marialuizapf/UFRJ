@@ -15,11 +15,13 @@ typedef struct {
     int faseAtual;
 } Jogo;
 
-// Salva estado em arquivo binario
+// Salva o estado do jogo em arquivo binário
 void salvarJogo(const char* filename, Jogo* jogo);
-// Carrega estado de arquivo binario
-Jogo* carregarJogo(const char* filename);
-// Libera toda a memoria de Jogo
+
+// Carrega o estado do jogo de um arquivo binário
+Jogo* carregarJogo(const char* filename, Texture2D texJogador, Texture2D texInimigo, Texture2D texBomba, Texture2D texExplosao);
+
+// Libera toda a memória associada ao jogo
 void liberarJogo(Jogo* jogo);
 
 #endif // SAVE_H

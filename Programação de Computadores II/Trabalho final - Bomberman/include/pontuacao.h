@@ -3,13 +3,16 @@
 
 #include "jogador.h"
 
-// Atualiza pontuacao ao explodir inimigo
+// Adiciona pontos ao eliminar um inimigo
 void pontuarInimigo(Jogador* jogador);
-// Atualiza pontuacao ao explodir caixa ou obstaculo destrutivel
+
+// Adiciona pontos ao destruir caixa ou bloco
 void pontuarCaixa(Jogador* jogador);
-// Penaliza vida perdida
+
+// Penaliza pontos e vidas ao jogador
 void penalizarVida(Jogador* jogador);
-// Garante que pontuacao nao fique negativa
+
+// Garante que a pontuação não fique negativa
 void ajustarPontuacao(Jogador* jogador);
 
 #endif // PONTUACAO_H
