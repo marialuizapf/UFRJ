@@ -89,13 +89,14 @@ int main(void) {
 
             // Recomeça jogo do início
             faseAtual = 1;
-            player->invulneravel = 0.0f;
             snprintf(caminho, sizeof(caminho), "mapas/mapa%d.txt", faseAtual);
             mapa = carregarMapa(caminho);
             player = criarJogador(mapa, texJogador);
+            player->invulneravel = 0.0f; 
             fila = criarFilaBombas();
             inimigos = criarListaInimigos(mapa, texInimigo);
             player->chaves = 0;
+
 
             faseConcluida = false;
             checouProximo = false;
