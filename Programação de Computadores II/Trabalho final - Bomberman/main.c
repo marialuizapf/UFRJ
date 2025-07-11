@@ -65,7 +65,7 @@ int main(void) {
             atualizarInimigos(inimigos, mapa, fila, player, dt);
 
             // Verifica se jogador pode passar de fase
-            if (player->chaves >= 1 && !checouProximo) {
+            if (player->chaves >= 5 && !checouProximo) {
                 char proximo[64];
                 snprintf(proximo, sizeof(proximo), "mapas/mapa%d.txt", faseAtual + 1);
                 FILE* fp = fopen(proximo, "r");
