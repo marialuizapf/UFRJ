@@ -17,5 +17,14 @@
       },
       "problemMatcher": ["$gcc"]
     }
+  ],
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Principal",
+      "request": "launch",
+      "mainClass": "POO.Cite.Principal",
+      "projectName": "UFRJ_65aebc0b"
+    }
   ]
 }

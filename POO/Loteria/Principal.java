@@ -1,6 +1,6 @@
 public class Principal {
 	public static void main(String[] args) {
-		
+
 		Loteria l1 = new Loteria(); // números de 1 a 10
 		
 		int qtde_pessoas = 5;
@@ -13,7 +13,8 @@ public class Principal {
 		}
 		
 		// pessoa1 compra bilhete 2
-		
+		c_pessoas[0].comprar_Bilhete(2, l1);
+
 		// pessoa2 compra bilhete 3 
 
 		// pessoa3 compra bilhete 7

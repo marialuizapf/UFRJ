@@ -10,6 +10,6 @@ public class Veiculo {
 	
 	protected void imprimir_dados(){
 		System.out.println("Dados");
-		Sytem.out.println(chassi, modelo, ano);
+		System.out.println(chassi, modelo, ano);
 	}
 }
