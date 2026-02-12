@@ -1,0 +1,11 @@
+### Sistema de Fábrica de Móveis
+- Faça um sistema para uma fábrica de móveis, eles podem ser:
+    - mesa
+    - cadeira
+    - armário
+- Cada móvel é feito de um material, tem um custo de fabricação e um preço para venda(custo de fabricação poed mudar)
+- Cada móvel tem que guardar o seu custo de fabricação e tem o seu preço, o qual pode mudar
+- Ao ser criado, o preço da cadeira é o dobro do custo
+- Ao ser criado outro móvel o preço é R$100 a mias que o custo
+- Cada tipo de móvel tem um valor mínimo
+- O sistema tem que saber informar o custo médio de fabricação entre todos os móveis jáfabricados para cada tipo

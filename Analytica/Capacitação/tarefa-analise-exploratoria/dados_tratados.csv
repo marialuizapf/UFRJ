@@ -1,0 +1,1001 @@
+bus_line_id,driver_name,bus_color,bus_start_time,bus_end_time,bus_built_date,bus_route,bus_price(R$),bus_integrity,bus_company,bus_capacity
+1,Aguistin Seivwright,#a01e15,1:18 PM,9:36 PM,2007-01-27,Flamengo-Copacabana,1401234.56,0.8,"Zulauf, King and Schowalter",38
+2,Tedd Ailsbury,#35f91e,4:41 PM,2:51 PM,2013-05-03,Jardim Botânico-Flamengo,701234.56,0.62,"Leuschke, Zieme and Rippin",42
+3,Orren Layus,#662b1d,3:30 AM,10:38 AM,2002-07-07,Leblon-Botafogo,590123.45,0.99,"Oberbrunner, Padberg and Dickinson",42
+4,Cornie Rippingall,#5ec957,4:51 AM,11:01 PM,2011-07-21,Botafogo-Leme,1234567.89,0.99,Lindgren-O'Keefe,49
+5,Corrianne Widdowson,#5a32b2,5:10 AM,1:35 PM,2015-12-07,rota não atribuída,623456.78,0.99,Zieme LLC,36
+6,Nadiya Emblen,#c8867c,9:12 AM,8:56 PM,2009-03-23,São Conrado-Largo do Machado,889012.34,0.57,Hagenes-Kshlerin,30
+7,Jerrylee Wakelin,#85bd09,5:25 AM,12:22 PM,2022-10-09,Centro-Leme,1490123.45,0.68,Grant and Sons,33
+8,Carmen Hattoe,#89ea69,10:38 AM,1:52 PM,2015-04-06,Botafogo-Leme,1212345.67,0.815,"Fadel, Gislason and Emmerich",33
+9,Claude Gypps,#559db9,11:43 AM,6:46 PM,2019-02-15,Gávea-Lapa,634567.89,0.95,"Boyle, Rath and Lueilwitz",60
+10,Gerardo O'Loinn,#0add48,12:00 AM,9:41 AM,2014-04-15,Lapa-Leblon,712345.67,0.99,"Hilll, Schmitt and Mills",36
+11,motorista não atribuído,#5717f1,12:45 AM,8:51 PM,2022-10-16,Gávea-Botafogo,678901.23,0.68,Barton-Graham,39
+12,Kacey Hencke,#21d3ec,3:19 AM,6:57 PM,2005-03-24,Urca-Largo do Machado,1389012.34,0.51,McGlynn-O'Reilly,32
+13,Betteann Robeiro,#43aef9,6:33 AM,3:02 PM,2022-06-24,rota não atribuída,812345.67,0.63,Osinski Group,54
+14,Patti Dowson,#497dae,2:45 AM,11:06 AM,2005-11-10,São Conrado-Glória,912345.67,0.9,Will-Huel,42
+15,Chevy Float,#348720,4:44 PM,12:36 PM,2012-01-04,Urca-Lapa,556789.01,0.73,Haag-Marks,47
+16,Wyatt Siviour,#6784c3,1:04 PM,11:10 PM,2017-12-13,rota não atribuída,889012.34,0.6799999999999999,"Schneider, Treutel and Raynor",48
+17,Wiley Depport,#1d5183,12:49 AM,9:16 PM,2005-01-29,Centro-Leme,1223456.78,0.63,Johnson-Turcotte,56
+18,Brena Ripsher,#660388,10:27 AM,11:29 AM,2005-02-17,Botafogo-Leme,667890.12,0.57,Mosciski-Kutch,49
+19,Lawrence Janny,#c43bb2,3:25 AM,8:10 PM,2014-06-06,rota não atribuída,1201234.56,0.62,Gusikowski-Botsford,55
+20,Kaine MacKnocker,#374f22,2:04 PM,7:49 AM,2005-01-25,Jardim Oceânico-Leme,1445678.9,0.655,Yost LLC,39
+21,Chan D'Abbot-Doyle,#eb15de,9:00 AM,11:40 PM,2017-08-28,Copacabana-Ipanema,1412345.67,0.69,Kilback-Langworth,37
+22,Krystyna D'Arrigo,#8bb68f,4:17 AM,4:07 PM,2022-06-14,Jardim Botânico-Ipanema,1278901.23,0.84,Schuppe Group,33
+23,motorista não atribuído,#038512,12:57 AM,7:12 PM,2017-07-30,Botafogo-Centro,701234.56,0.69,Parker-Rohan,40
+24,Hammad Barker,#ea31c4,12:20 AM,8:48 PM,2009-03-04,Urca-Lapa,1412345.67,0.71,Zulauf and Sons,49
+25,motorista não atribuído,#146dcd,5:28 AM,12:32 PM,2023-01-12,Ipanema-Centro,1390123.45,0.73,Dooley-Cormier,33
+26,Marianna Guiraud,#329fe8,2:09 PM,11:09 AM,2018-05-19,Centro-Leme,1167890.12,0.58,"Armstrong, Thompson and Trantow",50
+27,Kirby Dybell,#c6781d,2:56 AM,7:12 PM,2004-09-28,Lapa-Jardim Oceânico,1278901.23,0.73,"Hane, Steuber and Barton",46
+28,Weber Barrasse,#28388b,7:31 AM,8:55 PM,2013-11-18,Barra da Tijuca-Leblon,1301234.56,0.52,Kovacek Inc,54
+29,Guillemette Irons,#900a08,8:22 AM,7:52 PM,2020-09-25,Jardim Oceânico-Copacabana,645678.9,0.79,Bechtelar-Hauck,47
+30,Zitella Mousdall,#3b0c8e,3:24 PM,9:08 PM,2021-01-20,Ipanema-Centro,1278901.23,0.73,Johnson and Sons,49
+31,Gregorius Van Driel,#3ac549,8:35 AM,9:10 PM,2014-05-05,Barra da Tijuca-Centro,934567.89,0.9,Keebler-Gutmann,30
+32,Layla Gristhwaite,#af11be,1:42 PM,10:59 PM,2014-04-29,São Conrado-Largo do Machado,556789.01,0.73,"Labadie, Sipes and Gislason",34
+33,Deina Gouldeby,#e78d4a,8:26 AM,7:34 AM,2012-07-29,Botafogo-Centro,1445678.9,0.9,Raynor-Leannon,34
+34,Kort Kirkman,#fed655,5:21 AM,7:29 PM,2010-01-21,Ipanema-Gávea,523456.78,0.62,Borer-Krajcik,51
+35,Ali Harrhy,#123417,6:21 AM,9:35 PM,2018-05-29,Lapa-Copacabana,1389012.34,0.63,"Daugherty, Wuckert and Hirthe",41
+36,Cynthea Maro,#2734ae,4:56 AM,7:19 AM,2011-06-15,Jardim Botânico-Leblon,1490123.45,0.52,Marvin-Nolan,33
+37,Ellis O' Liddy,#deaad4,4:38 PM,7:45 PM,2017-07-03,Jardim Oceânico-Lapa,845678.9,0.99,"Schaden, Kautzer and Bailey",33
+38,Bentley Ricardin,#bbe261,4:23 PM,7:47 PM,2004-09-06,Barra da Tijuca-Leblon,734567.89,0.58,O'Kon-Hyatt,34
+39,Jillian Toman,#cd13b1,2:11 AM,12:39 PM,2016-01-24,Leblon-Botafogo,601234.56,0.84,Bosco-Keebler,46
+40,Marv Vaszoly,#3803de,7:04 AM,7:54 AM,2006-05-28,Barra da Tijuca-Jardim Botânico,1490123.45,0.8,Kshlerin and Sons,35
+41,Lizzy Niblo,#ef344f,5:12 AM,1:45 PM,2022-08-31,Urca-Lapa,967890.12,0.84,Heathcote-Bashirian,53
+42,motorista não atribuído,#05c5b0,9:42 AM,6:58 PM,2013-02-12,São Conrado-Jardim Botânico,912345.67,0.73,"Abshire, Moore and Herzog",58
+43,Alexei Odam,#0fe99f,4:55 AM,5:41 PM,2015-05-26,Flamengo-São Conrado,923456.78,0.74,Larson Group,39
+44,Lula Raddon,#1c81d6,3:28 PM,11:22 PM,2018-02-14,Largo do Machado-Barra da Tijuca,1367890.12,0.68,Ritchie LLC,43
+45,Roxie Garrigan,#78e7d0,7:27 AM,12:44 PM,2017-04-25,rota não atribuída,956789.01,0.58,Jacobs Group,37
+46,Kathye Prozescky,#5b387a,1:31 PM,8:28 PM,2004-05-05,Flamengo-Copacabana,889012.34,0.95,"Crona, Blick and Reichel",57
+47,Chaddie Maffey,#3afce9,11:57 AM,5:06 PM,2008-07-29,rota não atribuída,1089012.34,0.95,"Glover, Kris and Weber",41
+48,Rutger Clarricoates,#8eb7f9,3:52 AM,10:13 PM,2020-03-09,Glória-Leme,1267890.12,0.8966666666666666,"Brekke, Fay and Cummerata",30
+49,Angelique Annice,#e060a7,4:32 PM,9:10 AM,2003-12-09,Flamengo-São Conrado,1156789.01,0.8433333333333334,"Beatty, Deckow and Bartoletti",42
+50,Britta Campione,#efa926,2:47 PM,10:31 PM,2003-11-05,Ipanema-Jardim Botânico,1378901.23,0.79,Romaguera-Kertzmann,57
+51,Ediva Pidgley,#2b7257,2:54 PM,7:35 PM,2019-10-10,Copacabana-Lapa,1478901.23,0.52,Mann-Kulas,59
+52,Gordie Scolding,#efd37c,2:52 PM,10:30 AM,2009-04-10,rota não atribuída,645678.9,0.52,Altenwerth-Mohr,48
+53,Fulvia Durnall,#133f59,12:21 PM,8:37 PM,2020-10-12,rota não atribuída,1090123.45,0.58,"Dach, Turcotte and Koch",45
+54,Maurise Dixsee,#6100de,1:34 AM,7:16 AM,2004-03-19,Flamengo-Copacabana,801234.56,0.74,"Davis, Paucek and Miller",56
+55,Hurley Skase,#c36617,2:26 AM,5:11 PM,2014-12-11,rota não atribuída,1089012.34,0.73,Abshire Inc,49
+56,Shellie Routham,#0ddf8c,11:45 AM,6:08 PM,2014-12-28,Copacabana-Barra da Tijuca,767890.12,0.52,"Williamson, Fadel and Cassin",48
+57,Kelly Semple,#7b2efc,11:16 AM,11:32 PM,2022-04-22,rota não atribuída,1234567.89,0.63,"Schneider, Bernier and Harris",47
+58,Jesselyn Theze,#20d853,11:57 AM,5:41 PM,2011-06-12,Urca-Largo do Machado,978901.23,0.68,Kihn-Wunsch,36
+59,Tobe MacGiany,#90ed9a,12:59 AM,3:08 PM,2005-06-30,Jardim Botânico-Flamengo,1267890.12,0.99,"Prohaska, Morar and O'Kon",42
+60,Mathian Extal,#2e0752,3:06 AM,1:46 PM,2012-02-03,Ipanema-Jardim Botânico,667890.12,0.58,"Murray, Russel and Wyman",36
+61,Sarena MacCosty,#4226ce,2:06 PM,6:26 AM,2021-09-04,Flamengo-Copacabana,701234.56,0.79,Herzog-Abbott,45
+62,Agnesse Clint,#6d6763,12:30 PM,8:57 AM,2018-12-14,Jardim Oceânico-Copacabana,1467890.12,0.52,Barrows LLC,39
+63,Willy Shapland,#beee5f,10:52 AM,2:01 PM,2008-07-24,rota não atribuída,523456.78,0.8,"Auer, Champlin and Jast",42
+64,Vick Whitcomb,#b32fab,6:43 AM,5:42 PM,2009-08-27,Barra da Tijuca-Leblon,1189012.34,0.74,Bins-Jenkins,58
+65,Keir Treneer,#64be82,5:57 AM,3:07 PM,2012-04-15,Jardim Botânico-Leblon,1412345.67,0.69,Bernhard Inc,59
+66,Jasper Timmes,#d56b82,2:33 AM,9:33 PM,2020-12-15,São Conrado-Urca,756789.01,0.51,Armstrong-Roob,43
+67,Lissie Beeton,#1b7718,12:53 AM,1:24 PM,2020-02-06,Lapa-Leblon,756789.01,0.9,Mraz-Glover,39
+68,Jesse Mordie,#864af2,2:33 AM,6:26 PM,2018-10-24,Urca-Leblon,701234.56,0.52,Blick and Sons,54
+69,Desiree Chaman,#06e0b3,8:39 AM,8:10 AM,2010-11-25,Gávea-Botafogo,1256789.01,0.69,Miller Inc,35
+70,motorista não atribuído,#f3998c,4:07 AM,10:22 PM,2016-06-12,Barra da Tijuca-Leblon,1334567.89,0.62,"Murray, Barton and Wolf",38
+71,Jarrid Dows,#58bf92,3:50 AM,11:08 AM,2003-06-06,São Conrado-Jardim Botânico,745678.9,0.69,Turner Group,59
+72,Claudell Dyster,#43cdc8,10:04 AM,6:44 PM,2006-05-11,Barra da Tijuca-Leblon,1001234.56,0.69,Wiza Group,45
+73,Hazel Dodgshon,#2d5b06,8:10 AM,11:18 PM,2003-08-06,rota não atribuída,967890.12,0.8,"Paucek, Marquardt and Schaden",31
+74,Gayla Lammie,#f42e5e,1:06 AM,12:26 PM,2018-08-21,Barra da Tijuca-Centro,923456.78,0.58,Nolan LLC,52
+75,Quinn Whitnell,#f48e07,1:54 AM,10:18 PM,2019-04-04,Jardim Botânico-Leblon,534567.89,0.57,Cruickshank-Fay,39
+76,Torie Garmanson,#ee001e,4:57 AM,7:07 PM,2012-11-11,Flamengo-São Conrado,512345.67,0.9,Buckridge Inc,42
+77,motorista não atribuído,#889e66,4:17 PM,9:55 AM,2006-06-12,Centro-Jardim Botânico,834567.89,0.51,Wolf-Farrell,58
+78,Sayres Ralling,#0946a2,1:55 PM,1:19 PM,2017-03-21,Ipanema-Centro,1301234.56,0.84,King Group,57
+79,Wilow Tuppeny,#187f63,2:07 AM,4:52 PM,2017-05-22,São Conrado-Largo do Machado,1212345.67,0.69,"Toy, Toy and Harber",38
+80,motorista não atribuído,#18bff9,8:09 AM,6:33 PM,2008-10-28,Largo do Machado-Barra da Tijuca,1334567.89,0.52,Cassin Group,30
+81,Celine Wankling,#0276bb,11:55 AM,6:13 PM,2012-10-08,Lapa-Leblon,556789.01,0.9,Heaney Inc,60
+82,Brunhilde Peer,#7db70c,1:51 PM,4:06 PM,2004-04-29,Leme-São Conrado,989012.34,0.95,Cummerata Inc,44
+83,Jamesy Mansford,#44343e,3:11 PM,6:08 PM,2002-12-17,Lapa-Gávea,923456.78,0.69,"Braun, Considine and Johnston",57
+84,Bartholomeo Boulsher,#e4f29b,4:56 PM,8:14 AM,2017-06-25,Centro-Leme,1067890.12,0.74,Abshire-Rosenbaum,31
+85,Rafael Vowden,#8fbb9e,8:57 AM,4:10 PM,2005-05-15,Leme-Gávea,1423456.78,0.79,DuBuque Group,40
+86,Robinet Cosker,#d2cc49,6:18 AM,2:07 PM,2021-03-23,Flamengo-Copacabana,1056789.01,0.79,Hoppe and Sons,33
+87,Thatch Gleadle,#60a33b,3:12 PM,5:37 PM,2013-12-03,Jardim Botânico-Flamengo,1445678.9,0.99,Moen-Weimann,43
+88,Jodi Hrinchishin,#fa0afc,3:13 AM,5:16 PM,2013-04-08,Copacabana-Barra da Tijuca,778901.23,0.62,Hyatt-Bergnaum,42
+89,Almira Gowry,#6d7a94,12:47 AM,10:43 PM,2006-04-08,Centro-Jardim Botânico,1278901.23,0.63,"Kuhn, O'Connell and Weimann",48
+90,Veronike Diack,#28d83c,5:17 PM,2:25 PM,2017-12-17,Urca-Lapa,512345.67,0.68,Nolan LLC,39
+91,Carter Moylane,#f2e00b,3:37 PM,3:48 PM,2019-12-04,Centro-Barra da Tijuca,1378901.23,0.74,"Collins, Schuster and Raynor",57
+92,Gran O'Hagirtie,#750406,4:57 AM,11:04 PM,2003-12-16,Lapa-Jardim Oceânico,1478901.23,0.69,Ankunding-Gerlach,50
+93,Paulina Aylott,#203d3a,4:13 AM,6:13 AM,2019-02-19,Jardim Oceânico-Leme,889012.34,0.8,Powlowski Group,39
+94,Salvidor Klimpke,#7e4910,6:31 AM,3:06 PM,2010-05-02,Botafogo-Leme,1156789.01,0.52,"Wilderman, Mante and Kuhn",60
+95,Marrissa O'Spillane,#e36bf8,11:01 AM,11:24 AM,2005-04-06,Jardim Oceânico-Glória,1123456.78,0.52,"Wiza, Boyer and Littel",40
+96,Dahlia South,#91bfdf,4:13 PM,11:26 PM,2022-07-09,São Conrado-Urca,556789.01,0.63,Pacocha LLC,60
+97,Godiva Marsh,#b2ccd5,5:35 PM,5:26 PM,2017-02-12,Lapa-Gávea,1267890.12,0.74,Pagac-Bednar,32
+98,Shannen Andell,#2b06c0,12:46 AM,10:28 PM,2007-10-05,Barra da Tijuca-Leblon,1434567.89,0.68,Schamberger-Macejkovic,43
+99,Abbi Mochar,#774fa9,2:24 AM,12:06 PM,2020-11-10,Leme-Botafogo,823456.78,0.99,Kihn and Sons,60
+100,Meris Boake,#70d35b,10:44 AM,7:11 PM,2006-03-09,Lapa-Copacabana,1078901.23,0.52,Beer-Becker,49
+101,Tamera Lambarth,#8192a6,12:20 PM,4:32 PM,2005-07-27,Leblon-Lapa,1067890.12,0.62,"Heller, Durgan and Hand",42
+102,Cal Peaker,#f9d9d5,10:48 AM,7:52 PM,2021-03-11,rota não atribuída,534567.89,0.51,"Casper, Gibson and Hayes",48
+103,Elsbeth Martinat,#1e2d46,7:26 AM,3:50 PM,2022-02-27,Largo do Machado-Barra da Tijuca,1289012.34,0.58,"Kuhlman, Parisian and Bailey",42
+104,Micaela Shervil,#0a87a5,8:30 AM,4:34 PM,2019-12-08,Largo do Machado-Glória,712345.67,0.6,Prohaska-Kuhic,33
+105,Hildy Penfold,#d54eba,5:06 PM,4:12 PM,2002-10-20,Leme-Botafogo,1156789.01,0.62,Koepp-Walter,39
+106,Valma Pillifant,#02f681,4:06 PM,12:33 PM,2010-10-16,São Conrado-Glória,1412345.67,0.74,"Abshire, Schroeder and Aufderhar",30
+107,Shane Mahmood,#0c96cc,12:16 AM,8:32 PM,2006-06-06,Gávea-Lapa,1067890.12,0.58,Schuppe Group,60
+108,Madelaine Havill,#1fb437,2:09 AM,3:04 PM,2004-05-11,São Conrado-Urca,790123.45,0.51,Towne-Jacobs,55
+109,Amalie Bickerdike,#f37e47,8:10 AM,8:47 PM,2006-12-25,Centro-Barra da Tijuca,1490123.45,0.54,Botsford-Toy,58
+110,Sigmund Drake,#0a2533,8:36 AM,2:41 PM,2017-06-30,Botafogo-Jardim Oceânico,934567.89,0.57,Harber-Ortiz,51
+111,motorista não atribuído,#41d328,5:48 PM,8:10 PM,2003-02-20,Largo do Machado-Jardim Botânico,1190123.45,0.68,Ruecker-Hammes,49
+112,Drud Bromfield,#3ea798,1:15 AM,11:29 PM,2004-02-12,rota não atribuída,734567.89,0.63,Torp-Lakin,54
+113,Daron Brankley,#d1f007,5:27 AM,8:55 AM,2004-02-17,Barra da Tijuca-Jardim Botânico,1423456.78,0.57,Kirlin Group,35
+114,Chandra Leverson,#82273e,1:43 PM,5:32 PM,2005-05-13,Leblon-Botafogo,1190123.45,0.51,"Kunze, Hermiston and Willms",58
+115,Pietra Van Hesteren,#d6e88e,7:31 AM,8:34 AM,2014-05-15,Leme-São Conrado,1256789.01,0.58,Nitzsche-Glover,59
+116,motorista não atribuído,#7f9d53,4:00 PM,1:52 PM,2014-09-27,Flamengo-Copacabana,1156789.01,0.69,Rodriguez-Langworth,46
+117,motorista não atribuído,#da9168,12:58 AM,4:44 PM,2015-04-26,Barra da Tijuca-Jardim Botânico,590123.45,0.71,Schmeler and Sons,31
+118,Giacopo Ivanikhin,#e07fc2,10:32 AM,6:59 AM,2021-07-02,Lapa-Jardim Oceânico,545678.9,0.73,Kozey-Stehr,54
+119,Alexis Luggar,#b61e41,2:39 AM,12:43 PM,2005-09-29,rota não atribuída,967890.12,0.8,"Denesik, Funk and Farrell",45
+120,Earl Handscomb,#367107,9:43 AM,5:52 PM,2014-11-17,Ipanema-Jardim Botânico,1245678.9,0.62,Hodkiewicz and Sons,45
+121,Kala Gonzalo,#26f4a6,8:33 AM,12:09 PM,2008-02-18,Botafogo-Jardim Botânico,667890.12,0.84,Turner Group,34
+122,Erma Duffit,#cc1665,4:58 AM,10:57 AM,2017-06-24,Lapa-Leblon,1345678.9,0.74,Kuhic-Emmerich,37
+123,Lee Stothert,#7e4653,12:37 PM,6:21 AM,2006-10-29,Centro-Jardim Botânico,534567.89,0.73,Lindgren-Borer,40
+124,Kimberlee Tirkin,#701226,9:08 AM,6:36 AM,2019-08-25,Glória-Leme,912345.67,0.57,Rice Inc,35
+125,motorista não atribuído,#415974,10:11 AM,4:03 PM,2011-04-17,Copacabana-Barra da Tijuca,1289012.34,0.69,Kuvalis Group,37
+126,motorista não atribuído,#6cf3d3,10:28 AM,8:24 AM,2014-05-05,Flamengo-Largo do Machado,789012.34,0.63,"Watsica, Predovic and Reichel",49
+127,Mabelle Manntschke,#0f95f3,1:26 PM,2:57 PM,2017-12-30,Lapa-Leblon,956789.01,0.95,Rath-Bogan,42
+128,Dorri Bugg,#7f6b63,11:48 AM,11:27 AM,2023-02-17,Jardim Botânico-Ipanema,790123.45,0.8,Wyman-Ullrich,56
+129,Ulises Provis,#e5ed93,9:52 AM,12:26 PM,2002-07-14,Botafogo-Centro,1278901.23,0.765,Murray and Sons,54
+130,Beniamino Oxley,#df0f42,12:20 AM,12:07 PM,2004-01-20,São Conrado-Glória,1145678.9,0.73,Grimes and Sons,40
+131,motorista não atribuído,#7efc8e,3:00 AM,11:49 PM,2008-01-25,Urca-Lapa,1390123.45,0.9,Okuneva-Grady,56
+132,Matty Sobey,#cbbea5,6:27 AM,4:14 PM,2019-10-15,Jardim Oceânico-Copacabana,1456789.01,0.99,Schinner-Rath,56
+133,Harrietta Holdey,#014e88,10:31 AM,3:53 PM,2020-12-31,Flamengo-Copacabana,712345.67,0.58,Dach Group,33
+134,Randolph Shoulders,#8e6231,10:51 AM,11:15 PM,2005-08-06,Urca-Largo do Machado,667890.12,0.51,Powlowski LLC,30
+135,Kerry Willson,#eb54e3,1:52 AM,10:11 PM,2020-03-27,Leme-Urca,1245678.9,0.54,Boehm-Hammes,43
+136,motorista não atribuído,#39ffbd,12:48 PM,4:24 PM,2016-02-05,Copacabana-Lapa,1445678.9,0.57,Kling-Von,35
+137,Bennie Gildersleeve,#ec5e25,6:33 AM,6:53 PM,2011-11-24,Flamengo-Largo do Machado,1490123.45,0.74,"Fisher, Gusikowski and Ryan",48
+138,Darci McDermid,#515d26,7:09 AM,6:16 PM,2002-11-10,Jardim Oceânico-Leme,712345.67,0.8,O'Keefe-Adams,39
+139,Elvyn Bendley,#1ce357,9:03 AM,11:09 PM,2018-08-21,Centro-Jardim Botânico,778901.23,0.84,Russel and Sons,41
+140,Lyndel Massingberd,#63f3bf,1:49 PM,8:43 PM,2004-06-10,Flamengo-Largo do Machado,1312345.67,0.57,Barton-Rosenbaum,35
+141,Natal Jerromes,#b83947,1:14 PM,10:53 PM,2021-07-19,Leblon-Lapa,589012.34,0.69,Harber Inc,36
+142,Larissa McKimmey,#efa304,1:29 AM,4:56 PM,2010-02-23,Barra da Tijuca-Centro,967890.12,0.9,"Schmidt, Cruickshank and Willms",43
+143,Colet Trevear,#ad7873,4:03 PM,10:26 AM,2015-10-03,Leme-São Conrado,778901.23,0.8,Hermiston LLC,33
+144,motorista não atribuído,#6682a4,3:18 AM,3:12 PM,2017-10-29,Botafogo-Jardim Botânico,1090123.45,0.63,"Kreiger, Rowe and Schmidt",58
+145,Man McEttigen,#b48650,2:53 AM,3:36 PM,2005-05-24,Largo do Machado-Barra da Tijuca,834567.89,0.95,"Cole, Marvin and Reilly",33
+146,Margarette Inmett,#bdde9f,8:47 AM,8:27 PM,2007-09-17,Urca-Largo do Machado,1290123.45,0.8,Pouros-Ferry,57
+147,motorista não atribuído,#82d897,1:28 PM,12:31 PM,2017-08-06,Glória-Jardim Oceânico,589012.34,0.79,Walker Group,56
+148,Sandro Johnys,#b0bc48,7:30 AM,2:05 PM,2022-11-03,Ipanema-Lapa,1401234.56,0.79,Willms and Sons,41
+149,Cassaundra Buckenhill,#437a44,6:22 AM,12:52 PM,2003-04-08,Gávea-Copacabana,689012.34,0.68,Greenfelder-Kilback,47
+150,Micah Crilly,#7285d3,1:05 PM,9:02 AM,2004-11-29,Barra da Tijuca-Leblon,889012.34,0.52,Jacobi-Powlowski,41
+151,Simonette McNulty,#50a2c4,4:59 PM,10:48 PM,2008-09-04,Gávea-Lapa,1223456.78,0.84,Weber and Sons,58
+152,Brittne Chown,#4e1f30,2:10 AM,12:10 PM,2009-01-21,rota não atribuída,1112345.67,0.95,Ondricka and Sons,43
+153,Ardine Schiefersten,#496cb7,10:47 AM,9:53 PM,2017-06-23,Jardim Oceânico-Glória,956789.01,0.74,"Lehner, Okuneva and Konopelski",40
+154,Ravid Lucey,#99c146,5:31 PM,2:17 PM,2016-03-18,Flamengo-Copacabana,689012.34,0.845,Swaniawski-Reichert,34
+155,Bay Scoffins,#5f040e,9:47 AM,6:48 AM,2016-01-08,Glória-Jardim Oceânico,1045678.9,0.95,Hamill-Kling,57
+156,Selby Pinniger,#480fc1,7:22 AM,7:40 AM,2009-08-08,Leblon-Botafogo,623456.78,0.79,Gusikowski-Runte,36
+157,Carmon Grishankov,#dc671b,4:40 PM,9:53 PM,2013-02-28,Centro-Barra da Tijuca,1067890.12,0.63,Bogisich-Cremin,58
+158,Tomaso Leaney,#47285c,12:15 AM,11:44 PM,2002-12-18,Leblon-São Conrado,878901.23,0.5700000000000001,"Hamill, Romaguera and Labadie",41
+159,Batsheva Jeandot,#79eece,12:13 PM,12:46 PM,2016-11-23,rota não atribuída,678901.23,0.51,Nader-Goodwin,48
+160,motorista não atribuído,#96a10d,3:33 AM,11:54 AM,2010-08-31,Jardim Botânico-Ipanema,1023456.78,0.57,Blanda-Ledner,45
+161,Carney Swansborough,#703b54,2:07 AM,10:47 AM,2005-09-24,Botafogo-Centro,567890.12,0.8,Cruickshank LLC,59
+162,Nerty Robbie,#e3cc1a,6:01 AM,12:53 PM,2020-01-24,rota não atribuída,1356789.01,0.58,"Beatty, Abshire and Lemke",40
+163,motorista não atribuído,#7a07b5,2:57 AM,10:53 AM,2015-12-27,Jardim Oceânico-Leme,767890.12,0.79,"Runte, Jacobi and Heidenreich",59
+164,Quinn Terne,#36a326,3:39 PM,10:42 AM,2019-01-11,Flamengo-Copacabana,1356789.01,0.69,Jacobs LLC,59
+165,Maudie Balding,#049716,7:32 AM,8:54 AM,2016-11-11,Leblon-Largo do Machado,867890.12,0.58,Mohr LLC,59
+166,Karna Sowray,#4de94a,9:24 AM,12:53 PM,2020-01-07,São Conrado-Largo do Machado,656789.01,0.69,"Dibbert, Hansen and Hahn",58
+167,Koo Mabbe,#51b319,6:37 AM,5:10 PM,2005-10-22,Gávea-Lapa,1356789.01,0.51,"Gusikowski, Smith and Prosacco",30
+168,Kally Jerrems,#8f8c5e,5:43 PM,8:50 AM,2013-12-14,rota não atribuída,701234.56,0.8,Fahey and Sons,45
+169,Minetta De Bruijn,#f3bd1d,2:35 PM,8:31 PM,2012-09-02,Largo do Machado-Barra da Tijuca,1223456.78,0.74,Hammes-Stark,47
+170,Batsheva Longina,#0c77dc,6:04 AM,11:45 PM,2013-06-12,Botafogo-Jardim Oceânico,745678.9,0.9,"Rath, Zemlak and Wintheiser",60
+171,Marvin Josebury,#69584e,9:28 AM,7:37 AM,2021-03-09,Copacabana-Lapa,1023456.78,0.79,"Feeney, Schneider and Leffler",34
+172,Jorgan Wimsett,#e851c1,7:15 AM,6:17 PM,2003-10-28,Jardim Botânico-São Conrado,745678.9,0.52,Von-Jakubowski,46
+173,Inger Janowicz,#0f16b6,5:23 PM,3:31 PM,2008-07-06,Urca-Largo do Machado,934567.89,0.99,Pagac and Sons,42
+174,Earl Perry,#b54760,5:15 PM,6:31 PM,2004-09-25,Centro-Leme,1456789.01,0.62,"Rath, Gulgowski and Leuschke",52
+175,Nixie Fold,#c6d264,5:28 PM,10:45 AM,2017-09-03,Barra da Tijuca-Jardim Botânico,1467890.12,0.8,Von-Greenfelder,45
+176,Dorey Kupker,#6174af,2:21 AM,8:00 PM,2006-09-10,Barra da Tijuca-Leblon,790123.45,0.95,Sipes-Becker,50
+177,Ravi Merricks,#609c82,3:12 AM,8:00 PM,2011-04-27,Leme-Botafogo,956789.01,0.58,Rolfson-West,33
+178,motorista não atribuído,#e31285,12:36 AM,9:14 PM,2008-08-28,Lapa-Gávea,1490123.45,0.63,"Watsica, Stroman and Walsh",59
+179,Ulberto O'Devey,#5f4859,9:46 AM,3:01 PM,2010-02-20,Jardim Oceânico-Lapa,967890.12,0.765,"Kunde, Jacobi and Hartmann",35
+180,Shawn Basham,#1ece6a,4:12 PM,10:43 AM,2009-07-20,Ipanema-Lapa,945678.9,0.9,"Hodkiewicz, Dooley and Hahn",60
+181,Larisa Sealey,#89880a,9:25 AM,6:07 AM,2015-09-16,Glória-Leme,1123456.78,0.95,Lakin-Lebsack,46
+182,Yolanda Andell,#7e9ecb,3:42 PM,4:29 PM,2018-10-29,Jardim Botânico-Leblon,1489012.34,0.62,Hammes LLC,34
+183,motorista não atribuído,#d02f4a,5:55 PM,4:50 PM,2013-06-15,São Conrado-Largo do Machado,634567.89,0.8,Parker and Sons,31
+184,Maggie Priscott,#8aa56b,3:16 PM,8:04 PM,2019-05-20,Copacabana-Barra da Tijuca,1434567.89,0.95,"Willms, Considine and O'Conner",31
+185,Merell Dory,#3025f9,11:45 AM,12:59 PM,2016-06-15,rota não atribuída,978901.23,0.73,Bosco-Harber,57
+186,Natividad Houlison,#2a1dc7,7:16 AM,5:22 PM,2015-12-27,Ipanema-Gávea,1189012.34,0.58,Zieme and Sons,49
+187,Felita Diano,#f931a4,5:18 PM,12:32 PM,2020-05-25,Barra da Tijuca-Jardim Botânico,1467890.12,0.52,Kris Inc,50
+188,Felicdad Blackleech,#855c83,9:51 AM,5:46 PM,2015-04-14,Gávea-Lapa,1212345.67,0.5566666666666666,"Larson, Tillman and Hamill",33
+189,Fayre Pettecrew,#12ae7d,4:59 PM,7:09 PM,2005-08-23,Jardim Botânico-Leblon,912345.67,0.5933333333333334,Romaguera-Sipes,55
+190,Terri Dearnly,#3486b1,5:43 PM,8:43 AM,2007-12-03,rota não atribuída,856789.01,0.63,Lubowitz Inc,60
+191,motorista não atribuído,#0c85b1,7:13 AM,10:12 AM,2010-06-21,Botafogo-Leme,1145678.9,0.62,Orn LLC,46
+192,Candida Carpmile,#282bad,8:33 AM,5:51 PM,2003-10-17,Ipanema-Lapa,967890.12,0.99,"Hyatt, Little and Lesch",46
+193,motorista não atribuído,#c93251,4:48 PM,1:39 PM,2019-08-25,Copacabana-Barra da Tijuca,1034567.89,0.895,"Feeney, Grimes and Gibson",37
+194,Mathe Picot,#f75bb7,12:52 AM,4:52 PM,2009-02-11,Lapa-Jardim Oceânico,1189012.34,0.8,"Block, Ryan and Kuvalis",52
+195,Pearla Goodisson,#9962ff,5:27 PM,12:39 PM,2022-04-03,Jardim Botânico-Flamengo,1467890.12,0.95,"Fahey, Koss and Yost",43
+196,Lissi Layman,#a7411a,6:33 AM,6:54 AM,2015-06-15,Leme-Gávea,567890.12,0.73,"Kreiger, Dach and Streich",43
+197,Inga Morales,#7aa983,2:35 AM,7:01 PM,2016-12-09,Copacabana-Ipanema,956789.01,0.62,"Robel, Hirthe and Skiles",55
+198,Gabriele Roux,#9541f0,12:33 PM,9:46 AM,2013-07-02,Jardim Oceânico-Glória,1423456.78,0.58,Cummerata-Borer,59
+199,Lavinie Crichton,#fc8993,5:21 AM,8:51 PM,2018-10-14,Largo do Machado-Barra da Tijuca,1401234.56,0.63,Simonis-Schuppe,39
+200,Angil Bibby,#6f0472,12:33 AM,12:32 PM,2013-07-15,Lapa-Gávea,634567.89,0.68,Walter Group,44
+201,Stephanie Couve,#03c17b,4:34 AM,6:13 PM,2022-05-06,Botafogo-Leme,745678.9,0.62,"Blanda, Kassulke and Kutch",35
+202,Blondy McCart,#ac15f5,1:40 AM,12:24 PM,2015-01-23,Gávea-Copacabana,1401234.56,0.99,"Casper, Mohr and Towne",59
+203,Tyrone Pottes,#05682c,5:42 PM,10:07 AM,2023-05-15,Lapa-Jardim Oceânico,601234.56,0.58,Hintz Inc,53
+204,Washington Bowshire,#5892cb,4:31 PM,9:30 PM,2023-04-19,Leme-Gávea,667890.12,0.74,"Cummerata, Balistreri and Rodriguez",60
+205,Trev Radmore,#2e6ae0,12:39 PM,4:56 PM,2008-07-21,rota não atribuída,889012.34,0.69,Rutherford Inc,38
+206,Padraic Maxwell,#fbeadd,4:34 AM,11:07 PM,2009-12-06,Leblon-Lapa,1034567.89,0.74,Turcotte-Monahan,57
+207,Kalindi Mallows,#12a6d1,12:16 AM,3:18 PM,2012-04-04,Jardim Oceânico-Copacabana,678901.23,0.73,Nader-Schaefer,47
+208,Virge Westgate,#443cac,8:23 AM,9:20 PM,2005-12-14,Centro-Jardim Botânico,1489012.34,0.68,Ryan Group,31
+209,motorista não atribuído,#958474,9:46 AM,10:55 AM,2009-10-04,Jardim Oceânico-Leme,1389012.34,0.69,Jast-Swift,40
+210,Delphine Vitler,#d7bf55,12:43 PM,4:59 PM,2009-04-08,São Conrado-Jardim Botânico,956789.01,0.8,Schmidt LLC,58
+211,Merl Nutley,#ef065e,7:45 AM,7:38 PM,2023-05-07,Centro-Jardim Botânico,690123.45,0.69,Rippin and Sons,45
+212,Carin Oxley,#e56254,4:37 AM,10:43 PM,2017-08-12,Copacabana-Barra da Tijuca,990123.45,0.58,Walsh and Sons,55
+213,Gram Pales,#f013e6,7:04 AM,2:58 PM,2013-08-21,Flamengo-São Conrado,1123456.78,0.68,"DuBuque, Lindgren and Boehm",45
+214,Sondra Fitchen,#06125c,6:45 AM,9:35 PM,2010-07-22,Urca-Largo do Machado,1123456.78,0.79,"Bradtke, Hermiston and Dickinson",34
+215,Eva Shenfish,#b1e145,5:18 AM,4:00 PM,2016-05-12,Glória-Jardim Oceânico,1412345.67,0.52,Willms-Kozey,41
+216,Javier Slym,#b025d9,2:28 PM,9:23 PM,2004-10-16,Urca-Lapa,923456.78,0.63,Lemke-Wilkinson,42
+217,Carole Standbridge,#96f8ea,5:18 PM,8:43 PM,2020-08-09,Largo do Machado-Glória,545678.9,0.73,Sawayn-Becker,36
+218,Heda Stuckes,#be7ed6,10:48 AM,9:27 PM,2008-02-07,Leblon-Largo do Machado,1167890.12,0.68,Miller-Kertzmann,34
+219,Bessie Kinnock,#34e3e1,1:05 AM,10:29 AM,2013-07-18,Lapa-Gávea,712345.67,0.51,Wiegand LLC,51
+220,Gypsy Gurry,#748322,12:40 PM,11:27 AM,2022-05-11,Gávea-Botafogo,1490123.45,0.9,"Connelly, Franecki and Wyman",53
+221,Carley Bourtoumieux,#3bb7c3,3:45 AM,8:58 PM,2019-10-09,Jardim Botânico-São Conrado,834567.89,0.84,Feil-Hauck,31
+222,Hester Surgey,#d7c28f,3:55 PM,12:20 PM,2020-12-16,Copacabana-Barra da Tijuca,812345.67,0.8,Berge-Lowe,40
+223,Kayle Wickie,#c60b1e,12:07 PM,5:00 PM,2017-03-26,Botafogo-Jardim Oceânico,912345.67,0.9,"Johnson, Heathcote and Effertz",44
+224,Marielle Coase,#9afe8c,5:53 AM,8:57 AM,2004-07-29,São Conrado-Largo do Machado,1167890.12,0.51,"Turner, Raynor and Howe",60
+225,Waly Fleet,#341bcb,1:51 AM,11:19 AM,2005-12-31,Ipanema-Lapa,689012.34,0.79,"O'Conner, Bode and Bernier",46
+226,Andrey Lempenny,#315231,1:22 AM,7:40 AM,2014-11-05,Largo do Machado-Urca,923456.78,0.58,Kris-Kihn,54
+227,Brockie Gersam,#375aef,1:58 PM,3:48 PM,2007-12-09,Jardim Oceânico-Copacabana,1312345.67,0.51,Weber-Grady,41
+228,Adams Barge,#c89720,6:09 AM,5:24 PM,2020-07-14,Flamengo-São Conrado,601234.56,0.8,Windler and Sons,51
+229,Tricia Prettjohn,#5e09f4,12:59 PM,12:40 PM,2003-11-10,Flamengo-Copacabana,723456.78,0.84,Trantow Group,53
+230,Nollie Terry,#376ed4,7:24 AM,8:12 PM,2021-12-15,Largo do Machado-Glória,1390123.45,0.62,"Tillman, Hodkiewicz and Corkery",57
+231,Lianne Yule,#75017f,2:57 PM,12:05 PM,2008-07-17,Gávea-Centro,1045678.9,0.79,Littel Inc,44
+232,motorista não atribuído,#39bb8b,2:26 AM,4:46 PM,2004-10-08,Jardim Oceânico-Copacabana,612345.67,0.99,Green-Rice,52
+233,Mikael McManamen,#4316a7,5:29 AM,7:46 AM,2013-03-25,Ipanema-Jardim Botânico,934567.89,0.57,"Ryan, Breitenberg and Turner",32
+234,Hillary Bosomworth,#0b51bd,4:30 PM,7:17 AM,2021-04-10,Flamengo-Copacabana,1389012.34,0.79,"Gottlieb, Hilpert and Maggio",39
+235,Lisa Thorwarth,#e6dbd3,10:20 AM,8:24 AM,2012-10-14,Botafogo-Jardim Botânico,967890.12,0.8,Rohan-Wyman,34
+236,Niall MacMaykin,#3045dc,1:09 PM,10:42 PM,2003-12-06,Largo do Machado-Jardim Botânico,1156789.01,0.68,"Jacobson, Schmitt and McDermott",33
+237,motorista não atribuído,#f60686,11:57 AM,6:30 PM,2004-12-23,Gávea-Botafogo,645678.9,0.65,Wiegand Inc,36
+238,Flint Storr,#4c47f6,5:50 PM,8:31 PM,2007-03-26,rota não atribuída,1478901.23,0.62,"Bayer, Towne and Ritchie",38
+239,Stepha McDavitt,#827a58,4:56 PM,8:32 PM,2016-02-24,Lapa-Copacabana,1156789.01,0.73,"Kassulke, Johns and Brakus",54
+240,Jilleen McGarrity,#0cbd75,5:10 PM,6:17 AM,2021-06-22,Lapa-Gávea,1423456.78,0.79,Dibbert and Sons,32
+241,Henrie Kinnier,#38bcb8,12:55 AM,7:00 AM,2012-09-01,São Conrado-Glória,845678.9,0.87,Doyle Inc,50
+242,Reade Dollman,#9a49c9,2:22 PM,7:05 AM,2002-07-07,Lapa-Gávea,1212345.67,0.95,Torp-Bailey,55
+243,motorista não atribuído,#8415aa,1:32 PM,7:41 PM,2011-01-20,rota não atribuída,989012.34,0.57,"Hettinger, Dibbert and Jerde",33
+244,Filippa Carlett,#01c6cf,4:41 AM,2:12 PM,2015-09-14,Lapa-Leblon,1423456.78,0.73,Cummings LLC,56
+245,Zulema Powlett,#b9d1b4,5:59 PM,5:15 PM,2013-01-01,Ipanema-Gávea,889012.34,0.62,Rempel-Schneider,57
+246,Antonie Reglar,#5b08cf,12:56 PM,7:15 AM,2009-10-23,Jardim Oceânico-Leme,1478901.23,0.95,Cummerata LLC,33
+247,Jemimah Wareham,#95e77a,12:56 PM,7:06 AM,2015-09-09,Leblon-São Conrado,1123456.78,0.68,Stark and Sons,44
+248,Cheston Wahner,#e08a12,9:05 AM,11:50 PM,2019-10-28,Gávea-Botafogo,601234.56,0.9,McGlynn Inc,60
+249,Beau Mooreed,#d98a5e,9:40 AM,9:41 AM,2009-01-19,Leblon-Largo do Machado,1034567.89,0.8,"Schumm, Gulgowski and Kiehn",32
+250,Ingmar Arnow,#a1dde6,4:22 AM,10:26 AM,2002-08-25,Centro-Barra da Tijuca,1434567.89,0.52,"Hoeger, Schaden and Breitenberg",40
+251,Domini Palomba,#28a8a3,10:22 AM,6:15 PM,2005-08-23,São Conrado-Largo do Machado,601234.56,0.63,Hessel-Wyman,34
+252,Brigit MacGarvey,#004abe,8:18 AM,4:38 PM,2006-03-16,Flamengo-São Conrado,723456.78,0.74,Haley-Kshlerin,36
+253,Ximenez Dilawey,#364bc7,1:35 AM,10:32 PM,2016-02-08,rota não atribuída,789012.34,0.51,Stracke-Hirthe,46
+254,Urbain Yushkin,#a41a97,9:52 AM,5:09 PM,2009-06-17,Ipanema-Jardim Botânico,1190123.45,0.62,"Howell, Labadie and Kuphal",55
+255,Ezmeralda McFadden,#7b8d8d,11:15 AM,12:34 PM,2016-08-07,Barra da Tijuca-Centro,734567.89,0.8,Spencer-Murphy,30
+256,Erek Boame,#6d903a,5:07 PM,9:25 PM,2016-10-08,Jardim Oceânico-Glória,712345.67,0.84,Rath-Upton,50
+257,Sullivan Emsden,#e6e99a,6:51 AM,12:06 PM,2022-04-21,São Conrado-Glória,1301234.56,0.63,"Howell, Ziemann and Lakin",57
+258,Penelope Gabitis,#451a05,3:04 AM,1:08 PM,2020-12-01,Centro-Leme,1023456.78,0.84,Beatty Inc,47
+259,Micki Decort,#d5c32f,1:40 AM,9:13 PM,2014-07-22,Flamengo-Largo do Machado,1289012.34,0.8,Reichel-Wiza,57
+260,Lazar Conibear,#846100,3:05 PM,10:40 AM,2010-07-22,Urca-Botafogo,634567.89,0.63,McKenzie Inc,48
+261,Fitz Dulieu,#e51936,5:37 PM,10:45 PM,2016-01-26,Barra da Tijuca-Jardim Botânico,701234.56,0.99,Corkery Group,44
+262,Estell O'Hone,#043c11,7:37 AM,10:08 AM,2003-08-12,Botafogo-Jardim Oceânico,589012.34,0.7849999999999999,"Toy, Predovic and Altenwerth",47
+263,Hayes Randalson,#5132a8,11:00 AM,6:47 PM,2013-09-10,Lapa-Gávea,1445678.9,0.58,Gutkowski and Sons,45
+264,Waverley Cheng,#ed58d5,12:48 AM,5:30 PM,2014-10-02,Centro-Jardim Botânico,1145678.9,0.69,"Wunsch, Howe and Carter",50
+265,Krystal Rockey,#ef9bd6,6:10 AM,9:51 AM,2017-02-02,Copacabana-Ipanema,901234.56,0.99,Leffler-Heaney,45
+266,Charleen Elves,#e59f1b,4:20 PM,11:04 PM,2022-06-14,rota não atribuída,1167890.12,0.52,Mertz LLC,49
+267,Theodore Gravett,#c60514,4:40 PM,9:21 AM,2014-11-03,Copacabana-Ipanema,690123.45,0.58,Leuschke-Rolfson,56
+268,Arlana Fahey,#e783f4,10:38 AM,6:48 PM,2021-09-17,Flamengo-São Conrado,823456.78,0.685,Little-Kuhn,36
+269,Leann Selkirk,#15c7ed,8:10 AM,8:22 PM,2008-08-25,Barra da Tijuca-Jardim Botânico,1034567.89,0.79,Swaniawski and Sons,44
+270,Morna Yallop,#6bdece,2:11 PM,11:32 PM,2008-01-24,Flamengo-Largo do Machado,1289012.34,0.68,Jast-Cartwright,55
+271,Elaine Gisbye,#fd85d7,1:44 AM,9:51 PM,2018-12-20,Copacabana-Ipanema,1045678.9,0.51,"Bednar, Weber and Brekke",43
+272,Tybi Katt,#371fd7,2:57 PM,5:58 PM,2015-09-15,rota não atribuída,1045678.9,0.58,Stanton-Okuneva,54
+273,Bunny Brasier,#580ceb,10:35 AM,2:55 PM,2005-01-20,Centro-Barra da Tijuca,1256789.01,0.58,"Bins, Schinner and Kozey",30
+274,Charil Jerg,#4b987b,4:49 PM,1:08 PM,2007-06-01,Jardim Oceânico-Copacabana,1156789.01,0.8,Gerlach-Wunsch,54
+275,Tadeas Upcraft,#517612,3:29 PM,10:42 PM,2006-11-09,Copacabana-Ipanema,989012.34,0.99,"Smitham, Hane and Lindgren",55
+276,Ardenia Cahen,#0f80a2,11:27 AM,7:35 AM,2023-04-25,Urca-Largo do Machado,1023456.78,0.58,Franecki-Romaguera,31
+277,Mord Vinsen,#65ddb9,6:33 AM,9:18 AM,2010-11-24,Centro-Leme,1378901.23,0.99,Steuber Group,37
+278,Archy Caen,#d0784a,9:55 AM,12:43 PM,2009-12-05,Urca-Botafogo,1078901.23,0.62,O'Hara and Sons,54
+279,Kevyn Schoenleiter,#bb03f5,4:34 PM,12:50 PM,2021-06-24,Leblon-Lapa,1489012.34,0.52,Glover and Sons,33
+280,Dayle Feenan,#0ca880,3:03 AM,2:14 PM,2012-10-01,Largo do Machado-Jardim Botânico,1089012.34,0.655,Price LLC,35
+281,Kienan Brewett,#1e5ab4,12:51 AM,12:48 PM,2006-02-20,Jardim Botânico-São Conrado,978901.23,0.79,Crona-Berge,47
+282,Kaye Lindeman,#c27093,2:28 PM,5:58 PM,2004-03-11,Botafogo-Leme,1434567.89,0.99,Goyette-Barrows,42
+283,Lek Remirez,#5f9677,4:51 AM,1:12 PM,2019-11-07,Gávea-Botafogo,923456.78,0.73,"Johnson, Schaden and Barton",59
+284,Jarid Elen,#0a32df,12:24 PM,11:33 PM,2023-04-18,Gávea-Centro,1445678.9,0.73,"Jerde, Sporer and Cormier",34
+285,Demeter Skeech,#d30ff4,12:44 AM,8:00 PM,2023-02-18,rota não atribuída,1378901.23,0.51,"Ryan, Littel and Wisoky",55
+286,Fidela MacIlraith,#726dbc,6:40 AM,9:12 AM,2023-05-03,São Conrado-Urca,589012.34,0.69,Hirthe LLC,58
+287,Clotilda Doornbos,#12951d,5:20 PM,6:11 AM,2013-09-03,Largo do Machado-Jardim Botânico,723456.78,0.79,Gutkowski LLC,41
+288,motorista não atribuído,#6737df,10:54 AM,9:55 AM,2004-12-31,Copacabana-Lapa,790123.45,0.84,Kunde-Bosco,58
+289,Gavra Worsnop,#815278,1:09 AM,6:41 PM,2004-04-12,São Conrado-Jardim Botânico,589012.34,0.58,McKenzie-Spinka,55
+290,Sheila-kathryn Tapner,#df8453,7:59 AM,8:32 PM,2014-10-10,rota não atribuída,1045678.9,0.74,"Hoppe, Schroeder and Roberts",47
+291,Ricki Claesens,#70c900,6:52 AM,9:31 AM,2007-08-11,Centro-Barra da Tijuca,801234.56,0.845,Nader-Blick,55
+292,Jaye Divall,#489dd1,11:07 AM,8:15 AM,2017-04-02,Jardim Oceânico-Leme,1489012.34,0.95,Bergstrom-Reichel,55
+293,Romy Paik,#0acd08,5:08 PM,11:29 PM,2010-03-08,Ipanema-Lapa,556789.01,0.51,"Greenholt, Crona and Lueilwitz",39
+294,Britt Rydzynski,#fe763f,7:14 AM,5:09 PM,2013-09-21,Jardim Botânico-Flamengo,945678.9,0.74,Grimes-Metz,45
+295,Shane Dozdill,#33237d,12:40 PM,6:12 AM,2007-04-11,Botafogo-Centro,1423456.78,0.52,Mills-Corkery,35
+296,Brittani Harding,#3a3cca,3:23 AM,4:28 PM,2003-04-13,Barra da Tijuca-Leblon,634567.89,0.69,Sanford-Rippin,45
+297,Eugenio Caccavella,#36fa26,12:25 AM,3:14 PM,2012-03-27,Barra da Tijuca-Jardim Botânico,612345.67,0.95,Gutkowski-Crooks,30
+298,Aindrea Olanda,#705f3d,2:03 PM,4:07 PM,2013-08-20,Leme-Gávea,1278901.23,0.63,Powlowski Inc,44
+299,Andy Allam,#c152de,9:24 AM,7:44 AM,2008-04-04,Lapa-Gávea,1334567.89,0.68,Becker-Mante,58
+300,Florry Adshed,#7b8653,12:22 PM,4:48 PM,2013-02-13,Leme-Gávea,1156789.01,0.62,Koelpin-Hickle,49
+301,Dorena Nutman,#fa925c,2:01 PM,10:38 PM,2023-05-04,Lapa-Jardim Oceânico,1301234.56,0.51,Raynor LLC,51
+302,Terri Mannakee,#1c3701,4:58 AM,5:59 PM,2014-11-08,Copacabana-Lapa,1289012.34,0.52,"Davis, Kautzer and Kling",36
+303,Larina Manchester,#738c16,5:11 PM,11:14 PM,2007-12-21,Gávea-Copacabana,601234.56,0.68,Medhurst-Lind,36
+304,Gretel Hodcroft,#f4e379,3:44 PM,11:52 PM,2015-12-10,Ipanema-Jardim Botânico,1212345.67,0.8,"Stehr, Toy and Reichel",37
+305,Blisse Wiggam,#7e6062,9:20 AM,10:02 AM,2018-09-13,Gávea-Botafogo,989012.34,0.51,Little Group,54
+306,Berky Daniells,#0bf77b,9:13 AM,11:53 PM,2017-08-21,Centro-Jardim Botânico,1067890.12,0.69,Stoltenberg and Sons,58
+307,Fayre Witnall,#758592,2:32 PM,10:45 AM,2005-03-18,Lapa-Copacabana,1223456.78,0.79,Bogan-Mayert,57
+308,Veronike Suffield,#7e9cbf,10:11 AM,11:58 AM,2009-01-31,Flamengo-Copacabana,634567.89,0.73,Orn-Smitham,54
+309,motorista não atribuído,#d60971,10:18 AM,6:57 AM,2017-06-19,Copacabana-Lapa,856789.01,0.99,"Glover, Carroll and Ebert",51
+310,Sascha Scardafield,#1ffca7,8:56 AM,8:10 AM,2009-05-27,rota não atribuída,1112345.67,0.73,Schinner and Sons,54
+311,Delaney Dressel,#320bae,6:23 AM,5:50 PM,2014-10-10,Barra da Tijuca-Jardim Botânico,890123.45,0.74,"Breitenberg, Bauch and Berge",49
+312,Victoir Kepling,#5591a2,10:12 AM,12:17 PM,2018-10-08,rota não atribuída,712345.67,0.58,Weber LLC,37
+313,Darryl Message,#8d6f9e,2:31 AM,11:08 AM,2020-07-01,Flamengo-Copacabana,578901.23,0.51,"Weber, Rodriguez and Kilback",30
+314,Ole Seth,#9703bf,11:23 AM,1:24 PM,2021-09-20,Leme-Botafogo,1301234.56,0.95,Kuphal-Feeney,45
+315,Ellis Portugal,#86d800,3:12 AM,1:07 PM,2015-09-06,Ipanema-Jardim Botânico,889012.34,0.52,Nolan LLC,54
+316,Yurik Sunman,#299a5e,1:04 PM,9:54 AM,2020-10-11,Barra da Tijuca-Leblon,789012.34,0.52,Dicki-Watsica,35
+317,Glory Tosney,#62cc9f,3:52 PM,5:37 PM,2012-09-28,Jardim Botânico-Leblon,1367890.12,0.51,Deckow-Frami,52
+318,Fiona Crosthwaite,#6fcb62,3:56 AM,11:44 AM,2005-10-23,Flamengo-Copacabana,1090123.45,0.69,"Quigley, White and Toy",47
+319,Roz Surgen,#50c5d3,8:55 AM,10:23 AM,2003-09-13,Copacabana-Lapa,590123.45,0.63,"Satterfield, Schultz and Reinger",48
+320,Faydra Aymerich,#13f690,8:30 AM,3:34 PM,2010-04-18,Glória-Jardim Oceânico,1034567.89,0.68,Feil Inc,30
+321,motorista não atribuído,#f8c3ac,7:31 AM,8:07 PM,2006-06-02,Gávea-Copacabana,778901.23,0.74,"Fisher, Wilkinson and Okuneva",41
+322,Mario Zohrer,#f82d98,3:39 PM,12:39 PM,2012-08-29,Lapa-Gávea,1190123.45,0.68,"Senger, Kutch and Watsica",31
+323,Maryl Bryde,#270fc9,5:21 AM,7:25 PM,2015-05-08,Leblon-Lapa,1001234.56,0.79,Sipes-Goyette,60
+324,Mandi Petican,#0ab50e,1:24 PM,5:19 PM,2014-02-10,Ipanema-Lapa,1356789.01,0.68,Terry-Schaden,44
+325,Tallie Pabst,#479fb1,6:25 AM,11:54 PM,2018-10-27,Copacabana-Lapa,767890.12,0.99,Quigley Group,40
+326,Jorry Fitter,#2fecc3,11:09 AM,7:31 AM,2016-09-11,Centro-Leme,1445678.9,0.84,Bergstrom Group,52
+327,Nancy Rump,#9acb16,5:54 AM,9:37 PM,2006-01-12,Jardim Oceânico-Leme,945678.9,0.99,"Yost, Altenwerth and Macejkovic",41
+328,Katherina MacDonough,#62ada8,5:29 PM,6:16 AM,2020-09-11,Lapa-Copacabana,1401234.56,0.8,Schinner-Torp,44
+329,Quincy Remington,#3e15dc,8:34 AM,9:16 PM,2009-10-25,Jardim Oceânico-Glória,690123.45,0.79,Emard Inc,48
+330,Eloise Coners,#d2a7bf,2:29 AM,11:22 PM,2011-10-25,Jardim Botânico-São Conrado,890123.45,0.8,Hansen Inc,46
+331,Christine Gosling,#0cdf4e,7:17 AM,5:48 PM,2003-10-23,Gávea-Lapa,656789.01,0.63,"Witting, Prosacco and O'Reilly",38
+332,Lamont Hayhow,#c39cfd,3:12 PM,9:24 PM,2011-01-08,Gávea-Lapa,1201234.56,0.51,Powlowski-Jaskolski,39
+333,Dasya Allkins,#bea514,2:52 PM,11:09 AM,2002-12-11,Leblon-São Conrado,689012.34,0.58,Hyatt-Runolfsson,52
+334,Saree Hilhouse,#59f57f,3:55 AM,7:20 AM,2019-05-22,Centro-Jardim Botânico,1301234.56,0.52,"Collier, Maggio and Ondricka",35
+335,Edwin Wratten,#395e3a,7:11 AM,3:35 PM,2010-12-26,Copacabana-Ipanema,612345.67,0.63,Homenick-Kunde,47
+336,Crystal Novotna,#4486b3,10:13 AM,9:30 PM,2022-03-21,Jardim Oceânico-Leme,1345678.9,0.62,"Nitzsche, Murphy and Mante",54
+337,Nils Wheelhouse,#bbaee6,1:12 AM,10:06 PM,2017-11-23,Leme-Botafogo,1112345.67,0.565,"Erdman, Huels and Brekke",37
+338,Fairfax Hixley,#affbd5,11:53 AM,9:27 AM,2019-12-16,Centro-Leme,578901.23,0.51,"Veum, Jacobson and Turcotte",39
+339,Bartlett Besque,#3e7d93,8:55 AM,6:01 AM,2014-07-10,Leme-Botafogo,1356789.01,0.63,"Zboncak, Fahey and Ortiz",46
+340,Darcie Daverin,#582960,5:23 PM,10:52 PM,2002-11-09,Gávea-Botafogo,1045678.9,0.95,Johnston-Gislason,50
+341,Caressa MacCurlye,#c9c912,12:38 AM,11:23 AM,2018-01-22,Lapa-Leblon,1145678.9,0.63,Krajcik-Feeney,59
+342,Nicolette Mabe,#ecb878,12:27 PM,11:25 PM,2009-04-19,Jardim Botânico-Flamengo,1190123.45,0.57,Nicolas-Tromp,32
+343,motorista não atribuído,#b70dbc,3:38 PM,10:12 AM,2012-01-04,Lapa-Leblon,745678.9,0.73,"Wisozk, Kulas and McLaughlin",54
+344,Chet Amsden,#6776e1,6:04 AM,6:28 AM,2016-12-06,Botafogo-Jardim Oceânico,1234567.89,0.62,O'Kon-Bosco,37
+345,Ginger Merveille,#60c7d6,1:37 PM,8:35 PM,2010-03-14,Jardim Oceânico-Leme,923456.78,0.74,Connelly-Weber,55
+346,Herculie Vigar,#7d3b75,12:28 PM,12:17 PM,2004-03-26,Lapa-Leblon,723456.78,0.99,"Hand, Pagac and Dickinson",46
+347,Jarred Milburn,#1be3c2,1:06 PM,3:45 PM,2015-09-21,Glória-Jardim Oceânico,1378901.23,0.68,Harber and Sons,54
+348,Debera Zukierman,#d4ddb8,5:02 PM,12:07 PM,2020-03-05,Lapa-Gávea,712345.67,0.7350000000000001,"Berge, Hahn and Goldner",53
+349,Pepillo Eim,#0b4de3,11:46 AM,4:31 PM,2020-05-21,São Conrado-Largo do Machado,1090123.45,0.79,"Walker, Herzog and Batz",33
+350,Moyra Chasson,#dc5df3,4:51 PM,6:04 PM,2009-01-14,Lapa-Leblon,1101234.56,0.95,Berge Inc,36
+351,Arlinda Marthen,#d338f8,4:33 PM,7:12 PM,2020-05-11,Lapa-Leblon,1212345.67,0.99,"Gerlach, Rippin and Hammes",55
+352,Dagmar Seman,#0ec2ef,1:44 AM,3:31 PM,2018-12-02,Urca-Largo do Machado,1356789.01,0.51,Hagenes-Kuphal,40
+353,Sandy Rowswell,#addfc4,2:10 PM,6:52 AM,2010-10-03,São Conrado-Urca,1312345.67,0.74,Swift Group,38
+354,Cortie Ferrario,#6fff7d,12:49 AM,6:08 PM,2004-05-26,Gávea-Copacabana,967890.12,0.9,Bauch-Mueller,36
+355,Fionna Redan,#17dbb3,5:06 AM,7:04 PM,2011-08-05,Largo do Machado-Urca,701234.56,0.95,"Glover, Cole and Grimes",38
+356,Jobie Rudwell,#3e1ef3,12:40 AM,4:37 PM,2014-01-22,rota não atribuída,1212345.67,0.875,"Harber, Zieme and Funk",55
+357,motorista não atribuído,#99a358,12:16 AM,9:37 PM,2007-11-04,Botafogo-Jardim Oceânico,1112345.67,0.8,Bogan-Kertzmann,36
+358,Amii Mines,#07fd38,1:05 AM,5:52 PM,2010-10-22,Largo do Machado-Copacabana,612345.67,0.57,"Predovic, Graham and Howe",57
+359,Ivie Drinkhill,#10da55,4:51 PM,3:52 PM,2011-04-19,Centro-Leme,1290123.45,0.62,"VonRueden, Feeney and Thompson",41
+360,Florence Swithenby,#e28d7a,9:01 AM,6:43 AM,2015-04-09,Leblon-Botafogo,1123456.78,0.68,Luettgen Group,38
+361,Munmro Conkie,#7770c7,6:34 AM,7:54 AM,2008-06-30,Botafogo-Centro,656789.01,0.95,Glover Group,53
+362,Magdalena Myford,#ba65cc,12:50 PM,6:37 PM,2014-08-26,São Conrado-Largo do Machado,523456.78,0.57,Smith-Heller,60
+363,Grant Chuter,#b811b5,5:12 AM,7:07 AM,2015-08-14,Botafogo-Leme,1245678.9,0.51,Price-Conn,50
+364,Janela Bartozzi,#517c5b,6:48 AM,7:12 PM,2023-04-23,Gávea-Centro,1134567.89,0.69,"Becker, Littel and Satterfield",35
+365,Jermayne Thorne,#0bb7ef,3:31 PM,12:05 PM,2021-02-22,Largo do Machado-Copacabana,945678.9,0.63,"Cummerata, Carroll and Rosenbaum",60
+366,motorista não atribuído,#d7b6b6,10:34 AM,8:15 AM,2006-05-04,Glória-Leme,801234.56,0.51,"Runte, Schinner and Dooley",57
+367,Tessy Gilkes,#48a2ad,3:34 AM,5:13 PM,2005-01-06,Urca-Lapa,1345678.9,0.57,Doyle-Dare,47
+368,Sansone Viney,#604c81,2:29 AM,9:50 AM,2013-11-29,Urca-Lapa,1245678.9,0.74,Wolf-Corwin,41
+369,Lida Longcaster,#8a05e7,3:31 AM,7:16 AM,2009-08-18,Copacabana-Ipanema,801234.56,0.69,"Baumbach, Little and Erdman",52
+370,Pandora Vanshin,#28cf4a,8:20 AM,9:14 AM,2017-01-31,Centro-Leme,1267890.12,0.52,Kerluke Inc,40
+371,Fred Bevens,#6e6bbc,6:05 AM,4:05 PM,2020-08-25,Copacabana-Ipanema,1245678.9,0.74,Rodriguez-Donnelly,31
+372,Kaila Baxstar,#6b43eb,2:36 AM,8:04 AM,2007-11-23,Largo do Machado-Copacabana,756789.01,0.69,"Rath, Monahan and Koch",35
+373,Hymie Lavrinov,#a0bbff,1:04 AM,4:13 PM,2005-09-06,Ipanema-Gávea,1145678.9,0.52,O'Hara-Weber,48
+374,Philippe Baniard,#28abb0,9:44 AM,10:53 AM,2004-09-30,São Conrado-Urca,1256789.01,0.79,Langworth Group,48
+375,Alida Allchorne,#57d8a8,8:50 AM,9:44 AM,2016-08-17,Largo do Machado-Glória,701234.56,0.79,Ferry Group,44
+376,Blithe Trinkwon,#bd86d5,1:56 AM,10:52 PM,2011-10-20,Lapa-Leblon,1423456.78,0.63,"Herzog, Kutch and Jenkins",34
+377,Nevile Officer,#ca5021,1:27 PM,7:11 PM,2011-02-01,Centro-Jardim Botânico,789012.34,0.68,"Shanahan, Smith and Mann",38
+378,Zahara Boskell,#e6fef3,2:01 AM,10:17 PM,2015-07-01,Leme-São Conrado,1490123.45,0.73,Weimann Group,46
+379,Mariejeanne Gillbey,#3a7fe0,4:09 AM,9:37 AM,2015-01-07,São Conrado-Largo do Machado,1367890.12,0.9,Towne-Casper,44
+380,Lara Spillman,#07c111,9:32 AM,9:19 AM,2006-02-01,Lapa-Copacabana,1023456.78,0.99,Sanford-Jacobson,56
+381,Gayle Beseke,#456c31,3:34 AM,10:58 AM,2022-03-12,Ipanema-Lapa,834567.89,0.99,Runte-Barrows,58
+382,Ruthi Lorand,#e2640f,5:40 AM,12:35 PM,2007-05-28,Urca-Lapa,923456.78,0.7849999999999999,Gorczany-Reinger,45
+383,Hyacinthia Sherrocks,#d6b733,9:31 AM,6:52 PM,2022-09-18,Jardim Oceânico-Glória,1389012.34,0.58,DuBuque and Sons,43
+384,Pete Muskett,#976f1c,8:02 AM,12:23 PM,2013-08-27,Jardim Oceânico-Glória,1434567.89,0.62,Keebler-Boyer,60
+385,Sibyl Pywell,#1edb20,5:27 PM,10:47 PM,2019-09-25,Leblon-São Conrado,1123456.78,0.63,"Kertzmann, Gorczany and Carter",60
+386,Isa Hannent,#a5a88f,8:06 AM,3:56 PM,2018-01-01,Leme-Gávea,1312345.67,0.79,Cremin-Batz,30
+387,Nevile Midgely,#50badd,2:41 AM,11:42 AM,2011-06-23,Copacabana-Lapa,1245678.9,0.71,"Fahey, Armstrong and Hessel",48
+388,Shurlock Lacroux,#6eb474,11:16 AM,9:07 PM,2010-04-27,rota não atribuída,1212345.67,0.63,Rice Group,34
+389,motorista não atribuído,#92c3b7,1:19 PM,10:08 PM,2012-04-18,Leme-Botafogo,1478901.23,0.57,"Heller, Oberbrunner and Toy",43
+390,motorista não atribuído,#5aee6a,12:53 AM,12:56 PM,2005-01-24,São Conrado-Jardim Botânico,1056789.01,0.5733333333333333,Becker-Hoppe,43
+391,Consuela Tallon,#537539,2:31 PM,10:00 PM,2007-01-07,Glória-Jardim Oceânico,1434567.89,0.5766666666666667,Turner-Kerluke,48
+392,Dene Bynold,#1dcb93,5:59 PM,10:44 AM,2015-04-25,Botafogo-Jardim Oceânico,1323456.78,0.58,Ondricka Inc,40
+393,Heath Torbeck,#d36e11,5:40 AM,11:56 AM,2023-05-10,Leblon-Largo do Machado,601234.56,0.69,"Boyer, Koch and Pollich",32
+394,Jason Brandassi,#bd5f9e,3:39 PM,7:17 AM,2004-08-05,Ipanema-Lapa,512345.67,0.8,"Metz, Reinger and Reynolds",59
+395,Chester McLorinan,#f42d21,9:47 AM,5:08 PM,2008-02-13,Glória-Jardim Oceânico,1401234.56,0.95,Murphy-Franecki,57
+396,Eden Bewsey,#9afd84,4:56 AM,9:23 AM,2014-01-21,Largo do Machado-Barra da Tijuca,723456.78,0.9,"Padberg, Huel and Bruen",57
+397,Noll Penelli,#8ef8b3,11:19 AM,11:18 AM,2005-01-16,Largo do Machado-Urca,956789.01,0.58,Quitzon and Sons,58
+398,Danyette Haskur,#1222c4,9:52 AM,7:07 AM,2007-07-28,Leme-Botafogo,601234.56,0.84,Orn-Heaney,50
+399,Lyman Traske,#eb1340,4:21 PM,8:44 AM,2006-10-10,Copacabana-Barra da Tijuca,1101234.56,0.63,"Cassin, Grant and Orn",58
+400,Angelia McElrea,#e5585b,1:17 AM,3:17 PM,2010-07-24,rota não atribuída,990123.45,0.99,Prosacco Group,46
+401,Muffin Callear,#24a7fa,6:13 AM,2:07 PM,2019-03-25,rota não atribuída,1312345.67,0.58,Grimes Group,54
+402,Rozelle Rosenkrantz,#94a8f3,9:43 AM,7:55 PM,2018-05-31,São Conrado-Jardim Botânico,1490123.45,0.99,Hettinger-Homenick,37
+403,Delcina Tunnicliffe,#df0535,2:29 PM,7:06 PM,2020-01-19,Botafogo-Jardim Botânico,1212345.67,0.99,Strosin-Stamm,55
+404,Donny Clawson,#1eddd3,10:43 AM,7:36 AM,2020-02-17,Leblon-Largo do Machado,701234.56,0.95,Williamson LLC,48
+405,Caren Mussilli,#7efefa,4:41 AM,9:45 PM,2015-12-31,Ipanema-Jardim Botânico,1345678.9,0.8966666666666666,Mayert-Beier,33
+406,Debbie Clinton,#6cdfd7,3:45 PM,6:21 AM,2009-04-19,Jardim Botânico-Ipanema,834567.89,0.8433333333333334,Kirlin-Hahn,42
+407,Latashia Simmonite,#1c0fbd,12:33 AM,2:35 PM,2013-08-27,Copacabana-Lapa,1223456.78,0.79,McDermott-Herzog,47
+408,Fee Kenderdine,#a2291b,2:54 AM,4:27 PM,2023-05-06,Botafogo-Centro,1245678.9,0.74,Corwin Group,37
+409,Hobie Aronstam,#94671b,10:32 AM,8:12 PM,2009-04-10,Jardim Botânico-São Conrado,1101234.56,0.79,Dickens Inc,56
+410,motorista não atribuído,#05989b,5:31 PM,7:30 PM,2019-05-25,rota não atribuída,1145678.9,0.58,Gusikowski-Dickens,59
+411,Dot de Quesne,#3b28fb,12:26 PM,10:21 PM,2009-07-19,Leblon-Largo do Machado,1445678.9,0.69,"Rosenbaum, King and Sipes",35
+412,Tybalt Mabee,#665486,8:48 AM,7:43 AM,2012-10-07,Glória-Jardim Oceânico,1278901.23,0.73,"Hauck, Ebert and Bailey",45
+413,Aimil Kettlestringes,#91dfc0,4:49 AM,7:13 AM,2017-02-28,Ipanema-Centro,645678.9,0.84,"Marquardt, Schroeder and Klocko",38
+414,Candie Balcombe,#927809,3:15 PM,4:50 PM,2020-08-14,São Conrado-Largo do Machado,1223456.78,0.79,Haag Inc,53
+415,Cecil Iglesias,#af5ff4,4:30 AM,11:44 AM,2010-07-20,Centro-Leme,856789.01,0.74,"Walter, Hamill and Glover",37
+416,motorista não atribuído,#7cb0d1,2:58 PM,8:15 AM,2006-03-13,Lapa-Gávea,1490123.45,0.57,Jones-Collins,36
+417,motorista não atribuído,#53cfdf,12:20 PM,8:30 PM,2007-01-30,Gávea-Centro,801234.56,0.71,Rolfson Group,59
+418,Lettie Derisly,#253c82,4:31 AM,9:53 AM,2006-11-24,Leme-Gávea,967890.12,0.85,Ratke Group,44
+419,Wenona Cisco,#e8dd1e,2:16 PM,7:22 AM,2004-05-08,Botafogo-Leme,1223456.78,0.99,Hermann LLC,38
+420,Redd Lendrem,#2fd8eb,5:31 AM,11:20 AM,2006-06-13,Gávea-Copacabana,1278901.23,0.68,Emard-Lueilwitz,47
+421,Valentin Purvess,#7bcdc9,2:33 AM,11:58 AM,2020-04-11,Largo do Machado-Barra da Tijuca,1034567.89,0.62,"Weimann, Rice and Emard",41
+422,Olivie Zuann,#128ab3,4:44 PM,4:47 PM,2017-12-21,Urca-Largo do Machado,545678.9,0.6766666666666666,Langosh LLC,44
+423,Ynez Le Fevre,#f2ebf6,4:17 AM,2:09 PM,2007-09-23,Jardim Oceânico-Glória,689012.34,0.7333333333333334,Dach and Sons,59
+424,Ryan Matten,#a1ce1f,12:14 PM,10:23 AM,2022-09-03,Largo do Machado-Glória,812345.67,0.79,Hoppe LLC,32
+425,motorista não atribuído,#1863bb,8:45 AM,1:39 PM,2008-05-28,rota não atribuída,1334567.89,0.62,"Cole, Muller and Miller",47
+426,motorista não atribuído,#0b0027,3:15 PM,11:34 PM,2014-08-27,Leme-Botafogo,923456.78,0.68,Gleason Inc,55
+427,Dana Marr,#aed043,5:41 AM,8:16 PM,2009-05-08,Centro-Leme,1090123.45,0.68,"Pollich, Reynolds and Grant",57
+428,motorista não atribuído,#5b2347,4:18 PM,7:37 PM,2016-09-20,Ipanema-Lapa,1401234.56,0.51,"Little, Rutherford and Borer",39
+429,Giuseppe Keynd,#eacbd8,2:31 AM,8:00 AM,2003-09-10,Lapa-Gávea,1256789.01,0.74,"Quigley, Ankunding and Conn",34
+430,motorista não atribuído,#9b8ca1,4:13 PM,2:54 PM,2011-09-17,Glória-Jardim Oceânico,690123.45,0.95,"Wolf, O'Connell and Emard",51
+431,Hermie Veque,#21a6cc,5:19 PM,12:41 PM,2019-10-09,Centro-Leme,1412345.67,0.79,Stracke LLC,41
+432,Andrew Ayce,#1a529d,12:16 AM,10:40 AM,2009-12-16,rota não atribuída,956789.01,0.63,D'Amore Group,32
+433,Natividad Esplin,#edba2c,5:32 AM,11:19 PM,2015-01-17,Jardim Oceânico-Leme,1456789.01,0.605,Rosenbaum LLC,39
+434,motorista não atribuído,#b3375f,8:16 AM,9:16 AM,2021-11-30,Centro-Barra da Tijuca,1134567.89,0.58,"Denesik, Mills and McDermott",57
+435,Byram Dibdin,#afd03a,2:17 AM,2:49 PM,2021-05-21,Ipanema-Lapa,712345.67,0.5449999999999999,Rath-Schmitt,55
+436,Chicky Willowby,#260d63,8:21 AM,9:35 AM,2005-11-22,Lapa-Leblon,645678.9,0.51,Mann-Schowalter,58
+437,Kane Sager,#df7c0d,2:20 AM,10:03 AM,2018-09-20,Leblon-Lapa,1089012.34,0.8,"Lebsack, Runte and Huels",48
+438,Terencio Weatherburn,#0b5f27,10:19 AM,12:38 PM,2019-10-24,Jardim Oceânico-Glória,1223456.78,0.79,"Deckow, Bosco and Ankunding",52
+439,Brandtr Alder,#cf4dec,11:04 AM,8:19 AM,2021-05-31,Botafogo-Jardim Oceânico,1301234.56,0.845,Reichert LLC,49
+440,Hattie Diffley,#dfedcf,9:17 AM,3:08 PM,2008-07-26,rota não atribuída,667890.12,0.9,Zulauf LLC,40
+441,Linette Veal,#7a8b44,7:40 AM,9:45 AM,2007-03-20,Copacabana-Ipanema,1045678.9,0.9,Frami Group,38
+442,Barbey Crown,#03baf8,5:20 AM,9:44 PM,2015-10-09,São Conrado-Jardim Botânico,778901.23,0.69,Kuhic-Greenholt,59
+443,Nancy Mattys,#e35d9d,5:42 AM,8:57 PM,2015-07-29,Centro-Leme,1345678.9,0.63,Sipes and Sons,36
+444,Rolando Van de Vlies,#03d089,10:58 AM,1:21 PM,2008-10-02,rota não atribuída,1123456.78,0.84,Jones-Heaney,60
+445,Hildy Blant,#57a391,12:26 AM,12:57 PM,2021-01-20,São Conrado-Largo do Machado,956789.01,0.99,Legros LLC,53
+446,Edvard Garfitt,#87b2b6,4:27 AM,8:02 AM,2005-10-20,Jardim Botânico-São Conrado,878901.23,0.58,Swift and Sons,49
+447,Puff Dybald,#5224e2,2:18 PM,11:35 PM,2007-01-25,Largo do Machado-Glória,1378901.23,0.69,Skiles Group,59
+448,Antonino Iacovolo,#f31fd5,11:40 AM,7:38 AM,2008-07-17,Ipanema-Jardim Botânico,1145678.9,0.68,Koelpin Inc,51
+449,Atlante Sonschein,#f77d9e,4:39 AM,6:41 AM,2010-05-20,Leme-Urca,945678.9,0.99,Heidenreich-Connelly,30
+450,Tammara Shuter,#26bee7,10:16 AM,4:49 PM,2007-06-05,Lapa-Leblon,1490123.45,0.51,Spencer-Mueller,56
+451,Lucina Antonov,#3c0f4a,4:22 PM,12:10 PM,2017-07-23,Copacabana-Barra da Tijuca,1067890.12,0.8,"Beatty, Schumm and Homenick",49
+452,Ruddie Liveing,#458dac,4:48 PM,6:59 PM,2017-02-27,São Conrado-Jardim Botânico,1412345.67,0.9,Jacobi Inc,48
+453,motorista não atribuído,#cab5b8,6:02 AM,9:57 AM,2015-07-26,rota não atribuída,1434567.89,0.99,Windler-Kirlin,60
+454,Rainer Blackmoor,#3de1e7,5:19 PM,6:54 PM,2005-07-02,rota não atribuída,1201234.56,0.79,Bode-Koss,41
+455,Gerrie Lashford,#905b46,5:41 PM,2:44 PM,2005-02-19,Leblon-São Conrado,1401234.56,0.9,Streich-Crooks,38
+456,Misha Philippard,#c8545d,3:40 AM,11:46 AM,2003-11-30,Gávea-Centro,523456.78,0.68,"Walter, Steuber and Stamm",30
+457,Mart Scouller,#2ab878,2:49 PM,11:21 AM,2002-11-10,Centro-Barra da Tijuca,1201234.56,0.65,Rau Inc,36
+458,Fionna Pinsent,#4f0dfb,1:29 AM,6:36 PM,2020-10-02,Leme-São Conrado,1189012.34,0.62,Roob Inc,53
+459,Torey Olsen,#bcda67,12:00 AM,11:21 AM,2013-10-23,Largo do Machado-Urca,1123456.78,0.63,Marks and Sons,40
+460,Reider O'Criane,#689f7c,3:05 AM,11:49 PM,2018-03-14,Jardim Botânico-Ipanema,1256789.01,0.95,"Halvorson, Larkin and Miller",53
+461,Elspeth Mixworthy,#982485,4:39 PM,10:39 AM,2010-04-26,Largo do Machado-Jardim Botânico,978901.23,0.63,Emard Inc,60
+462,Camille Mateiko,#58fd27,3:41 AM,11:14 PM,2010-02-28,Gávea-Botafogo,1212345.67,0.57,Okuneva-Kuphal,39
+463,motorista não atribuído,#ddf44b,11:08 AM,10:07 AM,2005-05-17,Barra da Tijuca-Jardim Botânico,589012.34,0.62,"Rowe, Lehner and Bergnaum",56
+464,Rikki Maron,#68eea0,12:15 PM,9:00 AM,2010-08-23,rota não atribuída,923456.78,0.51,Mraz and Sons,51
+465,Gwyn O'Brogane,#7f7826,1:08 AM,7:29 PM,2010-12-18,Jardim Oceânico-Copacabana,1345678.9,0.62,"Prohaska, Wunsch and Jacobs",52
+466,Tomas Gissing,#547a06,5:34 AM,9:26 AM,2007-07-27,Urca-Lapa,567890.12,0.69,"Reichel, Halvorson and Morissette",36
+467,Mureil Cashman,#85eadb,12:34 PM,2:03 PM,2010-08-24,São Conrado-Glória,845678.9,0.8,Kautzer Group,41
+468,Ross Grinov,#1ec232,12:36 PM,9:59 AM,2015-05-23,Glória-Leme,1389012.34,0.8,"Rempel, Walsh and Ruecker",48
+469,Susan Attenburrow,#a90a7c,5:28 AM,8:38 AM,2009-11-17,Barra da Tijuca-Jardim Botânico,1090123.45,0.73,Ryan-Zieme,44
+470,Valencia MacIntosh,#60bed0,4:33 AM,7:42 PM,2008-08-31,Flamengo-Copacabana,856789.01,0.63,"Bogan, Blick and Ondricka",45
+471,Gladi Mahaddy,#b2992a,3:15 PM,6:07 PM,2022-05-28,Botafogo-Centro,1323456.78,0.51,"Dickens, Jakubowski and O'Reilly",36
+472,Helena Hartridge,#1bb5cd,4:57 PM,7:02 PM,2009-02-07,rota não atribuída,1190123.45,0.74,"Kuphal, Flatley and Stehr",35
+473,Salem Cawtheray,#811db8,1:36 PM,3:49 PM,2007-07-03,Glória-Jardim Oceânico,845678.9,0.99,"Wunsch, McDermott and Leffler",36
+474,Austin Amery,#573cc0,2:11 AM,4:01 PM,2021-06-21,Jardim Botânico-Ipanema,1178901.23,0.63,Kulas-Lindgren,38
+475,Alessandro Whatley,#838e2e,3:34 PM,11:21 AM,2005-06-26,Gávea-Lapa,1434567.89,0.99,"Fay, Schmidt and Walker",54
+476,Bradney Aiston,#c117c8,12:51 AM,6:26 AM,2020-12-24,Jardim Botânico-Leblon,1201234.56,0.69,"Toy, Paucek and Daniel",39
+477,Myrlene Thomassin,#d1ccfe,4:43 PM,8:05 PM,2022-07-12,Leme-São Conrado,523456.78,0.99,"Schaden, Orn and Veum",57
+478,Danice Struss,#52ad65,7:38 AM,8:55 PM,2021-03-11,Botafogo-Leme,1089012.34,0.84,Prosacco Group,50
+479,Hyacinthia Fricker,#d7dd24,1:45 AM,9:11 AM,2022-06-23,Leblon-Largo do Machado,1189012.34,0.62,Rice Group,37
+480,Megan Annakin,#04a021,5:11 AM,2:31 PM,2010-06-15,Copacabana-Lapa,1434567.89,0.62,Yost LLC,34
+481,Simonne Brunsdon,#e7ab12,12:08 AM,8:17 AM,2019-03-28,Barra da Tijuca-Jardim Botânico,901234.56,0.62,Roberts-Corkery,49
+482,Parsifal Yetts,#e0a56e,5:50 PM,6:36 PM,2012-09-27,Leblon-Botafogo,712345.67,0.84,Casper Inc,43
+483,motorista não atribuído,#f47661,4:20 PM,11:56 AM,2003-05-09,Largo do Machado-Barra da Tijuca,1101234.56,0.63,Funk Inc,36
+484,Katusha Chawkley,#f21600,6:14 AM,2:12 PM,2019-05-28,Leme-Urca,990123.45,0.99,Kunze and Sons,54
+485,motorista não atribuído,#fffb3f,8:30 AM,6:32 PM,2012-05-09,Copacabana-Lapa,1289012.34,0.99,"Metz, Conroy and Kuhic",54
+486,Preston Pessolt,#667157,9:58 AM,5:02 PM,2004-01-03,Ipanema-Centro,1101234.56,0.62,"Veum, Franecki and Hintz",53
+487,Willi Lyver,#ccc11a,9:08 AM,6:39 PM,2016-11-05,Barra da Tijuca-Leblon,1390123.45,0.95,Homenick-Schaefer,32
+488,Karlik Heselwood,#3bc97c,3:52 AM,6:10 AM,2017-12-11,Centro-Barra da Tijuca,1378901.23,0.8266666666666667,Stoltenberg Group,57
+489,Lainey Winship,#47222f,1:28 AM,9:49 AM,2003-11-09,Jardim Oceânico-Glória,1456789.01,0.7033333333333333,Lind and Sons,43
+490,Yehudit Radin,#673a56,2:54 PM,3:20 PM,2003-04-02,Copacabana-Barra da Tijuca,1034567.89,0.58,Flatley-Purdy,33
+491,Enrichetta Jarvie,#cfaa28,1:29 PM,4:15 PM,2013-07-20,Botafogo-Leme,1312345.67,0.69,"Cormier, Walter and Stark",36
+492,Merwyn Squires,#0f458f,7:32 AM,3:01 PM,2005-06-16,Urca-Largo do Machado,1012345.67,0.8,Armstrong-Kunde,42
+493,Riki Lathom,#e5eb7d,3:12 PM,8:12 AM,2022-12-25,Leblon-Lapa,1367890.12,0.57,Bartoletti and Sons,44
+494,Carolann Andell,#f050d9,2:50 PM,1:04 PM,2010-10-14,Barra da Tijuca-Centro,1212345.67,0.9,Blanda-Mueller,47
+495,Heda Boays,#5789bf,8:36 AM,5:00 PM,2020-06-09,Copacabana-Ipanema,1123456.78,0.84,Schneider-Kuphal,52
+496,Yasmin Bassindale,#187f6d,9:53 AM,5:14 PM,2014-04-29,Leblon-Largo do Machado,1078901.23,0.69,Wehner-Gusikowski,52
+497,Lidia Tinsley,#794414,11:37 AM,6:02 AM,2022-03-08,Botafogo-Jardim Oceânico,1045678.9,0.73,"Weimann, Heathcote and Luettgen",49
+498,Alasteir Caplis,#8a78d1,1:26 PM,7:48 AM,2010-07-16,Leblon-Largo do Machado,890123.45,0.74,Nitzsche-Yundt,45
+499,Darnell Emberton,#c2b678,10:49 AM,4:13 PM,2017-04-14,São Conrado-Glória,834567.89,0.95,"Cole, Dickinson and VonRueden",51
+500,Carie Dove,#060d61,4:00 PM,2:17 PM,2018-02-02,rota não atribuída,1367890.12,0.58,Schroeder-Simonis,42
+501,Thorstein Addenbrooke,#694f05,7:36 AM,7:58 PM,2018-04-24,Leme-Urca,701234.56,0.62,Stokes LLC,59
+502,Lisetta Carlos,#92e99f,8:47 AM,7:14 PM,2013-11-21,Jardim Oceânico-Copacabana,890123.45,0.69,"Nolan, Boyle and Schulist",37
+503,Jasmin Powter,#30247a,7:40 AM,9:41 PM,2009-09-08,Centro-Barra da Tijuca,601234.56,0.63,Crooks LLC,49
+504,motorista não atribuído,#c5b61a,2:54 AM,4:19 PM,2018-09-24,Largo do Machado-Barra da Tijuca,1378901.23,0.51,Stehr and Sons,51
+505,Effie Wyse,#34089a,5:04 PM,10:48 AM,2009-05-13,Jardim Oceânico-Lapa,789012.34,0.99,"Klein, O'Conner and Wisozk",51
+506,Cassy Hesbrook,#c8767e,1:42 PM,9:29 AM,2020-11-11,Lapa-Gávea,1356789.01,0.52,Tremblay LLC,50
+507,Reginauld Da Costa,#fde6e2,8:04 AM,11:13 PM,2007-12-14,rota não atribuída,1123456.78,0.63,Block Group,31
+508,Haily Etienne,#d23b08,2:42 AM,4:18 PM,2005-12-15,Urca-Lapa,1156789.01,0.52,Gorczany and Sons,51
+509,Rutger Gathercoal,#7759c3,7:54 AM,8:25 PM,2005-01-24,rota não atribuída,1423456.78,0.52,Smitham-Carter,42
+510,Deeann Hurst,#e78a8b,2:14 PM,7:06 PM,2003-10-03,rota não atribuída,901234.56,0.515,"Goodwin, Fisher and Greenfelder",43
+511,Osborn Crut,#f51bf9,1:22 PM,8:22 PM,2004-06-19,Flamengo-Largo do Machado,767890.12,0.51,Tillman LLC,41
+512,motorista não atribuído,#efd107,3:20 AM,10:55 AM,2021-07-22,Botafogo-Jardim Oceânico,1301234.56,0.52,"Hayes, Witting and Wilkinson",52
+513,Gisela Bayle,#6a0bc0,8:13 AM,11:31 PM,2016-10-16,Jardim Botânico-Ipanema,790123.45,0.62,"Oberbrunner, Harber and Schumm",39
+514,Billye Riddiough,#94ec98,5:59 PM,7:17 PM,2005-12-25,São Conrado-Glória,923456.78,0.84,Lemke LLC,52
+515,Carlo Symmers,#615f82,9:10 AM,1:53 PM,2014-11-09,São Conrado-Glória,990123.45,0.73,Pfeffer-Kunde,39
+516,Judy O'Duane,#278db3,2:53 PM,6:37 PM,2019-12-18,Largo do Machado-Urca,1256789.01,0.68,"Brown, Ernser and MacGyver",33
+517,motorista não atribuído,#5fd50a,9:59 AM,9:38 AM,2018-12-05,Flamengo-Copacabana,1101234.56,0.71,Ruecker-Robel,57
+518,Biddy Way,#e18566,1:10 AM,8:20 AM,2014-12-24,rota não atribuída,1345678.9,0.74,Harris LLC,30
+519,Nani Roadknight,#97dfda,12:22 PM,3:01 PM,2003-06-20,Botafogo-Leme,734567.89,0.74,Kemmer-Renner,43
+520,Noellyn Boggas,#9fa5d4,11:08 AM,2:48 PM,2012-05-26,Ipanema-Jardim Botânico,1334567.89,0.765,Kunze LLC,41
+521,Bird Devericks,#8c2dd3,8:17 AM,5:20 PM,2005-09-22,Leblon-Botafogo,1312345.67,0.79,"DuBuque, Maggio and McGlynn",35
+522,Jecho Eltone,#5dbfb8,3:14 PM,8:09 AM,2011-07-14,Jardim Oceânico-Lapa,1156789.01,0.63,Russel-Pouros,30
+523,Zachariah Ruffle,#d6c681,8:55 AM,6:08 AM,2016-12-15,Lapa-Leblon,1034567.89,0.68,"Roob, Lesch and Reilly",51
+524,Milli Casterou,#59356a,2:45 PM,11:04 AM,2012-12-05,Gávea-Centro,1423456.78,0.9,Schulist-Boehm,44
+525,Ibby Frankel,#829cc0,3:56 AM,7:23 AM,2017-12-13,São Conrado-Glória,545678.9,0.51,Hahn-Ryan,55
+526,Lucina Croisdall,#6bd4cd,2:05 AM,8:05 AM,2021-10-23,Jardim Oceânico-Copacabana,1167890.12,0.63,Treutel-Mosciski,59
+527,Tracie Ebbitt,#bb228b,8:24 AM,10:21 PM,2019-05-16,Jardim Oceânico-Glória,590123.45,0.6,"Kulas, Altenwerth and Steuber",41
+528,Annecorinne Meynell,#43a411,3:57 PM,10:13 AM,2011-08-11,Largo do Machado-Copacabana,1278901.23,0.57,Mayert-Rutherford,41
+529,Grethel Beeston,#eae7dd,2:40 AM,1:42 PM,2019-03-15,Gávea-Lapa,567890.12,0.63,Tremblay-Predovic,53
+530,Lynn Rouch,#79062d,12:28 PM,11:20 AM,2006-04-18,rota não atribuída,1356789.01,0.73,"Frami, Schowalter and Nolan",60
+531,Claus Hintzer,#d5cdd6,12:13 PM,12:52 PM,2016-05-21,Urca-Leblon,790123.45,0.57,Hermann-Bayer,30
+532,Paula Morad,#956373,5:03 PM,11:32 PM,2012-02-21,Lapa-Leblon,712345.67,0.5449999999999999,Rolfson and Sons,45
+533,Orelee O'Hannay,#9c8984,1:55 AM,7:43 PM,2005-12-03,rota não atribuída,512345.67,0.52,Hermiston Group,55
+534,Raphaela Presdie,#49cb53,10:15 AM,10:38 AM,2003-03-19,Leblon-Largo do Machado,1423456.78,0.74,Kohler and Sons,58
+535,Mada Pinckard,#6f24b3,10:15 AM,11:54 AM,2006-06-25,Jardim Botânico-Flamengo,1134567.89,0.84,Anderson-Schneider,51
+536,Irma Spores,#4bd9ac,7:16 AM,10:31 PM,2008-02-07,Largo do Machado-Urca,523456.78,0.62,"Powlowski, Flatley and Hessel",51
+537,motorista não atribuído,#43e62c,2:53 PM,3:04 PM,2014-03-21,Copacabana-Barra da Tijuca,823456.78,0.51,Hirthe-Keeling,48
+538,Charo Studeart,#6b7957,1:38 PM,7:38 AM,2012-02-24,Gávea-Botafogo,578901.23,0.8,Gibson-Denesik,52
+539,Pris Bortoletti,#ef2d10,2:17 PM,7:55 PM,2015-09-02,rota não atribuída,1278901.23,0.8,Fahey and Sons,43
+540,Edgardo McQuarter,#a7ebee,6:47 AM,5:04 PM,2022-11-14,Leme-Urca,834567.89,0.57,"Hackett, Frami and Bayer",31
+541,Shea Swatland,#d4305d,1:53 PM,11:00 AM,2002-06-18,Largo do Machado-Copacabana,834567.89,0.73,"Dooley, Funk and Goldner",45
+542,Pet Cobon,#7532ef,6:48 AM,7:34 PM,2016-10-10,Jardim Botânico-Flamengo,945678.9,0.8,Casper-Abshire,51
+543,Pauli Vennings,#6c3f55,1:28 PM,9:03 AM,2005-04-10,Gávea-Botafogo,667890.12,0.95,"O'Kon, Lind and Bauch",57
+544,Heda Vickarman,#760fe6,9:15 AM,10:22 PM,2013-10-28,Urca-Leblon,601234.56,0.84,Goyette-Crona,57
+545,Charmain Peploe,#06774c,5:48 PM,9:18 PM,2006-07-13,São Conrado-Urca,534567.89,0.84,Witting and Sons,37
+546,motorista não atribuído,#7d37c8,1:34 AM,1:57 PM,2008-09-17,Leme-São Conrado,1123456.78,0.51,"Predovic, Ullrich and Grady",40
+547,Carolin Gritton,#0432c7,8:51 AM,8:27 AM,2019-04-14,São Conrado-Glória,1201234.56,0.57,Ratke and Sons,58
+548,Hesther Hedgecock,#ea95f9,4:04 AM,6:42 PM,2009-01-18,São Conrado-Largo do Machado,634567.89,0.57,Conn Inc,53
+549,Tadio Rives,#a3fdfc,9:47 AM,10:56 PM,2015-04-12,Jardim Botânico-São Conrado,634567.89,0.6299999999999999,"Jaskolski, Hand and Sporer",38
+550,Gunter Vigrass,#c7789e,12:05 AM,11:28 PM,2014-05-29,Leme-Urca,645678.9,0.69,Bailey-Trantow,42
+551,Tamiko Bridgement,#6537f8,3:21 PM,7:44 PM,2018-11-23,São Conrado-Urca,878901.23,0.73,Greenholt-Moore,44
+552,Tally Bennoe,#801261,6:28 AM,9:20 PM,2012-11-30,Lapa-Copacabana,945678.9,0.52,"Bosco, Lebsack and Buckridge",45
+553,Gilles Wythill,#19dd2c,2:59 PM,10:42 PM,2007-08-25,Largo do Machado-Glória,1423456.78,0.57,Wiegand Group,30
+554,Denver Taffrey,#687bba,10:42 AM,11:28 AM,2023-02-13,São Conrado-Glória,745678.9,0.655,Dibbert LLC,39
+555,Pauli Dongall,#357952,10:32 AM,1:34 PM,2012-10-14,Glória-Leme,678901.23,0.74,Barrows-Cormier,40
+556,Josee Conachy,#bde93d,4:56 PM,9:31 AM,2014-12-16,Leme-Botafogo,823456.78,0.58,Fahey and Sons,35
+557,Griz Craggs,#15f1a5,9:52 AM,9:20 AM,2004-03-09,rota não atribuída,812345.67,0.69,Towne and Sons,31
+558,Christiane Minichi,#0e4af6,6:51 AM,7:25 PM,2009-06-24,Glória-Jardim Oceânico,912345.67,0.51,Klocko Group,57
+559,Robena Greenman,#7da086,11:06 AM,10:18 AM,2010-10-14,Jardim Oceânico-Glória,1101234.56,0.84,"Predovic, Haley and Schroeder",35
+560,motorista não atribuído,#499322,3:03 AM,4:35 PM,2017-09-20,Botafogo-Centro,978901.23,0.7666666666666666,Vandervort LLC,60
+561,Darryl Rama,#bf6b97,8:48 AM,1:38 PM,2021-12-30,Urca-Leblon,912345.67,0.6933333333333334,Lindgren Inc,43
+562,Dyana Treacher,#f79b5c,5:56 AM,10:00 AM,2014-01-02,rota não atribuída,834567.89,0.62,Powlowski and Sons,60
+563,Philly Rudolf,#f31670,10:26 AM,6:47 PM,2017-11-08,São Conrado-Jardim Botânico,1390123.45,0.58,Hauck-Kozey,40
+564,Simeon Rowntree,#bc048c,10:53 AM,10:16 AM,2002-11-12,Jardim Oceânico-Leme,601234.56,0.9,Mante Inc,34
+565,Kanya Rozec,#baada8,3:26 PM,7:46 PM,2005-10-11,Copacabana-Lapa,1034567.89,0.63,"Stehr, Larkin and Koepp",32
+566,Vaughn Ffoulkes,#510c24,2:42 PM,12:08 PM,2020-09-11,Ipanema-Centro,1267890.12,0.63,"Gorczany, Heaney and Howell",51
+567,Kevyn Rizziello,#eb42a1,2:01 PM,9:51 PM,2005-06-28,Glória-Leme,934567.89,0.9,"Halvorson, Bradtke and Johnson",39
+568,Dodi Doers,#5d3cfb,9:37 AM,10:40 AM,2003-04-14,rota não atribuída,1323456.78,0.9,Rowe-Turcotte,51
+569,Sharline Woollacott,#3cfb3f,1:24 PM,4:18 PM,2004-09-09,Urca-Lapa,512345.67,0.51,"Doyle, Ruecker and Wolff",43
+570,Herculie Barkworth,#d22468,9:38 AM,1:21 PM,2013-11-22,Largo do Machado-Urca,1067890.12,0.9,Bradtke-Stiedemann,44
+571,Roselin Urvoy,#5823f7,8:06 AM,7:29 PM,2008-05-28,Largo do Machado-Urca,790123.45,0.63,"Jenkins, Daugherty and McLaughlin",40
+572,Elisabetta Chark,#81f3d8,5:34 AM,5:27 PM,2013-01-19,Barra da Tijuca-Centro,701234.56,0.52,Bergnaum Inc,53
+573,Rafi Wiggin,#950b90,1:41 PM,10:07 AM,2017-04-04,rota não atribuída,701234.56,0.73,Yundt-Bode,59
+574,Merrili Danihel,#506749,1:21 PM,8:04 AM,2007-11-22,Lapa-Gávea,1490123.45,0.74,Brakus-Murray,60
+575,Kerry Oliver,#fafefc,4:15 PM,5:34 PM,2016-11-24,Lapa-Gávea,878901.23,0.79,Lemke-Sporer,55
+576,Lexie Giraldez,#27bc2d,1:18 PM,12:34 PM,2007-11-29,São Conrado-Jardim Botânico,1489012.34,0.63,Stokes LLC,55
+577,Eilis O'Hoey,#2b185d,2:33 PM,5:29 PM,2018-05-09,Gávea-Centro,756789.01,0.58,Lind and Sons,38
+578,Germain Hodgets,#65c198,10:16 AM,4:59 PM,2009-11-13,Leme-Botafogo,634567.89,0.69,"Moore, Rodriguez and Cruickshank",56
+579,Seward Rushbrook,#08afc0,8:17 AM,9:57 PM,2004-01-11,Botafogo-Jardim Botânico,623456.78,0.57,Berge Inc,55
+580,Talbert Claque,#34dd9b,8:55 AM,4:28 PM,2003-02-25,São Conrado-Jardim Botânico,1367890.12,0.6966666666666667,Skiles Inc,52
+581,Lorin Farr,#f86a94,4:45 AM,3:07 PM,2010-10-10,Barra da Tijuca-Jardim Botânico,1234567.89,0.8233333333333333,Schinner LLC,32
+582,Murdoch Abdon,#ca298c,4:52 PM,2:09 PM,2019-06-18,Ipanema-Gávea,856789.01,0.95,"Lang, Konopelski and Dicki",59
+583,Bert Leaming,#105756,3:15 AM,8:53 AM,2005-08-07,Largo do Machado-Urca,1101234.56,0.99,Corkery-Runte,51
+584,Charmane Stronack,#4ee35d,2:36 AM,6:44 PM,2014-09-02,Leme-Gávea,1378901.23,0.8,Berge-Howe,31
+585,Ewen Stockney,#916f37,2:07 PM,1:32 PM,2014-12-05,Centro-Leme,1267890.12,0.68,"Hane, Wolf and Gorczany",56
+586,Glennis Ambrois,#948094,5:30 PM,11:20 PM,2020-04-23,Ipanema-Centro,534567.89,0.57,"Corwin, Cartwright and Gusikowski",59
+587,Clovis Farr,#9d38a2,12:37 AM,6:35 PM,2009-11-21,Leblon-Lapa,1301234.56,0.8,Bechtelar Group,45
+588,Bradford Rozycki,#9b6932,3:13 AM,2:52 PM,2003-04-07,rota não atribuída,1478901.23,0.57,Nader-Stracke,30
+589,Adore Patnelli,#1573f3,5:49 AM,1:35 PM,2008-08-14,Largo do Machado-Barra da Tijuca,1178901.23,0.9,Paucek and Sons,32
+590,Sidney Geldeford,#2138cc,4:54 AM,2:47 PM,2008-01-02,Copacabana-Ipanema,1290123.45,0.79,Witting and Sons,51
+591,Maryanna Freyn,#f92890,3:46 AM,9:46 AM,2003-11-24,Leblon-Lapa,1189012.34,0.62,Jenkins-Thiel,58
+592,Marijo Linny,#0eaf42,2:57 PM,10:49 AM,2020-07-07,Flamengo-São Conrado,1389012.34,0.63,Kirlin Group,43
+593,Godfry Verheyden,#fea8a0,10:24 AM,7:44 PM,2021-10-25,Largo do Machado-Jardim Botânico,1490123.45,0.81,Larson-Zboncak,32
+594,Lucinda Hodgin,#a8c1c5,6:48 AM,8:44 PM,2018-02-25,rota não atribuída,1178901.23,0.99,Weissnat-Kshlerin,43
+595,Charlean Forster,#34640e,5:57 AM,7:34 PM,2018-01-13,Lapa-Copacabana,823456.78,0.68,Collins Group,59
+596,motorista não atribuído,#ecf0b0,2:46 PM,11:49 PM,2003-09-03,Lapa-Leblon,1356789.01,0.79,Treutel LLC,30
+597,Joeann Hardern,#0d1749,8:33 AM,3:17 PM,2018-03-30,rota não atribuída,601234.56,0.57,Lakin Group,54
+598,Sayer Candlish,#90ca51,5:45 PM,10:08 AM,2009-11-13,Barra da Tijuca-Centro,1345678.9,0.58,"Wintheiser, Parisian and Gulgowski",52
+599,Larina Crotty,#337fde,8:41 AM,6:30 AM,2004-02-17,Jardim Botânico-Ipanema,1378901.23,0.79,Wilkinson LLC,45
+600,Ida Badrick,#517d6f,5:18 PM,10:24 AM,2016-10-05,rota não atribuída,1090123.45,0.74,Bogisich Group,50
+601,motorista não atribuído,#48853a,4:54 AM,6:49 AM,2008-08-07,Botafogo-Jardim Botânico,1178901.23,0.79,"Daniel, Stanton and Metz",47
+602,Gertrud Garrud,#a73011,11:30 AM,11:44 AM,2020-10-24,rota não atribuída,801234.56,0.63,Keeling LLC,43
+603,motorista não atribuído,#974973,12:13 AM,7:23 AM,2007-05-25,Lapa-Leblon,745678.9,0.84,Olson and Sons,60
+604,Max Lawrenceson,#a5f05a,8:26 AM,9:30 AM,2014-10-22,Copacabana-Ipanema,1023456.78,0.99,"Corkery, Wintheiser and Corwin",40
+605,Ruthy Farey,#72e85e,6:38 AM,9:02 AM,2018-10-26,São Conrado-Largo do Machado,1067890.12,0.69,Wisozk-Keeling,60
+606,motorista não atribuído,#986b0c,1:43 AM,8:47 PM,2004-04-14,Leblon-Largo do Machado,656789.01,0.99,Shields-Heathcote,35
+607,Giovanni Carslaw,#a89b09,11:45 AM,7:21 AM,2007-03-27,Largo do Machado-Jardim Botânico,1078901.23,0.9,"Bradtke, Muller and Herzog",56
+608,Karlotte Staggs,#aee4f6,4:55 PM,8:53 AM,2006-12-03,Gávea-Botafogo,1489012.34,0.52,Reinger-Pollich,55
+609,Ninon Attle,#ec8feb,2:32 PM,11:45 AM,2016-12-13,Botafogo-Jardim Oceânico,945678.9,0.73,Zemlak LLC,34
+610,Kala Dosedale,#d3104e,2:15 AM,7:24 AM,2003-02-18,Leblon-Botafogo,878901.23,0.8,"Hickle, Jacobs and Jacobson",46
+611,Sapphira Avraam,#23adf2,12:37 PM,12:41 PM,2015-04-26,Largo do Machado-Copacabana,823456.78,0.74,Hettinger-Dicki,43
+612,motorista não atribuído,#847621,10:41 AM,11:46 PM,2018-01-28,Jardim Oceânico-Lapa,1223456.78,0.74,"Kris, Glover and Kerluke",32
+613,Lissie Cherry,#333363,1:11 PM,8:45 PM,2002-06-19,Largo do Machado-Jardim Botânico,1034567.89,0.63,Breitenberg Group,40
+614,Alvy Abramovicz,#f0f332,1:34 PM,8:32 PM,2023-01-08,Urca-Largo do Machado,1123456.78,0.9,"King, Hane and Kling",38
+615,Padget Gemnett,#4c32e0,9:31 AM,3:03 PM,2012-10-19,Jardim Botânico-Leblon,556789.01,0.8433333333333334,Parker-Wisoky,34
+616,Tamara Radleigh,#93227b,12:00 AM,11:03 PM,2020-11-07,São Conrado-Jardim Botânico,1334567.89,0.7866666666666666,"McCullough, Vandervort and Ratke",55
+617,Kiah Gaskin,#4bd681,4:47 AM,7:08 PM,2022-08-18,Leblon-Lapa,1078901.23,0.73,Walker-Sauer,34
+618,Bale Rantoul,#ba91a6,11:10 AM,2:22 PM,2010-04-29,Barra da Tijuca-Jardim Botânico,601234.56,0.99,Ebert-Ullrich,54
+619,Ange Betke,#51d2db,2:12 PM,6:00 PM,2003-10-07,Leme-Botafogo,667890.12,0.7849999999999999,Predovic LLC,56
+620,Shanie Pyle,#35d694,4:05 PM,8:01 AM,2014-01-17,Copacabana-Ipanema,1312345.67,0.58,Cummings Inc,46
+621,Geordie Tomala,#58c056,8:04 AM,10:13 PM,2013-08-14,rota não atribuída,612345.67,0.95,"Padberg, Waelchi and Prohaska",39
+622,Keene Englishby,#707ca1,10:48 AM,6:23 PM,2018-09-24,rota não atribuída,1489012.34,0.62,"Schoen, Wilderman and Berge",50
+623,Gaultiero McGraffin,#a829e4,3:53 PM,4:09 PM,2010-10-20,Gávea-Botafogo,1378901.23,0.69,"Carroll, Kutch and Wyman",34
+624,Gerhardt Wyborn,#cd4023,5:37 PM,1:49 PM,2009-03-20,Jardim Botânico-Leblon,801234.56,0.68,Mueller-Okuneva,41
+625,Jamie Feavyour,#fc9ec3,9:08 AM,6:21 AM,2007-08-21,Copacabana-Barra da Tijuca,1401234.56,0.95,"Dibbert, Kilback and Feest",48
+626,Bradley Challenor,#1971ec,2:59 PM,5:22 PM,2021-12-08,São Conrado-Largo do Machado,1134567.89,0.52,Weimann-McDermott,34
+627,Filip Mannakee,#e8e213,7:00 AM,11:39 AM,2012-01-29,rota não atribuída,1023456.78,0.79,Larkin and Sons,36
+628,Amil Shillito,#f2c307,12:42 PM,12:05 PM,2017-09-22,Lapa-Jardim Oceânico,1478901.23,0.74,Pagac-Luettgen,45
+629,Suzi Kimble,#08f827,2:18 PM,5:24 PM,2011-06-24,Leme-Gávea,556789.01,0.51,Barrows-Kuphal,58
+630,Brnaby Pardew,#66f58f,7:22 AM,7:32 PM,2016-10-12,Urca-Leblon,1145678.9,0.5449999999999999,Krajcik-Schneider,31
+631,Craig Volage,#f0ed8d,4:25 PM,3:36 PM,2006-07-02,Barra da Tijuca-Leblon,1090123.45,0.58,"Shanahan, Bogan and Fahey",49
+632,Rasla Nunnerley,#53888c,2:54 AM,9:18 AM,2006-01-08,Barra da Tijuca-Leblon,634567.89,0.63,"Goldner, Thompson and Kub",40
+633,Doug Matyas,#994f43,1:20 PM,4:00 PM,2018-10-18,Leme-São Conrado,701234.56,0.74,Vandervort LLC,58
+634,Ariana Snozzwell,#fd77ce,8:17 AM,10:23 AM,2010-05-04,Barra da Tijuca-Jardim Botânico,1412345.67,0.69,Jast Inc,46
+635,Nike Paeckmeyer,#a32113,7:51 AM,4:09 PM,2021-11-19,Flamengo-Copacabana,1267890.12,0.95,"Sanford, Hoeger and Howell",56
+636,Shane McLenahan,#5acd8a,2:59 AM,4:06 PM,2002-07-18,Barra da Tijuca-Jardim Botânico,1323456.78,0.73,Trantow-Ankunding,49
+637,Aurora Gallemore,#8c8347,7:09 AM,4:26 PM,2005-02-24,Leblon-São Conrado,967890.12,0.69,Hagenes-Bartoletti,44
+638,Willi Meenehan,#cf46c8,5:10 PM,9:43 PM,2009-06-01,Barra da Tijuca-Centro,1167890.12,0.62,Ryan LLC,53
+639,Kania Mutter,#8a2bac,7:49 AM,2:54 PM,2004-03-13,Leblon-Lapa,656789.01,0.57,Harris LLC,53
+640,Felecia Farthing,#70359d,5:52 PM,2:44 PM,2007-12-01,Glória-Jardim Oceânico,512345.67,0.84,Gottlieb-Grimes,32
+641,Son Razoux,#a4b57f,5:56 AM,6:36 PM,2016-04-28,Urca-Botafogo,1089012.34,0.95,Wiza Group,33
+642,Dael Chell,#17f6e4,1:33 AM,2:49 PM,2012-04-29,Ipanema-Lapa,1278901.23,0.74,Cruickshank Group,50
+643,motorista não atribuído,#c7ac14,4:26 PM,10:35 AM,2002-08-16,rota não atribuída,578901.23,0.73,"McGlynn, Runolfsdottir and Oberbrunner",46
+644,Bailey Maitland,#175fe6,7:58 AM,7:29 AM,2016-01-20,Jardim Botânico-Ipanema,1201234.56,0.51,Ritchie Inc,44
+645,Idell Doige,#612066,2:50 PM,11:26 AM,2022-07-31,Lapa-Copacabana,1056789.01,0.52,McDermott-Carter,55
+646,Bobbye Roizin,#49c61c,2:10 PM,3:43 PM,2022-03-19,Leme-Botafogo,578901.23,0.99,Kulas-D'Amore,50
+647,Auria Duddell,#0d3a1f,1:59 AM,11:03 PM,2021-11-28,Urca-Botafogo,1067890.12,0.57,Huels-Cronin,32
+648,Temp Shadrach,#5a257b,8:06 AM,10:13 AM,2011-09-02,Leblon-Botafogo,778901.23,0.735,Schinner LLC,40
+649,Vally MacKettrick,#b177db,5:49 PM,9:39 PM,2010-05-09,Lapa-Copacabana,790123.45,0.9,Huels-Gibson,51
+650,Alexa Gadsby,#d8ca66,2:49 PM,3:01 PM,2009-12-04,Lapa-Gávea,701234.56,0.52,"Muller, Yundt and Funk",48
+651,motorista não atribuído,#5bbdaf,3:33 AM,7:34 AM,2020-05-26,Centro-Jardim Botânico,912345.67,0.95,"Cole, Brakus and O'Connell",57
+652,Kary Moses,#b5d89c,9:12 AM,8:22 PM,2015-12-01,rota não atribuída,545678.9,0.62,Gerhold-Miller,32
+653,Bennie Roddy,#d6fbaa,9:54 AM,10:54 PM,2015-10-02,Flamengo-São Conrado,1323456.78,0.63,Murphy and Sons,35
+654,Perrine Crenshaw,#870459,7:11 AM,7:00 PM,2005-11-16,Ipanema-Gávea,678901.23,0.8,"Osinski, Muller and Johnston",42
+655,Wilton Matuska,#a1749d,3:18 AM,10:37 AM,2006-07-16,Gávea-Lapa,878901.23,0.7150000000000001,"Schneider, Lubowitz and Lehner",56
+656,Britte Been,#51b14e,1:34 PM,12:12 PM,2003-08-09,Urca-Leblon,1478901.23,0.63,Strosin-Herzog,42
+657,Kassie Savege,#443521,1:06 AM,2:24 PM,2013-03-22,Lapa-Jardim Oceânico,956789.01,0.57,Langosh LLC,57
+658,Sigismund Greatbach,#d8171c,9:43 AM,10:14 PM,2010-12-27,rota não atribuída,934567.89,0.52,"Lehner, Altenwerth and Graham",39
+659,Armin Bachshell,#1a5162,4:32 AM,6:01 AM,2013-06-21,Gávea-Lapa,556789.01,0.74,Hermiston Group,44
+660,Hadrian Filgate,#7c5fa0,8:52 AM,11:06 AM,2021-09-18,Urca-Lapa,890123.45,0.79,O'Hara-Schinner,48
+661,Hildy Tiron,#24ee67,2:24 PM,9:54 AM,2012-05-06,Leme-Urca,1389012.34,0.73,Witting LLC,32
+662,Ermengarde Kermon,#d8114d,9:14 AM,6:13 AM,2006-08-25,Gávea-Botafogo,1245678.9,0.63,"Raynor, Kautzer and Satterfield",36
+663,motorista não atribuído,#3f7f52,6:41 AM,11:44 PM,2011-04-23,Urca-Botafogo,1112345.67,0.62,King Group,34
+664,Legra Grandisson,#babf77,2:53 AM,6:34 AM,2013-11-06,Jardim Botânico-São Conrado,1278901.23,0.99,Feil-O'Hara,59
+665,Waverly La Rosa,#36d607,5:06 PM,8:25 PM,2004-10-30,Glória-Leme,1034567.89,0.9,Daniel-Daugherty,31
+666,Howard Chuney,#ec140d,4:49 PM,7:54 AM,2013-07-10,Largo do Machado-Copacabana,1478901.23,0.73,"Greenholt, Purdy and Huels",32
+667,Peadar Woodlands,#070163,6:22 AM,7:09 PM,2008-03-02,Leblon-São Conrado,1134567.89,0.62,Larkin and Sons,37
+668,Hadlee Loosely,#fce2fb,3:07 PM,12:08 PM,2004-05-21,rota não atribuída,1290123.45,0.8,Kihn and Sons,48
+669,Ynes Marnes,#1e9e26,4:51 AM,5:07 PM,2008-04-06,Glória-Jardim Oceânico,1234567.89,0.8,"Hintz, Koelpin and Hoppe",38
+670,Ruth Eaddy,#d16b23,9:08 AM,8:27 PM,2010-08-01,Ipanema-Lapa,790123.45,0.95,Kris Group,39
+671,Duffie Bracknell,#e684fe,1:43 AM,3:58 PM,2013-08-31,rota não atribuída,1323456.78,0.7849999999999999,"Labadie, Kshlerin and Spencer",33
+672,Sibella Swannick,#4059f5,3:59 AM,6:12 AM,2018-05-20,Jardim Botânico-Flamengo,1067890.12,0.62,Cronin Inc,39
+673,Darice Woodeson,#eebf12,6:17 AM,6:27 AM,2009-08-13,Lapa-Leblon,1478901.23,0.6933333333333334,Smitham-Runolfsdottir,43
+674,Eric Hannaford,#46fc6c,2:36 AM,9:37 PM,2016-12-11,Lapa-Copacabana,1089012.34,0.7666666666666666,Nienow-Hahn,46
+675,Jacklin Westmore,#4cf4a5,5:22 AM,5:40 PM,2004-06-26,rota não atribuída,1234567.89,0.84,Strosin-Bogan,38
+676,Marna Jesse,#50bc6a,1:41 PM,6:58 AM,2016-05-07,Lapa-Leblon,989012.34,0.8200000000000001,Conn LLC,30
+677,Radcliffe Orrum,#590a2d,4:35 PM,8:17 AM,2012-12-20,Leblon-São Conrado,1334567.89,0.8,Cassin-Jast,34
+678,Virginie Treby,#3756e6,9:55 AM,11:57 AM,2019-11-22,Leme-Gávea,945678.9,0.99,Hessel-Ernser,55
+679,Kelsey Sheavills,#b8eeb5,11:21 AM,1:45 PM,2018-10-14,Leblon-São Conrado,1301234.56,0.73,Hudson-Bernhard,49
+680,Christie Gerram,#a53dab,5:30 AM,9:48 PM,2013-01-30,Leme-Gávea,589012.34,0.51,Beatty-Kutch,56
+681,Devinne Normabell,#d2b8c8,10:34 AM,1:51 PM,2019-09-01,Ipanema-Jardim Botânico,601234.56,0.9,Mayert-Dicki,43
+682,Adolphus Adair,#e35828,12:47 AM,11:12 PM,2005-08-06,Lapa-Gávea,1456789.01,0.74,"Flatley, Anderson and Schamberger",36
+683,Herby Feather,#2bbf4d,1:26 PM,10:48 AM,2008-06-11,Copacabana-Ipanema,1489012.34,0.79,Bahringer Inc,39
+684,Ulises Clemenza,#38c3b3,11:31 AM,11:37 AM,2022-01-30,Jardim Botânico-Flamengo,578901.23,0.84,Bernhard LLC,43
+685,Tomasina Breeton,#1d772d,4:07 PM,7:10 PM,2012-10-11,Centro-Leme,656789.01,0.58,Hodkiewicz LLC,48
+686,Hedvig Westbury,#fac3de,4:13 PM,8:31 AM,2011-04-29,São Conrado-Largo do Machado,712345.67,0.9,Schulist-Waters,32
+687,Orelee Bunworth,#fc5d45,11:40 AM,7:25 PM,2008-06-12,Jardim Botânico-São Conrado,701234.56,0.63,Conroy-Stanton,39
+688,Agretha Jerdan,#3f6714,11:24 AM,7:50 AM,2002-12-09,rota não atribuída,1378901.23,0.58,"Stark, Ernser and Ruecker",42
+689,Pearce Clear,#9be1f5,12:13 PM,12:05 PM,2019-06-07,Urca-Leblon,1389012.34,0.69,"Cartwright, O'Reilly and Lehner",34
+690,Antony Pickaver,#6b1c5e,4:48 AM,3:26 PM,2021-02-08,São Conrado-Glória,1456789.01,0.8,Bayer-O'Conner,45
+691,Raynard Matteini,#cce4c7,10:44 AM,7:00 PM,2020-04-10,Urca-Largo do Machado,1189012.34,0.99,"Altenwerth, Armstrong and Crona",30
+692,Salim O'Cannavan,#92c1d7,12:09 AM,4:53 PM,2009-12-25,Urca-Leblon,1423456.78,0.865,Gutmann-Hermann,52
+693,Betsy Benini,#6238db,3:38 PM,2:10 PM,2023-02-28,rota não atribuída,834567.89,0.74,Jacobson Group,36
+694,Launce Burnep,#7bef75,1:41 PM,10:35 PM,2017-11-06,Leblon-Botafogo,1212345.67,0.62,Turcotte and Sons,34
+695,Dedra Vain,#def0a8,8:35 AM,12:51 PM,2014-12-03,Gávea-Botafogo,1401234.56,0.8,Jacobi-Toy,55
+696,Kaitlynn Garioch,#7a5816,8:17 AM,9:21 AM,2022-12-22,Centro-Barra da Tijuca,812345.67,0.69,Reinger-Reinger,37
+697,Brynne McCrisken,#fcfa89,6:24 AM,6:17 PM,2010-02-17,Urca-Leblon,1156789.01,0.8,Champlin-Gusikowski,53
+698,Fabe Norvill,#22a6a2,7:15 AM,10:44 PM,2012-05-03,São Conrado-Largo do Machado,534567.89,0.79,Armstrong-Balistreri,32
+699,Gerome Markham,#0b8d83,3:05 AM,9:19 AM,2003-12-02,rota não atribuída,956789.01,0.69,Quigley and Sons,59
+700,motorista não atribuído,#3e4ff0,10:13 AM,2:41 PM,2005-02-02,Barra da Tijuca-Centro,834567.89,0.84,Turner Group,32
+701,Inger Gilluley,#318e94,2:59 PM,11:15 PM,2009-11-02,Gávea-Copacabana,589012.34,0.815,Blanda LLC,60
+702,Grantley Sothern,#e6128f,10:06 AM,8:01 PM,2010-01-06,Copacabana-Lapa,1123456.78,0.79,Huel-Mertz,58
+703,motorista não atribuído,#749939,1:35 PM,8:07 AM,2019-09-30,Gávea-Lapa,1101234.56,0.87,Terry Inc,40
+704,Kile Courteney,#067103,3:24 AM,8:33 AM,2022-02-22,Leme-São Conrado,689012.34,0.95,"Heathcote, Tillman and Satterfield",34
+705,Hamilton Jewson,#5f2f0e,4:44 PM,8:41 PM,2002-11-27,rota não atribuída,1078901.23,0.79,Considine LLC,60
+706,Kassi Rammell,#d129f5,2:39 AM,11:21 AM,2020-02-16,São Conrado-Urca,1278901.23,0.95,Altenwerth LLC,39
+707,Leighton Darville,#4645f1,10:56 AM,3:28 PM,2018-03-09,Barra da Tijuca-Centro,590123.45,0.57,Klein and Sons,49
+708,Colin Boatswain,#7b03ba,11:35 AM,1:51 PM,2012-08-11,São Conrado-Glória,723456.78,0.84,Kihn LLC,37
+709,Roddy Blouet,#7c8376,2:16 PM,11:58 AM,2009-07-03,Jardim Oceânico-Leme,845678.9,0.73,"Rippin, Mertz and Hauck",52
+710,Cyrus Lonie,#8547db,12:03 AM,10:32 AM,2008-09-15,Lapa-Copacabana,845678.9,0.95,Pagac Inc,47
+711,Drusilla Talkington,#cf8d9b,5:44 PM,2:57 PM,2017-06-11,Flamengo-Largo do Machado,578901.23,0.79,Mills and Sons,58
+712,Viv Heys,#8f39a2,1:31 AM,10:33 AM,2007-10-04,Copacabana-Ipanema,623456.78,0.84,"Haag, Schulist and Kunde",34
+713,Allie Switsur,#2db088,12:09 PM,11:24 AM,2010-12-10,Leme-Gávea,589012.34,0.51,Cruickshank-Welch,53
+714,Tracee Dumberrill,#6bfe0a,2:14 AM,10:22 PM,2018-04-26,Flamengo-São Conrado,1467890.12,0.84,Kling and Sons,45
+715,Meagan Kristof,#15cfb5,12:38 AM,9:49 AM,2015-08-23,rota não atribuída,945678.9,0.63,"Nicolas, Gottlieb and Robel",54
+716,Todd Barczynski,#8a54aa,12:53 PM,2:32 PM,2022-12-17,Lapa-Leblon,623456.78,0.63,Grant Inc,58
+717,Whittaker Islip,#bee78a,4:03 AM,10:48 PM,2021-09-21,Leme-Botafogo,801234.56,0.84,Emard-Moore,40
+718,Glynda Tolwood,#114b76,8:06 AM,5:26 PM,2007-05-03,São Conrado-Glória,690123.45,0.51,Roberts-Will,59
+719,Harv Thickin,#05c2fb,3:50 PM,9:09 AM,2008-08-22,Flamengo-Copacabana,1490123.45,0.68,"Schiller, Beier and Wiza",48
+720,motorista não atribuído,#aa7b63,3:09 PM,6:37 PM,2008-04-06,São Conrado-Urca,990123.45,0.84,Howell-Wisoky,45
+721,Filippa Hicken,#e54314,2:13 AM,7:36 AM,2013-01-10,Flamengo-São Conrado,934567.89,0.9,Ryan and Sons,43
+722,Maridel Darwen,#89761a,4:46 PM,2:16 PM,2015-05-24,Barra da Tijuca-Leblon,523456.78,0.51,Feeney Inc,60
+723,Sheela Lafontaine,#09d1ca,8:19 AM,6:36 AM,2022-06-10,Gávea-Botafogo,812345.67,0.62,"Runolfsson, Bernier and Predovic",60
+724,Petronella Lethem,#cb655d,4:04 AM,11:29 AM,2009-06-02,Jardim Oceânico-Leme,856789.01,0.565,Jacobs Group,51
+725,Tierney Pinnion,#290c8e,1:34 PM,5:27 PM,2006-06-14,Largo do Machado-Jardim Botânico,656789.01,0.51,Schamberger-Purdy,38
+726,Bryana Lound,#cd473b,12:02 PM,11:50 AM,2011-06-19,Jardim Botânico-Leblon,1345678.9,0.99,Goldner and Sons,44
+727,Paolina Lavalde,#8d4a90,10:49 AM,6:21 AM,2007-09-25,Lapa-Gávea,1323456.78,0.84,Fritsch and Sons,54
+728,Gnni Dagleas,#3b5ecd,4:08 PM,12:34 PM,2011-12-05,Leme-Botafogo,1034567.89,0.52,Schmeler-Swift,47
+729,Gaspar Trounson,#0cf858,11:53 AM,1:45 PM,2020-06-09,Jardim Oceânico-Leme,1089012.34,0.73,Hills-Morar,35
+730,Charlene Esposita,#952087,12:05 PM,9:59 PM,2021-09-06,Glória-Jardim Oceânico,967890.12,0.84,"Gibson, Hodkiewicz and Mante",55
+731,Garrard Keming,#2d885e,11:09 AM,1:23 PM,2009-07-09,Jardim Botânico-Ipanema,1178901.23,0.79,"Klein, Fadel and O'Hara",32
+732,Nola Kolyagin,#773af7,2:16 PM,11:30 AM,2019-07-02,Gávea-Centro,745678.9,0.68,Stehr-Friesen,43
+733,Dwight Druce,#e38a6b,2:02 AM,12:39 PM,2007-09-01,Jardim Oceânico-Leme,912345.67,0.68,Yundt-Conroy,31
+734,Mischa Bryers,#99997f,4:23 PM,9:34 AM,2018-07-22,Botafogo-Jardim Oceânico,989012.34,0.95,"Johns, Raynor and Gibson",53
+735,Ancell Camis,#b2e429,5:52 AM,11:57 PM,2021-05-22,Jardim Botânico-Ipanema,1090123.45,0.84,Jacobi-Kulas,51
+736,Myranda Dakhov,#661a34,6:39 AM,11:10 PM,2018-01-07,Lapa-Jardim Oceânico,1034567.89,0.915,Parisian Inc,40
+737,Cassie Bursell,#672d57,12:16 PM,9:00 PM,2005-09-06,Jardim Botânico-Ipanema,1067890.12,0.99,Murray-Collier,30
+738,Krisha Aingel,#d246f7,1:47 AM,2:44 PM,2013-05-05,Glória-Leme,1134567.89,0.52,Boyle and Sons,36
+739,Jule MacCostye,#3e10e9,9:07 AM,4:08 PM,2020-11-16,Jardim Oceânico-Glória,1334567.89,0.51,Hayes Group,30
+740,Eolanda Kerbler,#ef87a0,4:53 AM,3:26 PM,2016-01-18,Barra da Tijuca-Centro,523456.78,0.52,Medhurst and Sons,42
+741,Kingsly Wookey,#16ca57,1:46 PM,1:54 PM,2014-05-16,Jardim Oceânico-Copacabana,634567.89,0.58,Rogahn Inc,32
+742,Kelli Sline,#9f3c00,5:31 AM,3:46 PM,2007-10-09,rota não atribuída,1289012.34,0.63,"Lesch, Wyman and Willms",32
+743,Amara Billington,#a74289,5:49 PM,4:20 PM,2022-03-12,Lapa-Copacabana,1078901.23,0.68,Schaefer-Satterfield,53
+744,Maurise Klulicek,#76e1c7,9:15 AM,10:18 AM,2017-06-08,Gávea-Botafogo,1156789.01,0.8,Crooks Inc,60
+745,Barny Warburton,#658a01,6:14 AM,3:27 PM,2015-02-16,Jardim Botânico-Ipanema,578901.23,0.79,O'Keefe-Russel,49
+746,Ricki Brownsell,#b53f75,1:41 AM,8:09 AM,2010-11-01,Glória-Jardim Oceânico,1001234.56,0.63,Auer Group,53
+747,Tadeo Pessolt,#04c464,3:15 PM,2:56 PM,2007-03-04,Ipanema-Lapa,1478901.23,0.79,"Metz, Jast and Huels",34
+748,Angeli Benwell,#38c2ff,11:38 AM,9:21 PM,2002-05-25,Copacabana-Ipanema,923456.78,0.51,Stoltenberg LLC,43
+749,Tony Etridge,#1b2656,4:08 AM,8:27 PM,2003-08-04,rota não atribuída,878901.23,0.57,Willms-Schmidt,44
+750,Dalia Troutbeck,#a0626e,8:56 AM,6:22 AM,2010-11-27,Gávea-Botafogo,878901.23,0.84,Gerlach LLC,30
+751,Albie Friberg,#6411c6,8:25 AM,6:35 PM,2023-01-01,rota não atribuída,690123.45,0.73,Koelpin Group,49
+752,Goldy Sharrock,#afc1e9,1:58 AM,9:23 AM,2008-01-28,Botafogo-Leme,723456.78,0.69,Corkery-Rutherford,53
+753,Cheryl Sherebrooke,#66d1ec,3:28 AM,9:09 PM,2005-07-24,Barra da Tijuca-Centro,612345.67,0.58,Halvorson-Hoeger,33
+754,Lynna Dowle,#b6f4ac,5:51 PM,10:04 PM,2009-05-21,Lapa-Gávea,712345.67,0.74,Schuppe-Howell,49
+755,Brianna Keenor,#ca9d03,2:47 PM,8:00 AM,2018-04-22,Ipanema-Lapa,1101234.56,0.52,Bernier-Konopelski,37
+756,Frank Caswall,#5e85aa,3:29 PM,1:36 PM,2006-05-16,Jardim Oceânico-Copacabana,990123.45,0.68,"Schuppe, Borer and Murray",59
+757,Laurella Diem,#4b8221,3:26 AM,9:23 PM,2004-12-22,rota não atribuída,801234.56,0.52,Prohaska-Conn,60
+758,Jamison Brash,#f49c7b,3:56 PM,7:50 PM,2022-02-22,Leblon-Largo do Machado,1401234.56,0.62,Ondricka LLC,39
+759,Kameko Dilleway,#c30670,12:55 PM,11:43 AM,2022-10-09,Gávea-Lapa,1145678.9,0.6566666666666666,Kautzer LLC,51
+760,Cristal Popeley,#6791ab,10:38 AM,3:06 PM,2008-10-04,Leblon-Lapa,1223456.78,0.6933333333333334,"Blick, Hodkiewicz and McKenzie",50
+761,Donnell Lempenny,#d1e8b9,12:27 PM,9:52 AM,2004-10-16,Leblon-Botafogo,1134567.89,0.73,Lockman Inc,30
+762,Margarete Shipperbottom,#8224e7,8:43 AM,11:13 PM,2006-02-06,Leblon-São Conrado,578901.23,0.52,"Daniel, O'Keefe and Macejkovic",32
+763,Sheridan Simonnin,#f049d8,12:41 PM,11:39 AM,2014-11-08,Botafogo-Leme,801234.56,0.9,"Harvey, Ankunding and Paucek",47
+764,Idaline Barrows,#8095eb,10:26 AM,10:27 PM,2014-11-15,Leblon-São Conrado,801234.56,0.58,Romaguera Inc,54
+765,Kristos Babbs,#4c7042,2:28 AM,10:00 AM,2015-06-18,Jardim Oceânico-Glória,1256789.01,0.74,"Dooley, Paucek and Hartmann",32
+766,Starla Hemms,#3fb17d,4:52 AM,12:11 PM,2003-10-14,Botafogo-Jardim Oceânico,1478901.23,0.63,"Lang, Lemke and Rolfson",35
+767,Jackelyn De Lisle,#4938de,3:21 AM,7:56 PM,2010-08-15,rota não atribuída,1289012.34,0.8,Howe LLC,46
+768,Sena Silcock,#a1944c,10:21 AM,11:06 PM,2013-06-12,Lapa-Jardim Oceânico,812345.67,0.84,"Green, Anderson and Murazik",34
+769,Jefferey Roderighi,#c77b63,3:05 AM,10:27 AM,2008-10-17,Flamengo-Copacabana,1012345.67,0.57,Walter-Jerde,51
+770,Benetta Skate,#32ba8a,4:20 AM,11:50 PM,2018-06-02,rota não atribuída,745678.9,0.69,Feil-Gottlieb,36
+771,Eddie Grelka,#c00870,12:19 AM,6:03 PM,2004-03-21,Copacabana-Ipanema,1412345.67,0.58,"Leannon, Baumbach and Windler",52
+772,Ginnie Ranking,#821da5,2:57 PM,3:28 PM,2004-05-12,Largo do Machado-Jardim Botânico,667890.12,0.73,"Balistreri, Ferry and McCullough",43
+773,Megan Papps,#0aad49,1:02 AM,6:32 AM,2008-07-15,Leblon-Botafogo,1301234.56,0.79,Mayert-Barrows,42
+774,Janifer Jesse,#bf2818,5:31 PM,11:52 AM,2002-09-06,São Conrado-Urca,1012345.67,0.84,Sauer-Konopelski,48
+775,Eben Fee,#61fc24,11:40 AM,7:31 PM,2016-07-07,Leme-São Conrado,656789.01,0.52,Littel-Langosh,49
+776,Rafaela Gittoes,#f84971,12:14 AM,7:04 PM,2019-04-24,Glória-Jardim Oceânico,1089012.34,0.69,"O'Keefe, Cremin and Hegmann",43
+777,Wyndham Tether,#5036d9,6:03 AM,9:27 AM,2010-08-04,Copacabana-Barra da Tijuca,645678.9,0.51,Herman-Barton,49
+778,Faustine MacFadyen,#b5d215,3:26 PM,6:37 AM,2017-06-20,Centro-Barra da Tijuca,1478901.23,0.655,"Dicki, Stracke and Will",32
+779,Marnia Phillis,#a40c26,4:21 AM,6:38 PM,2015-09-29,Largo do Machado-Barra da Tijuca,534567.89,0.8,Mante LLC,55
+780,Stuart Leborgne,#36248f,1:32 PM,12:50 PM,2013-01-04,Centro-Leme,590123.45,0.58,Beahan Group,49
+781,Theresina Ivanov,#83d49b,1:36 PM,7:32 PM,2010-07-20,Gávea-Centro,634567.89,0.9,"Hamill, Weissnat and Rempel",42
+782,Temp Maysor,#4b7380,6:02 AM,3:48 PM,2006-11-20,Leme-Botafogo,1001234.56,0.68,Schiller Group,60
+783,Karlen Yoseloff,#82cdd3,3:46 PM,11:16 PM,2022-10-03,Lapa-Jardim Oceânico,1056789.01,0.51,"Goldner, Dibbert and Prosacco",32
+784,Kaylyn Trewman,#515f0e,3:15 AM,6:40 PM,2022-11-27,Flamengo-São Conrado,1078901.23,0.655,Kuvalis LLC,39
+785,Ernestine Enderlein,#568a5a,2:17 PM,8:02 PM,2006-11-06,Leme-Botafogo,1123456.78,0.8,"Bashirian, Braun and Lowe",39
+786,Bonita Tremathack,#37534f,6:14 AM,1:31 PM,2012-09-30,Botafogo-Leme,801234.56,0.52,Wiegand-Herman,53
+787,Abbey Briddock,#7c0c6a,4:40 PM,7:17 PM,2006-02-15,Barra da Tijuca-Leblon,1301234.56,0.74,Dooley Group,41
+788,motorista não atribuído,#d45378,6:41 AM,11:49 PM,2014-07-12,Botafogo-Jardim Botânico,878901.23,0.62,Rosenbaum and Sons,47
+789,motorista não atribuído,#2cce14,6:31 AM,10:14 AM,2018-08-13,São Conrado-Glória,945678.9,0.9,Herman LLC,57
+790,motorista não atribuído,#9ae5b0,2:05 PM,8:27 PM,2013-06-17,Leme-Gávea,656789.01,0.63,"Jenkins, Rolfson and Wehner",60
+791,motorista não atribuído,#2ef6e1,12:27 AM,10:35 PM,2012-11-17,Ipanema-Lapa,567890.12,0.9,Kunze Group,33
+792,Talia De Nisco,#e8d295,2:54 AM,1:43 PM,2018-03-10,Barra da Tijuca-Centro,689012.34,0.74,"Durgan, Hermiston and Quigley",59
+793,Pearla Trevett,#b90db6,10:03 AM,12:23 PM,2018-05-23,Urca-Leblon,1078901.23,0.74,Sawayn-Wintheiser,54
+794,Flor Kimbrough,#f1e265,11:28 AM,10:42 PM,2014-03-29,Leme-São Conrado,1289012.34,0.765,O'Keefe Inc,51
+795,Averyl Ibberson,#ea9a33,10:09 AM,6:54 PM,2020-10-01,Centro-Barra da Tijuca,1156789.01,0.79,Becker-Satterfield,44
+796,Ivette Antliff,#48a172,12:33 PM,11:31 AM,2003-05-23,Urca-Leblon,1178901.23,0.62,Wintheiser-Friesen,43
+797,Ashby Dibble,#fdf786,2:46 AM,8:03 AM,2019-01-23,Jardim Botânico-Flamengo,1378901.23,0.95,"Schamberger, Davis and Hoppe",34
+798,Fredia Matelaitis,#f1ddc5,1:18 PM,10:14 PM,2014-02-26,Barra da Tijuca-Jardim Botânico,945678.9,0.9,Schmitt-Miller,59
+799,Bibbye Caddens,#4c8ed8,7:15 AM,10:54 AM,2006-06-05,Ipanema-Centro,889012.34,0.8,"Gutmann, Veum and Ullrich",35
+800,Boycey Bermingham,#d61754,4:36 AM,4:29 PM,2011-09-28,Urca-Botafogo,556789.01,0.51,"Gibson, Welch and Ernser",33
+801,Angelia Winchurst,#d44696,8:19 AM,11:09 AM,2007-02-25,Flamengo-Largo do Machado,1245678.9,0.69,Koelpin LLC,59
+802,motorista não atribuído,#b96a19,6:11 AM,9:39 AM,2005-11-04,Urca-Lapa,645678.9,0.8,Abernathy and Sons,35
+803,Hurleigh Baugh,#6657f3,2:15 AM,9:26 AM,2013-09-07,Jardim Oceânico-Copacabana,989012.34,0.79,"Cronin, Treutel and Franecki",40
+804,Broderic Dinnage,#96840d,8:53 AM,10:41 PM,2015-05-19,Jardim Botânico-Flamengo,1390123.45,0.58,"Lakin, Jaskolski and Ratke",45
+805,Patience Coulton,#ab6936,1:39 AM,10:20 PM,2013-08-16,Copacabana-Ipanema,634567.89,0.57,Hane-Grimes,53
+806,Bastian Olivier,#d908e8,10:16 AM,12:59 PM,2018-12-21,Ipanema-Centro,1189012.34,0.52,Nienow Inc,40
+807,Gerhard Moorton,#9604e7,3:08 AM,10:22 PM,2010-10-29,Jardim Botânico-Flamengo,1334567.89,0.9,O'Hara Group,52
+808,Dorie Ashplant,#23eaaa,8:08 AM,11:54 PM,2022-01-17,Flamengo-Copacabana,1034567.89,0.99,"Simonis, Walter and Jacobson",59
+809,Orelee Whitehorn,#e579c4,7:19 AM,9:54 AM,2018-02-26,Largo do Machado-Barra da Tijuca,1289012.34,0.84,Wehner and Sons,55
+810,Renae Hryncewicz,#4b380b,5:00 AM,11:45 AM,2002-08-03,Leme-São Conrado,612345.67,0.63,Homenick-Price,52
+811,Natka Stubbings,#2dc6c7,3:20 PM,12:00 PM,2019-06-24,Urca-Lapa,1067890.12,0.84,VonRueden-Schmitt,35
+812,Elora Maher,#bdf94b,8:00 AM,12:10 PM,2003-11-24,Ipanema-Gávea,1356789.01,0.8,Rodriguez-Kohler,45
+813,Finn Creswell,#3442ec,2:44 PM,7:21 PM,2013-11-28,Copacabana-Ipanema,1078901.23,0.69,Miller and Sons,47
+814,motorista não atribuído,#6251ed,9:34 AM,9:21 PM,2010-06-06,rota não atribuída,767890.12,0.52,Ondricka-Heidenreich,49
+815,Amery Koles,#368a6f,1:42 PM,2:01 PM,2011-05-09,Leblon-Lapa,701234.56,0.95,Shields Group,51
+816,Odette Hackworthy,#19518a,12:37 PM,4:15 PM,2022-12-14,Urca-Largo do Machado,1334567.89,0.62,"Bechtelar, Barton and Abbott",41
+817,Hanson Lavalle,#c0a6be,4:03 PM,8:17 PM,2017-05-06,Gávea-Centro,890123.45,0.62,Kirlin-Boyle,40
+818,Nicolea Ciccotto,#02d3e4,11:46 AM,6:29 PM,2022-09-04,Lapa-Leblon,634567.89,0.51,"Bode, McCullough and Bradtke",42
+819,Eli Jiles,#b2ade3,10:47 AM,9:07 AM,2002-05-29,Jardim Oceânico-Lapa,834567.89,0.54,Lemke Group,40
+820,Leroy Rylstone,#b674d7,8:24 AM,4:00 PM,2020-01-30,Jardim Botânico-Flamengo,1056789.01,0.57,"Mante, Witting and Kertzmann",42
+821,Sherri Birrel,#43f8dd,7:36 AM,8:53 PM,2021-02-04,Centro-Leme,1367890.12,0.99,"Mueller, Bartoletti and Stokes",60
+822,Rickie Kimberly,#b1d80b,3:14 PM,2:56 PM,2021-04-01,São Conrado-Glória,1345678.9,0.51,"Schiller, Schmidt and Walker",55
+823,Jacquie Drife,#75ec88,12:21 AM,10:21 AM,2003-04-16,Leblon-Lapa,1434567.89,0.58,"Bernhard, Gutmann and Jaskolski",51
+824,Sorcha Haskew,#5b76ac,12:37 PM,5:32 PM,2019-02-18,Botafogo-Jardim Botânico,512345.67,0.62,Bruen-Von,47
+825,Britt Cranfield,#a662dc,5:01 AM,2:46 PM,2011-07-03,Gávea-Botafogo,1190123.45,0.51,Toy-Kutch,36
+826,Harrie Goldfinch,#661328,3:44 AM,5:56 PM,2009-02-15,Jardim Oceânico-Leme,1001234.56,0.79,"Bednar, Bayer and Deckow",47
+827,Kane Darbey,#70fd55,3:16 AM,11:02 AM,2013-07-26,Leblon-Largo do Machado,1034567.89,0.65,"Kuphal, O'Connell and Balistreri",35
+828,Lianna Casier,#362015,4:39 PM,10:02 PM,2008-11-10,Copacabana-Lapa,856789.01,0.51,Murphy and Sons,53
+829,motorista não atribuído,#cbfb3d,8:18 AM,2:40 PM,2020-09-05,Copacabana-Ipanema,845678.9,0.6,"Parisian, Douglas and Boyer",59
+830,Adolpho Potkins,#292782,5:47 PM,12:50 PM,2021-05-07,Jardim Botânico-São Conrado,1223456.78,0.69,Greenholt Group,43
+831,Lucretia Scutts,#e56881,12:39 AM,9:59 PM,2015-02-13,Jardim Oceânico-Leme,1001234.56,0.63,Purdy-West,36
+832,Beulah Sueter,#f1404e,5:25 AM,10:09 PM,2015-12-18,Ipanema-Jardim Botânico,745678.9,0.57,Schultz-Legros,43
+833,Dianemarie Hansie,#56ef5c,8:37 AM,9:30 AM,2007-12-23,rota não atribuída,1045678.9,0.79,White-Pfannerstill,53
+834,motorista não atribuído,#360623,1:12 AM,1:01 PM,2017-11-16,Glória-Jardim Oceânico,1489012.34,0.765,Jacobson Inc,51
+835,Mareah Covendon,#3d220a,5:51 PM,11:12 AM,2008-10-08,Leme-São Conrado,523456.78,0.74,Fahey-O'Reilly,51
+836,Cal Brome,#44d6b4,12:21 AM,6:16 AM,2010-12-11,Jardim Botânico-Flamengo,690123.45,0.63,Schaden-Grady,44
+837,Marni Leethem,#986231,1:30 PM,9:51 PM,2012-02-27,Leblon-São Conrado,1401234.56,0.52,Beier Inc,40
+838,Ferne McTerry,#914713,1:43 AM,6:23 PM,2021-08-13,Leme-Gávea,912345.67,0.95,Brown-Jast,50
+839,Elfie Arsnell,#d531dc,8:54 AM,1:30 PM,2016-01-03,Copacabana-Ipanema,1089012.34,0.7649999999999999,Aufderhar Group,58
+840,Jany Bevans,#68f236,1:39 PM,6:40 PM,2011-02-13,Leblon-Lapa,678901.23,0.58,Welch-Rau,44
+841,Wilfrid Billingsly,#33a6df,8:30 AM,11:01 AM,2007-08-12,Largo do Machado-Copacabana,701234.56,0.9,"Carter, Kutch and Flatley",38
+842,Saleem Hasslocher,#15058c,5:28 PM,11:10 AM,2016-10-01,Copacabana-Barra da Tijuca,512345.67,0.7050000000000001,Kuhn-Emmerich,33
+843,Guglielmo Melmoth,#9ddd75,1:22 PM,8:46 AM,2014-06-19,Ipanema-Centro,623456.78,0.51,"Morar, McCullough and Wisoky",60
+844,Josephine Halewood,#3c31e3,4:55 PM,9:10 PM,2010-07-07,Botafogo-Leme,1467890.12,0.57,"Tremblay, Leffler and Mayert",36
+845,Franni McPhelim,#3c3e5e,5:41 AM,9:33 PM,2017-03-05,São Conrado-Urca,1289012.34,0.73,"Roberts, Hermiston and Funk",31
+846,Hamlin Albrighton,#b20a83,4:42 PM,4:03 PM,2004-02-03,Leblon-São Conrado,912345.67,0.68,"Waelchi, Wyman and Legros",36
+847,Morry Dowd,#f4f3d0,4:11 AM,6:42 PM,2019-08-21,Ipanema-Jardim Botânico,823456.78,0.8,Schimmel-Hintz,36
+848,Randie Kluss,#60b49e,9:50 AM,7:58 AM,2012-12-07,rota não atribuída,934567.89,0.52,"Wuckert, Sawayn and Daniel",47
+849,Virgie Murdy,#ddbdb8,3:39 AM,1:38 PM,2017-06-30,Barra da Tijuca-Jardim Botânico,945678.9,0.95,Kozey-Schoen,35
+850,Marjory Figgen,#f7debe,9:24 AM,6:10 PM,2015-07-16,Largo do Machado-Barra da Tijuca,512345.67,0.95,"Gleason, Gutmann and Metz",45
+851,Flin Aldhous,#289cbd,12:26 AM,9:15 AM,2010-05-07,rota não atribuída,1067890.12,0.99,"Daniel, Pfannerstill and Frami",39
+852,Ronna Peetermann,#196710,10:12 AM,12:43 PM,2008-02-09,Lapa-Leblon,923456.78,0.74,Lubowitz-Bernier,31
+853,Deb Rolfo,#7377f7,12:16 PM,7:54 AM,2002-10-05,Barra da Tijuca-Leblon,967890.12,0.74,McCullough-Schinner,51
+854,Joyous Houten,#532609,11:04 AM,11:48 PM,2012-05-12,Botafogo-Jardim Oceânico,689012.34,0.79,"Rice, Kassulke and Nicolas",30
+855,Shaughn Stebbing,#2e14fc,6:04 AM,6:50 PM,2019-12-13,Jardim Oceânico-Copacabana,1145678.9,0.73,Luettgen-Braun,32
+856,Husain Nowell,#95912b,5:45 AM,5:44 PM,2013-04-11,São Conrado-Urca,812345.67,0.9,"Deckow, Baumbach and Reichert",46
+857,Kipper Cosgrive,#67d975,12:36 AM,1:27 PM,2016-08-21,rota não atribuída,990123.45,0.62,Nolan-Rippin,34
+858,Corrina Salt,#338c2d,10:20 AM,6:35 AM,2020-08-20,Lapa-Copacabana,1045678.9,0.84,MacGyver Inc,34
+859,motorista não atribuído,#b3800a,9:22 AM,11:23 PM,2011-05-01,Centro-Barra da Tijuca,990123.45,0.705,Farrell Group,48
+860,Malva Barton,#afb70c,1:45 AM,11:25 AM,2002-08-09,São Conrado-Glória,1334567.89,0.57,Padberg Inc,47
+861,Jeanette Herrero,#e4fa2c,10:52 AM,2:58 PM,2010-04-23,Leme-Botafogo,601234.56,0.99,Green-Fisher,42
+862,Johannah Simoneau,#bbac11,11:28 AM,6:42 PM,2010-05-12,Largo do Machado-Barra da Tijuca,1089012.34,0.52,Ward-D'Amore,54
+863,Alta Josephy,#24e621,8:48 AM,7:43 PM,2021-06-19,Botafogo-Centro,790123.45,0.79,"Mueller, Crona and Parisian",45
+864,Ethelred Bus,#516c3b,1:52 AM,7:41 PM,2013-03-05,Urca-Leblon,1423456.78,0.58,Kling Group,54
+865,Ken James,#0da195,1:54 AM,8:26 AM,2008-02-09,Copacabana-Ipanema,678901.23,0.79,"Reinger, Okuneva and Mante",31
+866,Danyette Orme,#312545,3:04 AM,7:33 PM,2007-11-01,Flamengo-Copacabana,990123.45,0.79,"Schmitt, Keeling and Ward",52
+867,Sawyere Risely,#8a031b,1:01 AM,8:00 AM,2005-07-28,Largo do Machado-Urca,1012345.67,0.57,Hayes-Beer,33
+868,Rina Littlejohns,#9be22f,3:12 AM,7:30 PM,2014-12-31,Barra da Tijuca-Jardim Botânico,1223456.78,0.79,West Inc,57
+869,Christiane Rout,#abc7ab,1:49 PM,5:59 PM,2003-10-18,Jardim Botânico-Flamengo,1023456.78,0.58,Ward and Sons,52
+870,motorista não atribuído,#3c596a,6:23 AM,12:27 PM,2014-06-08,Flamengo-Copacabana,1089012.34,0.99,Glover Inc,55
+871,Linzy Worland,#82fa36,4:17 PM,11:19 PM,2003-08-14,Ipanema-Gávea,523456.78,0.84,Goodwin and Sons,56
+872,Althea Mattiazzi,#fc0cb4,12:17 PM,7:35 AM,2015-01-01,Jardim Oceânico-Glória,1434567.89,0.63,"Breitenberg, Pagac and Mills",37
+873,Braden Witherdon,#90b91e,7:00 AM,2:20 PM,2022-08-04,Leme-São Conrado,1490123.45,0.62,"Ratke, Larkin and Quitzon",51
+874,Halli Le Grove,#7dcce0,11:19 AM,1:57 PM,2004-11-04,Gávea-Botafogo,1378901.23,0.76,Cummings and Sons,39
+875,Blair Christophle,#329795,2:17 AM,9:54 PM,2010-11-01,rota não atribuída,1034567.89,0.9,Langosh-Metz,38
+876,motorista não atribuído,#84fa94,3:25 AM,5:27 PM,2019-12-07,Leme-Botafogo,1467890.12,0.7949999999999999,Bartell-Mann,30
+877,Terza Questier,#10cc7f,2:58 PM,7:00 AM,2002-10-15,Largo do Machado-Glória,801234.56,0.69,Yost and Sons,44
+878,Tybi Lembcke,#e5bccf,4:51 AM,6:59 PM,2019-10-30,Largo do Machado-Urca,1156789.01,0.58,Graham Group,32
+879,Brina Rojel,#bf25af,1:33 PM,9:50 PM,2005-02-03,rota não atribuída,1190123.45,0.69,Hoeger-Bosco,46
+880,Jemmie Mountfort,#ce48b8,3:09 AM,4:56 PM,2004-10-08,São Conrado-Jardim Botânico,734567.89,0.74,Bosco and Sons,54
+881,Tamar Gillions,#306847,2:52 PM,12:33 PM,2021-04-08,Leme-Gávea,978901.23,0.69,Jenkins-Cormier,41
+882,Silvio Meggison,#e4f7a8,9:19 AM,11:13 PM,2012-05-11,rota não atribuída,1023456.78,0.69,Okuneva-Rolfson,54
+883,Leodora Teulier,#041c1b,9:47 AM,7:03 PM,2005-02-20,Glória-Jardim Oceânico,634567.89,0.58,Macejkovic Group,59
+884,Horace Weiss,#b3e280,2:35 AM,9:47 PM,2011-09-29,Leblon-São Conrado,667890.12,0.79,Pfeffer-Towne,49
+885,motorista não atribuído,#b64110,3:43 PM,11:53 PM,2004-01-28,São Conrado-Glória,823456.78,0.7733333333333333,Turcotte LLC,47
+886,Matthias Doncaster,#eb1650,1:31 PM,8:08 PM,2019-05-29,Jardim Botânico-Leblon,589012.34,0.7566666666666667,Emmerich-Conroy,47
+887,Tamma Everett,#953dea,5:31 AM,9:49 AM,2006-07-30,rota não atribuída,1389012.34,0.74,Walker-Runolfsdottir,38
+888,Anett Bennion,#2d0bbc,4:23 PM,12:59 PM,2010-03-04,Flamengo-Copacabana,1334567.89,0.63,"Sanford, Becker and Schuster",44
+889,Jilly Brainsby,#bf2881,1:45 PM,12:04 PM,2011-06-07,Copacabana-Ipanema,1089012.34,0.84,Kuhlman-Howell,35
+890,Cathi Raspel,#b43b06,7:56 AM,9:53 AM,2006-09-12,Barra da Tijuca-Jardim Botânico,1312345.67,0.63,"Hauck, Kunde and Jacobi",50
+891,Lelia Pawlowicz,#874db7,11:01 AM,10:41 AM,2014-01-14,Jardim Oceânico-Lapa,1190123.45,0.52,Howe-Stark,52
+892,Garrott Gritton,#66f8ce,2:26 PM,12:36 PM,2009-10-20,Flamengo-Copacabana,1389012.34,0.79,Streich-Ritchie,40
+893,Antoni La Grange,#35af67,12:46 AM,12:33 PM,2016-01-02,Flamengo-Largo do Machado,1145678.9,0.9,"Upton, Kuhic and Witting",35
+894,Aura Elphee,#c13fe4,1:42 AM,6:42 AM,2013-07-02,Leblon-Botafogo,534567.89,0.69,Schumm and Sons,38
+895,Jacquenette Conaghan,#206ee0,3:57 PM,4:28 PM,2007-03-22,Botafogo-Jardim Oceânico,1078901.23,0.79,"McKenzie, Grant and Becker",49
+896,Tomaso Pisco,#026f26,9:17 AM,8:38 AM,2003-12-09,rota não atribuída,1489012.34,0.73,Botsford-Ernser,60
+897,Van Breukelman,#5c6659,8:50 AM,12:49 PM,2021-01-08,Flamengo-Largo do Machado,901234.56,0.62,Berge-Kutch,47
+898,Tami Kesey,#2afc49,4:52 AM,6:30 AM,2015-05-06,Gávea-Copacabana,1212345.67,0.51,"Mante, Huels and Tromp",59
+899,Caron Cains,#30afcb,11:43 AM,10:59 PM,2015-08-19,Largo do Machado-Urca,689012.34,0.68,"Thompson, Hayes and Mills",55
+900,Cornell MacCaffery,#5316c0,2:47 PM,12:34 PM,2011-07-04,Copacabana-Lapa,1234567.89,0.68,Gottlieb-Quitzon,40
+901,Darius Zanassi,#1a3c7c,6:36 AM,6:51 PM,2013-08-09,Botafogo-Leme,1034567.89,0.52,Heaney Inc,45
+902,Annalee Twaite,#d9b645,3:24 AM,3:12 PM,2007-09-25,Leme-Botafogo,689012.34,0.63,"Price, Ankunding and Jakubowski",49
+903,Joann Itzchaky,#356470,12:26 PM,5:28 PM,2007-01-31,Barra da Tijuca-Jardim Botânico,1134567.89,0.57,"Huels, Kulas and Muller",37
+904,Dwight Bernardet,#1f2cb4,3:54 PM,8:46 PM,2002-09-23,Jardim Oceânico-Glória,889012.34,0.84,Kessler Group,48
+905,Micky Draycott,#bdd902,11:28 AM,1:17 PM,2007-06-11,São Conrado-Glória,1490123.45,0.57,"Yost, Murray and Jakubowski",33
+906,Patrizio Kall,#209ed9,8:10 AM,1:40 PM,2011-09-18,Jardim Botânico-São Conrado,690123.45,0.99,Franecki Inc,52
+907,Hedwiga Churchman,#cbd590,1:40 PM,5:47 PM,2007-10-17,Largo do Machado-Urca,1290123.45,0.8,"Treutel, Emmerich and Daugherty",34
+908,Iggie Joynson,#148ed2,10:22 AM,7:40 PM,2015-01-26,Lapa-Leblon,678901.23,0.62,MacGyver-Hilll,39
+909,Jade Ackland,#d44f25,3:18 PM,10:49 PM,2017-11-22,rota não atribuída,612345.67,0.99,Schoen-Jacobson,51
+910,Bonny Connett,#4ca097,6:52 AM,9:28 AM,2016-09-14,rota não atribuída,623456.78,0.68,"Lindgren, Jacobi and Breitenberg",41
+911,Katerine Pethybridge,#a8c338,2:17 AM,9:59 PM,2011-09-13,Flamengo-Copacabana,1034567.89,0.79,Wisoky Group,33
+912,Teresita Swinford,#aeb094,4:46 AM,5:04 PM,2005-12-12,rota não atribuída,923456.78,0.57,Friesen Inc,44
+913,Dodie Baldack,#891084,8:10 AM,7:28 PM,2017-06-22,rota não atribuída,1190123.45,0.99,Predovic-Blick,47
+914,Skippy Beirne,#0d6167,6:39 AM,9:12 AM,2020-10-28,Jardim Botânico-São Conrado,823456.78,0.69,Ward-Collier,56
+915,motorista não atribuído,#248322,12:54 AM,9:06 PM,2009-05-18,Gávea-Botafogo,956789.01,0.7649999999999999,Weber-Gutkowski,45
+916,Hendrik Rostron,#944bc8,10:41 AM,4:49 PM,2009-09-07,Barra da Tijuca-Centro,1412345.67,0.84,Little-Anderson,42
+917,motorista não atribuído,#5b844e,8:32 AM,5:19 PM,2021-03-02,Flamengo-Largo do Machado,812345.67,0.95,Kemmer LLC,42
+918,Rodie Cocke,#c5de96,8:55 AM,6:48 PM,2007-12-08,Centro-Jardim Botânico,1167890.12,0.845,Hermann and Sons,31
+919,Wildon Smeal,#4ac9ea,11:16 AM,5:01 PM,2021-06-25,Gávea-Lapa,1245678.9,0.74,Pacocha Group,59
+920,Sophronia Sudlow,#2544f5,4:58 AM,4:55 PM,2022-12-30,Glória-Jardim Oceânico,845678.9,0.99,"Nolan, Runolfsdottir and Hammes",56
+921,Cly Hollows,#dea946,1:13 PM,8:32 PM,2012-09-07,Largo do Machado-Glória,878901.23,0.68,Dach-O'Keefe,51
+922,Aile Truswell,#b02df0,8:49 AM,7:08 PM,2019-04-18,Leme-São Conrado,1323456.78,0.95,Barton and Sons,48
+923,motorista não atribuído,#a66005,5:34 AM,6:20 AM,2017-12-08,Botafogo-Jardim Oceânico,734567.89,0.8,Erdman Inc,40
+924,Faustina Nancekivell,#2b72f7,4:07 PM,9:24 AM,2021-04-17,rota não atribuída,801234.56,0.8,"Auer, Russel and Dibbert",38
+925,Maison Simondson,#c384bf,9:14 AM,8:11 PM,2022-01-29,rota não atribuída,589012.34,0.74,Gerhold-Gottlieb,57
+926,Aurel Hallstone,#1e0b8c,2:43 PM,10:43 AM,2008-09-01,Flamengo-Largo do Machado,601234.56,0.62,Schaefer Inc,49
+927,Amalie Shepcutt,#cbbd31,1:05 PM,1:24 PM,2015-09-03,São Conrado-Jardim Botânico,689012.34,0.99,"Dicki, Funk and Kihn",36
+928,Jasun Franciottoi,#25ade3,11:27 AM,12:53 PM,2021-12-11,Gávea-Lapa,612345.67,0.51,Shanahan and Sons,45
+929,Jilly De Brett,#040916,6:15 AM,10:38 AM,2023-03-23,Copacabana-Barra da Tijuca,1389012.34,0.57,Mertz LLC,56
+930,Yurik McKelvie,#9d1082,1:38 AM,10:04 PM,2013-02-19,Lapa-Leblon,1201234.56,0.74,Deckow Inc,45
+931,Sharai Dmisek,#eb4ae8,9:16 AM,2:25 PM,2017-07-14,Urca-Largo do Machado,1456789.01,0.74,Ledner Group,49
+932,Marena Wakerley,#450a19,4:27 AM,12:26 PM,2016-05-30,São Conrado-Jardim Botânico,567890.12,0.8,Morissette-Daugherty,46
+933,Brynne Salvador,#258a3f,9:01 AM,5:01 PM,2007-03-03,Ipanema-Jardim Botânico,945678.9,0.57,Jenkins-Franecki,47
+934,Clementina Gerbl,#e9a3e8,2:11 AM,9:44 AM,2009-11-29,rota não atribuída,801234.56,0.63,Schaden-Schaefer,30
+935,Oneida Freed,#9a536d,5:41 AM,11:30 PM,2022-10-15,rota não atribuída,889012.34,0.84,Aufderhar-Walter,57
+936,Janene Oneill,#81e730,12:18 AM,5:41 PM,2023-02-14,Centro-Jardim Botânico,878901.23,0.87,Huels-Bauch,47
+937,Kristi Scyone,#c2952b,12:36 PM,2:07 PM,2018-08-16,Centro-Barra da Tijuca,1467890.12,0.9,Frami Inc,53
+938,Kelly Reburn,#901572,3:53 PM,8:44 AM,2022-11-03,Glória-Jardim Oceânico,667890.12,0.74,"Balistreri, Barrows and Gerlach",50
+939,Sandra Casellas,#5ca142,1:17 AM,11:03 AM,2002-07-10,Largo do Machado-Barra da Tijuca,645678.9,0.58,Padberg Group,55
+940,Betty Primett,#3820cb,3:00 AM,9:20 AM,2019-05-26,Leblon-Lapa,701234.56,0.51,Satterfield-Hessel,33
+941,Hanna Scay,#88775a,5:25 AM,8:08 AM,2011-05-26,Copacabana-Lapa,1356789.01,0.68,Cruickshank-Schultz,48
+942,Petey Fields,#f2af2a,12:06 AM,10:13 PM,2022-09-06,Jardim Botânico-São Conrado,934567.89,0.7050000000000001,"Rutherford, Nienow and Wolf",54
+943,Olin Roderick,#0a59cb,3:28 AM,11:23 AM,2006-01-07,São Conrado-Glória,1245678.9,0.73,Harris-Dickens,32
+944,Martie Marlor,#65dc31,1:49 AM,11:05 AM,2011-08-30,Largo do Machado-Jardim Botânico,1201234.56,0.62,Sawayn-Huel,60
+945,Fritz Munns,#cbd55a,7:15 AM,5:14 PM,2021-03-30,rota não atribuída,1345678.9,0.73,"Prohaska, Mitchell and Harris",60
+946,Lucilia Thecham,#bf854d,11:06 AM,11:12 AM,2016-03-07,Botafogo-Jardim Botânico,1389012.34,0.63,"Welch, Boyle and Larson",49
+947,Karlie Trude,#0eac83,9:50 AM,9:03 AM,2008-02-10,Jardim Botânico-Ipanema,1156789.01,0.8,"Dare, Macejkovic and Kozey",37
+948,motorista não atribuído,#55b6d8,11:10 AM,5:05 PM,2022-10-08,Gávea-Copacabana,589012.34,0.63,"Ebert, Schuppe and Bauch",54
+949,Benni Blackmuir,#b30393,1:43 AM,11:10 AM,2002-10-15,Glória-Leme,1367890.12,0.58,"Haag, Farrell and Marks",42
+950,Laurence Cauderlie,#9b6b0d,4:06 AM,10:01 AM,2010-01-03,Largo do Machado-Urca,1145678.9,0.95,Larson LLC,36
+951,Denyse Pooley,#482284,6:42 AM,8:52 AM,2019-07-29,rota não atribuída,923456.78,0.95,Miller LLC,43
+952,motorista não atribuído,#250fb7,2:45 AM,9:42 AM,2011-06-16,Jardim Botânico-Leblon,1334567.89,0.57,"Mante, Pouros and Gerhold",42
+953,Piggy Lindelof,#804574,4:56 AM,8:45 AM,2007-04-24,Urca-Largo do Machado,723456.78,0.52,Doyle-Ferry,31
+954,Maxy Ligerton,#7a44f6,9:37 AM,4:53 PM,2008-08-31,Jardim Oceânico-Leme,512345.67,0.99,McLaughlin Inc,50
+955,Abigale Branno,#3675c9,2:52 PM,11:19 AM,2014-09-24,rota não atribuída,556789.01,0.69,Rippin-Dare,44
+956,Roz Husbands,#cb2dc9,2:31 PM,12:27 PM,2011-01-18,Gávea-Botafogo,678901.23,0.51,"Koelpin, Okuneva and Marks",50
+957,motorista não atribuído,#84d694,6:39 AM,7:10 PM,2018-09-05,Jardim Oceânico-Glória,1356789.01,0.51,Leffler-Doyle,40
+958,Ronda Duignan,#ff31b5,1:45 PM,2:10 PM,2011-06-29,Copacabana-Ipanema,901234.56,0.8,Walker Group,32
+959,Devonna Keepin,#507ae7,3:37 AM,8:21 AM,2019-10-22,Centro-Barra da Tijuca,1456789.01,0.68,"DuBuque, Stanton and Durgan",46
+960,Jordon Dell Casa,#bb02f1,7:30 AM,9:48 AM,2021-07-01,Urca-Leblon,667890.12,0.62,Corwin-Russel,37
+961,Marchall Amis,#c7d528,1:04 AM,3:10 PM,2021-07-14,Largo do Machado-Copacabana,745678.9,0.8,Fadel-Emard,30
+962,Adriano Castiello,#d0f9b6,3:28 AM,11:30 AM,2007-02-14,São Conrado-Glória,1101234.56,0.68,Hane and Sons,46
+963,Nolana Allanby,#93ee25,10:04 AM,11:07 AM,2006-07-20,Jardim Botânico-Leblon,912345.67,0.57,Welch-Zemlak,46
+964,Marja Loidl,#edeae1,12:23 AM,1:59 PM,2021-02-26,Lapa-Gávea,1090123.45,0.58,Cummings-Hamill,50
+965,Milly Saunders,#75026e,12:15 AM,2:03 PM,2016-12-30,Leme-Botafogo,1090123.45,0.84,Prohaska Group,54
+966,Carri Charkham,#dfb59b,1:23 AM,8:37 AM,2006-11-20,Centro-Barra da Tijuca,989012.34,0.95,Bosco LLC,34
+967,Carly Anespie,#816001,4:14 AM,10:15 PM,2006-07-29,Glória-Jardim Oceânico,1445678.9,0.95,Lubowitz and Sons,58
+968,Inessa Sweetlove,#6067fe,11:49 AM,7:14 PM,2010-05-04,rota não atribuída,1445678.9,0.95,"Gibson, Will and Emmerich",60
+969,Lonnard Tixier,#5fd14f,1:10 PM,10:29 AM,2017-01-31,Copacabana-Ipanema,1356789.01,0.99,MacGyver and Sons,31
+970,Cara Bladge,#1b9496,3:15 PM,2:09 PM,2011-07-15,rota não atribuída,923456.78,0.51,Hegmann Inc,33
+971,Alvin Brookwell,#1714c2,4:47 PM,8:52 PM,2020-10-21,Barra da Tijuca-Centro,1312345.67,0.68,"Hand, Kulas and Grant",58
+972,Cicily Traise,#2acebf,9:20 AM,8:57 PM,2019-09-05,São Conrado-Urca,601234.56,0.99,Kuhn Group,58
+973,Edeline Santora,#27211b,1:41 AM,11:39 PM,2015-09-12,Barra da Tijuca-Leblon,1278901.23,0.69,Sawayn-Jacobi,48
+974,Kareem Goulborne,#7fc2d6,2:58 AM,6:56 AM,2010-02-11,Centro-Leme,790123.45,0.9,"Schneider, DuBuque and Schmitt",31
+975,Leticia Bielfeld,#4a9f47,7:10 AM,9:21 AM,2004-05-11,Largo do Machado-Barra da Tijuca,578901.23,0.52,"Mante, Yundt and Leffler",52
+976,Anne-corinne Apedaile,#788551,3:28 AM,12:50 PM,2020-02-08,Copacabana-Barra da Tijuca,1078901.23,0.84,Fadel-Bernhard,56
+977,Rob Francescoccio,#e6c8bc,12:36 AM,10:38 PM,2004-08-20,Urca-Lapa,1356789.01,0.62,"Crooks, Zieme and Hills",55
+978,Magdalene Vearncomb,#2669a1,8:11 AM,9:24 AM,2013-09-09,Urca-Botafogo,1267890.12,0.9,Hilll LLC,48
+979,Ernest Henderson,#1444e8,8:10 AM,7:55 PM,2017-01-06,Largo do Machado-Copacabana,1334567.89,0.71,Purdy LLC,41
+980,Madalena Finden,#2a1419,12:37 AM,11:28 PM,2011-08-14,Leme-Urca,1156789.01,0.52,"Smith, Stamm and Cummings",49
+981,Cesya De Domenico,#5bdefe,12:43 PM,9:51 AM,2019-11-21,Barra da Tijuca-Centro,645678.9,0.9,"Cummerata, O'Keefe and Cassin",48
+982,Rod Benduhn,#e112dc,12:39 AM,1:29 PM,2020-03-01,Glória-Jardim Oceânico,1489012.34,0.8,Jones LLC,42
+983,Junina Thelwll,#766a6b,8:32 AM,2:04 PM,2003-12-08,São Conrado-Glória,612345.67,0.79,Will-Kris,49
+984,Madlin Studdert,#0ca107,4:38 PM,11:36 AM,2005-07-30,Urca-Leblon,1345678.9,0.52,Turcotte-Leffler,58
+985,Fergus Mattam,#a20c5f,11:30 AM,9:21 AM,2010-10-21,Leblon-Botafogo,1256789.01,0.74,Kuhn-Russel,43
+986,Vinny Brightwell,#9efdaa,6:33 AM,8:21 PM,2012-05-17,Leme-Gávea,767890.12,0.69,Langosh Group,52
+987,Nina Berdale,#3b99e8,3:46 PM,5:27 PM,2007-12-27,Jardim Botânico-São Conrado,612345.67,0.99,Altenwerth Inc,56
+988,Adelaida Thunderman,#440eeb,9:45 AM,7:06 AM,2007-05-12,Barra da Tijuca-Leblon,1390123.45,0.9,"Stamm, Weimann and Spinka",36
+989,Davita Oda,#2c70b7,6:18 AM,4:58 PM,2022-08-28,Jardim Oceânico-Glória,790123.45,0.57,"Nienow, Lueilwitz and Fisher",53
+990,Katharine Dicky,#d1b2b7,10:28 AM,10:13 AM,2003-06-10,Jardim Oceânico-Lapa,1434567.89,0.74,Wolff-Brown,34
+991,Kleon Rigler,#0b9d18,6:30 AM,8:07 PM,2016-07-31,Urca-Leblon,701234.56,0.58,Lakin-Veum,50
+992,Elka Betjeman,#ba6562,12:00 AM,8:55 AM,2016-12-12,Flamengo-São Conrado,1301234.56,0.74,"Spinka, Wilkinson and Thiel",34
+993,Ursulina Shepcutt,#173b8f,2:41 AM,6:05 AM,2007-02-10,Jardim Botânico-Leblon,1378901.23,0.9,"Rodriguez, Heathcote and Hand",41
+994,Agnesse Curedell,#475307,4:08 PM,7:22 PM,2007-12-13,São Conrado-Urca,867890.12,0.51,Corwin LLC,36
+995,Averell Casperri,#d979d5,2:59 PM,11:13 AM,2016-07-16,Flamengo-Largo do Machado,512345.67,0.95,Leffler and Sons,42
+996,Brockie Sentinella,#f818d6,2:29 PM,7:46 PM,2006-01-30,rota não atribuída,912345.67,0.95,Lindgren-Dickinson,35
+997,Harriett Bennellick,#3e2ffe,4:08 PM,9:58 PM,2002-06-23,Barra da Tijuca-Leblon,723456.78,0.95,Zulauf and Sons,42
+998,Jess Pack,#30eee4,4:11 AM,8:28 PM,2014-06-18,Jardim Botânico-São Conrado,667890.12,0.52,Witting-Swift,55
+999,motorista não atribuído,#4fcd89,2:05 PM,11:19 AM,2023-04-23,Leme-São Conrado,623456.78,0.95,Tremblay and Sons,43
+1000,Muhammad Brigstock,#4e03af,8:52 AM,6:12 AM,2012-05-14,Gávea-Centro,645678.9,0.95,Reinger LLC,43

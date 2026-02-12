@@ -4,12 +4,17 @@ public class Veiculo {
 	private int ano;
 	private int tam_tanque;	
 
-	protected Veiculo(String modelo, int ano){
+	protected Veiculo(String modelo, int ano, String chassi){
+		this.modelo = modelo;
+		this.ano = ano;
+		this.chassi = chassi;
 		System.out.println("Fabricar veículo");
 	}
 	
-	protected void imprimir_dados(){
-		System.out.println("Dados");
-		System.out.println(chassi, modelo, ano);
+	public String toString() {
+		return "Veiculo [chassi=" + chassi 
+		+ ", modelo=" + modelo 
+		+ ", ano=" + ano 
+		+ ", tam_tanque=" + tam_tanque + "]";
 	}
 }

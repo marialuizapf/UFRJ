@@ -1,0 +1,1001 @@
+bus_line_id|driver_name|bus_color|bus_start_time|bus_end_time|bus_built_date|bus_route|bus_price(R$)|bus_integrity
+1|Aguistin Seivwright|#a01e15|1:18 PM|9:36 PM|1/27/2007|Flamengo-Copacabana|1401234,56|0.8
+2|Tedd Ailsbury|#35f91e|4:41 PM|2:51 PM|5/3/2013|Jardim Botânico-Flamengo|701234,56|0.62
+3|Orren Layus|#662b1d|3:30 AM|10:38 AM|7/7/2002|Leblon-Botafogo|590123,45|0.99
+4|Cornie Rippingall|#5ec957|4:51 AM|11:01 PM|7/21/2011|Botafogo-Leme|1234567,89|-
+5|Corrianne Widdowson|#5a32b2|5:10 AM|1:35 PM|12/7/2015||623456,78|0.99
+6|Nadiya Emblen|#c8867c|9:12 AM|8:56 PM|3/23/2009|São Conrado-Largo do Machado|889012,34|0.57
+7|Jerrylee Wakelin|#85bd09|5:25 AM|12:22 PM|10/9/2022|Centro-Leme|1490123,45|0.68
+8|Carmen Hattoe|#89ea69|10:38 AM|1:52 PM|4/6/2015|Botafogo-Leme|1212345,67|null
+9|Claude Gypps|#559db9|11:43 AM|6:46 PM|2/15/2019|Gávea-Lapa|634567,89|0.95
+10|Gerardo O'Loinn|#0add48|12:00 AM|9:41 AM|4/15/2014|Lapa-Leblon|712345,67|0.99
+11||#5717f1|12:45 AM|8:51 PM|10/16/2022|Gávea-Botafogo|678901,23|0.68
+12|Kacey Hencke|#21d3ec|3:19 AM|6:57 PM|3/24/2005|Urca-Largo do Machado|1389012,34|0.51
+13|Betteann Robeiro|#43aef9|6:33 AM|3:02 PM|6/24/2022||812345,67|0.63
+14|Patti Dowson|#497dae|2:45 AM|11:06 AM|11/10/2005|São Conrado-Glória|912345,67|0.9
+15|Chevy Float|#348720|4:44 PM|12:36 PM|1/4/2012|Urca-Lapa|556789,01|0.73
+16|Wyatt Siviour|#6784c3|1:04 PM|11:10 PM|12/13/2017||889012,34|-
+17|Wiley Depport|#1d5183|12:49 AM|9:16 PM|1/29/2005|Centro-Leme|1223456,78|0.63
+18|Brena Ripsher|#660388|10:27 AM|11:29 AM|2/17/2005|Botafogo-Leme|667890,12|0.57
+19|Lawrence Janny|#c43bb2|3:25 AM|8:10 PM|6/6/2014||1201234,56|0.62
+20|Kaine MacKnocker|#374f22|2:04 PM|7:49 AM|1/25/2005|Jardim Oceânico-Leme|1445678,9|null
+21|Chan D'Abbot-Doyle|#eb15de|9:00 AM|11:40 PM|8/28/2017|Copacabana-Ipanema|1412345,67|0.69
+22|Krystyna D'Arrigo|#8bb68f|4:17 AM|4:07 PM|6/14/2022|Jardim Botânico-Ipanema|1278901,23|0.84
+23||#038512|12:57 AM|7:12 PM|7/30/2017|Botafogo-Centro|701234,56|0.69
+24|Hammad Barker|#ea31c4|12:20 AM|8:48 PM|3/4/2009|Urca-Lapa|1412345,67|null
+25||#146dcd|5:28 AM|12:32 PM|1/12/2023|Ipanema-Centro|1390123,45|0.73
+26|Marianna Guiraud|#329fe8|2:09 PM|11:09 AM|5/19/2018|Centro-Leme|1167890,12|0.58
+27|Kirby Dybell|#c6781d|2:56 AM|7:12 PM|9/28/2004|Lapa-Jardim Oceânico|1278901,23|0.73
+28|Weber Barrasse|#28388b|7:31 AM|8:55 PM|11/18/2013|Barra da Tijuca-Leblon|1301234,56|0.52
+29|Guillemette Irons|#900a08|8:22 AM|7:52 PM|9/25/2020|Jardim Oceânico-Copacabana|645678,9|0.79
+30|Zitella Mousdall|#3b0c8e|3:24 PM|9:08 PM|1/20/2021|Ipanema-Centro|1278901,23|0.73
+31|Gregorius Van Driel|#3ac549|8:35 AM|9:10 PM|5/5/2014|Barra da Tijuca-Centro|934567,89|0.9
+32|Layla Gristhwaite|#af11be|1:42 PM|10:59 PM|4/29/2014|São Conrado-Largo do Machado|556789,01|0.73
+33|Deina Gouldeby|#e78d4a|8:26 AM|7:34 AM|7/29/2012|Botafogo-Centro|1445678,9|0.9
+34|Kort Kirkman|#fed655|5:21 AM|7:29 PM|1/21/2010|Ipanema-Gávea|523456,78|0.62
+35|Ali Harrhy|#123417|6:21 AM|9:35 PM|5/29/2018|Lapa-Copacabana|1389012,34|0.63
+36|Cynthea Maro|#2734ae|4:56 AM|7:19 AM|6/15/2011|Jardim Botânico-Leblon|1490123,45|0.52
+37|Ellis O' Liddy|#deaad4|4:38 PM|7:45 PM|7/3/2017|Jardim Oceânico-Lapa|845678,9|0.99
+38|Bentley Ricardin|#bbe261|4:23 PM|7:47 PM|9/6/2004|Barra da Tijuca-Leblon|734567,89|0.58
+39|Jillian Toman|#cd13b1|2:11 AM|12:39 PM|1/24/2016|Leblon-Botafogo|601234,56|0.84
+40|Marv Vaszoly|#3803de|7:04 AM|7:54 AM|5/28/2006|Barra da Tijuca-Jardim Botânico|1490123,45|0.8
+41|Lizzy Niblo|#ef344f|5:12 AM|1:45 PM|8/31/2022|Urca-Lapa|967890,12|0.84
+42||#05c5b0|9:42 AM|6:58 PM|2/12/2013|São Conrado-Jardim Botânico|912345,67|0.73
+43|Alexei Odam|#0fe99f|4:55 AM|5:41 PM|5/26/2015|Flamengo-São Conrado|923456,78|0.74
+44|Lula Raddon|#1c81d6|3:28 PM|11:22 PM|2/14/2018|Largo do Machado-Barra da Tijuca|1367890,12|0.68
+45|Roxie Garrigan|#78e7d0|7:27 AM|12:44 PM|4/25/2017||956789,01|0.58
+46|Kathye Prozescky|#5b387a|1:31 PM|8:28 PM|5/5/2004|Flamengo-Copacabana|889012,34|0.95
+47|Chaddie Maffey|#3afce9|11:57 AM|5:06 PM|7/29/2008||1089012,34|0.95
+48|Rutger Clarricoates|#8eb7f9|3:52 AM|10:13 PM|3/9/2020|Glória-Leme|1267890,12|-
+49|Angelique Annice|#e060a7|4:32 PM|9:10 AM|12/9/2003|Flamengo-São Conrado|1156789,01|-
+50|Britta Campione|#efa926|2:47 PM|10:31 PM|11/5/2003|Ipanema-Jardim Botânico|1378901,23|0.79
+51|Ediva Pidgley|#2b7257|2:54 PM|7:35 PM|10/10/2019|Copacabana-Lapa|1478901,23|0.52
+52|Gordie Scolding|#efd37c|2:52 PM|10:30 AM|4/10/2009||645678,9|0.52
+53|Fulvia Durnall|#133f59|12:21 PM|8:37 PM|10/12/2020||1090123,45|0.58
+54|Maurise Dixsee|#6100de|1:34 AM|7:16 AM|3/19/2004|Flamengo-Copacabana|801234,56|0.74
+55|Hurley Skase|#c36617|2:26 AM|5:11 PM|12/11/2014||1089012,34|0.73
+56|Shellie Routham|#0ddf8c|11:45 AM|6:08 PM|12/28/2014|Copacabana-Barra da Tijuca|767890,12|0.52
+57|Kelly Semple|#7b2efc|11:16 AM|11:32 PM|4/22/2022||1234567,89|0.63
+58|Jesselyn Theze|#20d853|11:57 AM|5:41 PM|6/12/2011|Urca-Largo do Machado|978901,23|0.68
+59|Tobe MacGiany|#90ed9a|12:59 AM|3:08 PM|6/30/2005|Jardim Botânico-Flamengo|1267890,12|0.99
+60|Mathian Extal|#2e0752|3:06 AM|1:46 PM|2/3/2012|Ipanema-Jardim Botânico|667890,12|0.58
+61|Sarena MacCosty|#4226ce|2:06 PM|6:26 AM|9/4/2021|Flamengo-Copacabana|701234,56|0.79
+62|Agnesse Clint|#6d6763|12:30 PM|8:57 AM|12/14/2018|Jardim Oceânico-Copacabana|1467890,12|0.52
+63|Willy Shapland|#beee5f|10:52 AM|2:01 PM|7/24/2008||523456,78|0.8
+64|Vick Whitcomb|#b32fab|6:43 AM|5:42 PM|8/27/2009|Barra da Tijuca-Leblon|1189012,34|0.74
+65|Keir Treneer|#64be82|5:57 AM|3:07 PM|4/15/2012|Jardim Botânico-Leblon|1412345,67|0.69
+66|Jasper Timmes|#d56b82|2:33 AM|9:33 PM|12/15/2020|São Conrado-Urca|756789,01|0.51
+67|Lissie Beeton|#1b7718|12:53 AM|1:24 PM|2/6/2020|Lapa-Leblon|756789,01|0.9
+68|Jesse Mordie|#864af2|2:33 AM|6:26 PM|10/24/2018|Urca-Leblon|701234,56|0.52
+69|Desiree Chaman|#06e0b3|8:39 AM|8:10 AM|11/25/2010|Gávea-Botafogo|1256789,01|0.69
+70||#f3998c|4:07 AM|10:22 PM|6/12/2016|Barra da Tijuca-Leblon|1334567,89|0.62
+71|Jarrid Dows|#58bf92|3:50 AM|11:08 AM|6/6/2003|São Conrado-Jardim Botânico|745678,9|0.69
+72|Claudell Dyster|#43cdc8|10:04 AM|6:44 PM|5/11/2006|Barra da Tijuca-Leblon|1001234,56|0.69
+73|Hazel Dodgshon|#2d5b06|8:10 AM|11:18 PM|8/6/2003||967890,12|0.8
+74|Gayla Lammie|#f42e5e|1:06 AM|12:26 PM|8/21/2018|Barra da Tijuca-Centro|923456,78|0.58
+75|Quinn Whitnell|#f48e07|1:54 AM|10:18 PM|4/4/2019|Jardim Botânico-Leblon|534567,89|0.57
+76|Torie Garmanson|#ee001e|4:57 AM|7:07 PM|11/11/2012|Flamengo-São Conrado|512345,67|0.9
+77||#889e66|4:17 PM|9:55 AM|6/12/2006|Centro-Jardim Botânico|834567,89|0.51
+78|Sayres Ralling|#0946a2|1:55 PM|1:19 PM|3/21/2017|Ipanema-Centro|1301234,56|0.84
+79|Wilow Tuppeny|#187f63|2:07 AM|4:52 PM|5/22/2017|São Conrado-Largo do Machado|1212345,67|0.69
+80||#18bff9|8:09 AM|6:33 PM|10/28/2008|Largo do Machado-Barra da Tijuca|1334567,89|0.52
+81|Celine Wankling|#0276bb|11:55 AM|6:13 PM|10/8/2012|Lapa-Leblon|556789,01|0.9
+82|Brunhilde Peer|#7db70c|1:51 PM|4:06 PM|4/29/2004|Leme-São Conrado|989012,34|0.95
+83|Jamesy Mansford|#44343e|3:11 PM|6:08 PM|12/17/2002|Lapa-Gávea|923456,78|0.69
+84|Bartholomeo Boulsher|#e4f29b|4:56 PM|8:14 AM|6/25/2017|Centro-Leme|1067890,12|0.74
+85|Rafael Vowden|#8fbb9e|8:57 AM|4:10 PM|5/15/2005|Leme-Gávea|1423456,78|0.79
+86|Robinet Cosker|#d2cc49|6:18 AM|2:07 PM|3/23/2021|Flamengo-Copacabana|1056789,01|0.79
+87|Thatch Gleadle|#60a33b|3:12 PM|5:37 PM|12/3/2013|Jardim Botânico-Flamengo|1445678,9|0.99
+88|Jodi Hrinchishin|#fa0afc|3:13 AM|5:16 PM|4/8/2013|Copacabana-Barra da Tijuca|778901,23|0.62
+89|Almira Gowry|#6d7a94|12:47 AM|10:43 PM|4/8/2006|Centro-Jardim Botânico|1278901,23|0.63
+90|Veronike Diack|#28d83c|5:17 PM|2:25 PM|12/17/2017|Urca-Lapa|512345,67|0.68
+91|Carter Moylane|#f2e00b|3:37 PM|3:48 PM|12/4/2019|Centro-Barra da Tijuca|1378901,23|0.74
+92|Gran O'Hagirtie|#750406|4:57 AM|11:04 PM|12/16/2003|Lapa-Jardim Oceânico|1478901,23|0.69
+93|Paulina Aylott|#203d3a|4:13 AM|6:13 AM|2/19/2019|Jardim Oceânico-Leme|889012,34|0.8
+94|Salvidor Klimpke|#7e4910|6:31 AM|3:06 PM|5/2/2010|Botafogo-Leme|1156789,01|0.52
+95|Marrissa O'Spillane|#e36bf8|11:01 AM|11:24 AM|4/6/2005|Jardim Oceânico-Glória|1123456,78|0.52
+96|Dahlia South|#91bfdf|4:13 PM|11:26 PM|7/9/2022|São Conrado-Urca|556789,01|-
+97|Godiva Marsh|#b2ccd5|5:35 PM|5:26 PM|2/12/2017|Lapa-Gávea|1267890,12|0.74
+98|Shannen Andell|#2b06c0|12:46 AM|10:28 PM|10/5/2007|Barra da Tijuca-Leblon|1434567,89|0.68
+99|Abbi Mochar|#774fa9|2:24 AM|12:06 PM|11/10/2020|Leme-Botafogo|823456,78|0.99
+100|Meris Boake|#70d35b|10:44 AM|7:11 PM|3/9/2006|Lapa-Copacabana|1078901,23|0.52
+101|Tamera Lambarth|#8192a6|12:20 PM|4:32 PM|7/27/2005|Leblon-Lapa|1067890,12|0.62
+102|Cal Peaker|#f9d9d5|10:48 AM|7:52 PM|3/11/2021||534567,89|0.51
+103|Elsbeth Martinat|#1e2d46|7:26 AM|3:50 PM|2/27/2022|Largo do Machado-Barra da Tijuca|1289012,34|0.58
+104|Micaela Shervil|#0a87a5|8:30 AM|4:34 PM|12/8/2019|Largo do Machado-Glória|712345,67|-
+105|Hildy Penfold|#d54eba|5:06 PM|4:12 PM|10/20/2002|Leme-Botafogo|1156789,01|0.62
+106|Valma Pillifant|#02f681|4:06 PM|12:33 PM|10/16/2010|São Conrado-Glória|1412345,67|0.74
+107|Shane Mahmood|#0c96cc|12:16 AM|8:32 PM|6/6/2006|Gávea-Lapa|1067890,12|0.58
+108|Madelaine Havill|#1fb437|2:09 AM|3:04 PM|5/11/2004|São Conrado-Urca|790123,45|0.51
+109|Amalie Bickerdike|#f37e47|8:10 AM|8:47 PM|12/25/2006|Centro-Barra da Tijuca|1490123,45|null
+110|Sigmund Drake|#0a2533|8:36 AM|2:41 PM|6/30/2017|Botafogo-Jardim Oceânico|934567,89|0.57
+111||#41d328|5:48 PM|8:10 PM|2/20/2003|Largo do Machado-Jardim Botânico|1190123,45|0.68
+112|Drud Bromfield|#3ea798|1:15 AM|11:29 PM|2/12/2004||734567,89|0.63
+113|Daron Brankley|#d1f007|5:27 AM|8:55 AM|2/17/2004|Barra da Tijuca-Jardim Botânico|1423456,78|0.57
+114|Chandra Leverson|#82273e|1:43 PM|5:32 PM|5/13/2005|Leblon-Botafogo|1190123,45|0.51
+115|Pietra Van Hesteren|#d6e88e|7:31 AM|8:34 AM|5/15/2014|Leme-São Conrado|1256789,01|0.58
+116||#7f9d53|4:00 PM|1:52 PM|9/27/2014|Flamengo-Copacabana|1156789,01|0.69
+117||#da9168|12:58 AM|4:44 PM|4/26/2015|Barra da Tijuca-Jardim Botânico|590123,45|null
+118|Giacopo Ivanikhin|#e07fc2|10:32 AM|6:59 AM|7/2/2021|Lapa-Jardim Oceânico|545678,9|0.73
+119|Alexis Luggar|#b61e41|2:39 AM|12:43 PM|9/29/2005||967890,12|0.8
+120|Earl Handscomb|#367107|9:43 AM|5:52 PM|11/17/2014|Ipanema-Jardim Botânico|1245678,9|0.62
+121|Kala Gonzalo|#26f4a6|8:33 AM|12:09 PM|2/18/2008|Botafogo-Jardim Botânico|667890,12|0.84
+122|Erma Duffit|#cc1665|4:58 AM|10:57 AM|6/24/2017|Lapa-Leblon|1345678,9|0.74
+123|Lee Stothert|#7e4653|12:37 PM|6:21 AM|10/29/2006|Centro-Jardim Botânico|534567,89|0.73
+124|Kimberlee Tirkin|#701226|9:08 AM|6:36 AM|8/25/2019|Glória-Leme|912345,67|0.57
+125||#415974|10:11 AM|4:03 PM|4/17/2011|Copacabana-Barra da Tijuca|1289012,34|0.69
+126||#6cf3d3|10:28 AM|8:24 AM|5/5/2014|Flamengo-Largo do Machado|789012,34|0.63
+127|Mabelle Manntschke|#0f95f3|1:26 PM|2:57 PM|12/30/2017|Lapa-Leblon|956789,01|0.95
+128|Dorri Bugg|#7f6b63|11:48 AM|11:27 AM|2/17/2023|Jardim Botânico-Ipanema|790123,45|0.8
+129|Ulises Provis|#e5ed93|9:52 AM|12:26 PM|7/14/2002|Botafogo-Centro|1278901,23|null
+130|Beniamino Oxley|#df0f42|12:20 AM|12:07 PM|1/20/2004|São Conrado-Glória|1145678,9|0.73
+131||#7efc8e|3:00 AM|11:49 PM|1/25/2008|Urca-Lapa|1390123,45|0.9
+132|Matty Sobey|#cbbea5|6:27 AM|4:14 PM|10/15/2019|Jardim Oceânico-Copacabana|1456789,01|0.99
+133|Harrietta Holdey|#014e88|10:31 AM|3:53 PM|12/31/2020|Flamengo-Copacabana|712345,67|0.58
+134|Randolph Shoulders|#8e6231|10:51 AM|11:15 PM|8/6/2005|Urca-Largo do Machado|667890,12|0.51
+135|Kerry Willson|#eb54e3|1:52 AM|10:11 PM|3/27/2020|Leme-Urca|1245678,9|null
+136||#39ffbd|12:48 PM|4:24 PM|2/5/2016|Copacabana-Lapa|1445678,9|0.57
+137|Bennie Gildersleeve|#ec5e25|6:33 AM|6:53 PM|11/24/2011|Flamengo-Largo do Machado|1490123,45|0.74
+138|Darci McDermid|#515d26|7:09 AM|6:16 PM|11/10/2002|Jardim Oceânico-Leme|712345,67|0.8
+139|Elvyn Bendley|#1ce357|9:03 AM|11:09 PM|8/21/2018|Centro-Jardim Botânico|778901,23|0.84
+140|Lyndel Massingberd|#63f3bf|1:49 PM|8:43 PM|6/10/2004|Flamengo-Largo do Machado|1312345,67|0.57
+141|Natal Jerromes|#b83947|1:14 PM|10:53 PM|7/19/2021|Leblon-Lapa|589012,34|0.69
+142|Larissa McKimmey|#efa304|1:29 AM|4:56 PM|2/23/2010|Barra da Tijuca-Centro|967890,12|0.9
+143|Colet Trevear|#ad7873|4:03 PM|10:26 AM|10/3/2015|Leme-São Conrado|778901,23|0.8
+144||#6682a4|3:18 AM|3:12 PM|10/29/2017|Botafogo-Jardim Botânico|1090123,45|0.63
+145|Man McEttigen|#b48650|2:53 AM|3:36 PM|5/24/2005|Largo do Machado-Barra da Tijuca|834567,89|0.95
+146|Margarette Inmett|#bdde9f|8:47 AM|8:27 PM|9/17/2007|Urca-Largo do Machado|1290123,45|0.8
+147||#82d897|1:28 PM|12:31 PM|8/6/2017|Glória-Jardim Oceânico|589012,34|0.79
+148|Sandro Johnys|#b0bc48|7:30 AM|2:05 PM|11/3/2022|Ipanema-Lapa|1401234,56|0.79
+149|Cassaundra Buckenhill|#437a44|6:22 AM|12:52 PM|4/8/2003|Gávea-Copacabana|689012,34|0.68
+150|Micah Crilly|#7285d3|1:05 PM|9:02 AM|11/29/2004|Barra da Tijuca-Leblon|889012,34|0.52
+151|Simonette McNulty|#50a2c4|4:59 PM|10:48 PM|9/4/2008|Gávea-Lapa|1223456,78|0.84
+152|Brittne Chown|#4e1f30|2:10 AM|12:10 PM|1/21/2009||1112345,67|0.95
+153|Ardine Schiefersten|#496cb7|10:47 AM|9:53 PM|6/23/2017|Jardim Oceânico-Glória|956789,01|0.74
+154|Ravid Lucey|#99c146|5:31 PM|2:17 PM|3/18/2016|Flamengo-Copacabana|689012,34|-
+155|Bay Scoffins|#5f040e|9:47 AM|6:48 AM|1/8/2016|Glória-Jardim Oceânico|1045678,9|0.95
+156|Selby Pinniger|#480fc1|7:22 AM|7:40 AM|8/8/2009|Leblon-Botafogo|623456,78|0.79
+157|Carmon Grishankov|#dc671b|4:40 PM|9:53 PM|2/28/2013|Centro-Barra da Tijuca|1067890,12|0.63
+158|Tomaso Leaney|#47285c|12:15 AM|11:44 PM|12/18/2002|Leblon-São Conrado|878901,23|null
+159|Batsheva Jeandot|#79eece|12:13 PM|12:46 PM|11/23/2016||678901,23|0.51
+160||#96a10d|3:33 AM|11:54 AM|8/31/2010|Jardim Botânico-Ipanema|1023456,78|0.57
+161|Carney Swansborough|#703b54|2:07 AM|10:47 AM|9/24/2005|Botafogo-Centro|567890,12|0.8
+162|Nerty Robbie|#e3cc1a|6:01 AM|12:53 PM|1/24/2020||1356789,01|0.58
+163||#7a07b5|2:57 AM|10:53 AM|12/27/2015|Jardim Oceânico-Leme|767890,12|0.79
+164|Quinn Terne|#36a326|3:39 PM|10:42 AM|1/11/2019|Flamengo-Copacabana|1356789,01|0.69
+165|Maudie Balding|#049716|7:32 AM|8:54 AM|11/11/2016|Leblon-Largo do Machado|867890,12|0.58
+166|Karna Sowray|#4de94a|9:24 AM|12:53 PM|1/7/2020|São Conrado-Largo do Machado|656789,01|0.69
+167|Koo Mabbe|#51b319|6:37 AM|5:10 PM|10/22/2005|Gávea-Lapa|1356789,01|0.51
+168|Kally Jerrems|#8f8c5e|5:43 PM|8:50 AM|12/14/2013||701234,56|0.8
+169|Minetta De Bruijn|#f3bd1d|2:35 PM|8:31 PM|9/2/2012|Largo do Machado-Barra da Tijuca|1223456,78|0.74
+170|Batsheva Longina|#0c77dc|6:04 AM|11:45 PM|6/12/2013|Botafogo-Jardim Oceânico|745678,9|0.9
+171|Marvin Josebury|#69584e|9:28 AM|7:37 AM|3/9/2021|Copacabana-Lapa|1023456,78|0.79
+172|Jorgan Wimsett|#e851c1|7:15 AM|6:17 PM|10/28/2003|Jardim Botânico-São Conrado|745678,9|0.52
+173|Inger Janowicz|#0f16b6|5:23 PM|3:31 PM|7/6/2008|Urca-Largo do Machado|934567,89|0.99
+174|Earl Perry|#b54760|5:15 PM|6:31 PM|9/25/2004|Centro-Leme|1456789,01|0.62
+175|Nixie Fold|#c6d264|5:28 PM|10:45 AM|9/3/2017|Barra da Tijuca-Jardim Botânico|1467890,12|0.8
+176|Dorey Kupker|#6174af|2:21 AM|8:00 PM|9/10/2006|Barra da Tijuca-Leblon|790123,45|0.95
+177|Ravi Merricks|#609c82|3:12 AM|8:00 PM|4/27/2011|Leme-Botafogo|956789,01|0.58
+178||#e31285|12:36 AM|9:14 PM|8/28/2008|Lapa-Gávea|1490123,45|0.63
+179|Ulberto O'Devey|#5f4859|9:46 AM|3:01 PM|2/20/2010|Jardim Oceânico-Lapa|967890,12|-
+180|Shawn Basham|#1ece6a|4:12 PM|10:43 AM|7/20/2009|Ipanema-Lapa|945678,9|0.9
+181|Larisa Sealey|#89880a|9:25 AM|6:07 AM|9/16/2015|Glória-Leme|1123456,78|0.95
+182|Yolanda Andell|#7e9ecb|3:42 PM|4:29 PM|10/29/2018|Jardim Botânico-Leblon|1489012,34|0.62
+183||#d02f4a|5:55 PM|4:50 PM|6/15/2013|São Conrado-Largo do Machado|634567,89|0.8
+184|Maggie Priscott|#8aa56b|3:16 PM|8:04 PM|5/20/2019|Copacabana-Barra da Tijuca|1434567,89|0.95
+185|Merell Dory|#3025f9|11:45 AM|12:59 PM|6/15/2016||978901,23|0.73
+186|Natividad Houlison|#2a1dc7|7:16 AM|5:22 PM|12/27/2015|Ipanema-Gávea|1189012,34|0.58
+187|Felita Diano|#f931a4|5:18 PM|12:32 PM|5/25/2020|Barra da Tijuca-Jardim Botânico|1467890,12|0.52
+188|Felicdad Blackleech|#855c83|9:51 AM|5:46 PM|4/14/2015|Gávea-Lapa|1212345,67|null
+189|Fayre Pettecrew|#12ae7d|4:59 PM|7:09 PM|8/23/2005|Jardim Botânico-Leblon|912345,67|-
+190|Terri Dearnly|#3486b1|5:43 PM|8:43 AM|12/3/2007||856789,01|0.63
+191||#0c85b1|7:13 AM|10:12 AM|6/21/2010|Botafogo-Leme|1145678,9|0.62
+192|Candida Carpmile|#282bad|8:33 AM|5:51 PM|10/17/2003|Ipanema-Lapa|967890,12|0.99
+193||#c93251|4:48 PM|1:39 PM|8/25/2019|Copacabana-Barra da Tijuca|1034567,89|null
+194|Mathe Picot|#f75bb7|12:52 AM|4:52 PM|2/11/2009|Lapa-Jardim Oceânico|1189012,34|0.8
+195|Pearla Goodisson|#9962ff|5:27 PM|12:39 PM|4/3/2022|Jardim Botânico-Flamengo|1467890,12|0.95
+196|Lissi Layman|#a7411a|6:33 AM|6:54 AM|6/15/2015|Leme-Gávea|567890,12|0.73
+197|Inga Morales|#7aa983|2:35 AM|7:01 PM|12/9/2016|Copacabana-Ipanema|956789,01|0.62
+198|Gabriele Roux|#9541f0|12:33 PM|9:46 AM|7/2/2013|Jardim Oceânico-Glória|1423456,78|0.58
+199|Lavinie Crichton|#fc8993|5:21 AM|8:51 PM|10/14/2018|Largo do Machado-Barra da Tijuca|1401234,56|-
+200|Angil Bibby|#6f0472|12:33 AM|12:32 PM|7/15/2013|Lapa-Gávea|634567,89|0.68
+201|Stephanie Couve|#03c17b|4:34 AM|6:13 PM|5/6/2022|Botafogo-Leme|745678,9|0.62
+202|Blondy McCart|#ac15f5|1:40 AM|12:24 PM|1/23/2015|Gávea-Copacabana|1401234,56|0.99
+203|Tyrone Pottes|#05682c|5:42 PM|10:07 AM|5/15/2023|Lapa-Jardim Oceânico|601234,56|0.58
+204|Washington Bowshire|#5892cb|4:31 PM|9:30 PM|4/19/2023|Leme-Gávea|667890,12|0.74
+205|Trev Radmore|#2e6ae0|12:39 PM|4:56 PM|7/21/2008||889012,34|0.69
+206|Padraic Maxwell|#fbeadd|4:34 AM|11:07 PM|12/6/2009|Leblon-Lapa|1034567,89|0.74
+207|Kalindi Mallows|#12a6d1|12:16 AM|3:18 PM|4/4/2012|Jardim Oceânico-Copacabana|678901,23|0.73
+208|Virge Westgate|#443cac|8:23 AM|9:20 PM|12/14/2005|Centro-Jardim Botânico|1489012,34|0.68
+209||#958474|9:46 AM|10:55 AM|10/4/2009|Jardim Oceânico-Leme|1389012,34|0.69
+210|Delphine Vitler|#d7bf55|12:43 PM|4:59 PM|4/8/2009|São Conrado-Jardim Botânico|956789,01|0.8
+211|Merl Nutley|#ef065e|7:45 AM|7:38 PM|5/7/2023|Centro-Jardim Botânico|690123,45|0.69
+212|Carin Oxley|#e56254|4:37 AM|10:43 PM|8/12/2017|Copacabana-Barra da Tijuca|990123,45|0.58
+213|Gram Pales|#f013e6|7:04 AM|2:58 PM|8/21/2013|Flamengo-São Conrado|1123456,78|0.68
+214|Sondra Fitchen|#06125c|6:45 AM|9:35 PM|7/22/2010|Urca-Largo do Machado|1123456,78|0.79
+215|Eva Shenfish|#b1e145|5:18 AM|4:00 PM|5/12/2016|Glória-Jardim Oceânico|1412345,67|0.52
+216|Javier Slym|#b025d9|2:28 PM|9:23 PM|10/16/2004|Urca-Lapa|923456,78|0.63
+217|Carole Standbridge|#96f8ea|5:18 PM|8:43 PM|8/9/2020|Largo do Machado-Glória|545678,9|0.73
+218|Heda Stuckes|#be7ed6|10:48 AM|9:27 PM|2/7/2008|Leblon-Largo do Machado|1167890,12|0.68
+219|Bessie Kinnock|#34e3e1|1:05 AM|10:29 AM|7/18/2013|Lapa-Gávea|712345,67|0.51
+220|Gypsy Gurry|#748322|12:40 PM|11:27 AM|5/11/2022|Gávea-Botafogo|1490123,45|0.9
+221|Carley Bourtoumieux|#3bb7c3|3:45 AM|8:58 PM|10/9/2019|Jardim Botânico-São Conrado|834567,89|0.84
+222|Hester Surgey|#d7c28f|3:55 PM|12:20 PM|12/16/2020|Copacabana-Barra da Tijuca|812345,67|0.8
+223|Kayle Wickie|#c60b1e|12:07 PM|5:00 PM|3/26/2017|Botafogo-Jardim Oceânico|912345,67|0.9
+224|Marielle Coase|#9afe8c|5:53 AM|8:57 AM|7/29/2004|São Conrado-Largo do Machado|1167890,12|0.51
+225|Waly Fleet|#341bcb|1:51 AM|11:19 AM|12/31/2005|Ipanema-Lapa|689012,34|0.79
+226|Andrey Lempenny|#315231|1:22 AM|7:40 AM|11/5/2014|Largo do Machado-Urca|923456,78|0.58
+227|Brockie Gersam|#375aef|1:58 PM|3:48 PM|12/9/2007|Jardim Oceânico-Copacabana|1312345,67|0.51
+228|Adams Barge|#c89720|6:09 AM|5:24 PM|7/14/2020|Flamengo-São Conrado|601234,56|0.8
+229|Tricia Prettjohn|#5e09f4|12:59 PM|12:40 PM|11/10/2003|Flamengo-Copacabana|723456,78|0.84
+230|Nollie Terry|#376ed4|7:24 AM|8:12 PM|12/15/2021|Largo do Machado-Glória|1390123,45|0.62
+231|Lianne Yule|#75017f|2:57 PM|12:05 PM|7/17/2008|Gávea-Centro|1045678,9|0.79
+232||#39bb8b|2:26 AM|4:46 PM|10/8/2004|Jardim Oceânico-Copacabana|612345,67|0.99
+233|Mikael McManamen|#4316a7|5:29 AM|7:46 AM|3/25/2013|Ipanema-Jardim Botânico|934567,89|0.57
+234|Hillary Bosomworth|#0b51bd|4:30 PM|7:17 AM|4/10/2021|Flamengo-Copacabana|1389012,34|0.79
+235|Lisa Thorwarth|#e6dbd3|10:20 AM|8:24 AM|10/14/2012|Botafogo-Jardim Botânico|967890,12|0.8
+236|Niall MacMaykin|#3045dc|1:09 PM|10:42 PM|12/6/2003|Largo do Machado-Jardim Botânico|1156789,01|0.68
+237||#f60686|11:57 AM|6:30 PM|12/23/2004|Gávea-Botafogo|645678,9|null
+238|Flint Storr|#4c47f6|5:50 PM|8:31 PM|3/26/2007||1478901,23|0.62
+239|Stepha McDavitt|#827a58|4:56 PM|8:32 PM|2/24/2016|Lapa-Copacabana|1156789,01|0.73
+240|Jilleen McGarrity|#0cbd75|5:10 PM|6:17 AM|6/22/2021|Lapa-Gávea|1423456,78|0.79
+241|Henrie Kinnier|#38bcb8|12:55 AM|7:00 AM|9/1/2012|São Conrado-Glória|845678,9|-
+242|Reade Dollman|#9a49c9|2:22 PM|7:05 AM|7/7/2002|Lapa-Gávea|1212345,67|0.95
+243||#8415aa|1:32 PM|7:41 PM|1/20/2011||989012,34|0.57
+244|Filippa Carlett|#01c6cf|4:41 AM|2:12 PM|9/14/2015|Lapa-Leblon|1423456,78|0.73
+245|Zulema Powlett|#b9d1b4|5:59 PM|5:15 PM|1/1/2013|Ipanema-Gávea|889012,34|0.62
+246|Antonie Reglar|#5b08cf|12:56 PM|7:15 AM|10/23/2009|Jardim Oceânico-Leme|1478901,23|0.95
+247|Jemimah Wareham|#95e77a|12:56 PM|7:06 AM|9/9/2015|Leblon-São Conrado|1123456,78|0.68
+248|Cheston Wahner|#e08a12|9:05 AM|11:50 PM|10/28/2019|Gávea-Botafogo|601234,56|0.9
+249|Beau Mooreed|#d98a5e|9:40 AM|9:41 AM|1/19/2009|Leblon-Largo do Machado|1034567,89|0.8
+250|Ingmar Arnow|#a1dde6|4:22 AM|10:26 AM|8/25/2002|Centro-Barra da Tijuca|1434567,89|0.52
+251|Domini Palomba|#28a8a3|10:22 AM|6:15 PM|8/23/2005|São Conrado-Largo do Machado|601234,56|null
+252|Brigit MacGarvey|#004abe|8:18 AM|4:38 PM|3/16/2006|Flamengo-São Conrado|723456,78|0.74
+253|Ximenez Dilawey|#364bc7|1:35 AM|10:32 PM|2/8/2016||789012,34|0.51
+254|Urbain Yushkin|#a41a97|9:52 AM|5:09 PM|6/17/2009|Ipanema-Jardim Botânico|1190123,45|0.62
+255|Ezmeralda McFadden|#7b8d8d|11:15 AM|12:34 PM|8/7/2016|Barra da Tijuca-Centro|734567,89|0.8
+256|Erek Boame|#6d903a|5:07 PM|9:25 PM|10/8/2016|Jardim Oceânico-Glória|712345,67|0.84
+257|Sullivan Emsden|#e6e99a|6:51 AM|12:06 PM|4/21/2022|São Conrado-Glória|1301234,56|0.63
+258|Penelope Gabitis|#451a05|3:04 AM|1:08 PM|12/1/2020|Centro-Leme|1023456,78|0.84
+259|Micki Decort|#d5c32f|1:40 AM|9:13 PM|7/22/2014|Flamengo-Largo do Machado|1289012,34|0.8
+260|Lazar Conibear|#846100|3:05 PM|10:40 AM|7/22/2010|Urca-Botafogo|634567,89|0.63
+261|Fitz Dulieu|#e51936|5:37 PM|10:45 PM|1/26/2016|Barra da Tijuca-Jardim Botânico|701234,56|0.99
+262|Estell O'Hone|#043c11|7:37 AM|10:08 AM|8/12/2003|Botafogo-Jardim Oceânico|589012,34|null
+263|Hayes Randalson|#5132a8|11:00 AM|6:47 PM|9/10/2013|Lapa-Gávea|1445678,9|0.58
+264|Waverley Cheng|#ed58d5|12:48 AM|5:30 PM|10/2/2014|Centro-Jardim Botânico|1145678,9|0.69
+265|Krystal Rockey|#ef9bd6|6:10 AM|9:51 AM|2/2/2017|Copacabana-Ipanema|901234,56|0.99
+266|Charleen Elves|#e59f1b|4:20 PM|11:04 PM|6/14/2022||1167890,12|0.52
+267|Theodore Gravett|#c60514|4:40 PM|9:21 AM|11/3/2014|Copacabana-Ipanema|690123,45|0.58
+268|Arlana Fahey|#e783f4|10:38 AM|6:48 PM|9/17/2021|Flamengo-São Conrado|823456,78|-
+269|Leann Selkirk|#15c7ed|8:10 AM|8:22 PM|8/25/2008|Barra da Tijuca-Jardim Botânico|1034567,89|0.79
+270|Morna Yallop|#6bdece|2:11 PM|11:32 PM|1/24/2008|Flamengo-Largo do Machado|1289012,34|0.68
+271|Elaine Gisbye|#fd85d7|1:44 AM|9:51 PM|12/20/2018|Copacabana-Ipanema|1045678,9|0.51
+272|Tybi Katt|#371fd7|2:57 PM|5:58 PM|9/15/2015||1045678,9|0.58
+273|Bunny Brasier|#580ceb|10:35 AM|2:55 PM|1/20/2005|Centro-Barra da Tijuca|1256789,01|0.58
+274|Charil Jerg|#4b987b|4:49 PM|1:08 PM|6/1/2007|Jardim Oceânico-Copacabana|1156789,01|0.8
+275|Tadeas Upcraft|#517612|3:29 PM|10:42 PM|11/9/2006|Copacabana-Ipanema|989012,34|0.99
+276|Ardenia Cahen|#0f80a2|11:27 AM|7:35 AM|4/25/2023|Urca-Largo do Machado|1023456,78|0.58
+277|Mord Vinsen|#65ddb9|6:33 AM|9:18 AM|11/24/2010|Centro-Leme|1378901,23|0.99
+278|Archy Caen|#d0784a|9:55 AM|12:43 PM|12/5/2009|Urca-Botafogo|1078901,23|0.62
+279|Kevyn Schoenleiter|#bb03f5|4:34 PM|12:50 PM|6/24/2021|Leblon-Lapa|1489012,34|0.52
+280|Dayle Feenan|#0ca880|3:03 AM|2:14 PM|10/1/2012|Largo do Machado-Jardim Botânico|1089012,34|null
+281|Kienan Brewett|#1e5ab4|12:51 AM|12:48 PM|2/20/2006|Jardim Botânico-São Conrado|978901,23|0.79
+282|Kaye Lindeman|#c27093|2:28 PM|5:58 PM|3/11/2004|Botafogo-Leme|1434567,89|0.99
+283|Lek Remirez|#5f9677|4:51 AM|1:12 PM|11/7/2019|Gávea-Botafogo|923456,78|0.73
+284|Jarid Elen|#0a32df|12:24 PM|11:33 PM|4/18/2023|Gávea-Centro|1445678,9|0.73
+285|Demeter Skeech|#d30ff4|12:44 AM|8:00 PM|2/18/2023||1378901,23|0.51
+286|Fidela MacIlraith|#726dbc|6:40 AM|9:12 AM|5/3/2023|São Conrado-Urca|589012,34|0.69
+287|Clotilda Doornbos|#12951d|5:20 PM|6:11 AM|9/3/2013|Largo do Machado-Jardim Botânico|723456,78|0.79
+288||#6737df|10:54 AM|9:55 AM|12/31/2004|Copacabana-Lapa|790123,45|0.84
+289|Gavra Worsnop|#815278|1:09 AM|6:41 PM|4/12/2004|São Conrado-Jardim Botânico|589012,34|0.58
+290|Sheila-kathryn Tapner|#df8453|7:59 AM|8:32 PM|10/10/2014||1045678,9|0.74
+291|Ricki Claesens|#70c900|6:52 AM|9:31 AM|8/11/2007|Centro-Barra da Tijuca|801234,56|-
+292|Jaye Divall|#489dd1|11:07 AM|8:15 AM|4/2/2017|Jardim Oceânico-Leme|1489012,34|0.95
+293|Romy Paik|#0acd08|5:08 PM|11:29 PM|3/8/2010|Ipanema-Lapa|556789,01|0.51
+294|Britt Rydzynski|#fe763f|7:14 AM|5:09 PM|9/21/2013|Jardim Botânico-Flamengo|945678,9|0.74
+295|Shane Dozdill|#33237d|12:40 PM|6:12 AM|4/11/2007|Botafogo-Centro|1423456,78|0.52
+296|Brittani Harding|#3a3cca|3:23 AM|4:28 PM|4/13/2003|Barra da Tijuca-Leblon|634567,89|0.69
+297|Eugenio Caccavella|#36fa26|12:25 AM|3:14 PM|3/27/2012|Barra da Tijuca-Jardim Botânico|612345,67|0.95
+298|Aindrea Olanda|#705f3d|2:03 PM|4:07 PM|8/20/2013|Leme-Gávea|1278901,23|0.63
+299|Andy Allam|#c152de|9:24 AM|7:44 AM|4/4/2008|Lapa-Gávea|1334567,89|0.68
+300|Florry Adshed|#7b8653|12:22 PM|4:48 PM|2/13/2013|Leme-Gávea|1156789,01|0.62
+301|Dorena Nutman|#fa925c|2:01 PM|10:38 PM|5/4/2023|Lapa-Jardim Oceânico|1301234,56|0.51
+302|Terri Mannakee|#1c3701|4:58 AM|5:59 PM|11/8/2014|Copacabana-Lapa|1289012,34|0.52
+303|Larina Manchester|#738c16|5:11 PM|11:14 PM|12/21/2007|Gávea-Copacabana|601234,56|0.68
+304|Gretel Hodcroft|#f4e379|3:44 PM|11:52 PM|12/10/2015|Ipanema-Jardim Botânico|1212345,67|0.8
+305|Blisse Wiggam|#7e6062|9:20 AM|10:02 AM|9/13/2018|Gávea-Botafogo|989012,34|0.51
+306|Berky Daniells|#0bf77b|9:13 AM|11:53 PM|8/21/2017|Centro-Jardim Botânico|1067890,12|0.69
+307|Fayre Witnall|#758592|2:32 PM|10:45 AM|3/18/2005|Lapa-Copacabana|1223456,78|0.79
+308|Veronike Suffield|#7e9cbf|10:11 AM|11:58 AM|1/31/2009|Flamengo-Copacabana|634567,89|0.73
+309||#d60971|10:18 AM|6:57 AM|6/19/2017|Copacabana-Lapa|856789,01|0.99
+310|Sascha Scardafield|#1ffca7|8:56 AM|8:10 AM|5/27/2009||1112345,67|0.73
+311|Delaney Dressel|#320bae|6:23 AM|5:50 PM|10/10/2014|Barra da Tijuca-Jardim Botânico|890123,45|0.74
+312|Victoir Kepling|#5591a2|10:12 AM|12:17 PM|10/8/2018||712345,67|0.58
+313|Darryl Message|#8d6f9e|2:31 AM|11:08 AM|7/1/2020|Flamengo-Copacabana|578901,23|0.51
+314|Ole Seth|#9703bf|11:23 AM|1:24 PM|9/20/2021|Leme-Botafogo|1301234,56|0.95
+315|Ellis Portugal|#86d800|3:12 AM|1:07 PM|9/6/2015|Ipanema-Jardim Botânico|889012,34|0.52
+316|Yurik Sunman|#299a5e|1:04 PM|9:54 AM|10/11/2020|Barra da Tijuca-Leblon|789012,34|0.52
+317|Glory Tosney|#62cc9f|3:52 PM|5:37 PM|9/28/2012|Jardim Botânico-Leblon|1367890,12|0.51
+318|Fiona Crosthwaite|#6fcb62|3:56 AM|11:44 AM|10/23/2005|Flamengo-Copacabana|1090123,45|0.69
+319|Roz Surgen|#50c5d3|8:55 AM|10:23 AM|9/13/2003|Copacabana-Lapa|590123,45|0.63
+320|Faydra Aymerich|#13f690|8:30 AM|3:34 PM|4/18/2010|Glória-Jardim Oceânico|1034567,89|0.68
+321||#f8c3ac|7:31 AM|8:07 PM|6/2/2006|Gávea-Copacabana|778901,23|0.74
+322|Mario Zohrer|#f82d98|3:39 PM|12:39 PM|8/29/2012|Lapa-Gávea|1190123,45|0.68
+323|Maryl Bryde|#270fc9|5:21 AM|7:25 PM|5/8/2015|Leblon-Lapa|1001234,56|0.79
+324|Mandi Petican|#0ab50e|1:24 PM|5:19 PM|2/10/2014|Ipanema-Lapa|1356789,01|0.68
+325|Tallie Pabst|#479fb1|6:25 AM|11:54 PM|10/27/2018|Copacabana-Lapa|767890,12|0.99
+326|Jorry Fitter|#2fecc3|11:09 AM|7:31 AM|9/11/2016|Centro-Leme|1445678,9|0.84
+327|Nancy Rump|#9acb16|5:54 AM|9:37 PM|1/12/2006|Jardim Oceânico-Leme|945678,9|0.99
+328|Katherina MacDonough|#62ada8|5:29 PM|6:16 AM|9/11/2020|Lapa-Copacabana|1401234,56|0.8
+329|Quincy Remington|#3e15dc|8:34 AM|9:16 PM|10/25/2009|Jardim Oceânico-Glória|690123,45|0.79
+330|Eloise Coners|#d2a7bf|2:29 AM|11:22 PM|10/25/2011|Jardim Botânico-São Conrado|890123,45|0.8
+331|Christine Gosling|#0cdf4e|7:17 AM|5:48 PM|10/23/2003|Gávea-Lapa|656789,01|0.63
+332|Lamont Hayhow|#c39cfd|3:12 PM|9:24 PM|1/8/2011|Gávea-Lapa|1201234,56|0.51
+333|Dasya Allkins|#bea514|2:52 PM|11:09 AM|12/11/2002|Leblon-São Conrado|689012,34|0.58
+334|Saree Hilhouse|#59f57f|3:55 AM|7:20 AM|5/22/2019|Centro-Jardim Botânico|1301234,56|0.52
+335|Edwin Wratten|#395e3a|7:11 AM|3:35 PM|12/26/2010|Copacabana-Ipanema|612345,67|0.63
+336|Crystal Novotna|#4486b3|10:13 AM|9:30 PM|3/21/2022|Jardim Oceânico-Leme|1345678,9|0.62
+337|Nils Wheelhouse|#bbaee6|1:12 AM|10:06 PM|11/23/2017|Leme-Botafogo|1112345,67|null
+338|Fairfax Hixley|#affbd5|11:53 AM|9:27 AM|12/16/2019|Centro-Leme|578901,23|0.51
+339|Bartlett Besque|#3e7d93|8:55 AM|6:01 AM|7/10/2014|Leme-Botafogo|1356789,01|0.63
+340|Darcie Daverin|#582960|5:23 PM|10:52 PM|11/9/2002|Gávea-Botafogo|1045678,9|0.95
+341|Caressa MacCurlye|#c9c912|12:38 AM|11:23 AM|1/22/2018|Lapa-Leblon|1145678,9|0.63
+342|Nicolette Mabe|#ecb878|12:27 PM|11:25 PM|4/19/2009|Jardim Botânico-Flamengo|1190123,45|0.57
+343||#b70dbc|3:38 PM|10:12 AM|1/4/2012|Lapa-Leblon|745678,9|0.73
+344|Chet Amsden|#6776e1|6:04 AM|6:28 AM|12/6/2016|Botafogo-Jardim Oceânico|1234567,89|0.62
+345|Ginger Merveille|#60c7d6|1:37 PM|8:35 PM|3/14/2010|Jardim Oceânico-Leme|923456,78|0.74
+346|Herculie Vigar|#7d3b75|12:28 PM|12:17 PM|3/26/2004|Lapa-Leblon|723456,78|0.99
+347|Jarred Milburn|#1be3c2|1:06 PM|3:45 PM|9/21/2015|Glória-Jardim Oceânico|1378901,23|0.68
+348|Debera Zukierman|#d4ddb8|5:02 PM|12:07 PM|3/5/2020|Lapa-Gávea|712345,67|null
+349|Pepillo Eim|#0b4de3|11:46 AM|4:31 PM|5/21/2020|São Conrado-Largo do Machado|1090123,45|0.79
+350|Moyra Chasson|#dc5df3|4:51 PM|6:04 PM|1/14/2009|Lapa-Leblon|1101234,56|0.95
+351|Arlinda Marthen|#d338f8|4:33 PM|7:12 PM|5/11/2020|Lapa-Leblon|1212345,67|0.99
+352|Dagmar Seman|#0ec2ef|1:44 AM|3:31 PM|12/2/2018|Urca-Largo do Machado|1356789,01|0.51
+353|Sandy Rowswell|#addfc4|2:10 PM|6:52 AM|10/3/2010|São Conrado-Urca|1312345,67|0.74
+354|Cortie Ferrario|#6fff7d|12:49 AM|6:08 PM|5/26/2004|Gávea-Copacabana|967890,12|0.9
+355|Fionna Redan|#17dbb3|5:06 AM|7:04 PM|8/5/2011|Largo do Machado-Urca|701234,56|0.95
+356|Jobie Rudwell|#3e1ef3|12:40 AM|4:37 PM|1/22/2014||1212345,67|-
+357||#99a358|12:16 AM|9:37 PM|11/4/2007|Botafogo-Jardim Oceânico|1112345,67|0.8
+358|Amii Mines|#07fd38|1:05 AM|5:52 PM|10/22/2010|Largo do Machado-Copacabana|612345,67|0.57
+359|Ivie Drinkhill|#10da55|4:51 PM|3:52 PM|4/19/2011|Centro-Leme|1290123,45|0.62
+360|Florence Swithenby|#e28d7a|9:01 AM|6:43 AM|4/9/2015|Leblon-Botafogo|1123456,78|0.68
+361|Munmro Conkie|#7770c7|6:34 AM|7:54 AM|6/30/2008|Botafogo-Centro|656789,01|0.95
+362|Magdalena Myford|#ba65cc|12:50 PM|6:37 PM|8/26/2014|São Conrado-Largo do Machado|523456,78|0.57
+363|Grant Chuter|#b811b5|5:12 AM|7:07 AM|8/14/2015|Botafogo-Leme|1245678,9|0.51
+364|Janela Bartozzi|#517c5b|6:48 AM|7:12 PM|4/23/2023|Gávea-Centro|1134567,89|0.69
+365|Jermayne Thorne|#0bb7ef|3:31 PM|12:05 PM|2/22/2021|Largo do Machado-Copacabana|945678,9|0.63
+366||#d7b6b6|10:34 AM|8:15 AM|5/4/2006|Glória-Leme|801234,56|0.51
+367|Tessy Gilkes|#48a2ad|3:34 AM|5:13 PM|1/6/2005|Urca-Lapa|1345678,9|0.57
+368|Sansone Viney|#604c81|2:29 AM|9:50 AM|11/29/2013|Urca-Lapa|1245678,9|0.74
+369|Lida Longcaster|#8a05e7|3:31 AM|7:16 AM|8/18/2009|Copacabana-Ipanema|801234,56|0.69
+370|Pandora Vanshin|#28cf4a|8:20 AM|9:14 AM|1/31/2017|Centro-Leme|1267890,12|0.52
+371|Fred Bevens|#6e6bbc|6:05 AM|4:05 PM|8/25/2020|Copacabana-Ipanema|1245678,9|0.74
+372|Kaila Baxstar|#6b43eb|2:36 AM|8:04 AM|11/23/2007|Largo do Machado-Copacabana|756789,01|0.69
+373|Hymie Lavrinov|#a0bbff|1:04 AM|4:13 PM|9/6/2005|Ipanema-Gávea|1145678,9|0.52
+374|Philippe Baniard|#28abb0|9:44 AM|10:53 AM|9/30/2004|São Conrado-Urca|1256789,01|0.79
+375|Alida Allchorne|#57d8a8|8:50 AM|9:44 AM|8/17/2016|Largo do Machado-Glória|701234,56|0.79
+376|Blithe Trinkwon|#bd86d5|1:56 AM|10:52 PM|10/20/2011|Lapa-Leblon|1423456,78|0.63
+377|Nevile Officer|#ca5021|1:27 PM|7:11 PM|2/1/2011|Centro-Jardim Botânico|789012,34|0.68
+378|Zahara Boskell|#e6fef3|2:01 AM|10:17 PM|7/1/2015|Leme-São Conrado|1490123,45|0.73
+379|Mariejeanne Gillbey|#3a7fe0|4:09 AM|9:37 AM|1/7/2015|São Conrado-Largo do Machado|1367890,12|0.9
+380|Lara Spillman|#07c111|9:32 AM|9:19 AM|2/1/2006|Lapa-Copacabana|1023456,78|0.99
+381|Gayle Beseke|#456c31|3:34 AM|10:58 AM|3/12/2022|Ipanema-Lapa|834567,89|0.99
+382|Ruthi Lorand|#e2640f|5:40 AM|12:35 PM|5/28/2007|Urca-Lapa|923456,78|null
+383|Hyacinthia Sherrocks|#d6b733|9:31 AM|6:52 PM|9/18/2022|Jardim Oceânico-Glória|1389012,34|0.58
+384|Pete Muskett|#976f1c|8:02 AM|12:23 PM|8/27/2013|Jardim Oceânico-Glória|1434567,89|0.62
+385|Sibyl Pywell|#1edb20|5:27 PM|10:47 PM|9/25/2019|Leblon-São Conrado|1123456,78|0.63
+386|Isa Hannent|#a5a88f|8:06 AM|3:56 PM|1/1/2018|Leme-Gávea|1312345,67|0.79
+387|Nevile Midgely|#50badd|2:41 AM|11:42 AM|6/23/2011|Copacabana-Lapa|1245678,9|-
+388|Shurlock Lacroux|#6eb474|11:16 AM|9:07 PM|4/27/2010||1212345,67|0.63
+389||#92c3b7|1:19 PM|10:08 PM|4/18/2012|Leme-Botafogo|1478901,23|0.57
+390||#5aee6a|12:53 AM|12:56 PM|1/24/2005|São Conrado-Jardim Botânico|1056789,01|null
+391|Consuela Tallon|#537539|2:31 PM|10:00 PM|1/7/2007|Glória-Jardim Oceânico|1434567,89|-
+392|Dene Bynold|#1dcb93|5:59 PM|10:44 AM|4/25/2015|Botafogo-Jardim Oceânico|1323456,78|0.58
+393|Heath Torbeck|#d36e11|5:40 AM|11:56 AM|5/10/2023|Leblon-Largo do Machado|601234,56|-
+394|Jason Brandassi|#bd5f9e|3:39 PM|7:17 AM|8/5/2004|Ipanema-Lapa|512345,67|0.8
+395|Chester McLorinan|#f42d21|9:47 AM|5:08 PM|2/13/2008|Glória-Jardim Oceânico|1401234,56|0.95
+396|Eden Bewsey|#9afd84|4:56 AM|9:23 AM|1/21/2014|Largo do Machado-Barra da Tijuca|723456,78|0.9
+397|Noll Penelli|#8ef8b3|11:19 AM|11:18 AM|1/16/2005|Largo do Machado-Urca|956789,01|0.58
+398|Danyette Haskur|#1222c4|9:52 AM|7:07 AM|7/28/2007|Leme-Botafogo|601234,56|0.84
+399|Lyman Traske|#eb1340|4:21 PM|8:44 AM|10/10/2006|Copacabana-Barra da Tijuca|1101234,56|0.63
+400|Angelia McElrea|#e5585b|1:17 AM|3:17 PM|7/24/2010||990123,45|0.99
+401|Muffin Callear|#24a7fa|6:13 AM|2:07 PM|3/25/2019||1312345,67|0.58
+402|Rozelle Rosenkrantz|#94a8f3|9:43 AM|7:55 PM|5/31/2018|São Conrado-Jardim Botânico|1490123,45|0.99
+403|Delcina Tunnicliffe|#df0535|2:29 PM|7:06 PM|1/19/2020|Botafogo-Jardim Botânico|1212345,67|0.99
+404|Donny Clawson|#1eddd3|10:43 AM|7:36 AM|2/17/2020|Leblon-Largo do Machado|701234,56|0.95
+405|Caren Mussilli|#7efefa|4:41 AM|9:45 PM|12/31/2015|Ipanema-Jardim Botânico|1345678,9|null
+406|Debbie Clinton|#6cdfd7|3:45 PM|6:21 AM|4/19/2009|Jardim Botânico-Ipanema|834567,89|-
+407|Latashia Simmonite|#1c0fbd|12:33 AM|2:35 PM|8/27/2013|Copacabana-Lapa|1223456,78|0.79
+408|Fee Kenderdine|#a2291b|2:54 AM|4:27 PM|5/6/2023|Botafogo-Centro|1245678,9|0.74
+409|Hobie Aronstam|#94671b|10:32 AM|8:12 PM|4/10/2009|Jardim Botânico-São Conrado|1101234,56|0.79
+410||#05989b|5:31 PM|7:30 PM|5/25/2019||1145678,9|0.58
+411|Dot de Quesne|#3b28fb|12:26 PM|10:21 PM|7/19/2009|Leblon-Largo do Machado|1445678,9|0.69
+412|Tybalt Mabee|#665486|8:48 AM|7:43 AM|10/7/2012|Glória-Jardim Oceânico|1278901,23|0.73
+413|Aimil Kettlestringes|#91dfc0|4:49 AM|7:13 AM|2/28/2017|Ipanema-Centro|645678,9|0.84
+414|Candie Balcombe|#927809|3:15 PM|4:50 PM|8/14/2020|São Conrado-Largo do Machado|1223456,78|-
+415|Cecil Iglesias|#af5ff4|4:30 AM|11:44 AM|7/20/2010|Centro-Leme|856789,01|0.74
+416||#7cb0d1|2:58 PM|8:15 AM|3/13/2006|Lapa-Gávea|1490123,45|0.57
+417||#53cfdf|12:20 PM|8:30 PM|1/30/2007|Gávea-Centro|801234,56|null
+418|Lettie Derisly|#253c82|4:31 AM|9:53 AM|11/24/2006|Leme-Gávea|967890,12|null
+419|Wenona Cisco|#e8dd1e|2:16 PM|7:22 AM|5/8/2004|Botafogo-Leme|1223456,78|0.99
+420|Redd Lendrem|#2fd8eb|5:31 AM|11:20 AM|6/13/2006|Gávea-Copacabana|1278901,23|0.68
+421|Valentin Purvess|#7bcdc9|2:33 AM|11:58 AM|4/11/2020|Largo do Machado-Barra da Tijuca|1034567,89|0.62
+422|Olivie Zuann|#128ab3|4:44 PM|4:47 PM|12/21/2017|Urca-Largo do Machado|545678,9|-
+423|Ynez Le Fevre|#f2ebf6|4:17 AM|2:09 PM|9/23/2007|Jardim Oceânico-Glória|689012,34|-
+424|Ryan Matten|#a1ce1f|12:14 PM|10:23 AM|9/3/2022|Largo do Machado-Glória|812345,67|0.79
+425||#1863bb|8:45 AM|1:39 PM|5/28/2008||1334567,89|0.62
+426||#0b0027|3:15 PM|11:34 PM|8/27/2014|Leme-Botafogo|923456,78|0.68
+427|Dana Marr|#aed043|5:41 AM|8:16 PM|5/8/2009|Centro-Leme|1090123,45|0.68
+428||#5b2347|4:18 PM|7:37 PM|9/20/2016|Ipanema-Lapa|1401234,56|0.51
+429|Giuseppe Keynd|#eacbd8|2:31 AM|8:00 AM|9/10/2003|Lapa-Gávea|1256789,01|0.74
+430||#9b8ca1|4:13 PM|2:54 PM|9/17/2011|Glória-Jardim Oceânico|690123,45|0.95
+431|Hermie Veque|#21a6cc|5:19 PM|12:41 PM|10/9/2019|Centro-Leme|1412345,67|0.79
+432|Andrew Ayce|#1a529d|12:16 AM|10:40 AM|12/16/2009||956789,01|0.63
+433|Natividad Esplin|#edba2c|5:32 AM|11:19 PM|1/17/2015|Jardim Oceânico-Leme|1456789,01|-
+434||#b3375f|8:16 AM|9:16 AM|11/30/2021|Centro-Barra da Tijuca|1134567,89|0.58
+435|Byram Dibdin|#afd03a|2:17 AM|2:49 PM|5/21/2021|Ipanema-Lapa|712345,67|null
+436|Chicky Willowby|#260d63|8:21 AM|9:35 AM|11/22/2005|Lapa-Leblon|645678,9|0.51
+437|Kane Sager|#df7c0d|2:20 AM|10:03 AM|9/20/2018|Leblon-Lapa|1089012,34|0.8
+438|Terencio Weatherburn|#0b5f27|10:19 AM|12:38 PM|10/24/2019|Jardim Oceânico-Glória|1223456,78|0.79
+439|Brandtr Alder|#cf4dec|11:04 AM|8:19 AM|5/31/2021|Botafogo-Jardim Oceânico|1301234,56|null
+440|Hattie Diffley|#dfedcf|9:17 AM|3:08 PM|7/26/2008||667890,12|0.9
+441|Linette Veal|#7a8b44|7:40 AM|9:45 AM|3/20/2007|Copacabana-Ipanema|1045678,9|0.9
+442|Barbey Crown|#03baf8|5:20 AM|9:44 PM|10/9/2015|São Conrado-Jardim Botânico|778901,23|0.69
+443|Nancy Mattys|#e35d9d|5:42 AM|8:57 PM|7/29/2015|Centro-Leme|1345678,9|0.63
+444|Rolando Van de Vlies|#03d089|10:58 AM|1:21 PM|10/2/2008||1123456,78|0.84
+445|Hildy Blant|#57a391|12:26 AM|12:57 PM|1/20/2021|São Conrado-Largo do Machado|956789,01|0.99
+446|Edvard Garfitt|#87b2b6|4:27 AM|8:02 AM|10/20/2005|Jardim Botânico-São Conrado|878901,23|0.58
+447|Puff Dybald|#5224e2|2:18 PM|11:35 PM|1/25/2007|Largo do Machado-Glória|1378901,23|0.69
+448|Antonino Iacovolo|#f31fd5|11:40 AM|7:38 AM|7/17/2008|Ipanema-Jardim Botânico|1145678,9|0.68
+449|Atlante Sonschein|#f77d9e|4:39 AM|6:41 AM|5/20/2010|Leme-Urca|945678,9|0.99
+450|Tammara Shuter|#26bee7|10:16 AM|4:49 PM|6/5/2007|Lapa-Leblon|1490123,45|0.51
+451|Lucina Antonov|#3c0f4a|4:22 PM|12:10 PM|7/23/2017|Copacabana-Barra da Tijuca|1067890,12|0.8
+452|Ruddie Liveing|#458dac|4:48 PM|6:59 PM|2/27/2017|São Conrado-Jardim Botânico|1412345,67|0.9
+453||#cab5b8|6:02 AM|9:57 AM|7/26/2015||1434567,89|0.99
+454|Rainer Blackmoor|#3de1e7|5:19 PM|6:54 PM|7/2/2005||1201234,56|0.79
+455|Gerrie Lashford|#905b46|5:41 PM|2:44 PM|2/19/2005|Leblon-São Conrado|1401234,56|0.9
+456|Misha Philippard|#c8545d|3:40 AM|11:46 AM|11/30/2003|Gávea-Centro|523456,78|0.68
+457|Mart Scouller|#2ab878|2:49 PM|11:21 AM|11/10/2002|Centro-Barra da Tijuca|1201234,56|null
+458|Fionna Pinsent|#4f0dfb|1:29 AM|6:36 PM|10/2/2020|Leme-São Conrado|1189012,34|0.62
+459|Torey Olsen|#bcda67|12:00 AM|11:21 AM|10/23/2013|Largo do Machado-Urca|1123456,78|0.63
+460|Reider O'Criane|#689f7c|3:05 AM|11:49 PM|3/14/2018|Jardim Botânico-Ipanema|1256789,01|0.95
+461|Elspeth Mixworthy|#982485|4:39 PM|10:39 AM|4/26/2010|Largo do Machado-Jardim Botânico|978901,23|0.63
+462|Camille Mateiko|#58fd27|3:41 AM|11:14 PM|2/28/2010|Gávea-Botafogo|1212345,67|0.57
+463||#ddf44b|11:08 AM|10:07 AM|5/17/2005|Barra da Tijuca-Jardim Botânico|589012,34|0.62
+464|Rikki Maron|#68eea0|12:15 PM|9:00 AM|8/23/2010||923456,78|0.51
+465|Gwyn O'Brogane|#7f7826|1:08 AM|7:29 PM|12/18/2010|Jardim Oceânico-Copacabana|1345678,9|0.62
+466|Tomas Gissing|#547a06|5:34 AM|9:26 AM|7/27/2007|Urca-Lapa|567890,12|0.69
+467|Mureil Cashman|#85eadb|12:34 PM|2:03 PM|8/24/2010|São Conrado-Glória|845678,9|0.8
+468|Ross Grinov|#1ec232|12:36 PM|9:59 AM|5/23/2015|Glória-Leme|1389012,34|0.8
+469|Susan Attenburrow|#a90a7c|5:28 AM|8:38 AM|11/17/2009|Barra da Tijuca-Jardim Botânico|1090123,45|0.73
+470|Valencia MacIntosh|#60bed0|4:33 AM|7:42 PM|8/31/2008|Flamengo-Copacabana|856789,01|0.63
+471|Gladi Mahaddy|#b2992a|3:15 PM|6:07 PM|5/28/2022|Botafogo-Centro|1323456,78|0.51
+472|Helena Hartridge|#1bb5cd|4:57 PM|7:02 PM|2/7/2009||1190123,45|0.74
+473|Salem Cawtheray|#811db8|1:36 PM|3:49 PM|7/3/2007|Glória-Jardim Oceânico|845678,9|0.99
+474|Austin Amery|#573cc0|2:11 AM|4:01 PM|6/21/2021|Jardim Botânico-Ipanema|1178901,23|0.63
+475|Alessandro Whatley|#838e2e|3:34 PM|11:21 AM|6/26/2005|Gávea-Lapa|1434567,89|0.99
+476|Bradney Aiston|#c117c8|12:51 AM|6:26 AM|12/24/2020|Jardim Botânico-Leblon|1201234,56|0.69
+477|Myrlene Thomassin|#d1ccfe|4:43 PM|8:05 PM|7/12/2022|Leme-São Conrado|523456,78|0.99
+478|Danice Struss|#52ad65|7:38 AM|8:55 PM|3/11/2021|Botafogo-Leme|1089012,34|0.84
+479|Hyacinthia Fricker|#d7dd24|1:45 AM|9:11 AM|6/23/2022|Leblon-Largo do Machado|1189012,34|0.62
+480|Megan Annakin|#04a021|5:11 AM|2:31 PM|6/15/2010|Copacabana-Lapa|1434567,89|-
+481|Simonne Brunsdon|#e7ab12|12:08 AM|8:17 AM|3/28/2019|Barra da Tijuca-Jardim Botânico|901234,56|0.62
+482|Parsifal Yetts|#e0a56e|5:50 PM|6:36 PM|9/27/2012|Leblon-Botafogo|712345,67|0.84
+483||#f47661|4:20 PM|11:56 AM|5/9/2003|Largo do Machado-Barra da Tijuca|1101234,56|0.63
+484|Katusha Chawkley|#f21600|6:14 AM|2:12 PM|5/28/2019|Leme-Urca|990123,45|0.99
+485||#fffb3f|8:30 AM|6:32 PM|5/9/2012|Copacabana-Lapa|1289012,34|0.99
+486|Preston Pessolt|#667157|9:58 AM|5:02 PM|1/3/2004|Ipanema-Centro|1101234,56|0.62
+487|Willi Lyver|#ccc11a|9:08 AM|6:39 PM|11/5/2016|Barra da Tijuca-Leblon|1390123,45|0.95
+488|Karlik Heselwood|#3bc97c|3:52 AM|6:10 AM|12/11/2017|Centro-Barra da Tijuca|1378901,23|-
+489|Lainey Winship|#47222f|1:28 AM|9:49 AM|11/9/2003|Jardim Oceânico-Glória|1456789,01|-
+490|Yehudit Radin|#673a56|2:54 PM|3:20 PM|4/2/2003|Copacabana-Barra da Tijuca|1034567,89|0.58
+491|Enrichetta Jarvie|#cfaa28|1:29 PM|4:15 PM|7/20/2013|Botafogo-Leme|1312345,67|-
+492|Merwyn Squires|#0f458f|7:32 AM|3:01 PM|6/16/2005|Urca-Largo do Machado|1012345,67|0.8
+493|Riki Lathom|#e5eb7d|3:12 PM|8:12 AM|12/25/2022|Leblon-Lapa|1367890,12|0.57
+494|Carolann Andell|#f050d9|2:50 PM|1:04 PM|10/14/2010|Barra da Tijuca-Centro|1212345,67|0.9
+495|Heda Boays|#5789bf|8:36 AM|5:00 PM|6/9/2020|Copacabana-Ipanema|1123456,78|0.84
+496|Yasmin Bassindale|#187f6d|9:53 AM|5:14 PM|4/29/2014|Leblon-Largo do Machado|1078901,23|0.69
+497|Lidia Tinsley|#794414|11:37 AM|6:02 AM|3/8/2022|Botafogo-Jardim Oceânico|1045678,9|0.73
+498|Alasteir Caplis|#8a78d1|1:26 PM|7:48 AM|7/16/2010|Leblon-Largo do Machado|890123,45|0.74
+499|Darnell Emberton|#c2b678|10:49 AM|4:13 PM|4/14/2017|São Conrado-Glória|834567,89|0.95
+500|Carie Dove|#060d61|4:00 PM|2:17 PM|2/2/2018||1367890,12|0.58
+501|Thorstein Addenbrooke|#694f05|7:36 AM|7:58 PM|4/24/2018|Leme-Urca|701234,56|0.62
+502|Lisetta Carlos|#92e99f|8:47 AM|7:14 PM|11/21/2013|Jardim Oceânico-Copacabana|890123,45|0.69
+503|Jasmin Powter|#30247a|7:40 AM|9:41 PM|9/8/2009|Centro-Barra da Tijuca|601234,56|0.63
+504||#c5b61a|2:54 AM|4:19 PM|9/24/2018|Largo do Machado-Barra da Tijuca|1378901,23|0.51
+505|Effie Wyse|#34089a|5:04 PM|10:48 AM|5/13/2009|Jardim Oceânico-Lapa|789012,34|0.99
+506|Cassy Hesbrook|#c8767e|1:42 PM|9:29 AM|11/11/2020|Lapa-Gávea|1356789,01|0.52
+507|Reginauld Da Costa|#fde6e2|8:04 AM|11:13 PM|12/14/2007||1123456,78|0.63
+508|Haily Etienne|#d23b08|2:42 AM|4:18 PM|12/15/2005|Urca-Lapa|1156789,01|0.52
+509|Rutger Gathercoal|#7759c3|7:54 AM|8:25 PM|1/24/2005||1423456,78|0.52
+510|Deeann Hurst|#e78a8b|2:14 PM|7:06 PM|10/3/2003||901234,56|null
+511|Osborn Crut|#f51bf9|1:22 PM|8:22 PM|6/19/2004|Flamengo-Largo do Machado|767890,12|0.51
+512||#efd107|3:20 AM|10:55 AM|7/22/2021|Botafogo-Jardim Oceânico|1301234,56|0.52
+513|Gisela Bayle|#6a0bc0|8:13 AM|11:31 PM|10/16/2016|Jardim Botânico-Ipanema|790123,45|0.62
+514|Billye Riddiough|#94ec98|5:59 PM|7:17 PM|12/25/2005|São Conrado-Glória|923456,78|0.84
+515|Carlo Symmers|#615f82|9:10 AM|1:53 PM|11/9/2014|São Conrado-Glória|990123,45|0.73
+516|Judy O'Duane|#278db3|2:53 PM|6:37 PM|12/18/2019|Largo do Machado-Urca|1256789,01|0.68
+517||#5fd50a|9:59 AM|9:38 AM|12/5/2018|Flamengo-Copacabana|1101234,56|null
+518|Biddy Way|#e18566|1:10 AM|8:20 AM|12/24/2014||1345678,9|0.74
+519|Nani Roadknight|#97dfda|12:22 PM|3:01 PM|6/20/2003|Botafogo-Leme|734567,89|0.74
+520|Noellyn Boggas|#9fa5d4|11:08 AM|2:48 PM|5/26/2012|Ipanema-Jardim Botânico|1334567,89|null
+521|Bird Devericks|#8c2dd3|8:17 AM|5:20 PM|9/22/2005|Leblon-Botafogo|1312345,67|0.79
+522|Jecho Eltone|#5dbfb8|3:14 PM|8:09 AM|7/14/2011|Jardim Oceânico-Lapa|1156789,01|0.63
+523|Zachariah Ruffle|#d6c681|8:55 AM|6:08 AM|12/15/2016|Lapa-Leblon|1034567,89|0.68
+524|Milli Casterou|#59356a|2:45 PM|11:04 AM|12/5/2012|Gávea-Centro|1423456,78|0.9
+525|Ibby Frankel|#829cc0|3:56 AM|7:23 AM|12/13/2017|São Conrado-Glória|545678,9|0.51
+526|Lucina Croisdall|#6bd4cd|2:05 AM|8:05 AM|10/23/2021|Jardim Oceânico-Copacabana|1167890,12|0.63
+527|Tracie Ebbitt|#bb228b|8:24 AM|10:21 PM|5/16/2019|Jardim Oceânico-Glória|590123,45|null
+528|Annecorinne Meynell|#43a411|3:57 PM|10:13 AM|8/11/2011|Largo do Machado-Copacabana|1278901,23|0.57
+529|Grethel Beeston|#eae7dd|2:40 AM|1:42 PM|3/15/2019|Gávea-Lapa|567890,12|0.63
+530|Lynn Rouch|#79062d|12:28 PM|11:20 AM|4/18/2006||1356789,01|0.73
+531|Claus Hintzer|#d5cdd6|12:13 PM|12:52 PM|5/21/2016|Urca-Leblon|790123,45|0.57
+532|Paula Morad|#956373|5:03 PM|11:32 PM|2/21/2012|Lapa-Leblon|712345,67|-
+533|Orelee O'Hannay|#9c8984|1:55 AM|7:43 PM|12/3/2005||512345,67|0.52
+534|Raphaela Presdie|#49cb53|10:15 AM|10:38 AM|3/19/2003|Leblon-Largo do Machado|1423456,78|0.74
+535|Mada Pinckard|#6f24b3|10:15 AM|11:54 AM|6/25/2006|Jardim Botânico-Flamengo|1134567,89|0.84
+536|Irma Spores|#4bd9ac|7:16 AM|10:31 PM|2/7/2008|Largo do Machado-Urca|523456,78|0.62
+537||#43e62c|2:53 PM|3:04 PM|3/21/2014|Copacabana-Barra da Tijuca|823456,78|0.51
+538|Charo Studeart|#6b7957|1:38 PM|7:38 AM|2/24/2012|Gávea-Botafogo|578901,23|0.8
+539|Pris Bortoletti|#ef2d10|2:17 PM|7:55 PM|9/2/2015||1278901,23|0.8
+540|Edgardo McQuarter|#a7ebee|6:47 AM|5:04 PM|11/14/2022|Leme-Urca|834567,89|0.57
+541|Shea Swatland|#d4305d|1:53 PM|11:00 AM|6/18/2002|Largo do Machado-Copacabana|834567,89|0.73
+542|Pet Cobon|#7532ef|6:48 AM|7:34 PM|10/10/2016|Jardim Botânico-Flamengo|945678,9|0.8
+543|Pauli Vennings|#6c3f55|1:28 PM|9:03 AM|4/10/2005|Gávea-Botafogo|667890,12|0.95
+544|Heda Vickarman|#760fe6|9:15 AM|10:22 PM|10/28/2013|Urca-Leblon|601234,56|0.84
+545|Charmain Peploe|#06774c|5:48 PM|9:18 PM|7/13/2006|São Conrado-Urca|534567,89|0.84
+546||#7d37c8|1:34 AM|1:57 PM|9/17/2008|Leme-São Conrado|1123456,78|0.51
+547|Carolin Gritton|#0432c7|8:51 AM|8:27 AM|4/14/2019|São Conrado-Glória|1201234,56|0.57
+548|Hesther Hedgecock|#ea95f9|4:04 AM|6:42 PM|1/18/2009|São Conrado-Largo do Machado|634567,89|0.57
+549|Tadio Rives|#a3fdfc|9:47 AM|10:56 PM|4/12/2015|Jardim Botânico-São Conrado|634567,89|-
+550|Gunter Vigrass|#c7789e|12:05 AM|11:28 PM|5/29/2014|Leme-Urca|645678,9|0.69
+551|Tamiko Bridgement|#6537f8|3:21 PM|7:44 PM|11/23/2018|São Conrado-Urca|878901,23|0.73
+552|Tally Bennoe|#801261|6:28 AM|9:20 PM|11/30/2012|Lapa-Copacabana|945678,9|0.52
+553|Gilles Wythill|#19dd2c|2:59 PM|10:42 PM|8/25/2007|Largo do Machado-Glória|1423456,78|0.57
+554|Denver Taffrey|#687bba|10:42 AM|11:28 AM|2/13/2023|São Conrado-Glória|745678,9|-
+555|Pauli Dongall|#357952|10:32 AM|1:34 PM|10/14/2012|Glória-Leme|678901,23|0.74
+556|Josee Conachy|#bde93d|4:56 PM|9:31 AM|12/16/2014|Leme-Botafogo|823456,78|0.58
+557|Griz Craggs|#15f1a5|9:52 AM|9:20 AM|3/9/2004||812345,67|0.69
+558|Christiane Minichi|#0e4af6|6:51 AM|7:25 PM|6/24/2009|Glória-Jardim Oceânico|912345,67|0.51
+559|Robena Greenman|#7da086|11:06 AM|10:18 AM|10/14/2010|Jardim Oceânico-Glória|1101234,56|0.84
+560||#499322|3:03 AM|4:35 PM|9/20/2017|Botafogo-Centro|978901,23|-
+561|Darryl Rama|#bf6b97|8:48 AM|1:38 PM|12/30/2021|Urca-Leblon|912345,67|-
+562|Dyana Treacher|#f79b5c|5:56 AM|10:00 AM|1/2/2014||834567,89|0.62
+563|Philly Rudolf|#f31670|10:26 AM|6:47 PM|11/8/2017|São Conrado-Jardim Botânico|1390123,45|0.58
+564|Simeon Rowntree|#bc048c|10:53 AM|10:16 AM|11/12/2002|Jardim Oceânico-Leme|601234,56|0.9
+565|Kanya Rozec|#baada8|3:26 PM|7:46 PM|10/11/2005|Copacabana-Lapa|1034567,89|0.63
+566|Vaughn Ffoulkes|#510c24|2:42 PM|12:08 PM|9/11/2020|Ipanema-Centro|1267890,12|0.63
+567|Kevyn Rizziello|#eb42a1|2:01 PM|9:51 PM|6/28/2005|Glória-Leme|934567,89|0.9
+568|Dodi Doers|#5d3cfb|9:37 AM|10:40 AM|4/14/2003||1323456,78|0.9
+569|Sharline Woollacott|#3cfb3f|1:24 PM|4:18 PM|9/9/2004|Urca-Lapa|512345,67|0.51
+570|Herculie Barkworth|#d22468|9:38 AM|1:21 PM|11/22/2013|Largo do Machado-Urca|1067890,12|0.9
+571|Roselin Urvoy|#5823f7|8:06 AM|7:29 PM|5/28/2008|Largo do Machado-Urca|790123,45|0.63
+572|Elisabetta Chark|#81f3d8|5:34 AM|5:27 PM|1/19/2013|Barra da Tijuca-Centro|701234,56|0.52
+573|Rafi Wiggin|#950b90|1:41 PM|10:07 AM|4/4/2017||701234,56|0.73
+574|Merrili Danihel|#506749|1:21 PM|8:04 AM|11/22/2007|Lapa-Gávea|1490123,45|0.74
+575|Kerry Oliver|#fafefc|4:15 PM|5:34 PM|11/24/2016|Lapa-Gávea|878901,23|0.79
+576|Lexie Giraldez|#27bc2d|1:18 PM|12:34 PM|11/29/2007|São Conrado-Jardim Botânico|1489012,34|0.63
+577|Eilis O'Hoey|#2b185d|2:33 PM|5:29 PM|5/9/2018|Gávea-Centro|756789,01|0.58
+578|Germain Hodgets|#65c198|10:16 AM|4:59 PM|11/13/2009|Leme-Botafogo|634567,89|0.69
+579|Seward Rushbrook|#08afc0|8:17 AM|9:57 PM|1/11/2004|Botafogo-Jardim Botânico|623456,78|0.57
+580|Talbert Claque|#34dd9b|8:55 AM|4:28 PM|2/25/2003|São Conrado-Jardim Botânico|1367890,12|-
+581|Lorin Farr|#f86a94|4:45 AM|3:07 PM|10/10/2010|Barra da Tijuca-Jardim Botânico|1234567,89|null
+582|Murdoch Abdon|#ca298c|4:52 PM|2:09 PM|6/18/2019|Ipanema-Gávea|856789,01|0.95
+583|Bert Leaming|#105756|3:15 AM|8:53 AM|8/7/2005|Largo do Machado-Urca|1101234,56|0.99
+584|Charmane Stronack|#4ee35d|2:36 AM|6:44 PM|9/2/2014|Leme-Gávea|1378901,23|0.8
+585|Ewen Stockney|#916f37|2:07 PM|1:32 PM|12/5/2014|Centro-Leme|1267890,12|0.68
+586|Glennis Ambrois|#948094|5:30 PM|11:20 PM|4/23/2020|Ipanema-Centro|534567,89|0.57
+587|Clovis Farr|#9d38a2|12:37 AM|6:35 PM|11/21/2009|Leblon-Lapa|1301234,56|0.8
+588|Bradford Rozycki|#9b6932|3:13 AM|2:52 PM|4/7/2003||1478901,23|0.57
+589|Adore Patnelli|#1573f3|5:49 AM|1:35 PM|8/14/2008|Largo do Machado-Barra da Tijuca|1178901,23|0.9
+590|Sidney Geldeford|#2138cc|4:54 AM|2:47 PM|1/2/2008|Copacabana-Ipanema|1290123,45|0.79
+591|Maryanna Freyn|#f92890|3:46 AM|9:46 AM|11/24/2003|Leblon-Lapa|1189012,34|0.62
+592|Marijo Linny|#0eaf42|2:57 PM|10:49 AM|7/7/2020|Flamengo-São Conrado|1389012,34|0.63
+593|Godfry Verheyden|#fea8a0|10:24 AM|7:44 PM|10/25/2021|Largo do Machado-Jardim Botânico|1490123,45|-
+594|Lucinda Hodgin|#a8c1c5|6:48 AM|8:44 PM|2/25/2018||1178901,23|0.99
+595|Charlean Forster|#34640e|5:57 AM|7:34 PM|1/13/2018|Lapa-Copacabana|823456,78|0.68
+596||#ecf0b0|2:46 PM|11:49 PM|9/3/2003|Lapa-Leblon|1356789,01|0.79
+597|Joeann Hardern|#0d1749|8:33 AM|3:17 PM|3/30/2018||601234,56|0.57
+598|Sayer Candlish|#90ca51|5:45 PM|10:08 AM|11/13/2009|Barra da Tijuca-Centro|1345678,9|0.58
+599|Larina Crotty|#337fde|8:41 AM|6:30 AM|2/17/2004|Jardim Botânico-Ipanema|1378901,23|0.79
+600|Ida Badrick|#517d6f|5:18 PM|10:24 AM|10/5/2016||1090123,45|0.74
+601||#48853a|4:54 AM|6:49 AM|8/7/2008|Botafogo-Jardim Botânico|1178901,23|0.79
+602|Gertrud Garrud|#a73011|11:30 AM|11:44 AM|10/24/2020||801234,56|0.63
+603||#974973|12:13 AM|7:23 AM|5/25/2007|Lapa-Leblon|745678,9|0.84
+604|Max Lawrenceson|#a5f05a|8:26 AM|9:30 AM|10/22/2014|Copacabana-Ipanema|1023456,78|0.99
+605|Ruthy Farey|#72e85e|6:38 AM|9:02 AM|10/26/2018|São Conrado-Largo do Machado|1067890,12|0.69
+606||#986b0c|1:43 AM|8:47 PM|4/14/2004|Leblon-Largo do Machado|656789,01|0.99
+607|Giovanni Carslaw|#a89b09|11:45 AM|7:21 AM|3/27/2007|Largo do Machado-Jardim Botânico|1078901,23|0.9
+608|Karlotte Staggs|#aee4f6|4:55 PM|8:53 AM|12/3/2006|Gávea-Botafogo|1489012,34|0.52
+609|Ninon Attle|#ec8feb|2:32 PM|11:45 AM|12/13/2016|Botafogo-Jardim Oceânico|945678,9|0.73
+610|Kala Dosedale|#d3104e|2:15 AM|7:24 AM|2/18/2003|Leblon-Botafogo|878901,23|0.8
+611|Sapphira Avraam|#23adf2|12:37 PM|12:41 PM|4/26/2015|Largo do Machado-Copacabana|823456,78|0.74
+612||#847621|10:41 AM|11:46 PM|1/28/2018|Jardim Oceânico-Lapa|1223456,78|0.74
+613|Lissie Cherry|#333363|1:11 PM|8:45 PM|6/19/2002|Largo do Machado-Jardim Botânico|1034567,89|0.63
+614|Alvy Abramovicz|#f0f332|1:34 PM|8:32 PM|1/8/2023|Urca-Largo do Machado|1123456,78|0.9
+615|Padget Gemnett|#4c32e0|9:31 AM|3:03 PM|10/19/2012|Jardim Botânico-Leblon|556789,01|-
+616|Tamara Radleigh|#93227b|12:00 AM|11:03 PM|11/7/2020|São Conrado-Jardim Botânico|1334567,89|-
+617|Kiah Gaskin|#4bd681|4:47 AM|7:08 PM|8/18/2022|Leblon-Lapa|1078901,23|0.73
+618|Bale Rantoul|#ba91a6|11:10 AM|2:22 PM|4/29/2010|Barra da Tijuca-Jardim Botânico|601234,56|0.99
+619|Ange Betke|#51d2db|2:12 PM|6:00 PM|10/7/2003|Leme-Botafogo|667890,12|null
+620|Shanie Pyle|#35d694|4:05 PM|8:01 AM|1/17/2014|Copacabana-Ipanema|1312345,67|0.58
+621|Geordie Tomala|#58c056|8:04 AM|10:13 PM|8/14/2013||612345,67|0.95
+622|Keene Englishby|#707ca1|10:48 AM|6:23 PM|9/24/2018||1489012,34|0.62
+623|Gaultiero McGraffin|#a829e4|3:53 PM|4:09 PM|10/20/2010|Gávea-Botafogo|1378901,23|0.69
+624|Gerhardt Wyborn|#cd4023|5:37 PM|1:49 PM|3/20/2009|Jardim Botânico-Leblon|801234,56|0.68
+625|Jamie Feavyour|#fc9ec3|9:08 AM|6:21 AM|8/21/2007|Copacabana-Barra da Tijuca|1401234,56|0.95
+626|Bradley Challenor|#1971ec|2:59 PM|5:22 PM|12/8/2021|São Conrado-Largo do Machado|1134567,89|0.52
+627|Filip Mannakee|#e8e213|7:00 AM|11:39 AM|1/29/2012||1023456,78|0.79
+628|Amil Shillito|#f2c307|12:42 PM|12:05 PM|9/22/2017|Lapa-Jardim Oceânico|1478901,23|0.74
+629|Suzi Kimble|#08f827|2:18 PM|5:24 PM|6/24/2011|Leme-Gávea|556789,01|0.51
+630|Brnaby Pardew|#66f58f|7:22 AM|7:32 PM|10/12/2016|Urca-Leblon|1145678,9|null
+631|Craig Volage|#f0ed8d|4:25 PM|3:36 PM|7/2/2006|Barra da Tijuca-Leblon|1090123,45|0.58
+632|Rasla Nunnerley|#53888c|2:54 AM|9:18 AM|1/8/2006|Barra da Tijuca-Leblon|634567,89|0.63
+633|Doug Matyas|#994f43|1:20 PM|4:00 PM|10/18/2018|Leme-São Conrado|701234,56|0.74
+634|Ariana Snozzwell|#fd77ce|8:17 AM|10:23 AM|5/4/2010|Barra da Tijuca-Jardim Botânico|1412345,67|0.69
+635|Nike Paeckmeyer|#a32113|7:51 AM|4:09 PM|11/19/2021|Flamengo-Copacabana|1267890,12|0.95
+636|Shane McLenahan|#5acd8a|2:59 AM|4:06 PM|7/18/2002|Barra da Tijuca-Jardim Botânico|1323456,78|0.73
+637|Aurora Gallemore|#8c8347|7:09 AM|4:26 PM|2/24/2005|Leblon-São Conrado|967890,12|0.69
+638|Willi Meenehan|#cf46c8|5:10 PM|9:43 PM|6/1/2009|Barra da Tijuca-Centro|1167890,12|0.62
+639|Kania Mutter|#8a2bac|7:49 AM|2:54 PM|3/13/2004|Leblon-Lapa|656789,01|0.57
+640|Felecia Farthing|#70359d|5:52 PM|2:44 PM|12/1/2007|Glória-Jardim Oceânico|512345,67|0.84
+641|Son Razoux|#a4b57f|5:56 AM|6:36 PM|4/28/2016|Urca-Botafogo|1089012,34|0.95
+642|Dael Chell|#17f6e4|1:33 AM|2:49 PM|4/29/2012|Ipanema-Lapa|1278901,23|0.74
+643||#c7ac14|4:26 PM|10:35 AM|8/16/2002||578901,23|0.73
+644|Bailey Maitland|#175fe6|7:58 AM|7:29 AM|1/20/2016|Jardim Botânico-Ipanema|1201234,56|0.51
+645|Idell Doige|#612066|2:50 PM|11:26 AM|7/31/2022|Lapa-Copacabana|1056789,01|0.52
+646|Bobbye Roizin|#49c61c|2:10 PM|3:43 PM|3/19/2022|Leme-Botafogo|578901,23|0.99
+647|Auria Duddell|#0d3a1f|1:59 AM|11:03 PM|11/28/2021|Urca-Botafogo|1067890,12|0.57
+648|Temp Shadrach|#5a257b|8:06 AM|10:13 AM|9/2/2011|Leblon-Botafogo|778901,23|null
+649|Vally MacKettrick|#b177db|5:49 PM|9:39 PM|5/9/2010|Lapa-Copacabana|790123,45|0.9
+650|Alexa Gadsby|#d8ca66|2:49 PM|3:01 PM|12/4/2009|Lapa-Gávea|701234,56|0.52
+651||#5bbdaf|3:33 AM|7:34 AM|5/26/2020|Centro-Jardim Botânico|912345,67|0.95
+652|Kary Moses|#b5d89c|9:12 AM|8:22 PM|12/1/2015||545678,9|0.62
+653|Bennie Roddy|#d6fbaa|9:54 AM|10:54 PM|10/2/2015|Flamengo-São Conrado|1323456,78|0.63
+654|Perrine Crenshaw|#870459|7:11 AM|7:00 PM|11/16/2005|Ipanema-Gávea|678901,23|0.8
+655|Wilton Matuska|#a1749d|3:18 AM|10:37 AM|7/16/2006|Gávea-Lapa|878901,23|-
+656|Britte Been|#51b14e|1:34 PM|12:12 PM|8/9/2003|Urca-Leblon|1478901,23|0.63
+657|Kassie Savege|#443521|1:06 AM|2:24 PM|3/22/2013|Lapa-Jardim Oceânico|956789,01|0.57
+658|Sigismund Greatbach|#d8171c|9:43 AM|10:14 PM|12/27/2010||934567,89|0.52
+659|Armin Bachshell|#1a5162|4:32 AM|6:01 AM|6/21/2013|Gávea-Lapa|556789,01|0.74
+660|Hadrian Filgate|#7c5fa0|8:52 AM|11:06 AM|9/18/2021|Urca-Lapa|890123,45|0.79
+661|Hildy Tiron|#24ee67|2:24 PM|9:54 AM|5/6/2012|Leme-Urca|1389012,34|0.73
+662|Ermengarde Kermon|#d8114d|9:14 AM|6:13 AM|8/25/2006|Gávea-Botafogo|1245678,9|0.63
+663||#3f7f52|6:41 AM|11:44 PM|4/23/2011|Urca-Botafogo|1112345,67|0.62
+664|Legra Grandisson|#babf77|2:53 AM|6:34 AM|11/6/2013|Jardim Botânico-São Conrado|1278901,23|0.99
+665|Waverly La Rosa|#36d607|5:06 PM|8:25 PM|10/30/2004|Glória-Leme|1034567,89|0.9
+666|Howard Chuney|#ec140d|4:49 PM|7:54 AM|7/10/2013|Largo do Machado-Copacabana|1478901,23|0.73
+667|Peadar Woodlands|#070163|6:22 AM|7:09 PM|3/2/2008|Leblon-São Conrado|1134567,89|0.62
+668|Hadlee Loosely|#fce2fb|3:07 PM|12:08 PM|5/21/2004||1290123,45|0.8
+669|Ynes Marnes|#1e9e26|4:51 AM|5:07 PM|4/6/2008|Glória-Jardim Oceânico|1234567,89|0.8
+670|Ruth Eaddy|#d16b23|9:08 AM|8:27 PM|8/1/2010|Ipanema-Lapa|790123,45|0.95
+671|Duffie Bracknell|#e684fe|1:43 AM|3:58 PM|8/31/2013||1323456,78|null
+672|Sibella Swannick|#4059f5|3:59 AM|6:12 AM|5/20/2018|Jardim Botânico-Flamengo|1067890,12|0.62
+673|Darice Woodeson|#eebf12|6:17 AM|6:27 AM|8/13/2009|Lapa-Leblon|1478901,23|null
+674|Eric Hannaford|#46fc6c|2:36 AM|9:37 PM|12/11/2016|Lapa-Copacabana|1089012,34|-
+675|Jacklin Westmore|#4cf4a5|5:22 AM|5:40 PM|6/26/2004||1234567,89|0.84
+676|Marna Jesse|#50bc6a|1:41 PM|6:58 AM|5/7/2016|Lapa-Leblon|989012,34|-
+677|Radcliffe Orrum|#590a2d|4:35 PM|8:17 AM|12/20/2012|Leblon-São Conrado|1334567,89|0.8
+678|Virginie Treby|#3756e6|9:55 AM|11:57 AM|11/22/2019|Leme-Gávea|945678,9|0.99
+679|Kelsey Sheavills|#b8eeb5|11:21 AM|1:45 PM|10/14/2018|Leblon-São Conrado|1301234,56|0.73
+680|Christie Gerram|#a53dab|5:30 AM|9:48 PM|1/30/2013|Leme-Gávea|589012,34|0.51
+681|Devinne Normabell|#d2b8c8|10:34 AM|1:51 PM|9/1/2019|Ipanema-Jardim Botânico|601234,56|0.9
+682|Adolphus Adair|#e35828|12:47 AM|11:12 PM|8/6/2005|Lapa-Gávea|1456789,01|0.74
+683|Herby Feather|#2bbf4d|1:26 PM|10:48 AM|6/11/2008|Copacabana-Ipanema|1489012,34|-
+684|Ulises Clemenza|#38c3b3|11:31 AM|11:37 AM|1/30/2022|Jardim Botânico-Flamengo|578901,23|0.84
+685|Tomasina Breeton|#1d772d|4:07 PM|7:10 PM|10/11/2012|Centro-Leme|656789,01|0.58
+686|Hedvig Westbury|#fac3de|4:13 PM|8:31 AM|4/29/2011|São Conrado-Largo do Machado|712345,67|0.9
+687|Orelee Bunworth|#fc5d45|11:40 AM|7:25 PM|6/12/2008|Jardim Botânico-São Conrado|701234,56|0.63
+688|Agretha Jerdan|#3f6714|11:24 AM|7:50 AM|12/9/2002||1378901,23|0.58
+689|Pearce Clear|#9be1f5|12:13 PM|12:05 PM|6/7/2019|Urca-Leblon|1389012,34|null
+690|Antony Pickaver|#6b1c5e|4:48 AM|3:26 PM|2/8/2021|São Conrado-Glória|1456789,01|0.8
+691|Raynard Matteini|#cce4c7|10:44 AM|7:00 PM|4/10/2020|Urca-Largo do Machado|1189012,34|0.99
+692|Salim O'Cannavan|#92c1d7|12:09 AM|4:53 PM|12/25/2009|Urca-Leblon|1423456,78|-
+693|Betsy Benini|#6238db|3:38 PM|2:10 PM|2/28/2023||834567,89|0.74
+694|Launce Burnep|#7bef75|1:41 PM|10:35 PM|11/6/2017|Leblon-Botafogo|1212345,67|0.62
+695|Dedra Vain|#def0a8|8:35 AM|12:51 PM|12/3/2014|Gávea-Botafogo|1401234,56|0.8
+696|Kaitlynn Garioch|#7a5816|8:17 AM|9:21 AM|12/22/2022|Centro-Barra da Tijuca|812345,67|0.69
+697|Brynne McCrisken|#fcfa89|6:24 AM|6:17 PM|2/17/2010|Urca-Leblon|1156789,01|0.8
+698|Fabe Norvill|#22a6a2|7:15 AM|10:44 PM|5/3/2012|São Conrado-Largo do Machado|534567,89|0.79
+699|Gerome Markham|#0b8d83|3:05 AM|9:19 AM|12/2/2003||956789,01|0.69
+700||#3e4ff0|10:13 AM|2:41 PM|2/2/2005|Barra da Tijuca-Centro|834567,89|0.84
+701|Inger Gilluley|#318e94|2:59 PM|11:15 PM|11/2/2009|Gávea-Copacabana|589012,34|-
+702|Grantley Sothern|#e6128f|10:06 AM|8:01 PM|1/6/2010|Copacabana-Lapa|1123456,78|0.79
+703||#749939|1:35 PM|8:07 AM|9/30/2019|Gávea-Lapa|1101234,56|-
+704|Kile Courteney|#067103|3:24 AM|8:33 AM|2/22/2022|Leme-São Conrado|689012,34|0.95
+705|Hamilton Jewson|#5f2f0e|4:44 PM|8:41 PM|11/27/2002||1078901,23|0.79
+706|Kassi Rammell|#d129f5|2:39 AM|11:21 AM|2/16/2020|São Conrado-Urca|1278901,23|0.95
+707|Leighton Darville|#4645f1|10:56 AM|3:28 PM|3/9/2018|Barra da Tijuca-Centro|590123,45|0.57
+708|Colin Boatswain|#7b03ba|11:35 AM|1:51 PM|8/11/2012|São Conrado-Glória|723456,78|0.84
+709|Roddy Blouet|#7c8376|2:16 PM|11:58 AM|7/3/2009|Jardim Oceânico-Leme|845678,9|0.73
+710|Cyrus Lonie|#8547db|12:03 AM|10:32 AM|9/15/2008|Lapa-Copacabana|845678,9|0.95
+711|Drusilla Talkington|#cf8d9b|5:44 PM|2:57 PM|6/11/2017|Flamengo-Largo do Machado|578901,23|0.79
+712|Viv Heys|#8f39a2|1:31 AM|10:33 AM|10/4/2007|Copacabana-Ipanema|623456,78|0.84
+713|Allie Switsur|#2db088|12:09 PM|11:24 AM|12/10/2010|Leme-Gávea|589012,34|0.51
+714|Tracee Dumberrill|#6bfe0a|2:14 AM|10:22 PM|4/26/2018|Flamengo-São Conrado|1467890,12|0.84
+715|Meagan Kristof|#15cfb5|12:38 AM|9:49 AM|8/23/2015||945678,9|0.63
+716|Todd Barczynski|#8a54aa|12:53 PM|2:32 PM|12/17/2022|Lapa-Leblon|623456,78|0.63
+717|Whittaker Islip|#bee78a|4:03 AM|10:48 PM|9/21/2021|Leme-Botafogo|801234,56|0.84
+718|Glynda Tolwood|#114b76|8:06 AM|5:26 PM|5/3/2007|São Conrado-Glória|690123,45|0.51
+719|Harv Thickin|#05c2fb|3:50 PM|9:09 AM|8/22/2008|Flamengo-Copacabana|1490123,45|0.68
+720||#aa7b63|3:09 PM|6:37 PM|4/6/2008|São Conrado-Urca|990123,45|0.84
+721|Filippa Hicken|#e54314|2:13 AM|7:36 AM|1/10/2013|Flamengo-São Conrado|934567,89|0.9
+722|Maridel Darwen|#89761a|4:46 PM|2:16 PM|5/24/2015|Barra da Tijuca-Leblon|523456,78|0.51
+723|Sheela Lafontaine|#09d1ca|8:19 AM|6:36 AM|6/10/2022|Gávea-Botafogo|812345,67|0.62
+724|Petronella Lethem|#cb655d|4:04 AM|11:29 AM|6/2/2009|Jardim Oceânico-Leme|856789,01|null
+725|Tierney Pinnion|#290c8e|1:34 PM|5:27 PM|6/14/2006|Largo do Machado-Jardim Botânico|656789,01|0.51
+726|Bryana Lound|#cd473b|12:02 PM|11:50 AM|6/19/2011|Jardim Botânico-Leblon|1345678,9|0.99
+727|Paolina Lavalde|#8d4a90|10:49 AM|6:21 AM|9/25/2007|Lapa-Gávea|1323456,78|0.84
+728|Gnni Dagleas|#3b5ecd|4:08 PM|12:34 PM|12/5/2011|Leme-Botafogo|1034567,89|0.52
+729|Gaspar Trounson|#0cf858|11:53 AM|1:45 PM|6/9/2020|Jardim Oceânico-Leme|1089012,34|0.73
+730|Charlene Esposita|#952087|12:05 PM|9:59 PM|9/6/2021|Glória-Jardim Oceânico|967890,12|0.84
+731|Garrard Keming|#2d885e|11:09 AM|1:23 PM|7/9/2009|Jardim Botânico-Ipanema|1178901,23|0.79
+732|Nola Kolyagin|#773af7|2:16 PM|11:30 AM|7/2/2019|Gávea-Centro|745678,9|0.68
+733|Dwight Druce|#e38a6b|2:02 AM|12:39 PM|9/1/2007|Jardim Oceânico-Leme|912345,67|0.68
+734|Mischa Bryers|#99997f|4:23 PM|9:34 AM|7/22/2018|Botafogo-Jardim Oceânico|989012,34|0.95
+735|Ancell Camis|#b2e429|5:52 AM|11:57 PM|5/22/2021|Jardim Botânico-Ipanema|1090123,45|0.84
+736|Myranda Dakhov|#661a34|6:39 AM|11:10 PM|1/7/2018|Lapa-Jardim Oceânico|1034567,89|-
+737|Cassie Bursell|#672d57|12:16 PM|9:00 PM|9/6/2005|Jardim Botânico-Ipanema|1067890,12|0.99
+738|Krisha Aingel|#d246f7|1:47 AM|2:44 PM|5/5/2013|Glória-Leme|1134567,89|0.52
+739|Jule MacCostye|#3e10e9|9:07 AM|4:08 PM|11/16/2020|Jardim Oceânico-Glória|1334567,89|0.51
+740|Eolanda Kerbler|#ef87a0|4:53 AM|3:26 PM|1/18/2016|Barra da Tijuca-Centro|523456,78|0.52
+741|Kingsly Wookey|#16ca57|1:46 PM|1:54 PM|5/16/2014|Jardim Oceânico-Copacabana|634567,89|0.58
+742|Kelli Sline|#9f3c00|5:31 AM|3:46 PM|10/9/2007||1289012,34|-
+743|Amara Billington|#a74289|5:49 PM|4:20 PM|3/12/2022|Lapa-Copacabana|1078901,23|0.68
+744|Maurise Klulicek|#76e1c7|9:15 AM|10:18 AM|6/8/2017|Gávea-Botafogo|1156789,01|0.8
+745|Barny Warburton|#658a01|6:14 AM|3:27 PM|2/16/2015|Jardim Botânico-Ipanema|578901,23|0.79
+746|Ricki Brownsell|#b53f75|1:41 AM|8:09 AM|11/1/2010|Glória-Jardim Oceânico|1001234,56|0.63
+747|Tadeo Pessolt|#04c464|3:15 PM|2:56 PM|3/4/2007|Ipanema-Lapa|1478901,23|0.79
+748|Angeli Benwell|#38c2ff|11:38 AM|9:21 PM|5/25/2002|Copacabana-Ipanema|923456,78|0.51
+749|Tony Etridge|#1b2656|4:08 AM|8:27 PM|8/4/2003||878901,23|0.57
+750|Dalia Troutbeck|#a0626e|8:56 AM|6:22 AM|11/27/2010|Gávea-Botafogo|878901,23|0.84
+751|Albie Friberg|#6411c6|8:25 AM|6:35 PM|1/1/2023||690123,45|0.73
+752|Goldy Sharrock|#afc1e9|1:58 AM|9:23 AM|1/28/2008|Botafogo-Leme|723456,78|0.69
+753|Cheryl Sherebrooke|#66d1ec|3:28 AM|9:09 PM|7/24/2005|Barra da Tijuca-Centro|612345,67|0.58
+754|Lynna Dowle|#b6f4ac|5:51 PM|10:04 PM|5/21/2009|Lapa-Gávea|712345,67|0.74
+755|Brianna Keenor|#ca9d03|2:47 PM|8:00 AM|4/22/2018|Ipanema-Lapa|1101234,56|0.52
+756|Frank Caswall|#5e85aa|3:29 PM|1:36 PM|5/16/2006|Jardim Oceânico-Copacabana|990123,45|0.68
+757|Laurella Diem|#4b8221|3:26 AM|9:23 PM|12/22/2004||801234,56|0.52
+758|Jamison Brash|#f49c7b|3:56 PM|7:50 PM|2/22/2022|Leblon-Largo do Machado|1401234,56|0.62
+759|Kameko Dilleway|#c30670|12:55 PM|11:43 AM|10/9/2022|Gávea-Lapa|1145678,9|null
+760|Cristal Popeley|#6791ab|10:38 AM|3:06 PM|10/4/2008|Leblon-Lapa|1223456,78|null
+761|Donnell Lempenny|#d1e8b9|12:27 PM|9:52 AM|10/16/2004|Leblon-Botafogo|1134567,89|0.73
+762|Margarete Shipperbottom|#8224e7|8:43 AM|11:13 PM|2/6/2006|Leblon-São Conrado|578901,23|0.52
+763|Sheridan Simonnin|#f049d8|12:41 PM|11:39 AM|11/8/2014|Botafogo-Leme|801234,56|0.9
+764|Idaline Barrows|#8095eb|10:26 AM|10:27 PM|11/15/2014|Leblon-São Conrado|801234,56|0.58
+765|Kristos Babbs|#4c7042|2:28 AM|10:00 AM|6/18/2015|Jardim Oceânico-Glória|1256789,01|0.74
+766|Starla Hemms|#3fb17d|4:52 AM|12:11 PM|10/14/2003|Botafogo-Jardim Oceânico|1478901,23|0.63
+767|Jackelyn De Lisle|#4938de|3:21 AM|7:56 PM|8/15/2010||1289012,34|0.8
+768|Sena Silcock|#a1944c|10:21 AM|11:06 PM|6/12/2013|Lapa-Jardim Oceânico|812345,67|0.84
+769|Jefferey Roderighi|#c77b63|3:05 AM|10:27 AM|10/17/2008|Flamengo-Copacabana|1012345,67|0.57
+770|Benetta Skate|#32ba8a|4:20 AM|11:50 PM|6/2/2018||745678,9|0.69
+771|Eddie Grelka|#c00870|12:19 AM|6:03 PM|3/21/2004|Copacabana-Ipanema|1412345,67|0.58
+772|Ginnie Ranking|#821da5|2:57 PM|3:28 PM|5/12/2004|Largo do Machado-Jardim Botânico|667890,12|0.73
+773|Megan Papps|#0aad49|1:02 AM|6:32 AM|7/15/2008|Leblon-Botafogo|1301234,56|0.79
+774|Janifer Jesse|#bf2818|5:31 PM|11:52 AM|9/6/2002|São Conrado-Urca|1012345,67|0.84
+775|Eben Fee|#61fc24|11:40 AM|7:31 PM|7/7/2016|Leme-São Conrado|656789,01|0.52
+776|Rafaela Gittoes|#f84971|12:14 AM|7:04 PM|4/24/2019|Glória-Jardim Oceânico|1089012,34|0.69
+777|Wyndham Tether|#5036d9|6:03 AM|9:27 AM|8/4/2010|Copacabana-Barra da Tijuca|645678,9|0.51
+778|Faustine MacFadyen|#b5d215|3:26 PM|6:37 AM|6/20/2017|Centro-Barra da Tijuca|1478901,23|null
+779|Marnia Phillis|#a40c26|4:21 AM|6:38 PM|9/29/2015|Largo do Machado-Barra da Tijuca|534567,89|0.8
+780|Stuart Leborgne|#36248f|1:32 PM|12:50 PM|1/4/2013|Centro-Leme|590123,45|0.58
+781|Theresina Ivanov|#83d49b|1:36 PM|7:32 PM|7/20/2010|Gávea-Centro|634567,89|0.9
+782|Temp Maysor|#4b7380|6:02 AM|3:48 PM|11/20/2006|Leme-Botafogo|1001234,56|0.68
+783|Karlen Yoseloff|#82cdd3|3:46 PM|11:16 PM|10/3/2022|Lapa-Jardim Oceânico|1056789,01|0.51
+784|Kaylyn Trewman|#515f0e|3:15 AM|6:40 PM|11/27/2022|Flamengo-São Conrado|1078901,23|null
+785|Ernestine Enderlein|#568a5a|2:17 PM|8:02 PM|11/6/2006|Leme-Botafogo|1123456,78|0.8
+786|Bonita Tremathack|#37534f|6:14 AM|1:31 PM|9/30/2012|Botafogo-Leme|801234,56|0.52
+787|Abbey Briddock|#7c0c6a|4:40 PM|7:17 PM|2/15/2006|Barra da Tijuca-Leblon|1301234,56|0.74
+788||#d45378|6:41 AM|11:49 PM|7/12/2014|Botafogo-Jardim Botânico|878901,23|0.62
+789||#2cce14|6:31 AM|10:14 AM|8/13/2018|São Conrado-Glória|945678,9|0.9
+790||#9ae5b0|2:05 PM|8:27 PM|6/17/2013|Leme-Gávea|656789,01|0.63
+791||#2ef6e1|12:27 AM|10:35 PM|11/17/2012|Ipanema-Lapa|567890,12|0.9
+792|Talia De Nisco|#e8d295|2:54 AM|1:43 PM|3/10/2018|Barra da Tijuca-Centro|689012,34|0.74
+793|Pearla Trevett|#b90db6|10:03 AM|12:23 PM|5/23/2018|Urca-Leblon|1078901,23|0.74
+794|Flor Kimbrough|#f1e265|11:28 AM|10:42 PM|3/29/2014|Leme-São Conrado|1289012,34|null
+795|Averyl Ibberson|#ea9a33|10:09 AM|6:54 PM|10/1/2020|Centro-Barra da Tijuca|1156789,01|0.79
+796|Ivette Antliff|#48a172|12:33 PM|11:31 AM|5/23/2003|Urca-Leblon|1178901,23|0.62
+797|Ashby Dibble|#fdf786|2:46 AM|8:03 AM|1/23/2019|Jardim Botânico-Flamengo|1378901,23|0.95
+798|Fredia Matelaitis|#f1ddc5|1:18 PM|10:14 PM|2/26/2014|Barra da Tijuca-Jardim Botânico|945678,9|0.9
+799|Bibbye Caddens|#4c8ed8|7:15 AM|10:54 AM|6/5/2006|Ipanema-Centro|889012,34|0.8
+800|Boycey Bermingham|#d61754|4:36 AM|4:29 PM|9/28/2011|Urca-Botafogo|556789,01|0.51
+801|Angelia Winchurst|#d44696|8:19 AM|11:09 AM|2/25/2007|Flamengo-Largo do Machado|1245678,9|0.69
+802||#b96a19|6:11 AM|9:39 AM|11/4/2005|Urca-Lapa|645678,9|0.8
+803|Hurleigh Baugh|#6657f3|2:15 AM|9:26 AM|9/7/2013|Jardim Oceânico-Copacabana|989012,34|0.79
+804|Broderic Dinnage|#96840d|8:53 AM|10:41 PM|5/19/2015|Jardim Botânico-Flamengo|1390123,45|0.58
+805|Patience Coulton|#ab6936|1:39 AM|10:20 PM|8/16/2013|Copacabana-Ipanema|634567,89|0.57
+806|Bastian Olivier|#d908e8|10:16 AM|12:59 PM|12/21/2018|Ipanema-Centro|1189012,34|0.52
+807|Gerhard Moorton|#9604e7|3:08 AM|10:22 PM|10/29/2010|Jardim Botânico-Flamengo|1334567,89|0.9
+808|Dorie Ashplant|#23eaaa|8:08 AM|11:54 PM|1/17/2022|Flamengo-Copacabana|1034567,89|0.99
+809|Orelee Whitehorn|#e579c4|7:19 AM|9:54 AM|2/26/2018|Largo do Machado-Barra da Tijuca|1289012,34|0.84
+810|Renae Hryncewicz|#4b380b|5:00 AM|11:45 AM|8/3/2002|Leme-São Conrado|612345,67|0.63
+811|Natka Stubbings|#2dc6c7|3:20 PM|12:00 PM|6/24/2019|Urca-Lapa|1067890,12|0.84
+812|Elora Maher|#bdf94b|8:00 AM|12:10 PM|11/24/2003|Ipanema-Gávea|1356789,01|0.8
+813|Finn Creswell|#3442ec|2:44 PM|7:21 PM|11/28/2013|Copacabana-Ipanema|1078901,23|0.69
+814||#6251ed|9:34 AM|9:21 PM|6/6/2010||767890,12|0.52
+815|Amery Koles|#368a6f|1:42 PM|2:01 PM|5/9/2011|Leblon-Lapa|701234,56|0.95
+816|Odette Hackworthy|#19518a|12:37 PM|4:15 PM|12/14/2022|Urca-Largo do Machado|1334567,89|0.62
+817|Hanson Lavalle|#c0a6be|4:03 PM|8:17 PM|5/6/2017|Gávea-Centro|890123,45|0.62
+818|Nicolea Ciccotto|#02d3e4|11:46 AM|6:29 PM|9/4/2022|Lapa-Leblon|634567,89|0.51
+819|Eli Jiles|#b2ade3|10:47 AM|9:07 AM|5/29/2002|Jardim Oceânico-Lapa|834567,89|null
+820|Leroy Rylstone|#b674d7|8:24 AM|4:00 PM|1/30/2020|Jardim Botânico-Flamengo|1056789,01|0.57
+821|Sherri Birrel|#43f8dd|7:36 AM|8:53 PM|2/4/2021|Centro-Leme|1367890,12|0.99
+822|Rickie Kimberly|#b1d80b|3:14 PM|2:56 PM|4/1/2021|São Conrado-Glória|1345678,9|0.51
+823|Jacquie Drife|#75ec88|12:21 AM|10:21 AM|4/16/2003|Leblon-Lapa|1434567,89|0.58
+824|Sorcha Haskew|#5b76ac|12:37 PM|5:32 PM|2/18/2019|Botafogo-Jardim Botânico|512345,67|0.62
+825|Britt Cranfield|#a662dc|5:01 AM|2:46 PM|7/3/2011|Gávea-Botafogo|1190123,45|0.51
+826|Harrie Goldfinch|#661328|3:44 AM|5:56 PM|2/15/2009|Jardim Oceânico-Leme|1001234,56|0.79
+827|Kane Darbey|#70fd55|3:16 AM|11:02 AM|7/26/2013|Leblon-Largo do Machado|1034567,89|null
+828|Lianna Casier|#362015|4:39 PM|10:02 PM|11/10/2008|Copacabana-Lapa|856789,01|0.51
+829||#cbfb3d|8:18 AM|2:40 PM|9/5/2020|Copacabana-Ipanema|845678,9|null
+830|Adolpho Potkins|#292782|5:47 PM|12:50 PM|5/7/2021|Jardim Botânico-São Conrado|1223456,78|0.69
+831|Lucretia Scutts|#e56881|12:39 AM|9:59 PM|2/13/2015|Jardim Oceânico-Leme|1001234,56|0.63
+832|Beulah Sueter|#f1404e|5:25 AM|10:09 PM|12/18/2015|Ipanema-Jardim Botânico|745678,9|0.57
+833|Dianemarie Hansie|#56ef5c|8:37 AM|9:30 AM|12/23/2007||1045678,9|0.79
+834||#360623|1:12 AM|1:01 PM|11/16/2017|Glória-Jardim Oceânico|1489012,34|null
+835|Mareah Covendon|#3d220a|5:51 PM|11:12 AM|10/8/2008|Leme-São Conrado|523456,78|0.74
+836|Cal Brome|#44d6b4|12:21 AM|6:16 AM|12/11/2010|Jardim Botânico-Flamengo|690123,45|0.63
+837|Marni Leethem|#986231|1:30 PM|9:51 PM|2/27/2012|Leblon-São Conrado|1401234,56|0.52
+838|Ferne McTerry|#914713|1:43 AM|6:23 PM|8/13/2021|Leme-Gávea|912345,67|0.95
+839|Elfie Arsnell|#d531dc|8:54 AM|1:30 PM|1/3/2016|Copacabana-Ipanema|1089012,34|null
+840|Jany Bevans|#68f236|1:39 PM|6:40 PM|2/13/2011|Leblon-Lapa|678901,23|0.58
+841|Wilfrid Billingsly|#33a6df|8:30 AM|11:01 AM|8/12/2007|Largo do Machado-Copacabana|701234,56|0.9
+842|Saleem Hasslocher|#15058c|5:28 PM|11:10 AM|10/1/2016|Copacabana-Barra da Tijuca|512345,67|-
+843|Guglielmo Melmoth|#9ddd75|1:22 PM|8:46 AM|6/19/2014|Ipanema-Centro|623456,78|0.51
+844|Josephine Halewood|#3c31e3|4:55 PM|9:10 PM|7/7/2010|Botafogo-Leme|1467890,12|0.57
+845|Franni McPhelim|#3c3e5e|5:41 AM|9:33 PM|3/5/2017|São Conrado-Urca|1289012,34|0.73
+846|Hamlin Albrighton|#b20a83|4:42 PM|4:03 PM|2/3/2004|Leblon-São Conrado|912345,67|0.68
+847|Morry Dowd|#f4f3d0|4:11 AM|6:42 PM|8/21/2019|Ipanema-Jardim Botânico|823456,78|0.8
+848|Randie Kluss|#60b49e|9:50 AM|7:58 AM|12/7/2012||934567,89|0.52
+849|Virgie Murdy|#ddbdb8|3:39 AM|1:38 PM|6/30/2017|Barra da Tijuca-Jardim Botânico|945678,9|0.95
+850|Marjory Figgen|#f7debe|9:24 AM|6:10 PM|7/16/2015|Largo do Machado-Barra da Tijuca|512345,67|0.95
+851|Flin Aldhous|#289cbd|12:26 AM|9:15 AM|5/7/2010||1067890,12|0.99
+852|Ronna Peetermann|#196710|10:12 AM|12:43 PM|2/9/2008|Lapa-Leblon|923456,78|0.74
+853|Deb Rolfo|#7377f7|12:16 PM|7:54 AM|10/5/2002|Barra da Tijuca-Leblon|967890,12|0.74
+854|Joyous Houten|#532609|11:04 AM|11:48 PM|5/12/2012|Botafogo-Jardim Oceânico|689012,34|0.79
+855|Shaughn Stebbing|#2e14fc|6:04 AM|6:50 PM|12/13/2019|Jardim Oceânico-Copacabana|1145678,9|0.73
+856|Husain Nowell|#95912b|5:45 AM|5:44 PM|4/11/2013|São Conrado-Urca|812345,67|0.9
+857|Kipper Cosgrive|#67d975|12:36 AM|1:27 PM|8/21/2016||990123,45|0.62
+858|Corrina Salt|#338c2d|10:20 AM|6:35 AM|8/20/2020|Lapa-Copacabana|1045678,9|0.84
+859||#b3800a|9:22 AM|11:23 PM|5/1/2011|Centro-Barra da Tijuca|990123,45|null
+860|Malva Barton|#afb70c|1:45 AM|11:25 AM|8/9/2002|São Conrado-Glória|1334567,89|0.57
+861|Jeanette Herrero|#e4fa2c|10:52 AM|2:58 PM|4/23/2010|Leme-Botafogo|601234,56|0.99
+862|Johannah Simoneau|#bbac11|11:28 AM|6:42 PM|5/12/2010|Largo do Machado-Barra da Tijuca|1089012,34|0.52
+863|Alta Josephy|#24e621|8:48 AM|7:43 PM|6/19/2021|Botafogo-Centro|790123,45|0.79
+864|Ethelred Bus|#516c3b|1:52 AM|7:41 PM|3/5/2013|Urca-Leblon|1423456,78|0.58
+865|Ken James|#0da195|1:54 AM|8:26 AM|2/9/2008|Copacabana-Ipanema|678901,23|0.79
+866|Danyette Orme|#312545|3:04 AM|7:33 PM|11/1/2007|Flamengo-Copacabana|990123,45|0.79
+867|Sawyere Risely|#8a031b|1:01 AM|8:00 AM|7/28/2005|Largo do Machado-Urca|1012345,67|0.57
+868|Rina Littlejohns|#9be22f|3:12 AM|7:30 PM|12/31/2014|Barra da Tijuca-Jardim Botânico|1223456,78|0.79
+869|Christiane Rout|#abc7ab|1:49 PM|5:59 PM|10/18/2003|Jardim Botânico-Flamengo|1023456,78|0.58
+870||#3c596a|6:23 AM|12:27 PM|6/8/2014|Flamengo-Copacabana|1089012,34|0.99
+871|Linzy Worland|#82fa36|4:17 PM|11:19 PM|8/14/2003|Ipanema-Gávea|523456,78|0.84
+872|Althea Mattiazzi|#fc0cb4|12:17 PM|7:35 AM|1/1/2015|Jardim Oceânico-Glória|1434567,89|0.63
+873|Braden Witherdon|#90b91e|7:00 AM|2:20 PM|8/4/2022|Leme-São Conrado|1490123,45|0.62
+874|Halli Le Grove|#7dcce0|11:19 AM|1:57 PM|11/4/2004|Gávea-Botafogo|1378901,23|null
+875|Blair Christophle|#329795|2:17 AM|9:54 PM|11/1/2010||1034567,89|0.9
+876||#84fa94|3:25 AM|5:27 PM|12/7/2019|Leme-Botafogo|1467890,12|-
+877|Terza Questier|#10cc7f|2:58 PM|7:00 AM|10/15/2002|Largo do Machado-Glória|801234,56|0.69
+878|Tybi Lembcke|#e5bccf|4:51 AM|6:59 PM|10/30/2019|Largo do Machado-Urca|1156789,01|0.58
+879|Brina Rojel|#bf25af|1:33 PM|9:50 PM|2/3/2005||1190123,45|0.69
+880|Jemmie Mountfort|#ce48b8|3:09 AM|4:56 PM|10/8/2004|São Conrado-Jardim Botânico|734567,89|0.74
+881|Tamar Gillions|#306847|2:52 PM|12:33 PM|4/8/2021|Leme-Gávea|978901,23|0.69
+882|Silvio Meggison|#e4f7a8|9:19 AM|11:13 PM|5/11/2012||1023456,78|0.69
+883|Leodora Teulier|#041c1b|9:47 AM|7:03 PM|2/20/2005|Glória-Jardim Oceânico|634567,89|0.58
+884|Horace Weiss|#b3e280|2:35 AM|9:47 PM|9/29/2011|Leblon-São Conrado|667890,12|0.79
+885||#b64110|3:43 PM|11:53 PM|1/28/2004|São Conrado-Glória|823456,78|-
+886|Matthias Doncaster|#eb1650|1:31 PM|8:08 PM|5/29/2019|Jardim Botânico-Leblon|589012,34|-
+887|Tamma Everett|#953dea|5:31 AM|9:49 AM|7/30/2006||1389012,34|0.74
+888|Anett Bennion|#2d0bbc|4:23 PM|12:59 PM|3/4/2010|Flamengo-Copacabana|1334567,89|0.63
+889|Jilly Brainsby|#bf2881|1:45 PM|12:04 PM|6/7/2011|Copacabana-Ipanema|1089012,34|0.84
+890|Cathi Raspel|#b43b06|7:56 AM|9:53 AM|9/12/2006|Barra da Tijuca-Jardim Botânico|1312345,67|0.63
+891|Lelia Pawlowicz|#874db7|11:01 AM|10:41 AM|1/14/2014|Jardim Oceânico-Lapa|1190123,45|0.52
+892|Garrott Gritton|#66f8ce|2:26 PM|12:36 PM|10/20/2009|Flamengo-Copacabana|1389012,34|0.79
+893|Antoni La Grange|#35af67|12:46 AM|12:33 PM|1/2/2016|Flamengo-Largo do Machado|1145678,9|0.9
+894|Aura Elphee|#c13fe4|1:42 AM|6:42 AM|7/2/2013|Leblon-Botafogo|534567,89|0.69
+895|Jacquenette Conaghan|#206ee0|3:57 PM|4:28 PM|3/22/2007|Botafogo-Jardim Oceânico|1078901,23|0.79
+896|Tomaso Pisco|#026f26|9:17 AM|8:38 AM|12/9/2003||1489012,34|0.73
+897|Van Breukelman|#5c6659|8:50 AM|12:49 PM|1/8/2021|Flamengo-Largo do Machado|901234,56|-
+898|Tami Kesey|#2afc49|4:52 AM|6:30 AM|5/6/2015|Gávea-Copacabana|1212345,67|0.51
+899|Caron Cains|#30afcb|11:43 AM|10:59 PM|8/19/2015|Largo do Machado-Urca|689012,34|0.68
+900|Cornell MacCaffery|#5316c0|2:47 PM|12:34 PM|7/4/2011|Copacabana-Lapa|1234567,89|0.68
+901|Darius Zanassi|#1a3c7c|6:36 AM|6:51 PM|8/9/2013|Botafogo-Leme|1034567,89|0.52
+902|Annalee Twaite|#d9b645|3:24 AM|3:12 PM|9/25/2007|Leme-Botafogo|689012,34|0.63
+903|Joann Itzchaky|#356470|12:26 PM|5:28 PM|1/31/2007|Barra da Tijuca-Jardim Botânico|1134567,89|0.57
+904|Dwight Bernardet|#1f2cb4|3:54 PM|8:46 PM|9/23/2002|Jardim Oceânico-Glória|889012,34|0.84
+905|Micky Draycott|#bdd902|11:28 AM|1:17 PM|6/11/2007|São Conrado-Glória|1490123,45|0.57
+906|Patrizio Kall|#209ed9|8:10 AM|1:40 PM|9/18/2011|Jardim Botânico-São Conrado|690123,45|0.99
+907|Hedwiga Churchman|#cbd590|1:40 PM|5:47 PM|10/17/2007|Largo do Machado-Urca|1290123,45|0.8
+908|Iggie Joynson|#148ed2|10:22 AM|7:40 PM|1/26/2015|Lapa-Leblon|678901,23|0.62
+909|Jade Ackland|#d44f25|3:18 PM|10:49 PM|11/22/2017||612345,67|0.99
+910|Bonny Connett|#4ca097|6:52 AM|9:28 AM|9/14/2016||623456,78|0.68
+911|Katerine Pethybridge|#a8c338|2:17 AM|9:59 PM|9/13/2011|Flamengo-Copacabana|1034567,89|0.79
+912|Teresita Swinford|#aeb094|4:46 AM|5:04 PM|12/12/2005||923456,78|0.57
+913|Dodie Baldack|#891084|8:10 AM|7:28 PM|6/22/2017||1190123,45|0.99
+914|Skippy Beirne|#0d6167|6:39 AM|9:12 AM|10/28/2020|Jardim Botânico-São Conrado|823456,78|0.69
+915||#248322|12:54 AM|9:06 PM|5/18/2009|Gávea-Botafogo|956789,01|-
+916|Hendrik Rostron|#944bc8|10:41 AM|4:49 PM|9/7/2009|Barra da Tijuca-Centro|1412345,67|0.84
+917||#5b844e|8:32 AM|5:19 PM|3/2/2021|Flamengo-Largo do Machado|812345,67|0.95
+918|Rodie Cocke|#c5de96|8:55 AM|6:48 PM|12/8/2007|Centro-Jardim Botânico|1167890,12|-
+919|Wildon Smeal|#4ac9ea|11:16 AM|5:01 PM|6/25/2021|Gávea-Lapa|1245678,9|0.74
+920|Sophronia Sudlow|#2544f5|4:58 AM|4:55 PM|12/30/2022|Glória-Jardim Oceânico|845678,9|0.99
+921|Cly Hollows|#dea946|1:13 PM|8:32 PM|9/7/2012|Largo do Machado-Glória|878901,23|0.68
+922|Aile Truswell|#b02df0|8:49 AM|7:08 PM|4/18/2019|Leme-São Conrado|1323456,78|0.95
+923||#a66005|5:34 AM|6:20 AM|12/8/2017|Botafogo-Jardim Oceânico|734567,89|0.8
+924|Faustina Nancekivell|#2b72f7|4:07 PM|9:24 AM|4/17/2021||801234,56|0.8
+925|Maison Simondson|#c384bf|9:14 AM|8:11 PM|1/29/2022||589012,34|0.74
+926|Aurel Hallstone|#1e0b8c|2:43 PM|10:43 AM|9/1/2008|Flamengo-Largo do Machado|601234,56|0.62
+927|Amalie Shepcutt|#cbbd31|1:05 PM|1:24 PM|9/3/2015|São Conrado-Jardim Botânico|689012,34|0.99
+928|Jasun Franciottoi|#25ade3|11:27 AM|12:53 PM|12/11/2021|Gávea-Lapa|612345,67|0.51
+929|Jilly De Brett|#040916|6:15 AM|10:38 AM|3/23/2023|Copacabana-Barra da Tijuca|1389012,34|0.57
+930|Yurik McKelvie|#9d1082|1:38 AM|10:04 PM|2/19/2013|Lapa-Leblon|1201234,56|0.74
+931|Sharai Dmisek|#eb4ae8|9:16 AM|2:25 PM|7/14/2017|Urca-Largo do Machado|1456789,01|0.74
+932|Marena Wakerley|#450a19|4:27 AM|12:26 PM|5/30/2016|São Conrado-Jardim Botânico|567890,12|0.8
+933|Brynne Salvador|#258a3f|9:01 AM|5:01 PM|3/3/2007|Ipanema-Jardim Botânico|945678,9|0.57
+934|Clementina Gerbl|#e9a3e8|2:11 AM|9:44 AM|11/29/2009||801234,56|0.63
+935|Oneida Freed|#9a536d|5:41 AM|11:30 PM|10/15/2022||889012,34|0.84
+936|Janene Oneill|#81e730|12:18 AM|5:41 PM|2/14/2023|Centro-Jardim Botânico|878901,23|null
+937|Kristi Scyone|#c2952b|12:36 PM|2:07 PM|8/16/2018|Centro-Barra da Tijuca|1467890,12|0.9
+938|Kelly Reburn|#901572|3:53 PM|8:44 AM|11/3/2022|Glória-Jardim Oceânico|667890,12|0.74
+939|Sandra Casellas|#5ca142|1:17 AM|11:03 AM|7/10/2002|Largo do Machado-Barra da Tijuca|645678,9|0.58
+940|Betty Primett|#3820cb|3:00 AM|9:20 AM|5/26/2019|Leblon-Lapa|701234,56|0.51
+941|Hanna Scay|#88775a|5:25 AM|8:08 AM|5/26/2011|Copacabana-Lapa|1356789,01|0.68
+942|Petey Fields|#f2af2a|12:06 AM|10:13 PM|9/6/2022|Jardim Botânico-São Conrado|934567,89|-
+943|Olin Roderick|#0a59cb|3:28 AM|11:23 AM|1/7/2006|São Conrado-Glória|1245678,9|0.73
+944|Martie Marlor|#65dc31|1:49 AM|11:05 AM|8/30/2011|Largo do Machado-Jardim Botânico|1201234,56|0.62
+945|Fritz Munns|#cbd55a|7:15 AM|5:14 PM|3/30/2021||1345678,9|0.73
+946|Lucilia Thecham|#bf854d|11:06 AM|11:12 AM|3/7/2016|Botafogo-Jardim Botânico|1389012,34|0.63
+947|Karlie Trude|#0eac83|9:50 AM|9:03 AM|2/10/2008|Jardim Botânico-Ipanema|1156789,01|0.8
+948||#55b6d8|11:10 AM|5:05 PM|10/8/2022|Gávea-Copacabana|589012,34|0.63
+949|Benni Blackmuir|#b30393|1:43 AM|11:10 AM|10/15/2002|Glória-Leme|1367890,12|0.58
+950|Laurence Cauderlie|#9b6b0d|4:06 AM|10:01 AM|1/3/2010|Largo do Machado-Urca|1145678,9|0.95
+951|Denyse Pooley|#482284|6:42 AM|8:52 AM|7/29/2019||923456,78|0.95
+952||#250fb7|2:45 AM|9:42 AM|6/16/2011|Jardim Botânico-Leblon|1334567,89|0.57
+953|Piggy Lindelof|#804574|4:56 AM|8:45 AM|4/24/2007|Urca-Largo do Machado|723456,78|0.52
+954|Maxy Ligerton|#7a44f6|9:37 AM|4:53 PM|8/31/2008|Jardim Oceânico-Leme|512345,67|0.99
+955|Abigale Branno|#3675c9|2:52 PM|11:19 AM|9/24/2014||556789,01|0.69
+956|Roz Husbands|#cb2dc9|2:31 PM|12:27 PM|1/18/2011|Gávea-Botafogo|678901,23|0.51
+957||#84d694|6:39 AM|7:10 PM|9/5/2018|Jardim Oceânico-Glória|1356789,01|0.51
+958|Ronda Duignan|#ff31b5|1:45 PM|2:10 PM|6/29/2011|Copacabana-Ipanema|901234,56|0.8
+959|Devonna Keepin|#507ae7|3:37 AM|8:21 AM|10/22/2019|Centro-Barra da Tijuca|1456789,01|0.68
+960|Jordon Dell Casa|#bb02f1|7:30 AM|9:48 AM|7/1/2021|Urca-Leblon|667890,12|0.62
+961|Marchall Amis|#c7d528|1:04 AM|3:10 PM|7/14/2021|Largo do Machado-Copacabana|745678,9|0.8
+962|Adriano Castiello|#d0f9b6|3:28 AM|11:30 AM|2/14/2007|São Conrado-Glória|1101234,56|0.68
+963|Nolana Allanby|#93ee25|10:04 AM|11:07 AM|7/20/2006|Jardim Botânico-Leblon|912345,67|0.57
+964|Marja Loidl|#edeae1|12:23 AM|1:59 PM|2/26/2021|Lapa-Gávea|1090123,45|0.58
+965|Milly Saunders|#75026e|12:15 AM|2:03 PM|12/30/2016|Leme-Botafogo|1090123,45|0.84
+966|Carri Charkham|#dfb59b|1:23 AM|8:37 AM|11/20/2006|Centro-Barra da Tijuca|989012,34|0.95
+967|Carly Anespie|#816001|4:14 AM|10:15 PM|7/29/2006|Glória-Jardim Oceânico|1445678,9|-
+968|Inessa Sweetlove|#6067fe|11:49 AM|7:14 PM|5/4/2010||1445678,9|0.95
+969|Lonnard Tixier|#5fd14f|1:10 PM|10:29 AM|1/31/2017|Copacabana-Ipanema|1356789,01|0.99
+970|Cara Bladge|#1b9496|3:15 PM|2:09 PM|7/15/2011||923456,78|0.51
+971|Alvin Brookwell|#1714c2|4:47 PM|8:52 PM|10/21/2020|Barra da Tijuca-Centro|1312345,67|0.68
+972|Cicily Traise|#2acebf|9:20 AM|8:57 PM|9/5/2019|São Conrado-Urca|601234,56|0.99
+973|Edeline Santora|#27211b|1:41 AM|11:39 PM|9/12/2015|Barra da Tijuca-Leblon|1278901,23|0.69
+974|Kareem Goulborne|#7fc2d6|2:58 AM|6:56 AM|2/11/2010|Centro-Leme|790123,45|0.9
+975|Leticia Bielfeld|#4a9f47|7:10 AM|9:21 AM|5/11/2004|Largo do Machado-Barra da Tijuca|578901,23|0.52
+976|Anne-corinne Apedaile|#788551|3:28 AM|12:50 PM|2/8/2020|Copacabana-Barra da Tijuca|1078901,23|0.84
+977|Rob Francescoccio|#e6c8bc|12:36 AM|10:38 PM|8/20/2004|Urca-Lapa|1356789,01|0.62
+978|Magdalene Vearncomb|#2669a1|8:11 AM|9:24 AM|9/9/2013|Urca-Botafogo|1267890,12|0.9
+979|Ernest Henderson|#1444e8|8:10 AM|7:55 PM|1/6/2017|Largo do Machado-Copacabana|1334567,89|null
+980|Madalena Finden|#2a1419|12:37 AM|11:28 PM|8/14/2011|Leme-Urca|1156789,01|0.52
+981|Cesya De Domenico|#5bdefe|12:43 PM|9:51 AM|11/21/2019|Barra da Tijuca-Centro|645678,9|0.9
+982|Rod Benduhn|#e112dc|12:39 AM|1:29 PM|3/1/2020|Glória-Jardim Oceânico|1489012,34|0.8
+983|Junina Thelwll|#766a6b|8:32 AM|2:04 PM|12/8/2003|São Conrado-Glória|612345,67|0.79
+984|Madlin Studdert|#0ca107|4:38 PM|11:36 AM|7/30/2005|Urca-Leblon|1345678,9|0.52
+985|Fergus Mattam|#a20c5f|11:30 AM|9:21 AM|10/21/2010|Leblon-Botafogo|1256789,01|0.74
+986|Vinny Brightwell|#9efdaa|6:33 AM|8:21 PM|5/17/2012|Leme-Gávea|767890,12|0.69
+987|Nina Berdale|#3b99e8|3:46 PM|5:27 PM|12/27/2007|Jardim Botânico-São Conrado|612345,67|0.99
+988|Adelaida Thunderman|#440eeb|9:45 AM|7:06 AM|5/12/2007|Barra da Tijuca-Leblon|1390123,45|0.9
+989|Davita Oda|#2c70b7|6:18 AM|4:58 PM|8/28/2022|Jardim Oceânico-Glória|790123,45|0.57
+990|Katharine Dicky|#d1b2b7|10:28 AM|10:13 AM|6/10/2003|Jardim Oceânico-Lapa|1434567,89|0.74
+991|Kleon Rigler|#0b9d18|6:30 AM|8:07 PM|7/31/2016|Urca-Leblon|701234,56|0.58
+992|Elka Betjeman|#ba6562|12:00 AM|8:55 AM|12/12/2016|Flamengo-São Conrado|1301234,56|-
+993|Ursulina Shepcutt|#173b8f|2:41 AM|6:05 AM|2/10/2007|Jardim Botânico-Leblon|1378901,23|0.9
+994|Agnesse Curedell|#475307|4:08 PM|7:22 PM|12/13/2007|São Conrado-Urca|867890,12|0.51
+995|Averell Casperri|#d979d5|2:59 PM|11:13 AM|7/16/2016|Flamengo-Largo do Machado|512345,67|0.95
+996|Brockie Sentinella|#f818d6|2:29 PM|7:46 PM|1/30/2006||912345,67|0.95
+997|Harriett Bennellick|#3e2ffe|4:08 PM|9:58 PM|6/23/2002|Barra da Tijuca-Leblon|723456,78|0.95
+998|Jess Pack|#30eee4|4:11 AM|8:28 PM|6/18/2014|Jardim Botânico-São Conrado|667890,12|0.52
+999||#4fcd89|2:05 PM|11:19 AM|4/23/2023|Leme-São Conrado|623456,78|0.95
+1000|Muhammad Brigstock|#4e03af|8:52 AM|6:12 AM|5/14/2012|Gávea-Centro|645678,9|-
