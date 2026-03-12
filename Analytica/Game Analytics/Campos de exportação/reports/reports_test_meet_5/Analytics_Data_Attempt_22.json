@@ -1,0 +1,19 @@
+{
+    "Name": "Analytics_Data_Attempt_22",
+    "StartTime": "00:00:00",
+    "EndTime": "00:00:10",
+    "Inputs": [
+        {
+            "Input": "attack",
+            "Time": "00:00:06",
+            "Value": ""
+        },
+        {
+            "Input": "dash",
+            "Time": "00:00:09",
+            "Value": ""
+        }
+    ],
+    "Positions": [],
+    "Combats": []
+}

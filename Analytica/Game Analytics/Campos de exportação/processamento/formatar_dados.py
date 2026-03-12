@@ -3,25 +3,20 @@ import pandas as pd
 from pathlib import Path
 import copy
 
-# --- CONFIGURAÇÕES ---
 PASTA_ORIGEM = Path("dados")
 PASTA_DESTINO = Path("dados_tratados")
 
-# NOME do arquivo que você quer cortar (sem o .json)
+# NOME do arquivo para cortar
 ARQUIVO_ALVO = "Analytics_Data_Attempt_8(1)(1)" 
 
-# TEMPO EM MILISSEGUNDOS onde o corte vai acontecer
-MS_DE_CORTE = 729000  # Exemplo: Cortar aos 15 segundos (15000ms)
+# tempo em milissegundos de onde o corte vai acontecer
+MS_DE_CORTE = 729000  
 
-# Listas que contêm dados baseados em tempo que precisam ser divididos
 CHAVES_TEMPORAIS = ["Positions", "Inputs", "Combats"] 
-
-# --- FUNÇÕES AUXILIARES ---
 
 def to_ms(t):
     """Converte string 'HH:MM:SS' para milissegundos (int)."""
     if not t: return 0
-    # pd.to_timedelta é robusto para formatos de tempo
     return int(pd.to_timedelta(t).total_seconds() * 1000)
 
 def ms_to_str(ms):
@@ -29,7 +24,6 @@ def ms_to_str(ms):
     seconds = int(ms / 1000)
     m, s = divmod(seconds, 60)
     h, m = divmod(m, 60)
-    # Retorna formatado. Ajuste os milissegundos se o seu JSON original usar casas decimais
     return f"{h:02d}:{m:02d}:{s:02d}"
 
 def processar_corte(arquivo_nome, tempo_corte_ms):

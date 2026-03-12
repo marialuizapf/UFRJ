@@ -1,0 +1,35 @@
+{
+    "Name": "Analytics_Data_Attempt_27",
+    "StartTime": "00:00:00",
+    "EndTime": "00:00:33",
+    "Inputs": [
+        {
+            "Input": "attack",
+            "Time": "00:00:00",
+            "Value": ""
+        }
+    ],
+    "Positions": [
+        {
+            "Map": "Cidades-Inteligentes-01-Superficie Revisada",
+            "Position": "(-3.73, -8.32, 304.35)",
+            "Time": "00:00:01"
+        },
+        {
+            "Map": "Cidades-Inteligentes-01-Superficie Revisada",
+            "Position": "(-3.73, -8.39, 304.35)",
+            "Time": "00:00:01"
+        },
+        {
+            "Map": "Cidades-Inteligentes-01-Superficie Revisada",
+            "Position": "(-3.73, -8.46, 304.35)",
+            "Time": "00:00:01"
+        },
+        {
+            "Map": "Cidades-Inteligentes-01-Superficie Revisada",
+            "Position": "(-3.73, -8.48, 304.35)",
+            "Time": "00:00:01"
+        }
+    ],
+    "Combats": []
+}

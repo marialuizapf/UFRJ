@@ -3,8 +3,8 @@ import re
 from pathlib import Path
 
 # --- CONFIGURAÇÕES ---
-PASTA_ORIGEM = Path("dados_tratados") # Onde estão os arquivos 0 a 17
-PASTA_DESTINO = Path("renomeados")         # Para onde vão os arquivos 18 a 35
+PASTA_ORIGEM  = Path("dados_origem")
+PASTA_DESTINO = Path("dados_destino")         
 
 # OFFSET: Quanto queremos somar ao número original?
 # 0 virar 18 significa somar 18.
@@ -28,8 +28,8 @@ def main():
         if match:
             current_id = int(match.group(1))
 
-            # 2. Verificar se está no intervalo alvo (0 a 17)
-            if 0 <= current_id <= 17:
+            # 2. Verificar se está no intervalo alvo 
+            if 0 <= current_id <= 80:
                 
                 # 3. Calcular o novo ID
                 new_id = current_id + VALOR_SOMA

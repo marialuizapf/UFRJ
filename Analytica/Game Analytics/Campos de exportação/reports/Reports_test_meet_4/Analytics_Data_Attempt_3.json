@@ -1,0 +1,14 @@
+{
+    "Name": "Analytics_Data_Attempt_3",
+    "StartTime": "00:00:00",
+    "EndTime": "00:00:04",
+    "Inputs": [],
+    "Positions": [
+        {
+            "Map": "Cidades-Inteligentes-02-Periferia",
+            "Position": "(26.56, -89.11, -132.24)",
+            "Time": "00:00:01"
+        }
+    ],
+    "Combats": []
+}
