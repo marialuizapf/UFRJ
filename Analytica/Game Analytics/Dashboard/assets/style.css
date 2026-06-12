@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #070b14;
+    color: #f8fafc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page {
+    padding: 20px;
+}
+
+.header {
+    background: #111827;
+    border: 1px solid #26364f;
+    border-radius: 14px;
+    padding: 20px;
+    margin-bottom: 18px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 32px;
+    color: #f8fafc;
+}
+
+.header p {
+    margin: 6px 0 0;
+    color: #aeb7c7;
+}
+
+.metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 12px;
+    margin-bottom: 18px;
+}
+
+.metric-card {
+    background: #0b1220;
+    border: 1px solid #ef4444;
+    border-radius: 14px;
+    padding: 16px;
+    text-align: center;
+}
+
+.metric-card h3 {
+    margin: 0 0 8px;
+    color: #aeb7c7;
+    font-size: 13px;
+}
+
+.metric-card p {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 800;
+    color: #f8fafc;
+}
+
+h2 {
+    color: #f43f5e;
+    margin-top: 24px;
+}
+
+.js-plotly-plot {
+    border-radius: 14px;
+    overflow: hidden;
+    border: 1px solid #26364f;
+}
+
+.tab {
+    background: #111827 !important;
+    color: #f8fafc !important;
+}
+
+.tab--selected {
+    background: #ef4444 !important;
+    color: white !important;
+}
